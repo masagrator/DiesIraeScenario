@@ -1,0 +1,10 @@
+/* _malievalue.txt */
+
+static int g_buy; /* not used */
+static int g_pro;
+int f; /* not used */
+static int g_ex;
+static int s_scene; /* not used */
+static int s_trial; /* not used */
+
+/* eof */

@@ -1,0 +1,7929 @@
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+a:
+@def;
+@novel;
+<wait time='2'>
+<sound src='18' volume='1' fade-time='1' loop='true'>
+@cg recorder ol 1;
+<wait time='1'>
+　(v_vir0089)そうして俺たちはハイドリヒ卿と出会い、あの人の爪牙になった。
+<layer parent='cutin' id='01' src='001_bg_b' center='1303 965' position='200 1050' scale='1.5' opacity='0'>
+<layer parent='cutin' id='02' src='001_d' center='1303 965' position='200 1050' scale='1.5' opacity='0'>
+<layer parent='cutin' id='01' position='150 1050' time='2' accel='-1'>
+<layer parent='cutin' id='02' position='150 1050' time='2' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='02' opacity='1' time='1'>
+<wait time='1'>
+@bg black ol 0;
+　(v_vir0090)時期も事情もそれぞれ微妙に違ったが、共通しているのは皆が皆、黄金に魅せられたっていうことだよ。
+　(v_vir0091)いや、壊されたって言うほうが正しいか。この世にああいう存在がいる。そう認識することでどいつも世界観が引っ繰り返ったのさ。
+
+　(v_vir0092)それが良いか悪いか、祝福とするか呪いとするかは個人ごと勝手にすりゃいい。ザミエルあたりなら祝福じゃなきゃ何なんだとキレるだろうが、俺はあいつほど石頭じゃねえ。捉え方の自由くらいは認めている。
+
+$p;
+<layer parent='cutin' id='01' opacity='0' time='1'>
+<layer parent='cutin' id='03' src='006_c' center='1303 965' position='-100 450 2' opacity='0' time='0'>
+<layer parent='cutin' id='03' position='-100 500 2' time='10'>
+<layer parent='cutin' id='03' opacity='0.5' time='1'>
+<wait time='0.5'>
+　(v_vir0093)たとえば、あいつにとって尊いものはすなわち火で、ハイドリヒ卿をそう定義しているだろう。だが、俺にとってあの人は闇だ。金色の闇。
+　(v_vir0094)どっちも崇めているのは同じだがよ、概念付けの結果としちゃあ真逆に近いもんだろう。そんな風に、人それぞれの敬い方があっていいと思う。
+　(v_vir0095)単に怖くて、びびりまくってるから従ってるんでも構わねえ。畏怖も畏敬も憧憬も、言い方が違うだけで似たようなもんだから。
+　(v_vir0096)大事なのは、あの人が遥か遠いところに存在し、俺たちとは一線どころかすべてを画していると弁えること。
+
+$p;
+　(v_vir0097)自分はラインハルト・ハイドリヒより強いだの、あの人の覇道を頓挫させることが出来るだの、そういう気の狂った思い違いをしてなきゃあ、後は何でもいいんだよ。
+　(v_vir0098)俺はあの人の爪牙だからな、黄金に楯突く奴は許さねえ。たとえそれが、どんなにチンケなもんだろうと潰すし、殺すし、叩き壊す。
+　(v_vir0099)そのうえで、あの人の世界をすべて受け入れる。いや、この言い方は不敬だな。黄金の示す覇道に、俺の存在は反していねえと信じてる。
+
+$p;
+<layer parent='cutin' id='01' scale='1' position='250 720' time='45' accel='-1'>
+<layer parent='cutin' id='02' scale='1' position='250 720' time='45' accel='-1'><layer parent='cutin' id='01' src='001_bg' time='45' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='0.5'>
+　(v_vir0100)ヴィルヘルム・エーレンブルグが捧げる忠はそういう形だ。正統派だろ？　これでも騎士の名誉は大事にするんだ。
+
+　(v_vir0101)似合わねえとあんたは思ってるかもしれねえが、何が何でもてめえが一番じゃなきゃ許せないほど餓鬼じゃねえんだ。もちろんそりゃあ、自分より強い相手には逆らわないって意味じゃないぜ。
+　(v_vir0102)そいつのことが気に食わなけりゃあ、たとえどれほどの格上だろうと俺は膝なんか屈さねえよ。彼我の力量差を見切る力は大事だが、それでみんな片付けるなら機械と同じだ。生きてるとさえ表現できねえ。
+
+$p;
+　(v_vir0103)ああ、この言い方じゃさっきの主張と食い違うか。ハイドリヒ卿に楯突く奴は許さねえっていうスタンスとよ。
+　(v_vir0104)そいつらにしたところで、黄金が気に食わないと思うからこそ刃向かうんだろうし、相応の矜持も覚悟もあるんだろう。そこを丸ごと否定はしない。
+
+<imgblk mask='ol' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300' rotate='0'>
+@cg 001_a;
+</imgblk>
+　(v_vir0105)だからきっと、これは単純な話なんだ。俺はハイドリヒ卿に惚れてるっていうだけのこと。
+　(v_vir0106)不遜な物言いになっちまうし、ホモ臭ぇ誤解もされたかねえが、平たく言やあ好感が持てるから従ってるだけだ。
+
+$p;
+　(v_vir0107)騎士の名誉もだいぶ俗になっちまったが、これは大事なことだと思うぜ。暗君に辟易しながら従うなんて、それこそ最悪の無様だろう。担ぐ相手は自分で選ぶし、そうするべきだ。
+
+　(v_vir0108)と、長くなっちまったがそんなわけで、俺は黒円卓の四位になった。
+　(v_vir0109)聖遺物、人器融合、エイヴィヒカイト……信じる信じないは勝手だが、以降今まで、俺が一切歳を取ってないのはそういうことだよ。他人の魂を奪ってるから、老いも病も撥ね退けてる。
+　(v_vir0110)吸血鬼の在り方としちゃ、これもまた正統派だろ？　実際は魔術の御業ってことらしいが、まあそこらへんはどうでもいい。深く考えたくねえんだよ。
+
+$p;
+@hidemessage;
+<imgblk mask='test04' time='1'>
+&cgfilter col darkslateblue 100;
+&charfilter col darkslateblue 25;
+<layercamera position='280 200 -400'>
+@bg 118_bg2_b;
+<layer parent='cutin' id='02' src='216_d' center='762.5 270' position='1750 200' scale='2' opacity='0'>
+<layer parent='cutin' id='mv' src='mv_ahen' opacity='0.15' scale='1.1'>
+</imgblk>
+<layer parent='cutin' id='02' opacity='1' time='0.5'>
+<layer parent='cutin' id='02' position='1750 300' time='3'>
+　(v_vir0111)なぜなら、カール・クラフト＝メルクリウス。これは奴に授けられたもんだから。
+　(v_vir0112)俺がこの世で“上”だと認めたのはハイドリヒ卿一人だけだが、計り知れねえのはメルクリウスだ。何より気持ち悪く、気に食わない相手だったと言っていい。
+　(v_vir0113)きっとそこは、どいつも同じなんじゃねえのかな。嫌ってる理由自体は、それぞれ違うかもしれねえがよ。
+
+　(v_vir0114)俺に限ればたった一つ。<dot " 、">あいつが弱そうだったからだ</dot>。
+　(v_vir0115)矛盾する？　意味が分からない？　オーケー、じゃあ簡単に説明しよう。
+
+$p;
+<imgblk mask='test04' time='1.2'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300'>
+&cgfilter;
+&charfilter;
+<charclear>
+@bg black;
+<layer parent='cutin' id='mv2' src='mv_mist2' center='480 282' position='512 300' scale='1.1' opacity='0.7'>
+<layer parent='cutin' id='mv3' src='mv_mist1' center='480 282' position='512 300' scale='1.1' opacity='0.7'>
+</imgblk>
+　(v_vir0116)たとえば、老いぼれて病に冒され、くたばりかけの生き物がいたとする。身体はろくに動かねえし、頭もおかしくなってるから勘も思考も鈍りまくりだ。本能だって、もうまともには機能してねえ。
+　(v_vir0117)そんな生き物は、問答無用で“弱い”だろう。自然淘汰されるのを待つばかりの、害にすらなってねえ老醜だと言っていい。
+
+　(v_vir0118)だがよ、それがライオンなら？　熊なら？　虎なら？　いいや、恐竜だったらどう思う？
+　(v_vir0119)たとえどれだけ弱っていようが、Ｔレックスは圧倒的だ。蟻の力でどうこう出来るタマじゃねえ。
+
+$p;
+　(v_vir0120)数億匹も集まればいけるんじゃねえかって？　まあそりゃそうかもしんねえが、そういう突っ込みはやめてくれよ。こちとらたいして学もねえんだ、そんなぽんぽん、ベストな例えなんか出せねえよ。
+
+<imgblk mask='test04' time='1'>
+<layerclear parent='cutin' id=''>
+<layercamera position='200 -250 0'>
+@cg 001_b;
+</imgblk>
+　(v_vir0121)とにかく、俺がメルクリウスに感じた印象はそれに近く、もっとタチが悪かった。
+　(v_vir0122)本当に、あれはいったい何だったのか……もしかしたら、恐竜よりもでかかったのか？　そこは未だもって分からねえがよ。
+
+$p;
+　(v_vir0123)ただ、こいつは弱い。死に掛けてるし衰えてる。きっと、全盛期の一割にさえ及んでいないというのは感じた。
+　(v_vir0124)にも関わらず、圧倒的に計り知れないモノだと感じる。蟻の視点じゃ理解できない<rb "なにか">化け物</rb>のように……そいつが昼行灯を気取ってるんだ。
+　(v_vir0125)私はしがない魔術師で、何の力もないから何もしないピエロでございますってよ。
+
+$p;
+@cg 001_c;
+　(v_vir0126)まったく不愉快どころの話じゃないぜ。つい殺せるんじゃねえかと思っちまう一瞬。だが錯覚だったと気付く一瞬。この二つが、野郎の前に立つと延々繰り返されるんだ。
+
+　(v_vir0127)あれはそういう、終わらねえ堂々巡りを周りにばら撒く何かだった。
+　(v_vir0128)お陰で自分がアホに見える。そう指摘され続けてる気分になる。
+　(v_vir0129)踊れ踊れ。私の掌でくるくる回り続けろと。
+
+$p;
+@cg 001_b;
+　(v_vir0130)だから心底気に食わねえ。ハイドリヒ卿に唯一欠点があるとすれば、あんなもんと仲が良いっていうことだ。
+　(v_vir0131)俺の究極的理想を言うとな、あの人がいつかメルクリウスを斃すことだ。その聖戦に、俺が爪牙として加わることだ。
+　(v_vir0132)そんな未来が来るか来ないか、分からねえが夢見てる。大戦当時はそこまで明確に考えちゃいなかったが、近いことは思ってたはずだぜ。
+
+<layer parent='cutin' id='mv' src='mv_03' center='800 450' position='512 300' scale='0.8' opacity='0.01'>
+<layer parent='cutin' id='mv' position='400 300' time='10'>
+<layer parent='cutin' id='mv' opacity='1' time='1'>
+<wait time='1'>
+<layercamera position='0 0 0' time='0'>
+@cg yozora ol 0;
+　(v_vir0133)黒円卓の騎士として、俺はあの頃からそうだった。
+　(v_vir0134)実戦を繰り返し、魂を蓄え続け、ハイドリヒ卿の暗殺事件を経て、いよいよ盛大に何かが動き始める予兆を感じていた時分……
+
+$p;
+<layercamera position='0 0 -300' time='40'>
+<layerclear parent='cutin' id='mv' time='2'>
+<wait time='1'>
+　(v_vir0135)あれは、"1944"年の晩夏だったな。最後のマキナが円卓に加わる、ほんの少し前のこと。
+
+　(v_vir0136)ワルシャワ蜂起戦。ヘルガとは違う意味で、初めての相手になった女のことを話そうと思う。
+
+　(v_vir0137)そいつとの出会いから、終いまでをな。
+
+$p;
+@novelend;
+@fo;
+@def;
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+;※以降、基本的にＡＤＶ
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+b:
+@def;
+@sound59;
+<imgblk mask='mask7' time='0.5'>
+<layercamera position='600 500 -300'>
+@cg 032_bg2;
+</imgblk>
+#ヴィルヘルム (v_vir0138)――おおぉぉォッらああァッ！
+
+@hidemessage;
+<se src='2001c'>;;//ＳＥ・パンチ
+<se src='2004a'>;;//ＳＥ・パンチ
+<se src='1012a'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='01' src='13_c' center='762.5 270' position='850 350' scale='1' opacity='0'>
+<layer parent='cutin' id='01' position='1712 600' scale='2.5' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='6005'>
+<se src='6004'>
+<se src='1065c'>;;//ＳＥ・杭攻撃
+<se src='1065a'>;;//ＳＥ・杭攻撃
+<layer parent='cutin' id='kui' src='mv_23' center='400 225' position='512 300' scale='2' opacity='0' rotate='0.01'>
+<layer parent='cutin' id='kui' opacity='1' time='0.2'>
+<layer parent='cutin' id='kui' scale='1.3' rotate='360' time='0.3'>
+<wait time='1'>
+<se src='1004a'>;;//ＳＥ・爆発
+<se src='2008'>
+<se src='2127a'>
+<layer parent='cutin' id='zz' src='baku3' center='562.5 270' position='512 300' scale='1.07' rotate='0' opacity='0'>
+<layer parent='cutin' id='zz' position='912 200' scale='3' opacity='1' time='0.3' rotate='1080' accel='-1'>
+<wait time='0.3'>
+@effect1;
+<layercamera positiojn='0 0 0'>
+<layerclear parent='cutin' id='01'>
+ぶち壊し、捩じり切り、ズタズタにして搾り取る。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='22_d' center='400 225' position='512 200' scale='2' opacity='0'>
+<layer parent='cutin' id='02' src='mv_hinoko1' center='400 225' position='512 320' scale='1.3' opacity='0.01'>
+<layer parent='cutin' id='01' position='512 400' time='5'>
+<layer parent='cutin' id='01' opacity='1' time='0.3'>
+<layer parent='cutin' id='02' opacity='1' time='0.3'>
+;<wait time='0.3'>
+<se src='1061c'>;;//ＳＥ・じゅわああ
+<se src='1060c'>;;//ＳＥ・ぐじゅぐじゅ
+そうした果てに吸い殺す。
+
+俺の戦い方にスタイルってやつがあるとすればそういうもんだ。力任せに蹂躙するし、陵辱する。
+
+それが下品で外道なノリだっていうのは承知だぜ。この頃になりゃあ、さすがに一般論くらい知ってたさ。
+
+けど、だから何だっていうんだよ。確かに俺は凡百って概念を馬鹿にしてるが、必死にそこから外れようと頑張ってるわけでもねえ。
+
+見方を変えれば、俺のスタイルも一種テンプレだろうしな。悪ぶるのを格好いいとか、クソ餓鬼の背伸びみたいな真似をしたことは一度もねえよ。
+
+単にこれは得手不得手の問題で、好きか嫌いかの問題だ。俺にはこういう暴れ方がしっくりくるし、他は出来ねえ。夜中に犬猫を狩ってた頃、自然と身に着けたもんだから染み付いてる。
+
+好きこそ物の上手なれって言葉があるだろ？　あれは真理だろうし逆も然りだ。
+
+自分にとって、一番上手くやれる方法だから好きになるし楽しくもなる。
+
+@hidemessage;
+<sestop>
+<se src='3001'>
+<se src='1100a'>;;//ＳＥ・銃声
+<se src='1100b'>;;//ＳＥ・銃声
+<se src='1100c'>;;//ＳＥ・銃声
+<imgblk mask='mask1' time='0.2'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300' rotate='0'>
+@cg bryskawica;;
+</imgblk>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+@cg 22_d giza1 0.3;;
+<wait time='0.2'>
+<se src='2111a'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_b_t' center='400 225' position='512 900' scale='4' opacity='1' time='0.1'>
+<layercamera position='0 0 0' time='0.1'>
+<wait time='0.1'>
+<se src='2111c'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_c_t' center='400 225' position='1412 300' scale='4' opacity='1' time='0.1'>
+<layercamera position='-400 0 0' time='0.1'>
+<wait time='0.1'>
+<se src='2012b'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_e_t' center='400 225' position='512 300' scale='4' opacity='1' time='0.1'>
+<layercamera position='0 400 0' time='0.1'>
+<wait time='0.1'>
+<se src='2111b'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_a_t' center='400 225' position='512 300' scale='4' opacity='1' time='0.1'>
+<layercamera position='0 0 0' time='0.1'>
+<wait time='0.1'>
+<se src='2012a'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_d_t' center='400 225' position='-512 0' scale='4' opacity='1' time='0.1'>
+<layercamera position='500 280 0' time='0.1'>
+<wait time='0.1'>
+<se src='2111c'>;;//ＳＥ・弾く
+<layer parent='cutin' id='01' src='flick_e_t' center='400 225' position='512 300' scale='4' opacity='1' time='0.1'>
+<layercamera position='0 0 0' time='0.1'>
+<wait time='0.1'>
+@effect2;
+<se src='1024'>
+<imgblk mask='center2' time='0.8'>
+<layerclear parent='cutin' id=''>
+@camera;
+</imgblk>
+#ヴィルヘルム (v_vir0139)ひひっ、カハハ――あはははははははッ！
+
+<se src='2067'>;;//ＳＥ・ギリギリと力込める
+<layercamera position='50 -30 -150' time='0.6' accel='-1'>
+<wait time='0.6'>
+
+#ヴィルヘルム (v_vir0140)おらもっと来いやァ、全然効かねえんだよボンクラどもォ！
+
+<sestop>
+@hidemessage;
+<se src='2001c'>;;//ＳＥ・パンチ
+<se src='2001b'>;;//ＳＥ・パンチ
+<se src='1012c'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='01' src='13_d' center='400 225' position='470 280' scale='1.48' opacity='0'>
+<layer parent='cutin' id='01' position='200 100' scale='2.2' time='0.3' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.1'>
+<layer parent='cutin' id='06' src='mv_hinoko1' center='400 225' position='512 320' scale='1.5' opacity='0.01'>
+<wait time='0.3'>
+<se src='2008a'>
+<layer parent='cutin' id='02' src='blood1' center='562.5 270' position='512 300' scale='1.07' opacity='0' fliph='true'>
+<layer parent='cutin' id='02' position='512 400' scale='3' opacity='1' time='0.2' accel='-1'>
+&waitms 210;
+#ヴィルヘルム (v_vir0141)そんなもんでこの俺を、カズィクル・ベイ様をどうにか出来るとでも思ってんのかァッ！
+
+<layer parent='cutin' id='01' position='700 400' scale='2.2' time='6'>
+<layer parent='cutin' id='06' opacity='1' time='2'>
+<layerclear parent='cutin' id='02' time='2'>
+容赦しねえし、したこともねえ。俺の本質は奪う者だ。
+
+吸血鬼は狩人で、略奪するのは当たり前なんだから飢えの命じるままに飲み干すだけ。
+
+@hidemessage;
+<se src='1199'>
+<se src='1263'>
+<layer parent='cutin' id='07' src='22_b' center='400 225' position='512 300' scale='5' opacity='0'>
+<layer parent='cutin' id='07' scale='1.28' opacity='1' time='0.7' accel='-1'>
+<wait time='0.7'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='06'>
+#ヴィルヘルム (v_vir0142)<rb "創造">"Briah"</rb>――
+
+<sestop>
+<se src='2020'>
+<layer parent='cutin' id='07' src='22_c' time='0.4'>
+;@effect1;
+<wait time='0.2'>
+
+そういうわけでこのときも、俺は容赦なくやってやったぜ。
+
+敵も味方も関係ねえ。そもそも俺に、ただの人間を気遣ってやる理由がねえ。
+
+てめえら全員、俺の餌だ。このワルシャワごと薔薇の夜に沈みやがれと、爆笑しながらぶちかましたよ。
+
+@hidemessage;
+<se src='1028b'>
+<se src='100'>
+<layer parent='cutin' id='07' src='22_e' mask-src='center3' time='0.4'>
+<wait time='2'>
+
+#ヴィルヘルム (v_vir0143)"Ros"<rb "死森の薔薇騎士">"enkavalier Schwarz"</rb>"wald"
+
+@hidemessage;
+<sestop time='0.5'>
+<se src='1197'>
+<se src='1196'>
+<layer parent='cutin' id='mv' src='mv_04' center='400 225' position='280 130' scale='0.7'>;;//薔薇の夜のムービー
+<wait time='6'>;;//(現状仮）ムービーの長さ分だけ必要
+<layerclear parent='cutin' id='07'>
+@bg black ol 0;
+<layercamera position='0 0 -300' rotate='0' time='0'>
+<layer parent='cutin' id='01' src='032_bg' center='1375 1325' position='560 150' scale='0.73' opacity='0'>
+<layer parent='cutin' id='02' src='032_b' center='1375 1325' position='500 250' scale='0.1' opacity='0'>
+<layer parent='cutin' id='01' position='560 700' time='90'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='1'>
+<sestop time='0.5'>
+<layerclear parent='cutin' id='mv'>
+
+創造位階はルールの創造。己が身を焦がす渇望の具現。
+
+誰だって、強く願ってる理想みたいなもんがあるだろう。もしくは、自分だけの掟とかな。
+
+創造位階は、それを絶対のルールとした己の世界を創る技だ。渇望の向き先が内か外かで、求道と覇道の違いはあるがよ。
+
+共通して、長年の夢が叶ったような状態になれる。なんせそれが、限定的だが世界法則になっちまうんだ。自分の世界じゃ自分が神だよ。
+
+@hidemessage;
+<se src='1003a'>;;//ＳＥ・突風
+<se src='2002c'>;;//ＳＥ・突風
+<layer parent='cutin' id='03' src='032_a' center='400 582' position='480 1580' scale='2.8' opacity='0'>
+<layer parent='cutin' id='03' position='480 1640' opacity='1' time='0.5' accel='-1'>
+<wait time='0.5'>
+<layer parent='cutin' id='01' position='560 700' time='0'>
+<layer parent='cutin' id='02' opacity='1' time='0'>
+
+#ヴィルヘルム (v_vir0144)枯れろ枯れろォ、落ちて砕けて干乾びろォ！
+
+@hidemessage;
+<layerclear parent='cutin' id='03' opacity='1' time='0.2'>
+<wait time='0.15'>
+<se src='1019a'>;;//ＳＥ・高速移動
+<se src='1019b'>;;//ＳＥ・高速移動
+<se src='1019c'>;;//ＳＥ・高速移動
+<layer parent='cutin' id='01' src='032_bg_b' time='0.3' accel='1'>
+<layer parent='cutin' id='02' position='630 1650' scale='1.8' time='0.3' accel='1'>
+<wait time='0.3'>
+<se src='1010a'>;;//ＳＥ・パンチ
+<se src='1010c'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='04' src='' center='400 225' position='246 103' scale='1.5' rotate='-75' opacity='1'>
+<layer parent='cutin' id='04' src='panti1_a_t' scale='2.3' mask-src='mask3' time='0.15'>
+<wait time='0.2'>
+<se src='1011a'>;;//ＳＥ・パンチ
+<se src='1011c'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='05' src='' center='400 225' position='775 103' scale='1.5' rotate='75' opacity='1'>
+<layer parent='cutin' id='05' src='panti1_b_t' scale='2.3' mask-src='mask3' time='0.15'>
+<wait time='0.2'>
+
+じゃあ、俺が願う俺の世界はどんなもんかって？　簡単だよ。永遠に明けない夜だ。
+
+@hidemessage;
+<se src='2008c'>
+<se src='2126c'>
+<se src='2126a'>
+<layer parent='cutin' id='06' src='impact3' center='562.5 270' position='512 300' scale='1.07' rotate='0' opacity='0'>
+<layer parent='cutin' id='06' position='912 200' scale='3' opacity='1' time='0.3' rotate='1080' accel='-1'>
+&waitms 300;
+@effect2;
+
+日の光は要らねえ。ならば夜こそ我が世界。
+
+@hidemessage;
+<se src='1023'>;;//ＳＥ・着地
+<layer parent='cutin' id='09' src='236_e' center='400 225' position='430 260' scale='1.5' opacity='0'>
+<layer parent='cutin' id='09' position='430 340' opacity='1' time='0.7' accel='-1'>
+<wait time='0.7'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='04'>
+<layerclear parent='cutin' id='05'>
+<layerclear parent='cutin' id='06'>
+吸血鬼にとっての理想といえばそれしかないだろ。さすがに永遠なんて概念を体現するのは不可能だが、半径五百メートルくらいは問答無用で夜に変えるし、捕らえた獲物は俺が解くか死ぬかしねえ限り逃げられねえ。
+
+<layer parent='cutin' id='09' src='236_c' mask-src='giza2' time='0.6'>
+<wait time='0.5'>
+
+燃費だって悪くないぜ。空間ごと世界を変えるのは覇道型で、干渉規模がでかいぶん維持の時間も短いんだが、薔薇の夜は少々特殊だ。
+
+@hidemessage;
+<se src='2001c'>;;//ＳＥ・パンチ
+<se src='2001b'>;;//ＳＥ・パンチ
+<se src='1012c'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='01' src='13_d' center='400 225' position='470 280' scale='1.48' opacity='0'>
+<layer parent='cutin' id='01' position='200 100' scale='2.2' time='0.3' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.1'>
+<wait time='0.3'>
+<se src='3001'>
+<se src='6004'>
+<layer parent='cutin' id='02' src='mv_12' center='400 225' position='512 300' scale='1.29' opacity='1'>
+<wait time='1.5'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='09'>
+
+俺の創造に呑まれた奴は、ただそこにいるだけで生命力を搾り取られる。つまりこっちは、吸ってる限り強化され続けるっていうことだ。
+
+燃料さえ尽きなければいつまでもってわけじゃねえけどな。それでも覇道の創造としちゃあ、かなり使い勝手が良いんだよ。これはたぶん、求道の性質も多少混じってるせいだろう。
+
+@hidemessage;
+<layer parent='cutin' id='03' src='032_bg' center='1375 1325' position='560 680' scale='0.73' opacity='0'>
+<layer parent='cutin' id='03' position='560 700' opacity='1' time='0.5'>
+<wait time='0.5'>
+<layerclear parent='cutin' id='02'>
+<layer parent='cutin' id='01' src='032_b_b' center='1375 1325' position='750 680' scale='0.1' opacity='0' rotate='-10'>
+<se src='1016c'>;;//ＳＥ・ダッシュ
+<se src='2005c'>
+<layer parent='cutin' id='01' position='500 250' opacity='1' time='0.3' accel='1'>
+<wait time='0.3'>
+
+薔薇の夜がある間、俺は芯から吸血鬼だ。ああ、伝承上のヴァンピーそのものになるんだよ。
+
+客観的な事実として、俺が人から生まれた人の子だってことくらい分かってる。自分が本物の真祖だって誇りはいつだって揺らがねえけど、その自負を物理的に実現するのさ。
+
+<se src='1003a'>;;//ＳＥ・突風
+<imgblk mask='center1' time='0.4'>
+<layerclear parent='cutin' id=''>
+<layercamera position='80 -250 150' rotate='-15'>
+@cg 032_a;
+</imgblk>
+
+それが求道。己自身を一つの異世界に変える技。黒円卓の中でも、この二つが混じってる奴はおそらく他に存在しない。
+
+だから、俺の世界は強力だ。凶悪だろうし美しい。融合型の常として、気合い入れすぎると思考が乱雑になるんだが、別にデメリットってほどでもねえ。
+
+このときも、俺はハイになった状態で夜の素晴らしさを噛み締めてたな。そうしていると、副産物みたいなものもある。
+
+<layer parent='cutin' id='mv' src='mv_bara' center='480 282' position='512 300' scale='1.1' opacity='0.01'>
+<layer parent='cutin' id='01' src='235_a' center='400 225' position='1190 630' scale='3' opacity='0'>
+<layer parent='cutin' id='01' position='1190 680' opacity='0.5' time='1'>
+<layer parent='cutin' id='mv' opacity='0.5' time='1'>
+<wait time='0.5'>
+
+#ヘルガ (v_hrg0001)ヴィル、ヴィル、わたしの愛しいヴィルヘルム……
+
+たまにだが、それは聞こえてくるんだよ。意識の深奥から流れてくる声。
+
+ヘルガだ。あいつの存在を身近に感じる。
+
+<layer parent='cutin' id='01' position='795 450' scale='2' time='7' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='1'>
+<layercamera position='0 0 -300' rotate='0'>
+@cg nigh_trose ol 0;
+<layer parent='cutin' id='mv' opacity='0' time='0.3'>
+<layer parent='cutin' id='08' src='008_h' center='762.5 270' position='-1450 -180' scale='1.4' opacity='0'>
+#ヘルガ (v_hrg0002)今夜もお腹いっぱい食べたのね。嬉しいわ……あなたが満足してくれるなら、わたしなんだってしちゃう
+
+#ヘルガ (v_hrg0003)昔はいつも、ひもじい思いをさせてごめんね。あなたが何を欲しがってるのか、なかなか気付いてあげることが出来なくて
+
+#ヘルガ (v_hrg0004)だけど今ならよく分かる。あなたに愛され、奪われて、一つになって理解したのよ
+
+#ヘルガ (v_hrg0005)それはとっても幸せなこと。これから先も与えてあげるし、一緒にいるわ。だから教えて
+
+#ヘルガ (v_hrg0006)ねえヴィル、わたしは美味しかった？
+
+@hidemessage;
+<se src='1193'>
+<se src='104'>
+<layer parent='cutin' id='01' position='495 450' time='0.5'>
+<layer parent='cutin' id='08' position='-1150 -180' opacity='1' time='0.5'>
+<wait time='1'>
+#ヴィルヘルム (v_vir0145)はッ、馬鹿が
+
+相も変わらず、頭が素敵な具合にわいてやがる。そうとも、これが俺の姉貴でお袋だ。生きてる頃からこんな感じの奴だったぜ。
+
+#ヴィルヘルム (v_vir0146)お呼びじゃねえんだよ腐れ淫売。すっ込んでろや、またぶち殺すぞ
+
+#ヘルガ (v_hrg0007)まあ、まあまあ！　なんて優しい子なのあなたは。そんなにわたしのことを大事に思ってくれるのね
+
+#ヘルガ (v_hrg0008)ありがとうヴィルヘルム。お<rb "かあ">姉</rb>さん、世界一の幸せ者よ
+
+ヘルガと会話は成立しねえ。客観視が出来ない奴だって言ったよな。
+
+それはこんな感じで、何があっても自分のお花畑しか見ちゃいねえっていうことなんだ。
+
+さながら、薔薇の花園か。この女は、永遠にそこのお姫様で庭師なのさ。
+
+<imgblk mask='center1' time='0.8'>
+<layer parent='cutin' id='zz' src='bg13a' center='600 320' position='620 400' scale='2' opacity='0.5'>
+<layer parent='cutin' id='mv' opacity='1'>
+<layer parent='cutin' id='01' position='795 450' opacity='0'>
+</imgblk>
+<layer parent='cutin' id='zz' position='1100 400' time='60'>
+#ヴィルヘルム (v_vir0147)まったく、死んでからも鬱陶しい
+
+なんて毒づいちゃいたけどよ。正直言えば、このヘルガとずれたやり取りするのも嫌いじゃなかった。なぜならこいつはトロフィーみたいなもんで、殺した当時の快感を反芻する役に立つ。
+
+吸血鬼は、喰らった獲物を内に取り込むもんだろう？　俺が自分の真実を確信した最初の一人がこのヘルガで、だから記念すべき勲章なんだよ。
+
+多少うざいのは確かだが、俺の中で血塗れになりながら悶えてる様は悪くねえ。
+
+世界が血と怨念に包まれたとき。そして俺の調子が極めて良いとき。ヘルガの声が聞こえてくるのはそういうときで、自分が充実した吸血鬼だと実感する瞬間だ。
+
+それを味わえる点については、メルクリウスに感謝してやってもいい。貰った力を有り難がるって意味じゃなく、これが俺だけの仕様なんだと誇ることが出来るからだ。
+
+さっきも言ったろ？　創造位階には渇望が必要なんだ。つまり、元になってる術が同じでも、どんな形になるかは個人ごとに違うんだよ。
+
+たとえば、拳銃もらって調子付いてる奴はただの馬鹿だ。拳銃は誰が持っても拳銃だし、それで強くなったとしても手柄は拳銃のもんじゃねえか。持ち手と何ら必然的な繫がりがねえ。
+
+その点、俺らが貰ったのはエイヴィヒカイトっていう溶鉱炉と、聖遺物っていう鉄なのさ。ぶち込んでからどんな風に仕上げるかはこっちの自由。
+
+俺じゃねえと薔薇の夜は創れねえし、俺だからこそ薔薇の夜が生まれたんだ。なあ、これは結構な違いだと思うだろ？
+
+<layerclear parent='cutin' id='08' time='0.5'>
+<layerclear parent='cutin' id='zz' time='0.5'>
+<layer parent='cutin' id='01' opacity='0.5' time='0.5'>
+#ヘルガ (v_hrg0009)食べたくなったらまた呼んでね。いつでもあなたの傍にいる
+
+#ヘルガ (v_hrg0010)愛してるわヴィルヘルム。愛してる。愛してる。世界中の何よりも……
+
+<se src='1263'>
+<layer parent='cutin' id='01' position='1195 900' scale='4' time='0.5'>
+#ヘルガ (v_hrg0011)あなたをアイしてルのよおおぉぉォォ―――、きゃははははははハハハ！
+
+@hidemessage;
+<soundstop time='2'>
+<sestop>
+<se src='1028a'>
+<se src='100'>
+<layer parent='cutin' id='01' rotate='1080' opacity='0.5' time='0.5'>
+<layerclear parent='cutin' id='mv' time='2'>
+<layerclear parent='cutin' id='01' time='0.5'>
+<wait time='2'>
+そんなこんなで、俺はこの日にワルシャワをぶっ潰した。言った通り敵も味方も関係なく、諸共呑み込み吸ってやったよ。
+
+ヘルガの声が遠くになっていったのは、薔薇の夜が晴れかけている証だった。そこには二つの意味がある。
+
+一つ。創造の範囲内にいる人間が全滅したっていうことだ。吸い上げるべき対象がなくなったから、これ以上<rb "たましい">燃料</rb>使って異世界を展開する必要がない。
+
+そして二つ目。これはこのとき初めて気付いたんだが……
+
+<sound src='9' volume='1' fade-time='1' loop='true'>
+<se src='06'>
+@bg bg14a mask4 1;
+<layer parent='cutin' id='02' src='mv_hinoko1' center='512 286' position='512 300 -1' scale='1.1' opacity='0.01'>
+<layer parent='cutin' id='02' opacity='1' time='1'>
+<wait time='1'>
+
+#ヴィルヘルム (v_vir0148)どうやら、ここらで満杯かよ
+
+俺という器に溜め込める魂の許容量。その限界を自覚したんだ。
+
+正確に量ることは出来ねえが、おそらく七・八千人ぶんってとこじゃねえかな。当時の俺はそれだけの魂を所有していて、それ以上は蓄えられねえ。
+
+溜めようとしたらどうなるかって？　推論だが、たぶん風船と同じだよ。
+
+聖遺物なり肉体なりが砕け散る。そして、どっちだろうと俺たち的にはジ・エンドだ。
+
+ちょいと超過するだけでいきなりそこまで破滅的にはならねえだろうが、何にしろリスキーだし賢くねえ。だから俺の本能が、もうやめとけってセーブしたのさ。
+
+しかし、感情的には腹が立ったぜ。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='bg14a_b' center='400 225' position='512 230' scale='1.7' opacity='0'>
+<layer parent='cutin' id='wil' char-src='wil ikari ss' center='1350 1450' position='245 920' scale='1.4' opacity='0'>
+<layer parent='cutin' id='01' position='512 200' time='2.2' accel='-1'>
+<layer parent='cutin' id='wil' position='245 965' time='2' accel='1'>
+<se src='1213'>;;//ＳＥ・拳を鳴らす
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='wil' opacity='1' time='1'>
+<wait time='0.5'>
+
+#ヴィルヘルム (v_vir0149)クソが、萎える落ちつけやがって
+
+周囲は根こそぎ吸ってやったが、それでも戦場全体で考えれば獲物はまだまだ存在するんだ。せっかくの爆釣どきだっていうのによ、<rb "びく">魚篭</rb>が満杯だからもう獲れねえし、獲っても捨てるしかなくなってる。
+
+こんなの誰でも苛々するだろ。しかもそれが、自分の器による結果と言われたらムカつくじゃねえか。
+
+ここがおまえにとって才能の限界。そう笑われてるみたいでよ。だから……
+
+<layer parent='cutin' id='wil' char-src='wil sinken ss' time='0.5'>
+#ヴィルヘルム (v_vir0150)いや、まだだ
+
+#ヴィルヘルム (v_vir0151)これはあくまで、現段階の限界だ。俺はまだまだ強くなる
+
+壁にぶち当たったが、終わりじゃない。技なり、心なり、聖遺物とのより深い結びつきなり……高めるべきものは色々あるだろ。
+
+相応の条件を揃えられれば、この先壁は越えられる。そう信じたし、今でもそうだ。陳腐な言葉かもしれねえが、自分で認めない限り限界なんかねえんだよ。
+
+#ヴィルヘルム (v_vir0152)クソ、見てろよ。クソッタレが……！
+
+とはいえ、まあ、このときこれ以上無理だってのも事実なわけで、易々腹の虫は治まらねえわな。だから憂さ晴らしをしようと思った。
+
+せっかくの魂を捨てることになったとしても、目に付く奴は片っ端から殺してやろう。もともと殺生に対する禁忌感なんて、欠片ほども俺にはないんだ。
+
+血は吸えなくても、単にぶち撒けるのだって嫌いじゃねえ。それで溜飲を下げられるなら御の字だろう。
+
+@hidemessage;
+<se src='01' loop='true'>
+<layer parent='cutin' id='03' src='bg14a' center='400 225' position='50 400' scale='2.5' opacity='0'>
+<layer parent='cutin' id='03' position='850 400' time='120'>
+<layer parent='cutin' id='03' opacity='1' time='1'>
+<wait time='1'>
+<layerclear parent='cutin' id='wil'>
+<layerclear parent='cutin' id='01'>
+
+そう思って、俺は瓦礫だらけのワルシャワを歩きだしたよ。出会った奴は老若男女ぶっ殺しながら、血を浴びることで少しずつ冷静になっていったから考えることも出来た。
+
+まず当たり前だが、この状態が永遠に続くわけじゃねえ。俺らにとって魂は燃料だから、力を使えば消費される。
+
+仮にパンチ一発撃ったとしても、それが常識の枠を超えた魔術的な技である以上、規模に比例して燃料タンクには空きが出来る。
+
+だからこのときも、少しずつだが満杯状態は解消されていたわけだ。しかしさっきも言った通り、俺は燃費がいいほうなんで一気にがばっと入れ替えは出来ねえ。
+
+今後、余計なストレスを避けるためには、上手い具合に飢えを維持する必要があると思った。それはそれでストレスだが、満腹で動けなくなるよりそっちのほうがクールだろう。
+
+豚は醜い。当然だよな。獣の爪牙として、ハングリーを心がけるほうが理に適ってる。
+
+もちろん、腹減りすぎた状態は論外だぜ。そんなの自殺行為だし、ダイエットで拒食症になったんじゃ堪らねえ。
+
+腹八分目っていうのはあくまで比喩だが、俺にとってベストなラインを模索する必要性を感じたよ。そして、他の奴らはどうしてるのかと考えた。
+
+このとき、だいたい二・三年は顔をあわせてなかったからな。俺がそうであるように、どいつもばらばらと色んな戦場に散ってたよ。
+
+これからすぐ後、そんな俺たちが再び召集されるわけなんだが、もちろん当時の俺が知る由もねえ。けど、多少なり予感はあったな。
+
+時が来るまで好きに暴れて、各々魂を蓄えろ――それがハイドリヒ卿に言われたことだから全員そうしているだろうし、俺が満腹になった以上は他の奴らも近い状態にあるはずだ。
+
+現段階で、魂の許容量が俺より多い奴、少ない奴。個人差はあっても、相応に意識し始めてる頃合だろう。ゆえにおそらく、再会は近い。
+
+そしてそのとき、なんだおまえはその程度かと思われたら癪だろう。特にハイドリヒ卿から失望だけはされたくねえ。
+
+許容限界――なんとも腹の立つ事実だが、こればっかりは仕方のないことだった。少なくとも、一朝一夕じゃあどうにもならん問題だろう。
+
+だったら、他に何かしらのカードが要る。単純な魂の多寡では量れない、寡兵であろうと上手く運用する戦術なり陣形なり、要は高度な理に俺が達していると見せ付ける必要があったんだ。
+
+最低でも、その何たるかを看破した上で目指している。漠然としたもんじゃなく、パラダイムシフトを具体的に思い描けているということ。
+
+餓鬼じみた功名心や対抗心と言われたらそれまでだが、大事な類の幼稚さだろう。この感情が分からない奴は、つまんねえ人生を送ると思うぜ。
+
+#ヴィルヘルム (v_vir0153)何か、上手い案は何かねえのか。あるはずだろう、考えろ
+
+#ヴィルヘルム (v_vir0154)喧嘩は必ずしも数じゃねえ。現に俺は一人だった頃も、群れてる奴らに負けなかった。そうだよ、慣れてるはずじゃねえか
+
+#ヴィルヘルム (v_vir0155)大軍で押し潰すよりは、そっちのほうが俺らしい。だったら簡単な話だろう。簡単なら答えは簡単に見つけなきゃいけねえんだよ
+
+歩きながら、殺しながら、ぶつぶつ呻いていたが答えは出ず、再び癇癪が爆発しかけた。
+
+@hidemessage;
+<sestop>
+<layerclear parent='cutin' id='02' time='0.2'>
+<layer parent='cutin' id='04' src='gareki' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<se src='1003'>
+<se src='1078b'>;;//ＳＥ・瓦礫
+<se src='1024c'>;;//ＳＥ・瓦礫
+<layer parent='cutin' id='04' scale='1.8' opacity='1' time='0.2' accel='1'>
+<wait time='0.3'>
+
+#ヴィルヘルム (v_vir0156)ああァ、だコラ――邪魔くせえんだよォ！
+
+@hidemessage;
+<soundstop time='1.5'>
+<se src='2002c'>;;//ＳＥ・パンチ
+<se src='1014a'>;;//ＳＥ・パンチ
+<imgblk mask='mask8' time='0.1'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300' rotate='0'>
+@cg panti1_d;
+</imgblk>
+<layercamera position='50 50 -200' time='0.2'>
+<se src='1004a'>;;//ＳＥ・爆発
+<se src='1004c'>;;//ＳＥ・爆発
+@cg baku2 mask1 0.2;
+<wait time='0.2'>
+@effect2;
+
+そのとき、傍らの建物がぶっ壊れてな。訳もなくムカついたんで、落ちてくる瓦礫を力任せにぶん殴ったよ。
+
+
+<se src='1024c'>;;//ＳＥ・瓦礫
+@cg white ol 1;
+<wait time='0.3'>
+バスくらいの大きさはあったろうが、言うまでもなくそんなもんは屁でもねえ。木っ端微塵にして何十メートルも吹っ飛ばし、お陰でえらくさっぱりしちまった倒壊跡に、そいつはいたんだ。
+
+@hidemessage;
+<sestop time='1.5'>
+<layer parent='cutin' id='01' src='002_a' center='400 225' position='185 60 0' scale='2.5' opacity='0' rotate='15'>
+<layer parent='cutin' id='01' position='620 480' time='3' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='2' accel='-1'>
+<wait time='3'>
+@cg 002_a ol 0;;※イベント絵
+@sound103;
+<layerclear parent='cutin' id='01' time='1'>
+<layercamera position='0 0 -300' time='1.5' accel='-1'>
+<wait time='1.5'>
+
+#クラウディア (v_kru0001)……ぁ
+
+最初の印象は、鳥。
+
+鶴とかそういう、翼のでかさに反してあまり重さを感じない系統のやつがいるだろう。まずそいつを連想したな。
+
+次いで、これは写真や絵画じゃねえのかと。
+
+事実このとき、俺はあいつが羽を持ってるように見えたんだ。そんな女は、絵の中くらいにしかいないだろう。
+
+#クラウディア (v_kru0002)その、あなたは……
+
+#ヴィルヘルム (v_vir0157)あァ、うるせえな。俺のことはどうだっていいんだよ
+
+しかし、すぐ現実に引き戻された。喋る以上は絵でも鳥でもねえわけだし、人間なら見つけ次第に全員殺すと決めてたんで殺そうとしたよ。
+
+だけどな。
+
+@cg 002_b;
+
+#クラウディア (v_kru0003)助けてくれたんですね。ありがとうございます
+
+#ヴィルヘルム (v_vir0158)……はあ？
+
+俺がてめえを助けただって？　いったい何処をどう解釈すればそうなるのか、さっぱり分からなかったから考えた。
+
+そうすりゃ思い浮かぶのはさっきの瓦礫だ。この女は倒壊する建物に潰される寸前だったらしく、俺がそいつをぶっ飛ばさなきゃあ確かに死んでいたんだろう。
+
+その点から、俺が女を助けたとするのは一応正しい。まったく意図しちゃいなかったし、このときだって殺す気なんだが、向こうの主観としちゃあ間違ってないんだ。
+
+そう理解して、俺は盛大にうんざりする。何せありがとうなんて言われたのは、ヘルガを除けば初だったからな。そしてヘルガと同じように、勘違いしてやがるのも鬱陶しい。
+
+#ヴィルヘルム (v_vir0159)俺は別に、おまえなんか助けちゃいねえよ。だいたい、おかしいとは思わねえのか
+
+俺に礼を言う以上、こいつは俺が先の瓦礫をぶっ飛ばしたと理解している。そしてそれは、当たり前だが人間業じゃねえわけで……
+
+#ヴィルヘルム (v_vir0160)俺のことが怖くねえのか
+
+@cg 002_a;
+
+#クラウディア (v_kru0004)だって、あなたはＳＳでしょう？
+
+きょとんと、周りの状況を考えればアホじゃねえのかと思うほど素の調子で、女は俺を見つめていた。
+
+@hidemessage;
+<layer parent='cutin' id='dd' src='002_b' center='762.5 270' position='1312 450' scale='2' opacity='0'>
+<layer parent='cutin' id='dd' opacity='1' time='0.5'>
+<layer parent='cutin' id='dd' position='1312 500' time='1'>
+<wait time='1.2'>
+#クラウディア (v_kru0005)ドイツ軍です。そして私、ドイツ人です
+
+#クラウディア (v_kru0006)味方です
+
+#ヴィルヘルム (v_vir0161)…………
+
+#クラウディア (v_kru0007)仲間です
+
+#ヴィルヘルム (v_vir0162)…………
+
+#クラウディア (v_kru0008)だから大丈夫です
+
+<layer parent='cutin' id='dd' position='980 350' scale='1.3' time='0.5'>
+<wait time='0.5'>
+#ヴィルヘルム (v_vir0163)いや何がだよッ
+
+俺に愛国心なんてもんはなく、ドイツ人だからって関係ねえ。事実ここに至るまで、自分と同じ軍服着てる奴らを殺しまくってきたんだよ。
+
+女だから？　非戦闘員だから？　それもまったく意味を成さねえ。とは思うものの、これまたあっちの主観じゃ知る由もないことだ。
+
+#クラウディア (v_kru0009)最初にびっくりしたのは確かですが、軍の方なら我々が知らないような力をお持ちだったりするんでしょう。我々を守ってくださるために
+
+#クラウディア (v_kru0010)だったら怖がるなんてこと、罰が当たっちゃいますよ。なのでもう一度あなたに感謝を……お陰で私は救われました
+
+#ヴィルヘルム (v_vir0164)……ああ、いい。もういい。分かったからおまえ喋んな
+
+論で立場を分からせるのは不可能だし、そもそも俺はそういうことが得意じゃねえ。
+
+なら行動しかないだろう。調子狂ってアホらしくなっちまったが、ともあれ初志は貫徹する必要がある。
+
+つまり殺して分からせよう。そう思い、改めてやろうとしたときだった。
+
+<layer parent='cutin' id='01' src='002_bg' center='1303 965' position='512 630 0' scale='1' opacity='0' rotate='20'>
+<layer parent='cutin' id='02' src='002_d' center='1303 965' position='512 630 0' scale='1' opacity='0' rotate='20'>
+<layer parent='cutin' id='01' position='512 650 0' opacity='1' time='0.6' accel='-1'>
+<layer parent='cutin' id='02' position='512 650 0' opacity='1' time='0.6' accel='-1'>
+<wait time='0.6'>
+
+#クラウディア (v_kru0011)ところであなた、私と同じなんですね
+
+#ヴィルヘルム (v_vir0165)……あん？
+
+またしても、意味の分からない言葉。いや、今度は本当に不明な言葉だ。
+
+一度ならず二度までも出鼻を挫かれたのは初めてで、怒るよりも当惑する俺を他所に、女は嬉しげな笑顔を浮かべる。
+
+そうしてよく見ろと言うように、自分と俺を交互に指差しつつ言ったんだ。
+
+
+#クラウディア (v_kru0012)彼の肌は雪のように白く、また薔薇の花のように赤く、髪は羊毛のように白く、目は美しく透き通っていた
+
+#クラウディア (v_kru0013)聖書はお読みになりませんか？　私たちは、共にノアの子なのですよ
+
+#クラウディア (v_kru0014)こっちの意味でもお仲間の人とは、さすがに初めて会いました
+
+#ヴィルヘルム (v_vir0166)あ……
+
+それで、ようやく理解した。そうだよ、確かにその通り。
+
+@hidemessage;
+<imgblk mask='mask4' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='305 150 -70' rotate='-10'>
+@cg moon;
+<layer parent='cutin' id='01' src='033_b' center='762.5 270' position='50 -250' scale='0.35' opacity='0'>
+<layer parent='cutin' id='02' src='033_a' center='762.5 270' position='450 0' scale='0.4' opacity='0'>
+</imgblk>
+<layer parent='cutin' id='01' opacity='0.7' time='0.5'>
+<layer parent='cutin' id='02' opacity='0.7' time='0.5'>
+<layer parent='cutin' id='01' position='0 -250' time='1.5'>
+<layer parent='cutin' id='02' position='500 0' time='1.5'>
+<wait time='1.5'>
+白い肌。白い髪。色の抜けたその瞳。
+
+すべて日の光を嫌い、夜にしか生きられないモノの証だった。少なくとも、俺に近い業を持った奴なのは否定しようがねえ。
+
+ある種の啓示めいたものが、電流のごとく全身を走り抜ける。
+
+@hidemessage;
+<imgblk mask='center2' time='0.7'>
+<layerclear parent='cutin' id=''>
+@camera;
+@cg black;
+</imgblk>
+#ヴィルヘルム (v_vir0167)同じ、同じか……
+
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+@cg 002_b;
+</imgblk>
+#クラウディア (v_kru0015)はい。きっとこれは、主のお導きなのでしょう。お名前をお聞かせください。私はクラウディア
+
+#ヴィルヘルム (v_vir0168)俺は……ヴィルヘルム
+
+そして、同時に確信したんだ。<dot " 、">こいつは使える</dot>。
+
+#ヴィルヘルム (v_vir0169)ヴィルヘルム・エーレンブルグだ――ああ、おまえの恩人様だよ
+
+だったら役に立ってもらおう。こいつにはその義務があるし、俺にはその権利がある。
+
+#ヴィルヘルム (v_vir0170)ついてこい。ここから出るぞ
+
+<se src='2023'>
+<se src='1184'>
+@hidemessage;
+<layercamera position='-250 -200 100' rotate='10' time='0.5'>
+<wait time='0.5'>
+<layercamera position='-250 -100 100' rotate='10' time='0.4' accel='1'>
+<wait time='0.3'>
+<imgblk mask='mask3' time='0.3'>
+<layercamera position='0 50 -300' rotate='0'>
+@cg black;
+</imgblk>
+<layercamera position='0 0 -300' time='0.3' accel='1'>
+@cg moon mask3 0.8;
+<wait time='0.8'>
+炎上するワルシャワで、伸ばした俺の手を疑いもせずに取る間抜け。
+
+それがこのトボケた女、クラウディアとの出会いだったよ。
+
+@hidemessage;
+<soundstop time='2'>
+<sestop time='2'>
+@fo;
+@def;
+<soundstop>
+<sestop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+c:
+@def;
+<sound src='24' volume='1' loop='true'>
+<imgblk mask='ol' time='0.5'>
+;&cgfilter col sandybrown 40;
+<layer parent='cutin' id='01' src='002_b' center='762.5 270' position='1262 500' scale='2' opacity='0'>
+<layer parent='cutin' id='mv' src='mv_film' center='512 288' position='512 300' scale='1' opacity='1'>
+<layer parent='cutin' id='kuro1' src='black' center='400 225' position='512 840' scale='1.3' opacity='1'>
+<layer parent='cutin' id='kuro2' src='black' center='400 225' position='512 -240' scale='1.3' opacity='1'>
+<layer parent='cutin' id='ss' src='001_d' center='1303 965' position='200 1050' scale='1.5' opacity='0'>
+</imgblk>
+<layer parent='cutin' id='ss' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='ss' position='250 1050' time='1'>
+<layer parent='cutin' id='01' position='1212 500' time='1'>
+<wait time='1.2'>
+クラウディア・イェルザレム――あいつは尼僧で、まあ要するに抹香臭い尼さんだった。
+
+<rb "なり">服装</rb>や言動から普通は即座に分かって然るべきだが、他のインパクトが強すぎて初見じゃ気付くのが遅れちまったよ。
+
+どうして尼さんが他国の、しかも戦場なんかにいたんだと思うかもしれねえが、別におかしなことじゃない。
+
+殺し合いをやってるだけが戦争じゃあないからな。それがメインなのは確かだが、だからこそつつがなくドンパチ出来るようにしなきゃならん。
+
+つまり怪我人の世話や、食い物に関わる衛生管理。そしてそういうもんは、基本として荒くれ野郎どもの手に負える類じゃねえ。気分的にも、ヒゲ面の筋肉馬鹿から介護されるのは嬉しくないだろ。
+
+だからそこは女の仕事だ。しかし並の女じゃあ、三日と待たずに裸足で逃げ出すのもまた事実。
+
+ならどんな女が望ましい？　愚問だわな。白衣の天使って言葉があるように、地獄でもがいてる連中を救うのは聖職者サマの領分だ。
+
+クラウディアは、そういう立場の奴だった。好んでそんな仕事に従事するなど、俺に言わせりゃ沙汰の外だが、一般的には筋の通る話だろう？
+
+ワルシャワ駐屯軍の看護団所属。それがあいつの肩書きで、以降は俺と一緒にいたよ。
+
+正確には、ほとんど無理矢理連れてった。ワルシャワの推移については、勝手に資料でも調べてくれ。当時、小競り合いはまだ続いていたからクラウディアの仕事もあったはずだが、そんなもんは関係ねえ。
+
+何せ、こっちに召集が掛かったからな。ハイドリヒ卿が戻って来いと言う以上、あんな所に留まっている理由はねえ。実際、慣れない軍隊生活も飽きていたわけだしよ。
+
+俺はクラウディアを連れて行った。前述の通り無理矢理だったが、さほど嫌がられもしなかったぜ。何せ恩人様の言うことなんだ。
+
+そして、俺があいつに固執したのは単純明快。<dot " 、">喰らうためだ</dot>。
+
+壁を突破するブレイクスルー。パラダイムシフトを求めてるって言ったよな。あいつはそのための生贄なのさ。
+
+溜め込める魂には個人ごとの限界がある。ワルシャワで俺は自分の器を自覚して、これを超えるのは当面無理だと分かっていた。
+
+しかし、だからって何もしないわけにはいかねえだろう。これもまた言った通り、俺以上のキャパシティを持つ奴がいても引けを取らないために。
+
+ハイドリヒ卿から失望されないために。
+
+喧嘩は数じゃねえ。これを負け惜しみにしないよう、具体的な案が要る。
+
+それがあいつさ。クラウディアだ。至極簡単に言っちまえば、俺は質を重視することにしたんだよ。
+
+考えてみれば、まったく難しいことじゃない。人間には個人差があり、容姿や能力に格差が存在するもんだ。
+
+なら、魂の面にも差はあって然るべきだろ。ただの油を何万ガロンも積むよりは、たとえ少量でもジェット燃料を持ってる奴のほうが強い。
+
+爆発力、使用効率、密度、精度。求めているのはそういうもんだ。
+
+薔薇の夜を展開するのに、百の雑魂を消費して百の威力を出すのが基本だとする。だが、単一魂の僅か数パーセントそこらの消費で、千の威力を出せるとしたら最高じゃねえか。
+
+ああもちろん、高品質な魂はそれに比例してキャパを食うことだろう。だったら結局、器の容量がすべてだって？　いいや違うね、必ずしもそうじゃないと考える。
+
+適応力。馴染み易さ。俺が使う場合に限り、劇的なほど化ける魂。
+
+つまり俺だけが<dot " 、">上手く折り畳める魂</dot>か、俺にとってのみ至高へ変わる魂だ。予想できるのはこの二パターンで、どっちだろうと結果的には変わらねえ。
+
+そこらへんは、人間関係だって同じだろ。俺が言う台詞じゃねえが、一般に身内と他人じゃ重さが違う。命の価値は等価じゃねえ。
+
+だからクラウディアはそういうもんだ。先に挙げた二つのパターン、その両方。
+
+極めて俺と相性のいい魂だと定義した。
+
+理由？　勘だよ。なんて言ったら呆れる奴は多いだろうが、大事なことだぜ。俺は自分の嗅覚を信じてる。
+
+まあ、あえて理屈をつけるとするなら、同じアルビノだというシンパシー。
+
+<imgblk mask='ol' time='1'>
+<charclear>
+@bg black;
+<layerclear parent='cutin' id=''>
+</imgblk>
+;&cgfilter;
+
+そして、もう一つあるんだが……
+
+これについては少しばかり複雑なんで、ぼちぼち語っていくとしようか。
+
+@hidemessage;
+@fo;
+@bg yozora mask3 1;;
+<wait time='1'>
+
+#ヴィルヘルム (v_vir0171)………ッ
+
+ワルシャワの一件から早二ヶ月。俺はパーダーボルンって田舎にいた。
+
+後々爆撃される町なんで相応に慌しい空気もあったが、別にたいした問題じゃない。大事なのは、当時そこがハイドリヒ卿のお膝元だったことでな。
+
+適当な空き家を占拠して眠ってた俺は、その日も普段通りに目を覚ましたよ。
+
+もちろん、言うまでもなく夜だったがね。
+
+@hidemessage;
+<sound src='4' volume='1' loop='true'>
+<imgblk mask='mask3' time='1'>
+<layercamera position='0 00 -50'>
+@bg bg02a giza2 1;;※背景・民家
+<char src='cla none sitagi' position='20 1860 350'>
+</imgblk>
+<se src='2023'>
+#ヴィルヘルム (v_vir0172)っ、ああぁ～、だりぃ……
+
+#ヴィルヘルム (v_vir0173)おいクラウディア、てめえおいコラ、何処にいる
+
+で、そこにはあいつも一緒に暮らしていた。<rb "ねぐら">塒</rb>選びは俺の完全な独断だったが、そこらへんを斟酌してやるつもりはねえ。
+
+こっちの都合にあっちが合わすのは当然で、実際文句どころか喜んでたよ。尼さん的には嬉しい町だとかなんだとか。
+
+そのせいか、逆に俺のほうが辟易していることもあったんだ。
+
+<se src='2030'>
+<char src='cla niko sitagi' position='0 1860 350'>
+<wait time='0.4'>
+#クラウディア (v_kru0016)はいぃ、はいはい。なんでしょうか、呼びました？
+
+<sestop>
+
+#ヴィルヘルム (v_vir0174)……てめえ、まーたほっつき歩いてやがったのかよ
+
+@hidemessage;
+;※立ち絵スクロールしつつ
+<layer parent='cutin' id='01' src='bg02a' center='600 320' position='900 600' scale='2.8' opacity='0' rotate='-15'>
+<layer parent='cutin' id='02' char-src='cla metoji2 sitagi' center='1175 1450' position='450 700' scale='1' opacity='0' rotate='-15'>
+<layer parent='cutin' id='01' position='900 300' time='6' accel='-1'>
+<layer parent='cutin' id='02' position='450 400' time='6' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='02' opacity='1' time='1'>
+<wait time='4'>
+それがこれだ。この馬鹿、てめえの身も弁えず、昼日中にうろつき回るのを好みやがる。
+
+お陰で始終、火傷だらけみたいな有り様だ。夜はその治療で包帯まみれになるのが常だし、にも関わらずこれっぽっちも慎みやがらん。もはやイカレてるとしか思えねえわな。
+
+<layer parent='cutin' id='02' char-src='cla tere sitagi' time='0.5'>
+だいたいよぉ、このときみたいに貧相な半裸姿を見せられる俺の身にもなれっていうんだ。
+
+@hidemessage;
+<layer parent='cutin' id='01' position='900 600' time='6' accel='-1'>
+<layer parent='cutin' id='02' position='450 700' time='6' accel='-1'>
+<wait time='4'>
+<char src='cla kyoton sitagi'>
+#クラウディア (v_kru0017)あのですね。ちょうどいいから少し手伝ってくださいよ。このへんに、こう、素敵な感じに包帯を巻くのがなんとも一人じゃ大変で
+
+#ヴィルヘルム (v_vir0175)聞けよ、人の話を
+
+<layer parent='cutin' id='02' char-src='cla kusyou sitagi' time='0.5'>
+#クラウディア (v_kru0018)いや、もちろん聞いていますし言いたいことも分かっていますよ？　だけどそれはそれとして、今は人助けを優先しましょう
+
+<layer parent='cutin' id='02' char-src='cla niko sitagi' time='0.5'>
+#クラウディア (v_kru0019)男の方なら女性全般に優しくし、その愛を受けて我々女性もまた一段と
+
+#ヴィルヘルム (v_vir0176)うるせえ、やなこったっつってんだろ。だいたいてめえ、男だ女だ言うんだったら少しは恥じらいを持ちやがれ。なんだその様ァ、ぶち殺すぞ
+
+<layer parent='cutin' id='02' char-src='cla odoroki sitagi' time='0.5'>
+#クラウディア (v_kru0020)まあ！　そういう気配りも出来る方だったのですね。驚きました、意外です
+
+<layer parent='cutin' id='02' char-src='cla nikori2 sitagi' time='0.5'>
+#クラウディア (v_kru0021)そして今、感動しました。あなたなりに私を案じてくださったのですね
+
+
+<layer parent='cutin' id='02' char-src='cla sumasi sitagi' time='0.5'>
+#クラウディア (v_kru0022)言い方は、少々紳士じゃありませんでしたけど
+
+#ヴィルヘルム (v_vir0177)だから、てめえはなあ……
+
+こいつもまた、結構な率で会話がまともに成立しねえ。そこはヘルガと同類で、実に面倒くさい感じの馬鹿だ。
+
+
+<layer parent='cutin' id='02' char-src='cla niko sitagi' time='0.5'>
+#クラウディア (v_kru0023)はいはい、分かってます。仰ることはごもっとも
+
+
+<layer parent='cutin' id='02' char-src='cla kusyou sitagi' time='0.5'>
+#クラウディア (v_kru0024)ですが、こういうときに取り乱すのは程度問題なのですよ。私とて、この状況に何も感じないわけではありません
+
+
+<layer parent='cutin' id='02' char-src='cla metoji2 sitagi' time='0.5'>
+#クラウディア (v_kru0025)男性に肌を見られれば恥ずかしいし、狼狽えます。しかし、そこで縮こまったら治療が覚束ないでしょう。はしたないとするか否かは、時と場合によるのです
+
+
+<layer parent='cutin' id='02' char-src='cla nikori2 sitagi' time='0.5'>
+#クラウディア (v_kru0026)なので、一刻も早くなんとかしましょう。あなたにとってもそのほうがいいのでしょうし、さあ恥ずかしがらずに手伝ってください
+
+#ヴィルヘルム (v_vir0178)俺は恥ずかしがってんじゃねえよ。呆れてんだよ
+
+#ヴィルヘルム (v_vir0179)だいたい、取り込み中なら諸肌脱いだままやって来んなよ
+
+
+<layer parent='cutin' id='02' char-src='cla kyoton sitagi' time='0.5'>
+#クラウディア (v_kru0027)あなたが呼んだから来たんじゃないですか
+
+#ヴィルヘルム (v_vir0180)阿呆、それこそ時と場合の問題だろうが！　返事だけすりゃあいいことで、ああぁ、このクソ！
+
+文句言ってる間も、目の前でもぞもぞやられるのが鬱陶しいことこの上ない。
+
+別に降参したってわけじゃねえが、これ以上引っ張るとぶん殴っちまいそうだった。
+
+<se src='2065'>
+<imgblk mask='mask4' time='0.5'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 -10 0'>
+</imgblk>
+<layercamera position='0 -10 100' time='0.3'>
+#ヴィルヘルム (v_vir0181)おら貸せ。こんなもんでもたもたしやがって下手糞が
+
+<sestop>
+<se src='1214'>;;//ＳＥ・包帯を巻く音
+
+<char src='cla akire'>
+#クラウディア (v_kru0028)あた、痛たたた……すみません、あの、もっと優しく
+
+#ヴィルヘルム (v_vir0182)ナマ言ってんじゃねえよ、自業自得なことだろうが
+
+俺だって、餓鬼の頃はこの手の火傷をしょっちゅうしてきた。黒円卓の一人になってからはほぼ克服したも同然だが、それでも当時のことを忘れちまったわけじゃない。
+
+似合わねえと言われそうだが、包帯の扱いには慣れてんだよ。ずっと、自分の怪我は自分でどうにかしてきたんだからな。
+
+あまり愉快な記憶じゃねえけどよ。
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0029)ふふ、うふふ……
+
+だっていうのに、俺が苦虫噛み潰してる横でクラウディアは笑ってやがる。
+
+#ヴィルヘルム (v_vir0183)何が可笑しい
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0030)いえ別に、誤解しないで。あなたをからかっているわけじゃありません
+
+#クラウディア (v_kru0031)ただ、その、やっぱり私は薄いのだなと
+
+#クラウディア (v_kru0032)そしてあなたは眩しいなと
+
+<char src='cla niko'>
+#クラウディア (v_kru0033)同じノアの子だというのに。強いですね、ヴィルヘルムは
+
+#ヴィルヘルム (v_vir0184)…………
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0034)どうしたらあなたのようになれるんでしょうか、コツとかあります？
+
+#ヴィルヘルム (v_vir0185)簡単なことだろ
+
+努めてぶっきらぼうに言いつつも、俺は湧き上がる興奮を意識して続ける。
+
+#ヴィルヘルム (v_vir0186)叫べ。自分の感情を解放すんだよ。限界なんかあると思うな
+
+#ヴィルヘルム (v_vir0187)出来るってよ、信じて一気にぶちかませ
+
+俺はずっと、こいつがそうする瞬間を待っていた。
+
+<char src='cla odoroki'>
+#クラウディア (v_kru0035)なるほど、つまり私は我慢しすぎと言うんですね？　分かりました、やってみましょう
+
+<char src='cla sinken'>
+#クラウディア (v_kru0036)私はいま恥ずかしい。恥ずかしい。ええ、恥ずかしいったら恥ずかしい
+
+なぜなら、そのときこそこいつのことを――
+
+<char src='cla metoji'>
+#クラウディア (v_kru0037)すー、はー
+
+@hidemessage;
+<soundstop>
+<se src='14'>;;//ＳＥ・ドアを開ける音
+<imgblk mask='center4' time='0.5'>
+<charclear>
+@bg bg02a;
+<layercamera position='-800 0 200' rotate='10'>
+<char src='rus none ss' position='-1050 1880 400'>
+<char src='bea none segen' position='-600 1880 400'>
+</imgblk>
+@bg bg02a_b;
+<char src='rus nikkori ss' position='-1000 1880 400'>
+<char src='bea sumasi segen' position='-650 1880 400'>
+#ルサルカ (v_rsr0001)おっはよー、ベイー。遊びに来たよーん
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0001)おはようってあなた、そんな時間じゃないでしょう。いくらあいつが夜型でも、言葉は正しく使うべきです
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0002)それでベイ、あなたクラウディアに悪さしてたら許しませんよ……て
+
+<char src='bea odoroki'>
+
+#ヴィルヘルム (v_vir0188)あ……
+
+<char src='rus akire'>
+#ルサルカ (v_rsr0002)――げッ！
+
+<char src='bea awate'>
+#ベアトリス (v_bat0003)んなァッ"!?"
+
+@hidemessage;
+<layercamera position='0 0 -150' rotate='0' time='1' accel='-1'>
+@bg bg02a;
+<char src='rus akire ss' position='-550 1900 300' time='1' accel='-1'>
+<char src='bea awate segen' position='-200 1900 300' time='1' accel='-1'>
+<char src='cla none sitagi' position='230 1870 50'>
+<wait time='1'>
+<char src='cla awate sitagi' position='200 1870 50'>
+<wait time='0.3'>
+@sound105;
+#クラウディア (v_kru0038)きゃあああああああああっ！
+
+いや、すまん。しょうもねえこと思い出したわ。この辺の内容は飛ばしてくれ。
+
+@hidemessage;
+<layercamera position='0 0 -200' time='1' accel='-1'>
+<char src='bea ikari'>
+<char src='rus kusu'>
+<wait time='1'>
+#ベアトリス (v_bat0004)な、な、なななな何してやがるんですかこの腐れ外道は！　そっ首叩き落しやるからそこに直れェ！
+
+<char src='rus haha'>
+#ルサルカ (v_rsr0003)いやーん、ベイが、ベイが汚れていくー！
+
+#ヴィルヘルム (v_vir0189)ばッ、こら、勘違いしてんじゃねえよこれはだなァ―――
+
+<char src='cla sune' shake-src='shakeloop?amp=4&time=0.02'>
+#クラウディア (v_kru0039)きゃあああああっ、きゃああああああ、きゃああああああああああっ！
+
+<se src='1040'>
+@hshake 15 0.2;
+<char src='cla odoroki' shake-src='stop' time='0.2'>
+#ヴィルヘルム (v_vir0190)やかましい！　キンキン喚くな、この馬鹿女！
+
+#クラウディア (v_kru0040)え？　だって、あなたが力いっぱい叫んだほうがいいって言うから
+
+<char src='rus nikkori'>
+#ルサルカ (v_rsr0004)うわぁおぅ、鬼畜ぅー！
+
+<char src='bea nikkori' shake-src='shakeloop?amp=4&time=0.02'>
+#ベアトリス (v_bat0005)ふ、ふふ、ふふふふふ……
+
+<se src='1031'>
+<layercamera position='-150 -50 150' time='0.2'>
+<char src='bea ikari' shake-src='stop' time='0.2'>
+#ベアトリス (v_bat0006)もぉぉう許さん、断固許さん！　表出ろやァ！
+
+#ヴィルヘルム (v_vir0191)あああァ、上等だコラやってやんよォ！
+
+<se src='1143'>
+<se src='1040'>
+<se src='1146'>
+<se src='2032'>
+<se src='2033'>
+@hidemessage;
+<layercamera position='-150 -100 150' time='0.4' accel='1'>
+<wait time='0.3'>
+<imgblk mask='mask3' time='0.3'>
+<charclear>
+<layercamera position='0 50 -300'>
+@cg black;
+</imgblk>
+<layercamera position='0 0 -300' time='0.3' accel='1'>
+@cg yozora mask3 0.4;
+<wait time='0.4'>
+とにかくだな、あの家には他の奴らもちらほら顔見せに来てたんだよ。
+
+別に俺らは仲良しなんかじゃなかったし、今もそうだが、クラウディアに興味を持ってる奴は多かったからな。
+
+@hidemessage;
+<soundstop time='2'>
+<sestop time='2'>
+@fo;
+@def;
+<soundstop>
+<sestop>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+d:
+@def;
+
+でだ。
+
+<sound src='7' volume='1' loop='true'>
+;;//ＳＥ・食事中の音
+
+@hidemessage;
+<charclear>
+<imgblk mask='rotate1' time='1'>
+<layercamera position='350 -40 50'>
+@bg bg02a;
+<char src='cla none def2' position='0 1860 420'>
+<char src='rus none ss' position='-350 1850 350'>
+<char src='bea jito segen' position='350 1860 360'>
+</imgblk>
+#ベアトリス (v_bat0007)まあ、事情はだいたい把握しました。誤解で先走ったことは謝罪しましょう
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0008)しかしですね。やはり私は、あなた方の関係を良しとすることが出来ません。到底許し難いです
+
+#ヴィルヘルム (v_vir0192)別にてめえから許可もらおうなんて、こっちはハナから思っちゃいねえよ
+
+#ヴィルヘルム (v_vir0193)お呼びじゃねえから、さっさと帰れ。そしてもう二度と来んな
+
+<char src='bea sumasi'>
+#ベアトリス (v_bat0009)は、笑わせないでください。他人の家を不法占拠している分際で、偉そうに家主気取りとはちゃんちゃらおかしい限りです
+
+#ヴィルヘルム (v_vir0194)ああぁん？
+
+<char src='bea akire'>
+#ベアトリス (v_bat0010)なんですか、私が間違ったことを言いましたか
+
+@hidemessage;
+<layercamera position='0 -20 30' time='1.2' accel='-1'>
+<wait time='1'>
+<char src='rus niko'>
+#ルサルカ (v_rsr0005)まあまあ、そんな尖ってないで二人とも。目の前でバチバチされたら、せっかくのご飯が不味くなっちゃうじゃない
+
+<char src='rus uwame'>
+#ルサルカ (v_rsr0006)ねえクラウディア。このザウアークラフトお代わりちょうだい。大盛りで
+
+<char src='cla metoji2 def2'>
+#クラウディア (v_kru0041)はい、いくらでも。お好きなだけ召しあがれ
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0011)…………
+
+#ヴィルヘルム (v_vir0195)…………
+
+<char src='bea utumuki'>
+#ベアトリス (v_bat0012)……あの、私もお代わり
+
+#ヴィルヘルム (v_vir0196)てめえのぶんはもうねえよ
+
+<char src='bea jito'>
+#ベアトリス (v_bat0013)だから、あなたにそんな権限はないんですー
+
+#ヴィルヘルム (v_vir0197)だとコラ
+
+<char src='rus akire'>
+#ルサルカ (v_rsr0007)もーう、ほんとに仲悪いわねあんた達。いい加減うんざりするって言ってるでしょー
+
+<char src='cla metoji'>
+#クラウディア (v_kru0042)そうですね。お行儀が悪いですよ二人とも
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0043)これ以上揉めるようだと、お皿を取り上げてしまいますが、どうします？
+
+#ヴィルヘルム (v_vir0198)ちッ
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0014)ふんっ
+
+なんてな。俺がクラウディアを囲ってる理由については、当然こいつらも知っていた。
+
+先の召集は、黒円卓最後の席である七位を決めるための祭りで、結果マキナが選ばれた後に雁首そろえたから、そこで全員にクラウディアのことを話したんだよ。
+
+<imgblk mask='mask2' time='0.7'>
+<layercamera position='-220 0 100'>
+<char src='rus niko'>
+</imgblk>
+
+それについて、マレウスは純粋な興味を覚えたらしい。何せ、質的に強力な魂を見繕うって発想を最初に掲げたのは俺だったからな。正確にはハイドリヒ卿が例外だが、そこらへんは後で話そう。
+
+とにかく、マレウスはクラウディアを観察している。こいつの性格上、場合によっては横から掻っ攫う気もあるんだろうが、そんなことを許す気はねえ。互いにある程度の牽制をしている状態だ。
+
+<imgblk mask='mask1' time='0.7'>
+<layercamera position='220 -30 80'>
+</imgblk>
+
+そしてもう一人のヴァルキュリアは……いや、あの頃は本名で呼んでたから、ここでもそう言っとこう。ベアトリスは……
+
+<char src='bea akire'>
+#ベアトリス (v_bat0015)なんですか
+
+#ヴィルヘルム (v_vir0199)なんでもねえよ
+
+なんとも笑っちまう話だが、義憤に燃えてやがったな。<rb "ヴァルキュリア">死神</rb>なんて皮肉られた癖しやがってよ。
+
+当時の奴は、まだ死神を冠するに至ってねえ。そう俺は判断したから、ベアトリスって呼んでたんだ。
+
+本人的には魔名で呼ばれたほうがムカつくだろうし、嫌がらせをしてもよかったんだが……
+
+#ヴィルヘルム (v_vir0200)腹減ってるからって俺に当たるな
+
+馬鹿が、ほとんど<rb "く">殺</rb>ってねえんだもんよ。器はスカスカで、もっと溜め込めるだろうにやってねえ。そんな奴を、さすがに死神とは呼べんだろう。
+
+<imgblk time='0.5'>
+<charclear>
+<layercamera position='0 0 -300'>
+@cg black;
+</imgblk>
+
+ちなみに、例の許容限界。この段階で俺より明確に上だと分かったのは、意味不明なメルクリウスを除外して三人いる。
+
+
+&cgfilter col dimgray 100;
+@cg 16_e ol 0.7;;
+<wait time='0.5'>
+
+まず、当たり前だがハイドリヒ卿。あの人は桁が外れてるからここで比較するのもおこがましいし、完全な別格だと思ってくれ。
+
+<imgblk mask='ol' time='0.7'>
+<layer parent='back' id='bg2' src='38_a' center='400 225' position='630 170 500.1' scale='4.2'>;
+@cg c_be004;
+</imgblk>
+
+残りはマキナとシュライバーだ。特に後者は腹立たしいが、そこはもうしょうがねえ。質で凌駕するしかない。
+
+<imgblk mask='ol' time='0.7'>
+<layerclear parent='back' id='bg2'>
+@cg 32_c ol 0.7;;
+</imgblk>
+
+あえて他も挙げるなら、いまいち読めないのはザミエルだったな。あいつも言ってみりゃあスカスカだったが、ベアトリスみたいに半端をやってたわけじゃねえ。
+
+もしかすると口に出さなかっただけで、俺と同じ方針だった可能性もある。
+
+ま、だからってあいつがクラウディアを欲しがることはなかったがよ。
+
+@hidemessage;
+&soundstop fo;
+<imgblk mask='center2' time='0.8'>
+@cg black;
+&cgfilter;
+</imgblk>
+<se src='1143'>
+<se src='1146'>
+<se src='2170'>
+<imgblk mask='giza2' time='0.7'>
+<layercamera position='300 100 100' rotate='0'>
+@bg bg02a;
+<char src='cla none def2' position='-20 1920 420'>
+<char src='rus none ss' position='-370 1950 350'>
+<char src='bea hukigen segen' position='350 1950 360'>
+</imgblk>
+<layercamera position='300 100 20' time='1'>
+<wait time='1'>
+#ベアトリス (v_bat0016)あのですね、私が怒ってるのはそんな低次元のことじゃありません
+
+<sound src='15' volume='1' loop='true'>
+<char src='bea sinken'>
+#ベアトリス (v_bat0017)あなたの身を案じているんですクラウディア。もっと自分を大事にしなさい
+
+@hidemessage;
+<layercamera position='0 100 20' time='1'>
+<wait time='1'>
+<char src='cla kusyou' position='0 1920 420'>
+<char src='rus kangae' position='-350 1950 350'>
+<wait time='0.3'>
+#ルサルカ (v_rsr0008)うーん、毎度毎度の展開ねえ
+
+#ヴィルヘルム (v_vir0201)おまえ、いつも同じこと言って飽きねえのかよ
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0018)飽きません。というか、そもそもそういう問題じゃありません
+
+呆れ返るマレウスに、面倒くせえとしか思わない俺。
+
+そして、微苦笑しているクラウディア。
+
+すでに何度も見ている光景だろうに、ベアトリスはアホな律儀を貫くんだ。
+
+おめでたい、と言ってもいいがな。
+
+<char src='rus niko'>
+<char src='bea sinken'>
+#ベアトリス (v_bat0019)分かっていますか、こいつはあなたを殺す気ですよ。そんな男と同棲だなんて、正気の沙汰じゃないでしょう
+
+#ベアトリス (v_bat0020)まして聖職者が自殺行為を……教義に反するし、女性としても駄目駄目です
+
+#クラウディア (v_kru0044)そうは言いますけど、困りましたね
+
+まったく困ってるように見えなかったのは、きっと俺だけじゃないだろう。
+
+こと、おめでたさに関してなら、クラウディアも相当な筋金入りだ。
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0045)私は彼に命を救われた身ですから、恩を返さないといけません。たとえ、死ぬことになったとしても
+
+<char src='cla niko'>
+#クラウディア (v_kru0046)命には命で報いる。そういうものじゃないでしょうか
+
+<char src='bea ikari'>
+#ベアトリス (v_bat0021)だから、絶対そんなのは偶然です。たまたまです。不可抗力です！　こいつが人助けをするなんて、地球が滅びても有り得ません！
+
+#ヴィルヘルム (v_vir0202)おいおい、ひでえ言われようだな
+
+<char src='rus sumasi'>
+#ルサルカ (v_rsr0009)いやでも、実際そうなんじゃない？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0047)それに彼は、約束をしてくれましたし
+
+<char src='cla metoji'>
+#クラウディア (v_kru0048)半分しかない私の片側を見つけてくれると
+
+<char src='bea utumuki'>
+#ベアトリス (v_bat0022)また、その話ですか……
+
+<char src='cla nikori'>
+#クラウディア (v_kru0049)はい、結局はその話です
+
+さすがのベアトリスも、嫌そうな顔で頬を歪めた。この話ではクラウディアを突き崩せないと理解しているんだろう。
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0023)そんなものは、ただの錯覚です。あなたは半分なんかじゃない
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0050)そう言ってくださるのは嬉しいですが、あなたの強さが証明しているんですよ、ベアトリスさん
+
+私は薄い。半分しかない。それが俺に、クラウディアの魂を得難いものだと確信させた一番の理由だった。
+
+こいつは俺と同じで夜に特化した奴だから、逆に言うと昼の世界を持ってない。
+
+つまり、<dot " 、">普通の半分しか世界がないんだ</dot>。
+
+
+<imgblk mask='mask4' time='1'>
+<layercamera position='-20 10 250'>
+@bg bg02a_b;
+<char src='cla metoji2'>
+<char src='rus noe'>
+</imgblk>
+<layercamera position='0 -50 250' time='30' accel='-1'>
+#クラウディア (v_kru0051)私には、あなた方がとても眩しく感じられます。熱くて、強くて、輝いて見えます
+
+#クラウディア (v_kru0052)それはきっと、私にない世界を持っているからなのでしょう。単純に考えても、倍は違う
+
+#クラウディア (v_kru0053)だからそんな風になりたいと思うし、そのためなら命も懸けます。半分のまま、何もせずに生きて死ぬよりはそうしたい
+
+#クラウディア (v_kru0054)憧れなんです。私は光の世界にどうしても触れたいんですよ
+
+そういうわけで、クラウディアは自分の持ってるすべてのものが人の半分以下だと思っている。
+
+卑下や自虐と言うよりは、外への憧憬からくる過大評価だ。日の光に祝福された常人どもは、<dot " 、">きっと素晴らしいに違いないと信じ込んでいるんだよ</dot>。
+
+しかし実際、ベアトリスが言った通りそんなもんは錯覚だ。喜怒哀楽一つとってもクラウディアが不足してるとは思えないし、周りの平均がそれを倍近く上回ってるなんてこともない。
+
+にも関わらず、こいつはそのことを頑として認めない。ああ、絶対に認めないだろうよ。光の恩恵が有っても無くても、実はたいした違いがないなんて。
+
+俺もまた認めちゃいねえ。闇の恩恵を得た己が、吸血鬼だと自負するように。
+
+だからこそ、<dot " 、">そそる</dot>のさ。
+
+<char src='rus uwame'>
+#ルサルカ (v_rsr0010)あんた、なかなかやるじゃない。意外に女を騙くらかすのが上手かったのね
+
+#ヴィルヘルム (v_vir0203)別に騙したつもりはねえが、見る目はあるだろ。そういうことだ
+
+自己を半分だと信じているクラウディア。ゆえに、欠けたものを得たと認識すれば劇的に化ける。
+
+言ってしまえば、こいつは自分の限界がまだまだこんなもんじゃないと思いたいんだ。
+
+かなり屈折しちゃいるが、そこは俺と似てるだろ？　相性が良く、化ける可能性を多分に秘め、挙句に恩義まで抱いてやがる。
+
+命は命で報いるのが筋？　なあおい、こんなお誂え向きの魂が他にあるかよ。笑っちまう話じゃねえか。
+
+<char src='cla sinken'>
+#ヴィルヘルム (v_vir0204)死にたいでも、死にたくないでも、ぶち殺してやるでも構わねえ。俺と一緒にいれば、いずれ必ずどれかを爆発させてやるよ。おまえの半分しかない心を、“人並に”膨れあがらせてやる
+
+#ヴィルヘルム (v_vir0205)光とやらが届く領域まで、導いてやろうじゃねえか
+
+そして、その瞬間に殺してやる。
+
+喰ってやる。吸い尽くしてやる。
+
+#ヴィルヘルム (v_vir0206)おまえは俺のもんだ、クラウディア。俺が拾った命なんだから俺に捧げろ
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0055)はい。あなたのことは信頼してます
+
+<char src='cla metoji'>
+#クラウディア (v_kru0056)怖い気持ちはありますが、これもまた半分ですから……
+
+#クラウディア (v_kru0057)生涯に人並の何かを得られるのなら、たとえ最後の瞬間でも構いません
+
+<imgblk mask='giza2' time='0.6'>
+<layercamera position='0 100 20'>
+@bg bg02a;
+<char src='rus niko'>
+<char src='bea utumuki'>
+</imgblk>
+
+#ベアトリス (v_bat0024)……ついていけない。おかしいですよ、誰も彼も
+
+ベアトリスは嘆いていたが、この時代におかしくない奴なんて世界にいたか？
+
+いやしねえよ。何処にも、一人も、欠片だってな。
+
+<char src='rus hukigen'>
+#ルサルカ (v_rsr0011)死の恐怖さえもが半分ね。ふーん、なるほど。そう思いたいわけだ
+
+ああ、そう思いたいんだから思わせればいい。それは可能性となり、やがて変革の呼び水となる。
+
+自分が認めさえしない限り、限界なんかねえんだよ。
+
+俺は勝利を信じていたし、今だって信じてるぜ。
+
+ずっと、ずっと、未来永劫かつ絶対にな。
+
+@hidemessage;
+@fo;
+@def;
+<soundstop>
+<sestop>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+e:
+@def;
+<layercamera position='-260 140 -150'>
+<layercamera position='255 -140 -150' time='60'>
+@cg sora ol 1.5;;
+<wait time='1.2'>
+<sound src='3' volume='1' loop='true'>
+
+そんな感じで、当時の俺たちは日々過ごしていた。
+
+意外に暇な生活をしてたんだなって？　正解だ。基本、どいつも好きにやってたよ。
+
+もちろん、単にぶらぶらしてない奴らもいたぜ。たとえばマキナは誰とも馴れ合わなかったし、自主か強制かは知らないが城から一切出てこなかった。
+
+クリストフもこの頃は見かけなくなってたし、バビロンやザミエルは何か書類仕事をやってたな。あの二人は軍組織の立場が相応にでかいから、俺らみたいにさっさとバックレるのが難しかったんだと思う。
+
+ああ、そうだよ。ここに至っての俺たちは、厳密なところ軍人じゃなかった。死んだとされてる奴は多かったし、他も客観的に見れば逃亡兵の扱いだろう。いわゆる社会的な肩書きってやつは消滅している。
+
+俺はもともと、軍に帰属意識なんてないからどうでもいいことだったがよ。
+
+それでも、自分はＳＳだと思ってたぜ。あくまで、ハイドリヒ卿の親衛隊。
+
+聖槍十三騎士団、黒円卓の第四位。俺にとって大事なのはその肩書きと、真祖であるという誇りだけ。
+
+だから俺を動かすのはハイドリヒ卿の命令と、俺が俺であるために必要なものを掴むときだ。
+
+その二つが降りる、あるいは訪れる機会を待った雌伏のとき。
+
+あれは、そういうある日のことだったな。
+
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+<layercamera position='-250 -30 0'>
+@bg bg03a;;※背景・闇市
+<char src='cla odoroki def' position='-250 1870 300'>
+</imgblk>
+
+#クラウディア (v_kru0058)しかし珍しいですね。あなたが私の買い物に付き合ってくれるなんて……いったいどういう風の吹き回しなんでしょう
+
+#ヴィルヘルム (v_vir0207)聞き分けのない馬鹿の御守りだ。まったく俺の本意じゃねえ
+
+言ったように、この頃はやるべきことがほぼなかった。マキナの参加で黒円卓が完成し、いよいよどでかい祭りが近づいてるのは感じていたが、そのためには色々準備も必要だろう。
+
+それが終わるまでの待機状態。何かトラブルが起きるか、俺に出来ることをハイドリヒ卿に求められるかしない限り、やることがないんだよ。
+
+お陰で暇を持て余していたのは事実だが、こんな暇潰しは御免被りたいと心から思ったぜ。
+
+@hidemessage;
+<imgblk mask='giza1' time='0.8'>
+<charclear src='cla'>
+<layercamera position='370 -180 0'>
+<char src='shu sumasi ss' position='350 1889 300'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0208)なあおいシュピーネ、わりと真剣に頼むんだけどよ。この手の買出しは今後おまえがやってくんねえか？　相応に礼はするぜ
+
+<char src='shu akire ss'>
+#シュピーネ (v_syp0001)確かに、中尉の仰りたいことは分かりますし、出来れば私もそうしてあげたいところですが……
+
+@hidemessage;
+<imgblk mask='giza1' time='0.8'>
+<char src='cla sumasi def'>
+<char src='shu sumasi'>
+<layercamera position='80 0 -200'>
+</imgblk>
+
+横を歩いていたシュピーネが苦笑しつつ、クラウディアに目を向け言った。
+
+<char src='shu niyari'>
+#シュピーネ (v_syp0002)残念ながら、美しい女性の頼みを無碍にしたくもありませんからねえ。ご容赦ください
+
+<char src='cla nikori'>
+#クラウディア (v_kru0059)まあ、シュピーネさんったら、お上手ですこと。うふふふ
+
+#シュピーネ (v_syp0003)はっはっは、いやいやこれは、まったくもってベイ中尉が羨ましい
+
+#ヴィルヘルム (v_vir0209)アホか。てめえらそろって死ね
+
+なんとも腹立たしく、やってらんねえ。
+
+買い物が大事だってのは、そりゃ分かるぜ。種々の日用品にしてもそうだが、何より食い物の問題がある。
+
+クラウディアはもちろんのこと、俺だって人間的な食事は必要なんだ。絶食しても早々弱りはしないだろうが、そのぶん魂の消費が激しくなる。
+
+それは無駄遣いでしかないんだから、よほどの特殊状況でもない限り当たり前にメシは食うさ。いずれクラウディアを取り込むため、器に相応の空きを作っておく必要はあったものの、さすがにこんな消費の仕方は馬鹿馬鹿しいにもほどがある。
+
+とはいえ、この状況もアホらしさでは大差ねえが。
+
+@hidemessage;
+<layercamera position='80 -90 -200' time='0.4' accel='1'>
+<wait time='0.3'>
+<imgblk mask='mask3' time='0.3'>
+<charclear>
+<layercamera position='0 50 -300'>
+@cg black;
+</imgblk>
+<layercamera position='0 0 -300' time='0.3' accel='1'>
+@cg sun mask3 0.4;
+<wait time='0.4'>
+
+#ヴィルヘルム (v_vir0210)俺が言いたいのはなァ、どうしてわざわざギラギラしたクソ太陽の下で買い物せにゃならんのかっつうことだよ。冗談じゃねえ！
+
+#クラウディア (v_kru0060)つらいですか？　日傘を差します？
+
+#ヴィルヘルム (v_vir0211)俺はてめえに言ってんだよ！
+
+叫ぶと頭がくらくらしたぜ。わざわざ見上げる気も起きねえが、空は天の誰かをぶち殺してやりたいほどの快晴で、比喩じゃなく全身が焦げやがる。
+
+常識外れの回復力と耐久力を得た俺だからこそ耐えているが、クラウディアには地獄の釜も同然だろう。事実、表情だけはにこにこしてるが汗の量からして尋常じゃねえ。
+
+@hidemessage;
+<imgblk time='1'>
+@bg bg03a;
+<layercamera position='0 -20 -200'>
+<char src='cla kusyou def' position='-250 1880 250'>
+<char src='shu sumasi ss' position='280 1900 280'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0212)そのままぽっくり逝かれちゃ敵わねえんだよ。だからこうして、やりたくもねえ無駄消費しながら馬鹿の御守りをやってんだろうが！
+
+<char src='shu niyari'>
+#シュピーネ (v_syp0004)いいですねえ。ベイ中尉は、まさにクラウディアの騎士であると
+
+#シュピーネ (v_syp0005)んんむ、なにやら私、感動を覚えてしまいます
+
+#ヴィルヘルム (v_vir0213)だから、あのなあ……
+
+<char src='cla utumuki'>
+#クラウディア (v_kru0061)ごめんなさい。あなたが怒るのはもっともですけど、こればっかりは譲れなくて……
+
+<char src='cla jito'>
+#クラウディア (v_kru0062)一番幸せな時間なんです。慣れてもいますから無理はしませんし、本当にきつくなったら言いますから、どうか
+
+茹であがった顔――と言えば照れてるみたいな表現だがそうじゃなく、マジに焼かれているクラウディアは瞳を潤ませつつ祈るように懇願してくる。
+
+本人にとっては悲壮で切実なのかもしれないが、俺からすればタチの悪いギャグだったぜ。証拠にまったく笑えねえ。
+
+<layercamera position='100 -30 -200' time='0.5'>
+<wait time='0.5'>
+<char src='cla sinken'>
+<char src='shu sumasi'>
+#ヴィルヘルム (v_vir0214)悪いがシュピーネ。店じゃあなるべく、ごたつかないようにやってくれ
+
+#ヴィルヘルム (v_vir0215)可能な限り迅速にな。おまえ、そのためにいんだからよ
+
+#シュピーネ (v_syp0006)了解しました。努力しましょう
+
+だから俺はクラウディアを<rb "シカト">無視</rb>して、シュピーネにそう言った。こいつはこういうときに使えるんだよ。
+
+ごく当然の話だが、戦時の市場が真っ当に機能しているはずもない。ほとんど闇市みたいなノリだったし、そういうところで満足な買い物をするには色々必要なものがある。
+
+コネ、身分、賢しらさ、がめつさ。どいつもボろうとしてくるんだから、脅したり<rb "すか">賺</rb>したりしながら交渉が出来なければならない。
+
+単に金や物々交換のネタを持ってるだけじゃあ駄目なんだよ。むしろ金しかない世間知らずが一番のカモだ。
+
+#ヴィルヘルム (v_vir0216)俺は欲しけりゃ強奪するクチだが、後々考えると面倒だ。そういうわけで上手いこと頼むぜ
+
+@hidemessage;
+<layercamera position='-30 -10 -200' time='0.6'>
+<wait time='0.6'>
+<char src='cla odoroki'>
+#クラウディア (v_kru0063)え、あの、どういうことです？　お買い物なら私だけでも出来ますけど
+
+<char src='shu niyari'>
+#シュピーネ (v_syp0007)クラウディア、あなたは今でも充分に魅力的な女性ですが、ベイ中尉の伴侶になるならもういくらか強かにならねばなりません
+
+#シュピーネ (v_syp0008)薔薇に棘があるように、女性も毒がなければ完全とは言えませんよ。己が魔性を意識し、かつ磨きなさい
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0064)魔性、ですか。言葉としてなら分かりますが
+
+#シュピーネ (v_syp0009)そうですねえ。たとえばマレウスやバビロンなどが中々いいお手本になるのではと
+
+#ヴィルヘルム (v_vir0217)おい、くだらねえこと言ってねえでさっさと行けよ
+
+#ヴィルヘルム (v_vir0218)あとクラウディア。おまえは今まで、買い物に出るたび巻き上げられたのを覚えてねえのか
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0065)それは、ですが仕方ないでしょう。こういうときは物価が高くなるものですし、お店の方も家族を養わなければならないのですから
+
+<char src='shu sumasi'>
+#シュピーネ (v_syp0010)そう、仕方ない。資本主義の摂理ですね。ゆえに彼らは、より多く儲けようと試みる
+
+<char src='shu akire'>
+#シュピーネ (v_syp0011)物価が上がれば上がったなりの適正価格があるというのに。それすら超えて値を釣り上げようとしてはいけません。自分だけが美味しい思いを出来ればよいと……やれやれ、まったく浅ましい行いです
+
+<char src='cla akire'>
+#クラウディア (v_kru0066)確かに、しかしそんなことが……
+
+<char src='shu sumasi'>
+#シュピーネ (v_syp0012)おや、ご存じない？　あなたは今まで、散々その手口に嵌ったというのに
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0067)え……？
+
+<char src='shu niyari'>
+#シュピーネ (v_syp0013)はっはっは。ゆえにここは、私の出番なのです。まあお任せください
+
+#シュピーネ (v_syp0014)これでも以前は、<rb "ゲットー">収容所</rb>の官吏をやっていましたからねえ。その立場はもう捨てましたが、当時の勘は鈍ってませんよ
+
+#シュピーネ (v_syp0015)小ずるい輩を締め上げるのは得意技です。ふふふふふ……
+
+#ヴィルヘルム (v_vir0219)そういうことだ。ここはあいつにやらせとけ
+
+ついでに言えば、俺たちに当座の金を工面してくれたのはシュピーネだ。ハイドリヒ卿にそんな頼み事は出来なかったし、メルクリウスにはもっとしたくねえ。
+
+だから頼れるのはこいつしかいなかった。この場にしても、適正どころかタダ同然に値切り倒して、今までのマイナスを取り返してこいと言っている。
+
+こういう世間的な知恵に一番長けてるのは奴だから、今でも結構な人数がシュピーネの世話になってるんだぜ。
+
+<char src='shu sumasi'>
+#シュピーネ (v_syp0016)では行って参ります。そういうことですから、お二人はそのへんを散歩でもしてきたらいかがです？
+
+#ヴィルヘルム (v_vir0220)あん？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0068)いいんですか？
+
+<char src='shu niyari'>
+#シュピーネ (v_syp0017)はい。役目を果たせば私などはお邪魔虫。必要な物は買い込んでおきますから、どうぞあなた方はご自由に
+
+<se src='1'>;;//ＳＥ・足音
+<imgblk mask='mask3' time='0.8'>
+<charclear>
+<layercamera position='0 0 -300'>
+@cg sun;
+</imgblk>
+
+#シュピーネ (v_syp0018)ああ、何せ良い天気ですからねえ
+
+<sestop time='2'>
+
+などと言いながら、俺にとってはクソでしかない陽気の中を歩き去っていくシュピーネだった。
+
+その背を見送り、溜息しか出てこねえ。
+
+<sestop>
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+<layercamera position='0 0 -150'>
+@bg bg03a;
+<char src='cla sumasi def' position='0 1880 200'>
+</imgblk>
+#ヴィルヘルム (v_vir0221)何がお散歩だ、ボケ。だったら俺はもう帰るぜ
+
+#ヴィルヘルム (v_vir0222)おら、行くぞクラウディア
+
+@hidemessage;
+<se src='06'>
+<layercamera position='200 0 -150' time='0.5' accel='1'>
+<wait time='0.4'>
+<layer parent='cutin' id='01' src='black2' mask-src='giza1' time='0.5' opacity='1'>
+<wait time='0.4'>
+<char src='cla odoroki'>
+と、踵を返そうとしたのだが。
+
+<layercamera position='0 0 -230'>
+<se src='2036'>;;//ＳＥ・袖を掴む音
+<layercamera position='0 0 -150' time='0.5' accel='-1'>
+<layerclear parent='cutin' id='01' mask-src='center1' time='0.3'>
+<wait time='0.5'>
+#クラウディア (v_kru0069)あの、ちょっと待ってくださいっ
+
+意外にも強い力で袖を掴まれ、思わず俺は仰け反ってしまう。
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0070)えっと、ですね。そういうことなら是非とも私、行きたいところがあるんですけど
+
+#ヴィルヘルム (v_vir0223)あのなぁ……
+
+<char src='cla kanasii'>
+#クラウディア (v_kru0071)分かってます。分かってるからお願いしてます。どうか、どうかっ
+
+<char src='cla jito' position='0 1900 150' time='0.2' accel='-1'>
+<wait time='0.2'>
+<se src='2036'>;;//ＳＥ・袖を掴む音
+@shake 5 0.2;;
+#クラウディア (v_kru0072)ああ、主のお慈悲をっ
+
+#ヴィルヘルム (v_vir0224)拝むな。祈るな。縋りつくな
+
+#ヴィルヘルム (v_vir0225)あと、誰が主だ
+
+本当に、いちいち抹香臭いが押しだけは強い奴。
+
+これ以上、用もないのに歩き回るなんて大概だが、こういう女であるからこそ、俺にとって役に立つのもまた事実だ。
+
+<layer parent='cutin' id='01' src='sun' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<wait time='0.5'>
+<char src='cla utumuki'>
+しかし、実際問題きついぜこりゃあ。この日差しはかなり洒落になってねえ。
+
+と思ったんだが。
+
+<layerclear parent='cutin' id='01' time='0.7'>
+<wait time='0.7'>
+#クラウディア (v_kru0073)やっぱり、あなた的には耐えられないほどつらいですか？
+
+<char src='cla sinken'>
+#クラウディア (v_kru0074)どうしても無理だと言うなら、私も諦めますけれど
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0075)やはり、あなたの健康が第一ですものね
+
+#ヴィルヘルム (v_vir0226)あぁん？
+
+それは、まるで、俺が、おまえより、弱いみたいな。
+
+#ヴィルヘルム (v_vir0227)言うに事欠いて、健康だぁコラ
+
+自殺志願すれすれ毎日みたいな奇特人種が、よくほざいたよ本当に。
+
+#ヴィルヘルム (v_vir0228)俺は平気に決まってんだろ、上等だ行ってやらァ！
+
+<char src='cla nikori2' position='0 1900 100'>
+#クラウディア (v_kru0076)まあ嬉しい。じゃあ行きましょう、こっちこっち！
+
+@hidemessage;
+<se src='2065'>
+<layercamera position='-200 0 -150' time='0.5' accel='1'>
+<wait time='0.4'>
+<layer parent='cutin' id='01' src='black2' mask-src='giza1' time='0.5' opacity='1'>
+<wait time='0.4'>
+#ヴィルヘルム (v_vir0229)ば、ちょ――引っ張んなオイ！
+
+@hidemessage;
+<imgblk mask='mask6' time='1'>
+<charclear>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300'>
+@cg sun;
+</imgblk>
+
+てよ。
+
+正直、なんか乗せられてるような気がせんでもなかった。
+
+@fo;
+@def;
+<sestop>
+<soundstop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+f:
+@def;
+<se src='1142'>;//ＳＥ：教会の扉を開ける音
+<wait time='0.3'>
+@bg bg04a center5 1.5;;※背景・大聖堂
+<char src='cla none def' position='20 1870 100'>
+<wait time='3.5'>
+<sound src='22' volume='1' loop='true'>
+<char src='cla niko def' position='0 1870 100'>
+
+#クラウディア (v_kru0077)うふふ、どうです。ほっとしました？　ここなら日は入りませんよ
+
+そして、クラウディアに連れて行かれたのは教会だった。よくよく考えりゃあ実に尼さんらしい選択だし、どんな地獄巡りをやらされるのかと構えていたから拍子抜けする。
+
+<sestop time='1'>
+
+#ヴィルヘルム (v_vir0230)ま、<rb "おれ">吸血鬼</rb>にとっちゃあ<rb "それ">地獄</rb>に近いのかもしれねえけどな
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0078)うん？　何か言いました？
+
+#ヴィルヘルム (v_vir0231)何でもねえよ。とにかく、おまえが来たかったのはここなんだな？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0079)はい。この町の聖堂は歴史もあって有名なんですよ。前に言いませんでしたっけ？
+
+#ヴィルヘルム (v_vir0232)記憶にねえなあ
+
+俺にとってはどうでもよすぎる話だから聞き流していたんだろう。それにクラウディアは少しだけ拗ねてみせる。
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0080)聖堂だけじゃなく、町全体が宗教都市として有名なんです。だから、あなたが私をここに連れてきてくれたのは嬉しかったし、お礼を言ったじゃないですか
+
+<char src='cla nikori'>
+#クラウディア (v_kru0081)そもそもこの町は千年以上前、カール大帝が神聖ローマ帝国を興したとされる由緒正しい土地でしてね
+
+#ヴィルヘルム (v_vir0233)ああ、うるせえうるせえ。俺は歴史のお勉強なんぞに興味ねえんだよ。一人で勝手に盛り上がるな
+
+ぶっきらぼうに言い放ちつつ、しかし俺はなるほどなと思っていた。
+
+いわゆる聖地というやつだからこそ、住人の民度も相応に高いはずだとクラウディアは信じていたんだろう。そのせいで無様にボられまくったと。
+
+まあ、単にこいつが間抜けなだけかもしれねえけどな。他人への過大評価が、服着て歩いてるような奴なんだし。
+
+<char src='cla sune'>
+#クラウディア (v_kru0082)もう、そうやってすぐ馬鹿にしますけど、過去を学ぶことで得られるものは多いんですよ
+
+#ヴィルヘルム (v_vir0234)へいへい、そうかよ。だがそのわりに、この有り難い場所はガラガラじゃねえか。人っ子一人いやしねえ
+
+<char src='cla akire'>
+#クラウディア (v_kru0083)むぅ、確かにそれはそうですね。今まではいつも多くの人で溢れていたから、私も中々入れなかったんですが
+
+言って、不思議そうに聖堂内を見回すクラウディア。人っ子一人いないというのは本当で、俺たち以外は完全な無人だ。
+
+#ヴィルヘルム (v_vir0235)神父が夜逃げでもしやがったのかね
+
+<char src='cla sinken'>
+#クラウディア (v_kru0084)そういうわけでもないのでしょうけど、私が所属していた教区じゃないし分かりませんね
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0085)しかし、事情はともかく、誰もいないのなら私がやるしかないでしょう。皆さんのぶんまで祈ります
+
+#ヴィルヘルム (v_vir0236)分かった分かった。勝手にしてくれ
+
+俺の嫌味もろくに通じず、逆にやる気を出しやがるから辟易した。
+
+<sestop>
+@hidemessage;
+<se src='1246'>
+<layer parent='cutin' id='01' src='005_bg1' center='762.5 270' position='212 -150' scale='1' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' position='212 -200' time='1'>
+<wait time='1.2'>
+<charclear>
+こうなりゃ好きにやらせとくほうが無難だなと思ったので、俺は適当な椅子に腰を下ろし、事が終わるのを待つことにする。
+
+クラウディアは十字架の前で跪き、無言で祈りとやらを捧げていたよ。
+
+@hidemessage;
+<layer parent='cutin' id='02' src='005_bg1_b' center='762.5 270' position='290 0' scale='0.47' opacity='0'>
+<layer parent='cutin' id='03' src='005_d' center='762.5 270' position='190 0' scale='0.47' opacity='0'>
+<se src='2023'>
+<layer parent='cutin' id='02' opacity='1' time='0.5'>
+<layer parent='cutin' id='03' opacity='1' time='0.5'>
+<layer parent='cutin' id='02' position='240 0' time='1'>
+<layer parent='cutin' id='03' position='240 0' time='1'>
+<wait time='1.2'>
+#クラウディア (v_kru0086)……あのですね
+
+だが、それもほんの僅か。たぶん十秒もしねえうちに沈黙は破られた。
+
+#クラウディア (v_kru0087)ヴィルヘルムは神の存在を信じていますか？
+
+<layer parent='cutin' id='02' src='005_bg1' time='0.5'>
+#ヴィルヘルム (v_vir0237)はぁん？
+
+しかも、そんな益体もないこと。訊く相手を盛大に間違ってるとしか思えない。
+
+#ヴィルヘルム (v_vir0238)藪から棒に、なんだそりゃあ。信じてるわけがねえだろう
+
+#クラウディア (v_kru0088)ですか。ならばそれは、いったいどうして？
+
+#ヴィルヘルム (v_vir0239)簡単なことだ。そんなもんがもしもいるなら、戦争なんか起きるはずねえ。俺みたいなもんが生まれるはずねえ
+
+#ヴィルヘルム (v_vir0240)てめえらの言う神って奴は、愛とやらに溢れてるんだろう。すべてを創り、導く全能の主なんだろう
+
+#ヴィルヘルム (v_vir0241)だったらなんで、世界はこんなことになっている？　理屈がまったく通らないぜ。餓鬼でも分かる矛盾点だ
+
+#クラウディア (v_kru0089)なるほど。よく聞く類の主張ですね
+
+だけどこいつは、優しくあやすような態度を取るので癪に障った。こっちはもともと、他人から偉そうにされるのが嫌いだしよ。
+
+#ヴィルヘルム (v_vir0242)てめえ、何が言いたいんだ
+
+#クラウディア (v_kru0090)いえ……ただ、神とはそういうものですよ。聖書の中でも、かなりの人々を死なせています
+
+#クラウディア (v_kru0091)つまりこんなことになっているのが、神の創り給うた世界なのです
+
+#ヴィルヘルム (v_vir0243)はッ、だったらただのクソ野郎じゃねえか
+
+サドで、屑で、サイコなイカレてる変態だ。俺が言う筋でもガラでもないのは承知してるが、所業と信徒のイメージが乖離しているのは確かだろう。
+
+ゆえにおまえら狂ってる。そう言ってやったんだがよ。
+
+#クラウディア (v_kru0092)人を死なせることがクソ野郎、ですか。だったらあなたの奉ずるラインハルト・ハイドリヒ様はどうなのでしょう
+
+#クラウディア (v_kru0093)まだお会いしていませんから、実際のところは分かりません。だけどあなた方のお話を聞く限り、彼も<dot " 、">そういうものではないのですか</dot>？
+
+#クラウディア (v_kru0094)すべてを愛し、ゆえに壊す。あなたが言うところの、実に堂々たるクソ野郎ですね
+
+<se src='1143'>;;//ＳＥ・立ち上がりかける音
+<layer parent='cutin' id='02' src='005_bg2' time='0.5'>
+#ヴィルヘルム (v_vir0244)てめえ……！
+
+キレかけ、同時に腰を上げかけ――だが一番激怒したのは、咄嗟に反論できない自分自身にだと気がついた。
+
+<sestop>
+
+クラウディアはそんな俺を制すように、すみませんと言って首を振る。
+
+#クラウディア (v_kru0095)意地の悪い言い方になりましたが、あなた方に文句をつけたいわけではありません。その目的も、具体的には知りませんし
+
+#クラウディア (v_kru0096)だけど、目指しているものは漠然と理解できます。それは私も、他の人々もきっと同じ
+
+<layer parent='cutin' id='04' src='025_bg' center='1303 1694' position='530 00' scale='0.5' opacity='0'>
+<layer parent='cutin' id='04' opacity='1' time='0.5'>
+<layer parent='cutin' id='04' position='530 550' time='20'>
+<wait time='0.5'>
+#クラウディア (v_kru0097)善き処に行きたい。そうなのでしょう？
+
+善き処。ヴァルハラ、天国、祝福、幸せ……
+
+俺たちの魂は、皆そこへ辿り着くことを願っている。
+
+個人ごと、それぞれの価値観によって形に違いがあろうとも、概念としては同じであるとクラウディアは言っていた。
+
+#クラウディア (v_kru0098)その場所で、我々を待っていてくださるのが父なる神
+
+#クラウディア (v_kru0099)私はそう思っています。そして、だからこそ我々は、そこへ至れるように道を選び、歩まねばならない
+
+#クラウディア (v_kru0100)あなたがラインハルト・ハイドリヒ様を敬するように、私も私の<rb "かみ">光</rb>を敬い歩むのです
+
+@hidemessage;
+<imgblk mask='mask4' time='0.7'>
+<layerclear parent='cutin' id='04'>
+<layer parent='cutin' id='03' src='005_e'>
+</imgblk>
+#クラウディア (v_kru0101)ですから――
+
+そこで一旦言葉を区切り、背中しか見えないが笑っているのが分かる調子で、こいつは話に結びをつけた。
+
+#クラウディア (v_kru0102)もう少し、あなたは信心深くならないといけませんよ
+
+#ヴィルヘルム (v_vir0245)ちッ……
+
+結局、やりたかったのは説法かよ。言われなくても俺はハイドリヒ卿を信じているし、その点については並の宗教家なんぞ目じゃねえと自負している。
+
+#ヴィルヘルム (v_vir0246)てめえ、今は皆々様のために祈るんじゃなかったのかよ。あっさり個人的なもんにすり替えやがって、いい面の皮だぜ
+
+#ヴィルヘルム (v_vir0247)挙句に神様の前でぺらぺらとよ。あんまりよく知らねえが、そういうのは不敬なんじゃねえのかい？
+
+#クラウディア (v_kru0103)まあ、言われてみればそうですね。だけど、あなたのためだけに説いたことではありませんよ
+
+#クラウディア (v_kru0104)上手く説明できませんが、ここでは言葉に出して喋ったほうが天に通じやすいように感じたので
+
+#ヴィルヘルム (v_vir0248)は、なんだそりゃあ。意味分かんねえんだよ、バーカ
+
+と、小馬鹿にしてやったときだった。
+
+<soundstop>
+<imgblk mask='center1' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 50' rotate='20'>
+@bg black;
+<char src='mer niyari_b morugen' position='0 1990 200'>
+</imgblk>
+
+#メルクリウス (v_mrk0001)いやいや、そう侮ってはいけない。事実私としても、非常に興味深い話だったと感じている
+
+#メルクリウス (v_mrk0002)なるほど、君がクラウディア。ベイの言っていた少女なのだね
+
+@hidemessage;
+<se src='1193'>;;ＳＥ・勢いよく振り返る音
+<imgblk mask='giza1' time='0.5'>
+<charclear>
+<layercamera position='0 0 -300' rotate='0'>
+@bg black;
+<layer parent='cutin' id='02' src='noise' center='480 284' position='620 295' scale='1.3' opacity='0'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0249)――ッ、てめえ！
+
+瞬間、俺は弾かれたように振り返る。
+
+
+@hidemessage;
+<sound src='08' volume='1' loop='true'>
+<se src='1138'>
+<layer parent='cutin' id='02' opacity='0.5' time='1'>
+<imgblk mask='mask1' time='0.6'>
+<layercamera position='150 -10 -150'>
+@bg bg04a;
+<char src='mer niyari morugen' position='200 1920 300'>
+</imgblk>
+<layer parent='cutin' id='02' opacity='0.5' time='1'>
+そこには、揺らめく水銀の影法師が立っていた。
+
+<sestop>
+@hidemessage;
+<layercamera position='-80 -10 -150' time='1.1' accel='-1'>
+<wait time='1.1'>
+<layer parent='cutin' id='cla' char-src='cla awate def' center='1350 1450' position='220 1180' scale='1.7' opacity='0'>
+<layer parent='cutin' id='cla' position='250 1180' opacity='1' time='0.5'>
+<wait time='0.5'>
+#クラウディア (v_kru0105)あなたは……
+
+同じく振り向き、呆然とした呟きを漏らすクラウディア。ああ、無理もねえし気持ちは分かる。俺とてまったく慣れねえんだからよ。
+
+<se src='1195'>
+<se src='1198a'>
+<imgblk mask='mask4' time='1'>
+<layer parent='cutin' id='02' src='mv_tunnel2' pos='310 180' center='480 272' scale='0.7' opacity='0.7'>
+<layerclear parent='cutin' id='cla'>
+<charclear src='cla'>
+<layercamera position='200 150 80' rotate='15'>
+</imgblk>
+<layercamera position='200 -140 80' time='30' accel='-1'>
+
+<dot " 、">こいつは見えない</dot>。意味が分からねえんだよ、輪郭さえもが水銀のごとく定まらねえ。こうして目の前に存在してるが、刹那も待たずに容姿を認識できなくなる。
+
+まるで巨大すぎるから、衆愚ごときにゃ全容が掴めないとでも言うように。
+
+蟻を見下ろす死に掛けの化け物。それがこいつだ。
+
+黒円卓の副首領――カール・クラフト＝メルクリウス。
+
+
+<char src='mer niyari'>
+#ヴィルヘルム (v_vir0250)いったい、何しに来やがった
+
+<char src='mer metoji'>
+#メルクリウス (v_mrk0003)これはまた、ご挨拶だな。おまえが退屈しているだろうと、私は良い話を持って来たつもりなのだが
+
+#ヴィルヘルム (v_vir0251)何だと……？
+
+つまり、要は召集か。いきなり脈絡もなく現れやがったので驚いたが、実のところそう珍しいもんでもねえ。
+
+そこまでたいした頻度じゃないが、こいつの神出鬼没ぶりは定番だ。何処からともなくふらっと現れ、ムカつくことを言って去りやがる。
+
+俺の考えを察したのか、メルクリウスはくくっと笑って――あくまでそう感じるだけだが――頷いた。
+
+<char src='mer niyari'>
+#メルクリウス (v_mrk0004)そう、今夜だ。他の者らも呼んでいる
+
+<char src='mer niko'>
+#メルクリウス (v_mrk0005)ああ、それからそちらのお嬢さん。君も彼と一緒に来るがいい。私は心から歓迎するよ
+
+#クラウディア (v_kru0106)え……ですが、それは
+
+#ヴィルヘルム (v_vir0252)おいてめえ、何を勝手なこと言ってやがる
+
+形容不明な、たとえようもなく嫌な予感がそのときした。ほぼ反射で、俺はクラウディアを隠すように立ち塞がる。
+
+#ヴィルヘルム (v_vir0253)こいつは城に連れてかねえよ。そもそも関係ねえだろうがッ
+
+<char src='mer niyari'>
+#メルクリウス (v_mrk0006)ほぉ、関係ない。関係ない？
+
+<char src='mer metoji'>
+#メルクリウス (v_mrk0007)関係ないかどうかを決めるのはおまえではない。無論彼女でも、私でも
+
+<char src='mer niyari'>
+#メルクリウス (v_mrk0008)黄金がお召しだ、ベイ。この事実を前に、否も応もあるまいよ
+
+#ヴィルヘルム (v_vir0254)……ッ
+
+それは本当のことなのか？　数瞬迷ったが、答えは出ない。
+
+ただ、こうなったからには突っぱねることなど出来ないと分かっていた。
+
+<char src='mer niko'>
+#メルクリウス (v_mrk0009)結構、結構。おまえもだいぶ物分りがよくなったようで、非常に助かる
+
+<char src='mer niyari'>
+#メルクリウス (v_mrk0010)それではまた。待っているよ、カズィクル・ベイとその姫君よ
+
+<sestop>
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+<charclear src='mer'>
+<layercamera position='200 -10 -100' rotate='0'>
+<layerclear parent='cutin' id=''>
+</imgblk>
+そうして、ゆらゆらと奇怪な影を纏いながらメルクリウスは去っていった。
+
+残された俺たちは、いいや俺は苛立ちに歯噛みする。
+
+#ヴィルヘルム (v_vir0255)クソが、うぜえ状況作りやがって
+
+クラウディアのこともそうだが、それとは別にどうしても腹の立つことがあるんだよ。
+
+<imgblk mask='center2' time='0.7'>
+<layer parent='cutin' id='01' src='032_a' center='762.5 270' position='1020 70' scale='1.4' opacity='0'>
+<layer parent='cutin' id='02' src='mv_film' center='480 284' position='480 295' scale='1.01' opacity='0.01'>
+&cgfilter col dimgray 100;
+@cg black;
+</imgblk>
+#ヴィルヘルム (v_vir0256)カズィクル・ベイだと？
+
+@hidemessage;
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='02' src='mv_film' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' position='1020 370' time='1'>
+<wait time='1.2'>
+俺の魔名。そして名付けたのはメルクリウス。
+
+吸血鬼の王を意味するそれは気に入ってる。何よりも相応しく、これしかないと思ってもいる。
+
+だが、その名をあいつに呼ばれるのだけは心の底から許せなかった。言い難い、おぞましいほどの拒否感があった。
+
+名付けの際に言われたことが、脳をぐちゃぐちゃに掻き回すんだよ。
+
+<imgblk mask='mask4' time='0.7'>
+<layerclear parent='cutin' id=''>
+@cg bg04a;
+&cgfilter;
+<char src='cla none def' position='90 1940 100'>
+</imgblk>
+#ヴィルヘルム (v_vir0257)違う。俺は、何も奪われてねえ
+
+#ヴィルヘルム (v_vir0258)逆なんだよ、奪う者だ……！
+
+<char src='cla sinken def' position='100 1940 100'>
+<wait time='0.4'>
+#クラウディア (v_kru0107)ヴィルヘルム……
+
+見上げてくるクラウディアには意味不明な癇癪だろうが、俺だって分かりたくねえ。
+
+認められないし許せない。これはそういう呪いなんだ。
+
+@fo;
+@def;
+<wait time='2'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+g:
+<sound src='20' volume='1' loop='true'>
+<layer parent='cutin' id='01' src='castle' center='600 320' position='630 450' scale='2' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='01' position='1100 350' time='60'>
+城の名はヴェヴェルスブルグ。
+
+ＳＳ長官、ヒムラーの野郎が購入した古城で、もとはお偉いさんたちが趣味で使ってるチンケなオカルトクラブの社交場だったらしい。
+
+ゆえにもちろん、俺たちはそんなもんに加わってねえ。だがハイドリヒ卿とメルクリウスは例外で、当時からいたんだよ。
+
+そして、完全に乗っ取った。本物の神秘と本物の魔道。ファッションじゃねえ真なる超常を体現し、黒円卓を創りあげた。
+
+それがどういうことだが分かるかい？　もはやこのとき、城は<rb "うつつ">普通</rb>のもんじゃなくなってたっつう意味だよ。
+
+俺がパーダーボルンに居たのは、かつてのヴェヴェルスブルグが近所にあったからなんだが、実際のところ関係ねえ。
+
+世界法則から切り離された空間は距離と座標の概念を破壊する。つまり資格のない奴は百年頑張っても入るどころか近づくことさえ出来ねえし、逆に招かれれば世界中の何処からだろうと入れるんだ。
+
+実際に試した奴はいないがよ、まず間違いないことだと俺は思うぜ。そう確信できるほど、あれは度外れた代物だった。
+
+なぜなら、前にも言っただろ。この現実に別の世界を創りあげるということが、何を意味しているのかな。
+
+そうだよ、城はハイドリヒ卿の創造だった。そしてこれも前に言ったが、創造を維持できる時間は長くねえ。
+
+外への干渉規模が少ない求道型でも、せいぜい数時間が限度だろう。覇道型に至っては、数分から数十分。燃費が良いと言った薔薇の夜にしたところで、この枠から大きく外れているわけじゃない。
+
+それほどまでに創造の維持は難しいんだ。一個人による渇望で世界なんてものを捻じ曲げるのが、どれだけ難儀なことかは分かるだろ？
+
+ゆえにハイドリヒ卿の城は格が違った。紛れもない覇道の創造でありながら、この時点で二ヶ月近く存在していたんだよ。しかも、一向に薄れる兆候が見えやしねえ。
+
+それが具体的に何を意味しているかは当時まだ分からなかったが、俺たちの中であの人が絶大なものだったという事実の説明には充分だろう。
+
+カリスマってのはああいうもんで、一度浴びたらどういう形であれ染められちまう。何があっても影響下からは逃げられねえ。
+
+&soundstop fo;
+@hidemessage;
+<imgblk mask='center2' time='1'>
+<layerclear parent='cutin' id=''>
+@cg black;
+</imgblk>
+<wait time='1'>
+そう思ってたし、信じてた。ああ、だからこそ――
+
+@hidemessage;
+<sound src='19' volume='1' fade-time='2' loop='true'>
+<layer parent='cutin' id='01' src='16_e' center='762.5 270' position='1412 300' scale='2' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' position='1212 500' time='4'>
+<wait time='4.5'>
+#ヴィルヘルム (v_vir0259)は……そんな、嘘でしょう？
+
+あの日、城で聞かされたことに俺は心底驚愕したよ。ほぼ呆気に取られたと言っていい。
+
+玉座にあるハイドリヒ卿は変わらず破格の存在で、その威光を前にしているからこそ理解できない。
+
+それは召集された他の連中も、まったく同じ気持ちだったことだろう。
+
+#ヴィルヘルム (v_vir0260)クリストフが、消えちまった……？
+
+#ラインハルト (v_rin0001)然り。残念ながら真実だよ中尉。ヴァレリアン・トリファ神父は逐電した
+
+#ベアトリス (v_bat0025)…………
+
+#ルサルカ (v_rsr0012)あの馬鹿、いったい何考えてんのよ
+
+当たり前だが、同志の裏切りに傷ついたなんて感性は俺たちにない。太陽が西から昇ったのを見たような、有り得ない出来事に当惑していただけだ。
+
+ハイドリヒ卿に背を向けるという事実の重さは何度も言った通りだが、他にも信じられない要素はあったからな。
+
+#ベアトリス (v_bat0026)しかし先の仰りよう、もしや彼の行方は、まだ誰にも掴めていない？
+
+#ラインハルト (v_rin0002)重ねて、然りだ。まったく不徳のいたすところだな
+
+#ヴィルヘルム (v_vir0261)馬鹿な……！
+
+百歩譲って、逃げただけならまだ分かる。だが、たとえ一時的でも逃げおおせたということのほうが驚きだった。ハイドリヒ卿がそれを許してしまうなど、俺にとっては天地が引っ繰り返ったにも相当する。
+
+しかし玉座の黄金は自嘲の笑みを浮かべるばかりで、「してやられた」とでも言うかのようだ。これはどういう悪夢だと皆が思ったし、場に細波めいた動揺が広がっていく。
+
+#ラインハルト (v_rin0003)卿ら、私を何だと思っている？　別に全知全能などではないのだぞ
+
+#ラインハルト (v_rin0004)見えぬことはあるし、違えることも当然ある。忠とは盲目的になることではあるまい
+
+#ラインハルト (v_rin0005)あの神父は、かつて私の肉体と同調した聖餐杯の資格者だ。すなわち、私に化けられる者だと言っていい
+
+#ラインハルト (v_rin0006)少なくとも、その実績を持っている。ゆえに見逃してしまったのだよ。自分のことほど分からぬものだと、昔からよく言うだろう。あれはどうやら真理だな
+
+#エレオノーレ (v_ero0001)つまり――
+
+そこで口を開いたのはザミエルだった。この出来事に一番思うところがあるだろう奴なんだが、声からまったく感情は窺えない。
+
+#エレオノーレ (v_ero0002)彼はそれを見切ったうえで利用したと？
+
+#ラインハルト (v_rin0007)いいや、おそらく無自覚だろうよ。自分のことが分かっておらぬのはあちらも同じだ
+
+#エレオノーレ (v_ero0003)ではこの後、クリストフの行き先を突き止めるのは……
+
+#ラインハルト (v_rin0008)ああ、容易だ。その気になれば匂いで分かる
+
+匂い。つまりそういうことなのだろう。
+
+@hidemessage;
+<imgblk mask='test05' time='1'>
+<layerclear parent='cutin' id=''>
+&cgfilter col darkslateblue 100;
+&charfilter col darkslateblue 25;
+<layercamera position='280 200 -400'>
+@bg 118_bg2_b;
+<layer parent='cutin' id='02' src='004_i' center='762.5 270' position='-1300 -1300' scale='1.2' opacity='0' rotate='20'>
+<layer parent='cutin' id='mv' src='mv_ahen' opacity='0.15' scale='1.1'>
+</imgblk>
+<layer parent='cutin' id='02' opacity='1' time='0.5'>
+<layer parent='cutin' id='02' position='-1300 -1000' time='15'>
+クリストフは、かつてハイドリヒ卿が暗殺されたという体裁を取ったとき、その肉体に同調した経歴がある。だから意識無意識に関わらず、あいつからは黄金と同じ匂いがしているんだ。
+
+俺にはまったくそんなもの嗅ぎ取れねえが、当のハイドリヒ卿が言う以上はそうなのだろうし理屈としても筋は通る。
+
+実際、狩人の世界なんかじゃ常識的なことだろう。獲物に警戒されないため、同じ匂いを全身に塗りたくって行動する。そして生じる隙を衝く。
+
+ハイドリヒ卿がクリストフの出奔を見逃してしまったのはそういうことで、個人的感情を抜きにすれば神父の手並みを讃えてもいい。だが、それが無自覚だったと言うなら今じゃ完全な逆効果だ。
+
+あいつはハイドリヒ卿の匂いを撒き散らしながら潜伏していることに気付いていない。こうなれば、逆に見つけてくれと言っているようなものだろう。
+
+そう思って、俺は事態のあっけない収束を予感していたんだが……
+
+<imgblk mask='giza2' time='0.7'>
+<layerclear parent='cutin' id=''>
+@camera;
+&cgfilter;
+&charfilter;
+@cg 16_e;
+</imgblk>
+#ラインハルト (v_rin0009)とはいえ、追わん。しばらく好きにさせてやるし、卿らもそう了解しろ
+
+#ベアトリス (v_bat0027)は、え……？
+
+#エレオノーレ (v_ero0004)彼をこのまま見逃すと？
+
+#ラインハルト (v_rin0010)そう、しばらくはな
+
+てっきり即時の追跡命令が下ると思っていた俺たちは、予想外の展開に唖然とした。どいつもすでに軍籍を剥奪された身の上だが、それでも戦時の逃亡が死に値する罪なのは知っている。
+
+クリストフは死ななければならない。これは示しで、絶対の規律だ。温情など掛けていい次元ではないし、そもそもハイドリヒ卿はそんな人じゃねえ。
+
+#ラインハルト (v_rin0011)言ったであろう。あの神父もまた、自分のことを分かっておらぬと
+
+#ラインハルト (v_rin0012)それを気付かせるための時間が必要なのだよ。心配せずとも、そう長くは掛からん
+
+#ラインハルト (v_rin0013)じきに、すぐにだ。彼の処遇はそのときに……ゆえ卿らは、それまで余計な真似をせぬように
+
+#ラインハルト (v_rin0014)神父の渇望が熟れて落ちる瞬間を待つ。よいな
+
+<se src='1227'>
+;#エレオノーレ (v_ero0005)――はッ
+;#ベアトリス (v_bat0028)――はッ
+;#ルサルカ (v_rsr0013)――はッ
+;#ヴィルヘルム (v_vir0262)――はッ
+(v_mix0001)「――はッ」
+;※同時ボイス
+
+不可解だったが、そう言われたからには否応もない。俺たちはそろって頷き、当面クリストフを追うなという命に従った。
+
+神父の渇望が熟れるまで、勝手なことをする奴が出ないよう釘を刺す。ハイドリヒ卿の真意はともかく、それが今回の召集における趣旨なのだろうと考えた。
+
+しかし――
+
+<se src='1193'>
+<imgblk mask='giza2' time='0.5'>
+<layercamera position='0 -100 350' rotate='12'>
+<layer parent='cutin' id='01' src='019_e' center='762.5 270' position='600 -280' scale='1' opacity='1' rotate='12'>
+@bg bg11a;
+</imgblk>
+<layercamera position='0 -200 350' rotate='12' time='1.5'>
+<layer parent='cutin' id='01' position='600 -180' time='1.5'>
+#メルクリウス (v_mrk0011)まあ、解せぬ者も多かろうが、いま黄金閣下は一度たりともクリストフという名を使わなかった。その事実を、各々吟味すればよい
+
+#メルクリウス (v_mrk0012)前置きはここまで。本日、諸君らを召した理由は別にある
+
+それまで黙ったまま薄ら笑っていたメルクリウスが、ハイドリヒ卿の横に立ってそんなことを言い出した。俺たちは一斉に顔をあげる。
+
+それはもちろん、こいつの言うことなんぞ碌なモンじゃねえという経験からくる警戒だった。
+
+本題はクリストフ云々じゃないと言うなら、いったい何があるんだと。
+
+#メルクリウス (v_mrk0013)諸君らは、カチンの森を知っているかな？
+
+#ヴィルヘルム (v_vir0263)カチン……？
+
+#メルクリウス (v_mrk0014)左様、それぞれの戦場でも噂になっていたことだと思うが
+
+生憎、まったく覚えがない。だが他の奴らは違ったようで、一応の頷きを返している。しかも嫌そうな顔をしてるのが一人や二人じゃなかった。
+
+
+#ベアトリス (v_bat0029)例の虐殺事件ですね。ポーランド人の捕虜たちが、帰国の途中で何万人も行方を絶ったという
+
+#ルサルカ (v_rsr0014)そしてカチンの森から死体がざくざく。なんか<rb "わたしたち">ドイツ</rb>の側がやったことになってるんでしょ、あれ
+
+#ルサルカ (v_rsr0015)別に虐殺自体はどうでもいいけど、身に覚えのないことで文句言われるのは気に食わないわね。いやまあ実際、こっちがやったのかもしれないけれど
+
+#ベアトリス (v_bat0030)状況的には、ソ連の仕業としか思えないと聞きましたが
+
+#メルクリウス (v_mrk0015)その通り。しかし、あちらも易々と認めはしない。戦時に馬鹿馬鹿しい話だが、人道上の建前というものがあるのでね
+
+#メルクリウス (v_mrk0016)誰しも己の側に大義があるという理屈を通したがる。ゆえにゲッベルス卿がプロパガンダをしているのだが、ここ数年はどちらがやったやらぬの水掛け論だな
+
+#メルクリウス (v_mrk0017)私としても事の真相が気に掛かってはいるものの、この場に限って言えば関係ない。問題は別にある
+
+つまり、それをどうにかしろということか。話の流れを理解した俺たちに、メルクリウスは短く告げた。
+
+#メルクリウス (v_mrk0018)カチンの森で怪異が続発しているとのことだ。これを駆逐してもらおう
+
+#メルクリウス (v_mrk0019)なぜ、とはもはや言うまい？
+
+問いに、俺たちは無言の肯定を返していた。この手の命を受けることは初めてじゃない。
+
+<imgblk mask='mask4' time='0.7'>
+<layerclear parent='cutin' id=''>
+<layercamera position='70 -40 -250' rotate='0'>
+@cg 006_a;
+</imgblk>
+#ラインハルト (v_rin0015)消え行く神秘の断末魔だ。カール曰く、前座の締め括りとしては申し分ないらしい
+
+#ラインハルト (v_rin0016)我々が成すべきことを成すために、排除すべきものを排除せよ
+
+<se src='1181'>
+<rb "ヤヴォール">了解</rb>――そろって全員が頷いた。そうだよ、これは必要なことで、大まか二つの意味がある。
+
+訓練と予防攻撃。神秘とやらの領域に足を踏み入れている俺たちは、同種と戦うことで己の力に理解と進化を促せる。
+
+そしてそれは、近く始まるであろう本番を前に邪魔な奴らを消すという意味にも繋がるんだ。なぜなら俺たちを止められる者がいるとすれば、同じく神秘の領域にある存在。
+
+障害になるかもしれない輩をあらかじめ潰しておく。大事の前には当然であり、異を差し挟む余地はない。
+
+ではさて、誰が行くかなんだが……
+
+<layer parent='cutin' id='01' src='006_a' center='400 225' position='100 300' scale='2.5' opacity='0'>
+<layer parent='cutin' id='01' position='100 400' time='1.2' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='1.2'>
+
+#ラインハルト (v_rin0017)バビロン、卿だ。誂え向きであろう。期待している
+
+#リザ (v_riz0001)はい、承りました。必ずや
+
+やはりか、妥当な人選だと俺は思った。怪異の正体は聞いてないし不明だが、現場が死体だらけの森だというなら適任は自ずとそうなる。
+
+が、頭で分かっちゃいても感情の面は別だった。これが前座の締め括りなら尚のこと、待ってるだけじゃあつまらねえ。
+
+そもそも、わざわざ召集かけて雁首そろえた事実がある以上、全員とは言わないまでも何人か投入する気があったんじゃないのか？
+
+<imgblk mask='giza2' time='0.7'>
+<layerclear parent='cutin' id='01'>
+@cg 006_a;
+</imgblk>
+#メルクリウス (v_mrk0020)ふふ、ふふふふ……
+
+そう期待しつつ顔をあげた俺に向け、メルクリウスは笑っていた。あの全容が知れない、胸糞の悪くなる佇まいで。
+
+#メルクリウス (v_mrk0021)暇でしょうがないかな、ベイ
+
+#メルクリウス (v_mrk0022)ならば結構。おまえもカチンへ行くがよい。命じられたのは先の通りバビロンゆえ、同行するなら彼女の指揮下に入ってもらうが
+
+#メルクリウス (v_mrk0023)他の者らも、行きたければ志願せよ。バビロンが許す限りこれを認める
+
+#メルクリウス (v_mrk0024)我々こそが最後、かつ最強の神秘であると自負し、その気概を黄金に示したいと言うなら止めはせぬ
+
+#メルクリウス (v_mrk0025)ということで、よろしいかな？
+
+#ラインハルト (v_rin0018)ああ、構わん。最後の腕試しだ、存分にやるがいい
+
+#ラインハルト (v_rin0019)特にベイ、卿にとっては意味あるものとなるだろうよ
+
+<se src='104'>
+#ヴィルヘルム (v_vir0264)はッ――
+
+応え、武者震いが身を走った。正直このとき、クラウディアを不本意ながら城に連れて来たことや、その意図なんかは綺麗さっぱり忘れちまったよ。
+
+ハイドリヒ卿の求めに応じて牙を揮う。それが俺にとって、今も変わらず最大の名誉であり生きる目的なんだからな。
+
+
+
+g2:
+
+&soundstop fo;
+@hidemessage;
+<imgblk mask='center2' time='1'>
+@bg black;
+</imgblk>
+<wait time='2.5'>
+#ヴィルヘルム (v_vir0265)で、おまえはカチンに行かねえのかよ？
+
+@hidemessage;
+<sound src='17' volume='1' loop='true'>
+<imgblk mask='giza2' time='0.8'>
+<layercamera position='0 -130 50' rotate='20'>
+@bg bg10a;
+<layer parent='cutin' id='01' src='32_c_t' center='762.5 270' position='1112 300' scale='1.5' opacity='1' rotate='-10'>
+</imgblk>
+<wait time='0.3'>
+#エレオノーレ (v_ero0006)ああ。クリストフのことでいつ命が下るやもしれぬし、そもそもブレンナーの指揮下に入るなど冗談ではない
+
+#エレオノーレ (v_ero0007)最後の神秘か……確かにそそる謳い文句だったが、<rb "クラフト">副首領</rb>の口上に踊るのも御免被る
+
+#ヴィルヘルム (v_vir0266)なるほど。まあ気持ちは分からんでもねえとだけ言っておこうか
+
+その後、謁見を終えた俺はザミエルとそんなことを話していたよ。城中の一室に放り込んでおいたクラウディアのことは言った通り忘れちまってたし、気分はカチンにのみ向いていた。
+
+エレオノーレ・フォン・ヴィッテンブルグ――こいつとの出会いは最悪の部類だったが、もはやお互い気にもしてねえ。仲が良いわけじゃなかったが、黒円卓の中で一番馬が合う奴を挙げろと言われれば迷わず選べる。そんな相手だ。
+
+ハイドリヒ卿に芯から魅せられ、忠を誓っている者同士。加え、<dot " 、">ちゃんと理解しているという面</dot>でもそうだ。
+
+#ヴィルヘルム (v_vir0267)時によ、この城またでかくなった気がしねえか？
+
+#エレオノーレ (v_ero0008)同感だ。そして事実だな。気のせいではない
+
+#エレオノーレ (v_ero0009)ハイドリヒ卿のもとには戦場の死者が集まってくる。この城はその塊だ、ゆえに今このときも増え続けているよ
+
+#エレオノーレ (v_ero0010)もはやどれだけの数なのか見当もつかん。後年、この戦で死んだ者の数が弾き出されれば、ある程度の予想を立てることも出来るだろうがな
+
+#エレオノーレ (v_ero0011)今は到底数え切れんよ。そして算出できん以上、無限とすら言っていい
+
+#エレオノーレ (v_ero0012)いいや実際、ハイドリヒ卿の器は無限なのかもしれん。そうであっても不思議はなかろう
+
+#ヴィルヘルム (v_vir0268)確かにな
+
+@hidemessage;
+<imgblk mask='center1' time='0.8'>
+<layer parent='cutin' id='zz' src='black' center='480 282' position='512 400' scale='1.5' opacity='1'>
+<layer parent='cutin' id='03' src='006_c' center='1303 965' position='-100 450' opacity='0' time='0'>
+<layer parent='cutin' id='05' src='mv_tamashii' center='480 282' position='512 300' scale='1.5' opacity='0.01'>
+</imgblk>
+<layer parent='cutin' id='03' position='-100 500' time='10'>
+<layer parent='cutin' id='03' opacity='0.5' time='1'>
+<layer parent='cutin' id='05' opacity='0.5' time='1'>
+<wait time='1'>
+
+あの人には許容限界など存在しない。俺もそう思っていたから頷いた。
+
+二ヶ月にも渡り展開し続けている創造は、それだけ膨大な魂により支えられている。しかもザミエルが言った通り、増え続けているんだ。
+
+各地の戦場から供給される死者の生産量――おかしな言い方だが、そのスピードが消費の速度を上回っているから増えている。と普通は考えるところだろうが、俺は違うと思っていた。
+
+おそらく、いいや間違いなく、城を維持する<rb "たましい">燃料</rb>はまだ一人ぶんたりとも減ってねえ。
+
+喩えるなら、度外れた規模の組体操だ。全員に負担を散らせているから個人あたりのつらさはそうでもなく、脱落者は未だゼロ。
+
+軍事的に言うのなら、陣形の完成度が並じゃないということだ。芸術的に統率された集団が、文字通り城の礎となっている。
+
+常識外れの効率で、それを実現するのは魔的とすら言える指揮官の才能だろう。そして人を使うのが上手ければ、ただの雑兵を勇者に変えることも出来る。
+
+戦意を昂揚させ、鼓舞し、導く。そんな力だ。つまりハイドリヒ卿は、所有しているすべての魂を英霊の域に格上げして、質の変化を起こしてるんだ。
+
+分かるか、おい。俺が見出したブレイクスルーを、あの人はとうに実践していたんだよ。
+
+しかも量まで備えてな。まったく恐れ入る話じゃねえか。
+
+@hidemessage;
+<imgblk mask='giza2' time='0.7'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='05'>
+<layerclear parent='cutin' id='zz'>
+</imgblk>
+<wait time='0.2'>
+#エレオノーレ (v_ero0013)愛しているから。彼はすべてを愛しているから、すべてを呑み込み、また壊す。まさにヴァルハラを成すエインフェリアの軍勢だ
+
+<layer parent='cutin' id='01' src='32_d_t' time='0.5'>
+#エレオノーレ (v_ero0014)私はその列に加わりたい。貴様はどうだ、ベイ
+
+問われるまでもない。俺は即座に返答した。
+
+#ヴィルヘルム (v_vir0269)マキナが生まれるところを見ちまったからな。この城の、いいやハイドリヒ卿の一部になれば不死身になれる。よく知らねえが、それをエインフェリアっていうんだろう？
+
+#エレオノーレ (v_ero0015)そうだ。貴様、教育と言われるものは何も受けていないだろうに、勘だけはいいのだな。そういうところは評価する
+
+#エレオノーレ (v_ero0016)改めて訊くが、怖くはないのだな？
+
+#ヴィルヘルム (v_vir0270)当たり前だろ。こんな名誉が何処にある。おまえは違うって言うのかよ
+
+#エレオノーレ (v_ero0017)いいや、違わん。私もまったくの同感だ
+
+先に言った、<dot " 、">ちゃんと理解してる</dot>ってのはそういうことだ。黒円卓で俺とザミエルの二人だけは、ハイドリヒ卿の祝福がどういうものかをしっかり弁え、そのうえで求めていた。
+
+マキナも理解はしていただろうが、あいつはそれを忌避している。だが敵対はしてねえし、筋も通してるんで殊更文句をつけるつもりもねえ。
+
+馬鹿な野郎だと思っちゃいるが、あいつの死に様はあいつのもんだ。尊重してやろうって気持ちはある。
+
+クリストフはきっとびびって逃げたんだろうし、シュライバーは頭がまともに働かねえから理解もクソもねえだろう。
+
+他はまあ、なんか自分のいいように解釈してるんじゃねえのかな。よく言うだろ、のめり込みすぎると視野を狭める。あるいは、黄金の光が眩しすぎて目が潰れたか。
+
+ハイドリヒ卿の本質を分かっちゃいねえ。愛ってやつが与えることだとでも思ってんなら、大間抜けもいいところだ。てめえらは欲しい欲しいと言ってるくせによ。
+
+不死身にしろ、死者蘇生にしろ、縋りついて叶えたなら逃がしてなんかくれねえよ。そのままグラズヘイムに取り込まれ、ハイドリヒ卿の一部になるだけ。
+
+どうも女ってのは、てめえに甘い考え方をしがちだからな。マレウスやバビロンあたりは危ねえんじゃねえかと思ってる。まあ律儀に教えてやるつもりもねえんだが、自力で気付くことが出来ればいいと思っちゃいるぜ。
+
+俺やザミエルみたいな境地によ、それで至れれば問題ねえだろ。
+
+#ヴィルヘルム (v_vir0271)しかし、そうなるといまいち分かんねえのはベアトリスだな。あいつは馬鹿だが、一応あんなでも兵隊だ。気付かないはずもねえ
+
+#ヴィルヘルム (v_vir0272)そして、気付いたならぎゃーぎゃー言ってくるのがあの潔癖お嬢様だろう。なのにその手の話は一切しねえ
+
+#ヴィルヘルム (v_vir0273)正直言うと、俺は少しばかり不気味だぜ
+
+<layer parent='cutin' id='01' src='32_c_t' time='0.5'>
+#エレオノーレ (v_ero0018)…………
+
+沈黙は、ザミエルも同様に解せない気持ちを持っていたからだろう。しかしそんなの、俺らがどれだけ頭を捻ろうが出てこない答えでもある。
+
+#エレオノーレ (v_ero0019)いずれ分かるさ。あるいは直接、私から奴へ問うことになるかもしれん
+
+#エレオノーレ (v_ero0020)もともと、キルヒアイゼンの世話を焼くのが私の仕事みたいなものだからな
+
+#ヴィルヘルム (v_vir0274)おお、だったらそのことはおまえに任すぜ。だがあっちはあっちで、少佐の世話を焼くのが私の仕事ですとか思ってそうな話だな
+
+<layer parent='cutin' id='01' src='32_d_t' time='0.5'>
+#エレオノーレ (v_ero0021)抜かせ。貴様の知ったことではないわ
+
+実際、このときから半世紀以上経った後にベアトリスの目的ってやつは割れるんだが、それは別の話だからどうでもいい。ここじゃあ関係のないことだ。
+
+#エレオノーレ (v_ero0022)貴様は貴様で任を果たせよ。カチンに行くのは勝手だが、せいぜい無様を晒さんようにな
+
+#エレオノーレ (v_ero0023)それと世話云々の話になれば、貴様にもうるさい小娘がついているだろう
+
+<layer parent='cutin' id='01' src='32_c_t' time='0.5'>
+#エレオノーレ (v_ero0024)あの尼僧を今回どうする。連れて行く気か？
+
+#ヴィルヘルム (v_vir0275)あ？　そりゃあおまえ、当たり前だろ
+
+言われてようやく、俺はクラウディアのことを思い出した。あいつはカチンに連れて行く。
+
+なぜって？　俺がいない間に死なれちゃあ困るからだよ。戦時だし、迂闊な奴だし、このザミエルなんかに面倒見てくれとは言えねえからな。
+
+そして何より、修羅場を経験させればあいつが化ける可能性もある。カチンの怪異とやらがどんなもんかは知らなかったが、真っ当な神経じゃあ耐えられない状況になるはずだろう。
+
+だから心が焼き切れ、爆発し、その瞬間にクラウディアは覚醒する。そんな展開を、俺は望んでいたんだよ。
+
+#ヴィルヘルム (v_vir0276)言っちまえば、あいつは戦闘糧食みたいなもんだ
+
+<layer parent='cutin' id='01' src='32_d_t' time='0.5'>
+#エレオノーレ (v_ero0025)なるほど、では餞別だ。これを貴様に渡しておこう
+
+#ヴィルヘルム (v_vir0277)はん？　なんだよいきなり
+
+@hidemessage;
+<se src='2019'>
+<imgblk mask='mask4' time='1'>
+@camera;
+<layerclear parent='cutin' id=''>
+@cg fuutou;;
+</imgblk>
+<sestop>
+そのときザミエルが寄越したのは、何かの書類が入ってると思しき封筒だった。
+
+#エレオノーレ (v_ero0026)残務の処理をしているときに、偶然だが見つけてな。余計な世話かもしれんが、目を通しておけ
+
+#エレオノーレ (v_ero0027)貴様が欲していることのためには、必要な物だと考える
+
+#ヴィルヘルム (v_vir0278)…………
+
+まったく意味が分からなかったが、そう言うなら断る理由も特にない。俺は黙ってその書類を受け取った。
+
+@hidemessage;
+<imgblk mask='giza1' time='0.7'>
+<layercamera position='0 -50 -200'>
+@bg bg10a;;
+<char src='ele tabako1 ss' position='0 2000 100'>
+<char src='cla none def' position='-680 1800 400'>
+</imgblk>
+<wait time='0.1'>
+<layercamera position='-170 -50 -200' time='1' accel='-1'>
+<wait time='1'>
+<se src='1'>
+<char src='cla niko def' position='-650 1800 400'>
+<wait time='0.2'>
+<sestop time='2'>
+#クラウディア (v_kru0108)あっ、こんな所にいたんですねヴィルヘルム。探しましたよ
+
+#ヴィルヘルム (v_vir0279)――、てめ、大人しく待ってろっつったろうが。なに勝手にふらふらほっつき歩いてやがる
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0109)いや、だって、それはその……
+
+<char src='ele tabako3'>
+#エレオノーレ (v_ero0028)ではな
+
+<se src='01'>
+<char src='ele none ss' position='30 2000 100'>
+そして偶然にも馬鹿を見つけちまったから、場は有耶無耶のまま終わったんだ。
+
+<sestop time='1'>
+書類の中身についてもそうだが、何よりも――
+
+<imgblk mask='giza2' time='0.7'>
+<charclear src='ele'>
+<layercamera position='-450 -50 0'>
+<char src='cla sumasi def' position='-450 1800 400'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0280)いったい、何処で何してやがったんだよ
+
+<char src='cla nikori'>
+#クラウディア (v_kru0110)うふふ、そこは内緒です
+
+このとき、突っ込んで訊けばよかったよ。
+
+ハイドリヒ卿がクラウディアを召していると、さすがにそのことは覚えてたから引き合わせたぜ？　通り一遍のやり取りだけで拍子抜けはしたものの、別にメルクリウスが適当なことを言っていたわけでもなかった。
+
+しかし、カチンの怪異という、俺に言わせりゃ目先のテーマパークに目が行って、色々と抜けていたのは否めない。
+
+もっと吟味すべきことはあったんじゃねえのかと、いま改めてそう思うぜ。
+
+@hidemessage;
+<soundstop time='2'>
+<sestop time='2'>
+@fo;
+@def;
+<soundstop>
+<sestop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+h:
+@def;
+<layercamera position='470 280 0'>
+<layercamera position='-470 -80 0' time='60'>
+<se src='1308' loop='true'>;;//ＳＥ・列車の音
+@cg yozora ol 1;
+<wait time='1'>
+
+しかしな、そこまで思い至らなくてもしょうがない状況になってたんだよ。別に言い訳してるわけじゃねえが。
+
+まあ、なんだ。つまり要は騒がしくてよ。
+
+#クラウディア (v_kru0111)わー、見てくださいあれ。戦車です戦車、戦車いっぱい並んでます！
+
+#ベアトリス (v_bat0031)そうですね、実に勇壮な光景です。戦争そのものは忌むべきことで、無いほうがいいに決まってるんですが、だからといってそこに関わるすべてを否定するのは間違っている
+
+#ベアトリス (v_bat0032)特に兵士一人一人の気持ちについては。敵であろうと味方であろうと、彼らはそれぞれ大事なものを胸に抱いてそこにいます
+
+#ベアトリス (v_bat0033)国家の未来、友人や恋人、そして家族の安寧を願う心は、決して貶められるべきではない。時代の狂気、などと後年言われたくはありませんし、まして可哀想な犠牲者みたいに上目線の同情をされたくはないですよ
+
+#ベアトリス (v_bat0034)だってそれじゃあ、この時代に生きたすべての人々は、自分で何も選べない馬鹿と言われているようなものじゃないですか
+
+有り難いアホのご高説を賜りながら、感慨深そうに頷いているクラウディア。俺はといえば、ここまでうんざりし通しだったよ。
+
+<sestop>
+<sound src='5' volume='1' loop='true'>
+@hidemessage;
+<imgblk mask='mask6' time='1.2'>
+<layercamera position='-750 -420 150' rotate='0'>
+@cg 003_c;;※イベント絵
+</imgblk>
+
+#ヴィルヘルム (v_vir0281)おいこら、クソチビ馬鹿女
+
+#ヴィルヘルム (v_vir0282)てめえはなんでここにいんだよ
+
+カチンに向かう列車の中、すでに何度も訊いたことを言っていた。何度も訊いたんだから返答なんか分かってるし、それで状況が変化するはずもないと知っちゃいたが、気前よく達観できるほど寛大にはなれねえ。
+
+ムカついて、イラついてんだから仕方ねえだろ。文句は無限に出てくるもんだ。
+
+@hidemessage;
+<imgblk mask='mask1' time='0.6'>
+@cg 003_a;
+<layercamera position='850 -350 200' rotate='0'>
+</imgblk>
+
+#ベアトリス (v_bat0035)なんです、またそれですか。いつまでもグチグチと鬱陶しい男ですね
+
+#ベアトリス (v_bat0036)そもそもあなたに私の行動を云々する権利はありません。リザさんがいいって言ったんだからいいんですよーだ、ふん
+
+@hidemessage;
+<imgblk mask='mask2' time='0.6'>
+<layercamera position='-750 -420 150' rotate='0'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0283)そのバビロンは今いねえじゃねえかよ。この場の指揮系統はかなり曖昧な状態だぜ。つーか出鱈目か
+
+#ヴィルヘルム (v_vir0284)いくらなんでも、こんなよぉ……
+
+@hidemessage;
+<layer parent='cutin' id='01' src='003_f' center='400 225' position='380 500' scale='3' opacity='0'>
+<layer parent='cutin' id='01' position='380 550' time='0.8' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.6'>
+<wait time='0.8'>
+
+#クラウディア (v_kru0112)ふっふっふ、今は私が指揮官なのです
+
+と鼻を鳴らしてクラウディアが胸を張る。マジにこいつぶち殺してやろうかと思ったぜ。
+
+@hidemessage;
+<imgblk mask='ol' time='0.8'>
+<layerclear parent='cutin' id='01'>
+<layercamera position='0 0 -300'>
+@cg 003_e;
+</imgblk>
+
+#クラウディア (v_kru0113)だから二人とも、仲良くしないと駄目ですよ。命令です
+
+#ヴィルヘルム (v_vir0285)やなこった
+
+正規の指揮官であり、階級的にも一番上のバビロンはここにいない。俺らが着くまでに情報収集その他の準備を整えると言い、単独カチンへ先行していた。
+
+普通、そういうのは下っ端の仕事なんだが、見た目の怪しさや威圧感がもっとも薄いのはあいつなんだから異を挟むことは出来なかった。
+
+真面目な話、リザ・ブレンナーという女は、本性を知ってる俺たちから見ても貞淑なご婦人としか思えない雰囲気を持っている。
+
+なのでそこについては別にいい。もとからソ連領であるうえに、面倒な議論の対象になってるカチンで、軍人風を吹かしながら目立つのは賢くないって理屈くらい分かってたさ。適材適所の道理ってやつだろう。
+
+しかし代わりに、アホ丸出しなこっちの状況はどうなんだよと。
+
+@cg 003_d;
+
+#ベアトリス (v_bat0037)ベイ、子供じみた癇癪は見苦しいですよ。あなたがそんなだから、こういうことになってるんでしょう
+
+#ベアトリス (v_bat0038)リザさんも、あれで意地の悪い人ですからね。私としても不本意ですが、あなたに首輪を嵌めるならクラウディアが適任なのもまた事実
+
+#ベアトリス (v_bat0039)だいたい、本を正せばこの子を連れてきたのが悪いんじゃないですか。ただの自業自得ですよ
+
+@cg 003_e;
+
+#ヴィルヘルム (v_vir0286)うるせえな。それを言うなら、てめえがしゃしゃってきたから俺ァ苛々してんだよ
+
+
+#ヴィルヘルム (v_vir0287)そういやさっきもなんか言ってやがったな。時代の狂気？　それぞれの思いと選択だぁ？　なら俺らが決めた関係にごちゃごちゃ横から抜かすんじゃねえよ。てめえに筋も通せねえのか
+
+@cg 003_a;
+
+#ベアトリス (v_bat0040)それとこれとは話がまったく違います。あなたみたいなクソ男の毒牙に掛かろうとしている女性のことを、私は見過ごしたり出来ません
+
+#ベアトリス (v_bat0041)断固、絶対に阻止しますよ。ええ、騎士たる意地と誇りに懸けて
+
+@cg 003_d;
+
+#ヴィルヘルム (v_vir0288)おいクラウディア、おまえ指揮官ならこのタワケ野郎をクビにしろよ。今すぐ消えろと言ってやれ
+
+#ベアトリス (v_bat0042)馬鹿ですか、あなたこそ消えてください。それからクラウディアも、いい加減に目を覚まして。こいつの屑っぷりはもう分かっているでしょう
+
+@cg 003_e;
+
+#クラウディア (v_kru0114)いやあ、これは参りましたねえ
+
+#ベアトリス (v_bat0043)そんなのこっちの台詞ですよっ
+
+#ヴィルヘルム (v_vir0289)俺の台詞だボケナスこら
+
+なんてな。クラウディアのカチン行きを知ったベアトリスが、息巻いて同行を志願した結果にこの様だ。なんとも鬱陶しくて堪らねえ。
+
+そうじゃなくても、戦地を掠めることは一度や二度じゃない道行きだ。いきなり爆撃や機銃掃射を受ける可能性も相応に高い。
+
+もちろん俺やベアトリスにとってそんなもんは脅威じゃねえが、一番やばい立場の奴がのほほんとしてやがるから逆にこっちがぴりぴりしちまう。
+
+つまり、機嫌よく呑気な旅とは到底なり得ない状況だったわけだ。
+
+@hidemessage;
+<imgblk mask='mask1' time='0.6'>
+@cg 003_d;
+<layercamera position='500 -300 150' rotate='0'>
+</imgblk>
+#クラウディア (v_kru0115)まあまあ、落ち着いてください二人とも。あまりいがみ合ってばかりだと、今後の段取りに支障が出るかもしれないじゃないですか
+
+
+#クラウディア (v_kru0116)そろそろ列車移動も限界だから、次で車に乗り換えると聞きましたよ？　それは激戦地にどんどん近づくことでもあるんですから
+
+@cg 003_c;
+#ベアトリス (v_bat0044)……ええ、はい。確かにそうですね。ここから先は鉄道も破壊されていると聞きますし、仮に通っていても堂々と行くべき所ではありません
+
+#ベアトリス (v_bat0045)リザさんが手配を済ませているはずですから、そのお世話になりつつ上手にやっていく必要がありますね
+
+と苦笑するベアトリスだったが、重いものが声に混じったのを聞き咎めて俺は内心せせら笑う。
+
+いわゆる独ソ戦というやつの趨勢はこの時点で完全に赤のほうへ傾いており、客観的に挽回はまず不可能。いずれベルリンまで押し込まれるのは目に見えていた。
+
+国なんてもんに何の恩恵も受けていない俺からすれば、むしろザマァ見ろなんだが、遣る瀬無い悔しさのようなものを滲ませているベアトリスは違うらしい。そのへん、実に滑稽だと思える。
+
+そんなこいつを元気付けようとでも思っているのか、クラウディアは明るい調子で話しだした。
+
+@cg 003_g;
+#クラウディア (v_kru0117)リザさんですか。あの人はなんていうか、本当に出来る女性なんですね。マタハリみたいでカッコいいです
+
+#ベアトリス (v_bat0046)マタハリ？　ああ、確か前の大戦で活躍した女性スパイでしたっけ。よく知っていましたね
+
+@cg 003_c;
+#クラウディア (v_kru0118)はい。実は結構、活劇物の本や映画が好きなんです。神に仕える身ではしたないと、よく怒られましたけど
+
+#クラウディア (v_kru0119)ここまでも、こう、実にスパイ的なシーンが幾つもあって、不謹慎ですがドキドキしました
+
+@cg 003_f;
+#クラウディア (v_kru0120)ワルシャワから帰るときとは、あまりに違っていたもので
+
+@hidemessage;
+<imgblk mask='mask2' time='0.6'>
+@cg 003_a;
+<layercamera position='-750 -420 150' rotate='0'>
+</imgblk>
+#ヴィルヘルム (v_vir0290)おまえがさっきからニヤついてたのはそのせいかよ、アホらしい
+
+どうでもいい話題だったが、あまりに呆れたんで思わずぼやいた。戦時の交通網が軍事優先になるのは当然で、この列車もそういうもんだから気軽に使えるわけじゃない。
+
+民間人にしてもそうだが、むしろ軍人こそ不自由だ。何らかの作戦行動以外で、勝手にあっちへ行ったりこっちへ行ったり出来るはずもないだろう。
+
+よって常識的な話、正規の手段で俺らが長距離移動するのは不可能だった。要所ごとにある<rb "すいか">誰何</rb>の嵐は避けられねえし、クラウディアが言った通りワルシャワから帰るときは派手に悶着を起こしている。
+
+しかし今回、そこはバビロンの手配で切り抜けられた。詳しいところは興味もないから知らねえが、俺らは重大任務を受けたご一行ということになってるらしい。
+
+実際、まったくの嘘でもないしな。命令の出所が総統閣下様ではなく、ハイドリヒ卿というだけで。
+
+<soundstop time='1.5'>
+#ヴィルヘルム (v_vir0291)まあ何でもいいが、くだらねえボロは出すなよ。カチンまではまだ遠い
+
+#ヴィルヘルム (v_vir0292)歩いてくのは、さすがに面倒くせえからよ
+
+@hidemessage;
+<sound src='23' volume='1' fade-time='2' loop='true'>
+<imgblk mask='mask1' time='0.6'>
+<layercamera position='-300 -270 10' rotate='0'>
+</imgblk>
+#クラウディア (v_kru0121)ええ、分かってます。ただ、そのカチンについてなんですが
+
+#クラウディア (v_kru0122)具体的に、現地では何が起こっているんでしょう？
+
+#ヴィルヘルム (v_vir0293)さてね。俺にとっちゃあ何でもいい
+
+#ヴィルヘルム (v_vir0294)それともおまえ、尼さんよろしく祈りで俺らを助けようとか思ってんのかよ
+
+#ヴィルヘルム (v_vir0295)虐殺されたっつう、可哀想な連中の恨みを浄化してさしあげるのか？　は、笑わせんなよ
+
+@hidemessage;
+<imgblk mask='mask1' time='0.6'>
+<layercamera position='360 -270 10' rotate='0'>
+</imgblk>
+#ベアトリス (v_bat0047)ベイ、あなたはほんと、つくづくいい加減にしなさい。自分から彼女を引っ張り込んだくせに、なんですかその言い草は
+
+そろそろ喧々囂々も疲れたのか、溜息まじりのベアトリス。だが俺としては思ったことを言っただけなんで、いちいち諌められる覚えはない。
+
+@cg 003_b;
+#ベアトリス (v_bat0048)ごめんなさいクラウディア。気を悪くしましたか？
+
+@cg 003_f;
+#クラウディア (v_kru0123)いえ、もう慣れましたし。彼が言っていることも分かります
+
+@cg 003_c;
+#クラウディア (v_kru0124)仮にも兵士の目から見れば、現実の人死にを前に祈るしかしない者は疎ましいでしょう。それはそれで不実だと、私も思っていますから
+
+#クラウディア (v_kru0125)カチンの犠牲者たちを弔いたいという気持ちは、もちろん持っていますけどね。今はともかく、あなた方の迷惑にならないよう努めたい
+
+#クラウディア (v_kru0126)だから色々聞きたいのですが、そもそも怪異とは何なのですか？
+
+#クラウディア (v_kru0127)どうも聞く限り、こういうことは初めてじゃないのでしょう？
+
+#ベアトリス (v_bat0049)ああ、それは、その……
+
+言いたくないのか、説明できないのか、ベアトリスは言葉を濁していたんで俺が横からざっくり答えた。
+
+@hidemessage;
+<imgblk mask='mask2' time='0.6'>
+<layercamera position='-300 -270 10' rotate='0'>
+</imgblk>
+#ヴィルヘルム (v_vir0296)魔術師狩りだよ
+
+#クラウディア (v_kru0128)魔術師？
+
+#ヴィルヘルム (v_vir0297)おお、少なくともこれまではそうだったな
+
+怪異とは要するにおかしなことで、通常有り得ない現象を指す。
+
+そしてそんなもんが起こってるなら、普通じゃない何かがいるっていうことだ。
+
+#ヴィルヘルム (v_vir0298)つっても、生の魔術師様と殺り合ったわけじゃねえ。そういう連中は、この百年くらいでほぼ絶滅しちまったらしいからな
+
+#ヴィルヘルム (v_vir0299)知ってる範囲で生き残ってるのは、マレウスとメルクリウス……同列に語るべきもんじゃねえだろうが、そんくらいだ
+
+@hidemessage;
+<imgblk mask='mask1' time='0.6'>
+<layercamera position='360 -270 10' rotate='0'>
+@cg 003_b;
+</imgblk>
+#ベアトリス (v_bat0050)あとは、英国のクロウリーですかね。本物と呼んでいいのは、他に殆どいないと聞いています
+
+最初は渋っていたくせに、今度はベアトリスが横から入ってきやがった。どうも、俺に好き勝手喋らせるのが気に食わないらしい。
+
+#ベアトリス (v_bat0051)ちょうど産業革命あたりからです。工業の発達と反比例して、古い神秘は消えていったということですよ
+
+#クラウディア (v_kru0129)なるほど。なんとなく分かります。最近は信心深くない人も増えていますし、成り手が少なくなったということですね？
+
+#ベアトリス (v_bat0052)まあ、飛行機で空を飛べる世の中に夢は見にくいということでしょうか。私の印象だと、魔術師は時代に逆行していますから
+
+@hidemessage;
+<imgblk mask='mask4' time='0.8'>
+<layercamera position='0 0 -300'>
+</imgblk>
+#ヴィルヘルム (v_vir0300)なんでも古いほうがいいと思ってるような老害だわな
+
+電話や電報の一本で済むことを、わざわざ手間と体力かけて仰々しくやりたがる。マッチ使えばいいものを、やれ自然界のエレメンタルがどうたらこうたらと面倒くせえ。
+
+基本、魔術師や魔術師かぶれってのはそういうもんだ。マレウスはだいぶ柔軟なほうだろうが、それでも例外というほどじゃない。
+
+#ヴィルヘルム (v_vir0301)別に珍しい話じゃねえだろう。そこらの堅気でも年寄りほど機械音痴だ。あれは覚えられないんじゃなく、覚える気がねえんだよ。古き良き世界ってやつが好きなのさ
+
+#ヴィルヘルム (v_vir0302)そして、そういうもんはだいたいが錯覚だ
+
+懐古主義。あるいは憧古主義とでも言うべきか。昔のほうが今より素晴らしいと考えること。
+
+そりゃあそんな場合もあるだろうと一般の奴らは言うかもしれんし、ロストテクノロジーの存在も否定はしねえが、魔術師どもの過去礼賛は限度をぶっ千切ったところがある。
+
+#ヴィルヘルム (v_vir0303)連中の頭ん中じゃあ、古代人は不思議な力で現代真っ青の大戦争でもしてたことになってんだろ。アホかっつんだわ、チンケな石くれ積み上げてたような原始人の分際でよ
+
+#ヴィルヘルム (v_vir0304)もしそんな力があったんなら、なんでピラミッドが空中要塞じゃねえんだよって話だぜ
+
+この現代までそれが残ってない以上、仮に昔はあったとしても負けて消えたということだ。そして負けた野郎が優れているなんて理屈は有り得ねえ。
+
+#ヴィルヘルム (v_vir0305)だから俺の考えだと――
+
+@cg 003_a;
+#ベアトリス (v_bat0053)ベイ、さっきから話が逸れまくってます。クラウディアはそういうことを聞きたいんじゃありません
+
+@cg 003_b;
+#ベアトリス (v_bat0054)とにかくですね、現存している魔術師は極々僅かなんですよ。高位の者なら延命の手段も有しているそうですが、それでも限界はありますからね
+
+#ベアトリス (v_bat0055)以前マレウスから聞きましたが、最初の百年を突破できる者からして非常に稀有……らしいです
+
+#クラウディア (v_kru0130)百年？　だったら結局、普通の人と寿命は変わらないんですね
+
+#ヴィルヘルム (v_vir0306)あいつは二百年くらい生きてるって聞いたがよ
+
+#クラウディア (v_kru0131)そうなんですか？
+
+#ベアトリス (v_bat0056)一応、聞いた限りは。だけどただの見栄っ張りかもしれませんし、話半分と思ってください
+
+#ベアトリス (v_bat0057)私が言いたいのは、これまで見てきた怪異も、カチンにあるという怪異も、正体は魔術師そのものじゃなく、言わば残滓
+
+#ベアトリス (v_bat0058)ベイが言うところの、空飛ぶピラミッドですよ
+
+#クラウディア (v_kru0132)はい？
+
+とクラウディアは小首を傾げたが、そこは仕方ねえだろう。ここまで俺とベアトリスの話では、互いに理屈が噛み合ってない。
+
+#クラウディア (v_kru0133)空飛ぶピラミッドはない。と先ほどヴィルヘルムは言っていましたが
+
+#ヴィルヘルム (v_vir0307)そのへん説明しようとしたときに、こいつが潰しやがったんだよ。まったく邪魔ばっかりしやがるアホだ
+
+@cg 003_a;
+#ベアトリス (v_bat0059)私はあなたの偏った考え方をクラウディアに刷り込みたくないだけです
+
+#ヴィルヘルム (v_vir0308)だとコラ
+
+#ベアトリス (v_bat0060)なんですか、やりますか
+
+#クラウディア (v_kru0134)もう、いい加減にしてください二人とも。喧嘩しながら説明されたら、論理が滅茶苦茶になるのは当たり前でしょう
+
+#クラウディア (v_kru0135)なのでここはヴィルヘルム、あなたにお願いします。言いかけたことがあるなら最後まで言ってください
+
+#ヴィルヘルム (v_vir0309)なんか、そう言われると面倒くさくなってくんな
+
+#ベアトリス (v_bat0061)ベイ……
+
+#クラウディア (v_kru0136)"お ね が い し ま す"
+
+などと、女二人が圧力をかけてきやがる。別に屈したわけじゃねえが、抵抗し続けるのもそれはそれで面倒な話だろう。
+
+@hidemessage;
+<imgblk mask='mask2' time='0.6'>
+@cg 003_c;
+<layercamera position='-750 -420 150' rotate='0'>
+</imgblk>
+#ヴィルヘルム (v_vir0310)分かった分かった。そんならぱぱっと説明すんぞ
+
+#ヴィルヘルム (v_vir0311)魔術師なんて連中は基本的に古いもん好きの老害だが、タチ悪ぃのは思想と実情が食い違ってるっつうことだ
+
+#クラウディア (v_kru0137)と言うと？
+
+#ヴィルヘルム (v_vir0312)だから、<rb "そっち">魔術</rb>の世界も実は日進月歩なんだよ。千年前の魔術師より、今の魔術師のほうが強ぇ
+
+@hidemessage;
+<imgblk mask='center1' time='0.8'>
+@camera;
+@cg black;
+<layer parent='cutin' id='01' src='mv_down' center='480 282' position='512 300' scale='1.08' opacity='1'>
+<layer parent='cutin' id='02' src='mv_araya2' center='480 282' position='512 300' scale='1.08' opacity='0.8'>
+</imgblk>
+#ヴィルヘルム (v_vir0313)現実に、古代のエジプトでピラミッドは飛んでない。当たり前だわな。けど<rb "れんちゅう">魔術師</rb>はそのことを認めねえんだよ
+
+#ヴィルヘルム (v_vir0314)飛んだはず。飛んだに違いねえ。なぜなら飛行機だって飛んでるし、昔はもっと素晴らしくないとおかしいから
+
+#ヴィルヘルム (v_vir0315)そして次にこう思う。だったら自分も飛ばしたい――てな
+
+#ヴィルヘルム (v_vir0316)分かるだろ？　文明が進歩すりゃあ、それに応じて神秘の程度も変わるのさ
+
+これが大昔なら、たとえば上手く火を点けられるだけでも優秀な魔術師だろう。病気を治す技術があれば、チンケな集落の神にだってなれるはずだ。
+
+しかし現代じゃあ、もちろんその程度が何だっていう話だよ。ゆえに昔を讃える老害どもは、常に<rb "いま">現実</rb>を超えたがる。
+
+#ヴィルヘルム (v_vir0317)崇高で洗練されて、神秘の力に満ち満ちていたはずの過去が、こんな機械文明に負けるはずねえ。自分はその意志を継いでいる誇り高い魔術師様で、先人の偉大さを証明する義務がある
+
+#ヴィルヘルム (v_vir0318)てよ、もはや病気だぜ
+
+#クラウディア (v_kru0138)だから日進月歩？
+
+#ヴィルヘルム (v_vir0319)そういうことだ
+
+魔術師どもの絶滅は、文明の進歩に追いつけなくなったからだと考えている。昔はピンキリ、有象無象の存在も許されたが、時代と共に凄腕しか残れなくなったんだろうと。
+
+#ヴィルヘルム (v_vir0320)当たり前に、科学と同じで、新しいほうが強いんだよ。何せ超えなきゃいけねえハードルが違うからな
+
+その典型がメルクリウスだ。あいつの業は魔術と言っていいのかも分からんもので、機械と融合してすらいる。
+
+戦車や戦闘機が横行し、空を飛ぶわ一撃で何百人も粉々にするわ、そんな戦場が当たり前になった時代で、なお上回ってくる神秘の具現。
+
+メルクリウスを褒めるつもりはねえんだが、野郎は本物だという事実を否定するほど馬鹿じゃない。その体現として、俺たちがいるんだからな。
+
+@hidemessage;
+<imgblk mask='center1' time='0.5'>
+<layerclear parent='cutin' id=''>
+</imgblk>
+<imgblk mask='giza2' time='0.7'>
+<layercamera position='400 -150 100' rotate='10'>
+@cg 003_bg;
+<char src='bea metoji segen' position='580 1810 300'>
+<char src='cla sinken def' position='250 1820 300'>
+</imgblk>
+#ベアトリス (v_bat0062)まあ、だいたい同感ですが、今のはあくまで私たちの考えです。しょせんは門外漢にすぎませんし、本当のところどうなのかは分かりません
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0063)ただこの理屈で言うと、カチンの怪異は比較的新しい魔術師の仕業ですね
+
+#クラウディア (v_kru0139)現代でも不思議と認識されるほどのものだから？
+
+#ベアトリス (v_bat0064)そういうことです。この百年ほどが激動だったと言ったでしょう？　おそらくは、その前後くらいに遺されたものじゃないのかと
+
+#ベアトリス (v_bat0065)原理はまだ不明ですが、虐殺でスイッチが入ったんだと思いますよ
+
+<char src='bea niko'>
+#ベアトリス (v_bat0066)それを排除するのが私たちの仕事です
+
+#ヴィルヘルム (v_vir0321)つーわけだ。納得したか？
+
+問いに、クラウディアはしばし間を置いてから頷いた。
+
+<char src='cla metoji'>
+#クラウディア (v_kru0140)はい。流れは理解しましたし、あなた方の考えにも同感です
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0141)昔を崇めるのも大事ですが、そうやって過去を敬いながら歴史を見ないというのは矛盾ですからね。人が積み上げてきたものを認めずに、最高点はもう過ぎ去ったなんておかしいですよ
+
+#ベアトリス (v_bat0067)ええ、私もそう思います。しかも聞いた話によると、魔術師の多くは弟子を取っていたというから、もう滅茶苦茶ですよ
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0068)あなただって積み上げることに執心してるじゃないですかと。やってることは未来を見据えた進化なのに、考えてることは昔、昔、古いほど凄いぞ最高
+
+#ベアトリス (v_bat0069)なんていうんですかね。率直なところ、頭がどうかしていますね
+
+<char src='cla nikori2'>
+#クラウディア (v_kru0142)ぷっ、あはは
+
+<char src='bea odoroki'>
+そこで、いきなりクラウディアが笑い出したから俺たちは驚いた。何事だよと目を向ければ、可笑しそうに目元を拭いつつ言ってくる。
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0143)二人とも、ほんとに魔術師が大嫌いなんですね
+
+#クラウディア (v_kru0144)いつもは喧嘩ばかりしているのに、こういうときだけ悪口のノリがそっくりですよ
+
+#ヴィルヘルム (v_vir0322)ぐっ……
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0070)ぬっ……
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0145)実は仲がいいんですか？
+
+<se src='1040'>
+@hshake 15 0.2;
+<char src='bea ikari'>
+;#ヴィルヘルム (v_vir0323)――違ぇよ！
+;#ベアトリス (v_bat0071)――違います！
+(v_mix0002)「――違ぇよ！」$e「――違います！」
+;※同時ボイス
+
+@hidemessage;
+<imgblk mask='wo' time='1.1'>
+<layercamera position='0 -70 -220' rotate='0'>
+<charclear>
+@cg 003_d;
+</imgblk>
+
+魔術師というより、俺らはメルクリウスが嫌いなんだよ。そこについてだけは、ハイドリヒ卿を除く全員が共有している感情だ。
+
+なので別に仲がいいとか、そういう次元の話じゃねえ。実に不名誉な評価を正そうと二人でクラウディアに色々言ったが、はいはいそうですねと笑いながら流されるだけだった。
+
+
+そして、そんなこんなしてる間に列車は止まり――
+
+@hidemessage;
+<layer parent='cutin' id='01' src='003_f' center='400 225' position='380 500' scale='3' opacity='0'>
+<layer parent='cutin' id='01' position='380 550' time='0.8' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.6'>
+<wait time='0.8'>
+#クラウディア (v_kru0146)あ、着いたみたいですよ。じゃあ次の任務に出発進行っ
+
+バビロン、てめえ早く合流してくれよ。
+
+代理指揮官サマの御守りもそろそろ限界だと、連れて来たのは俺なんだが真剣に思ったもんだわ。
+
+@hidemessage;
+&soundstop fo;
+<imgblk mask='wo' time='1'>
+<layerclear parent='cutin' id=''>
+@cg black;
+</imgblk>
+@fo;
+@def;
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+i:
+@def;
+<sound src='6' volume='1' loop='true'>
+@bg yozora ol 1;
+<wait time='1'>
+
+その後、列車を降りた俺たちは何台も車を乗り換えつつカチンへ向かった。
+
+いくらバビロンの手配があっても最短距離を進むのはさすがに無理で、相応に時間も掛かったと記憶している。だいたい、二日そこらだったか。
+
+ああ、もちろん強行軍だぜ。運転は交代してたが、ホテルでゆっくりなんかしてねえし野宿も車中泊もしちゃいねえ。
+
+俺は早く着きたかったし、ベアトリスは女子の寝姿を見せるのが倫理的にどうたらこうたらと言ってたからな。こういう場合、むしろ女をしっかり休ませてやるのが騎士道なんじゃねえかと思ったがよ。
+
+@cg sun ol 1;
+<wait time='0.5'>
+
+当のクラウディアがそこに文句をつけなかったから、休憩無しのまま突っ走った。日中、あいつは死ぬじゃねえかって顔色だったが、相も変わらずにこにこしててよ。
+
+馬鹿というか、阿呆というか、太陽が好きで好きでしょうがない奴だったな。光を浴びても焼かれちまうだけのくせに。
+
+半分だから、欠けているから、自分にない世界をどうしても感じたかったんだろう。あるいは、信じていたのかもしれない。
+
+あいつにとっての祝福ってやつを。そこに辿り着けるよう、歩いているんだという自負を。
+
+@cg yuuzora ol 1;
+<wait time='0.5'>
+
+たとえ選択と結果がどれだけの馬鹿野郎でも、その気持ちを嘲るのはやめようと思った。まあ、後になっての話だけどよ。
+
+とにかく二日ほどの時間を掛けて、俺たちはバビロンと合流した。あれはスモレンスクとかいう町からそう遠くない所にある、名もない池のほとりだったな。
+
+@cg yozora ol 1;
+<wait time='0.5'>
+
+時刻的には、日が暮れて少し経ったくらいのことだ。
+
+@hidemessage;
+<imgblk mask='giza1' time='1.2'>
+@bg bg07a;;※背景・池
+<layercamera position='-400 0 -50'>
+<char src='riz sumasi morugen' position='-450 1970 250'>
+</imgblk>
+
+#リザ (v_riz0002)ようこそ――て言うのも変だけど、待ってたわよ三人とも。ここまで困ったことはなかったかしら？
+
+#ヴィルヘルム (v_vir0324)有りまくりだぜ。おまえの指揮能力に俺は疑いを禁じ得ねえ
+
+#ヴィルヘルム (v_vir0325)せめて代理の指揮官くらい、しっかり適性見極めてから任命しろっつう話だ
+
+@hidemessage;
+<imgblk mask='giza2' time='0.7'>
+<layercamera position='0 0 -300'>
+<charclear>
+@cg black;
+</imgblk>
+<imgblk mask='giza2' time='0.7'>
+<char src='riz sumasi morugen' position='-450 1970 250'>
+<char src='bea none segen' position='90 1900 50'>
+<char src='cla none def' position='470 1900 50'>
+@bg bg07a;
+</imgblk>
+<char src='bea jito segen' position='70 1900 50'>
+#ベアトリス (v_bat0072)またそのことですか。あなたはほんと、見かけによらずしつこいですね
+
+<char src='cla jito def' position='450 1900 50'>
+#クラウディア (v_kru0147)そうですよ、私頑張ったじゃないですか
+
+#ヴィルヘルム (v_vir0326)頑張った？　ああ頑張ったよな意味もなく。誰も歩哨に色仕掛けかましてこいなんざ言ってねえのに、指揮官サマが積極的であーあー助かったぜほんとにクソが！
+
+<char src='cla awate'>
+#クラウディア (v_kru0148)だ、だって、そこはマタハリのように
+
+#ヴィルヘルム (v_vir0327)うるせえな、俺ァそんなババア知らねえしどうでもいいんだよボケ！
+
+<char src='cla utumuki'>
+#クラウディア (v_kru0149)ううぅ、確かにあれは、結果的に失敗しましたけども……
+
+#ヴィルヘルム (v_vir0328)結果的だあ？　一ミリでも成功すると思ってたおまえに俺は戦慄するわ
+
+#ヴィルヘルム (v_vir0329)その貧相な胸で、ケツで、釣られる男がいるわけねえだろ間抜け！
+
+<char src='cla sune'>
+#クラウディア (v_kru0150)ひ、ひどいです。いくら私でも、そうばっさり言われると傷つきます
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0073)そうですよ。ちょっと今のは言いすぎです
+
+<char src='riz niko'>
+#リザ (v_riz0003)なんだかよく分からないけど、つまりベイはヤキモチを妬いてるの？
+
+#ヴィルヘルム (v_vir0330)誰がだよ、おまえも頭わいてんのかコラ！
+
+そんな風にキレまくったが、女三人相手に理屈はなかなか通じねえ。道中、クラウディアがやらかしたことは他にも多々あるんだが、全部挙げてたら夜が明けると思ったんで強引に話を切った。
+
+#ヴィルヘルム (v_vir0331)それで、こっちの状況はどうなってんだよ
+
+<char src='bea akire'>
+#ベアトリス (v_bat0074)うわ、自分から文句言い出したくせに途中で逃げましたよこいつ
+
+#ヴィルヘルム (v_vir0332)はぁん、誰が逃げたって？
+
+<char src='cla niko'>
+#クラウディア (v_kru0151)はいはい、静かにしましょう。命令です
+
+#ヴィルヘルム (v_vir0333)てめえはてめえで、いつまで指揮権持ってるつもりだ。このボンクラ！
+
+<char src='riz metoji'>
+#リザ (v_riz0004)ふふふ、とりあえず楽しい道行きではあったようね。よかったわ
+
+&soundstop fo;
+とまあ、くだらねえことは置いとこう。ここでの本題は別にある。
+
+苦笑していたバビロンも、ようやく正規の指揮官らしく咳払いで場を治めた。
+
+
+
+
+
+<imgblk mask='mask4' time='0.8'>
+<charclear>
+<layercamera position='-400 0 -50'>
+<layer parent='cutin' id='01' src='bg14a' center='762.5 270' position='950 500' scale='2' opacity='0'>
+<layer parent='cutin' id='02' src='007_a' center='762.5 270' position='1550 500' scale='2.5' opacity='0' rotate='-5'>
+<layer parent='cutin' id='03' src='mv_26' center='480 282' position='350 150' scale='0.8' opacity='0.01'>
+<layer parent='cutin' id='mv' src='mv_film' center='512 288' position='512 300' scale='1' opacity='0.01'>
+<layer parent='cutin' id='kuro1' src='black' center='400 225' position='512 880' scale='1.3' opacity='1'>
+<layer parent='cutin' id='kuro2' src='black' center='400 225' position='512 -280' scale='1.3' opacity='1'>
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen' center='1350 1450' position='450 830' scale='1' opacity='1'>
+</imgblk>
+#リザ (v_riz0005)それじゃあ漫談はここまでにして、切り替えるわよ。まずはそうね、軽いおさらいからしておきましょうか
+
+
+<sound src='20' volume='1' loop='true'>
+@hidemessage;
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='mv' opacity='1' time='0.5'>
+<layer parent='cutin' id='kuro1' src='black' center='400 225' position='512 840' time='0.5'>
+<layer parent='cutin' id='kuro2' src='black' center='400 225' position='512 -240' time='0.5'>
+<layer parent='cutin' id='ss' position='200 830' time='3.5'>
+<layer parent='cutin' id='01' position='1500 500' time='90'>
+<wait time='3.5'>
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0006)このあたりは、一年前までドイツ軍の占領下にあったんだけど、今は残念ながら取り返されている。だからあまり大騒ぎしないように
+
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen' time='0.5'>
+#リザ (v_riz0007)何なら今すぐ、もう一度奪ってもいいと思ってるかもしれないけど、私たちが今回しなきゃいけないことはそれじゃないから。分かってるわよね？
+
+#ヴィルヘルム (v_vir0334)おお、別にそんなもん興味ねえし
+
+#ベアトリス (v_bat0075)自国を奪還するならまだしも、侵略は好みじゃありませんから大丈夫です
+
+#リザ (v_riz0008)ええ、私も同感。だけど一時、侵略したのは確かだし、それに対する抵抗も合わさって主権が曖昧になったときもある
+
+#クラウディア (v_kru0152)その頃に虐殺が？
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0009)というのがソ連側の主張ね。お陰でどっちがやったのかよく分からなくなっている
+
+#リザ (v_riz0010)そのへんの真相はいずれ明らかになることを願ってるけど、副首領閣下殿も言ってた通り今は棚上げ。とうに赤十字も撤退してるし、後に残ったのは謎めいた死体の山よ
+
+<layer parent='cutin' id='ss' char-src='riz sinken morugen' time='0.5'>
+#リザ (v_riz0011)見つかってるだけでも、約五千体
+
+#ベアトリス (v_bat0076)五千……しかも氷山の一角ですか
+
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen' time='0.5'>
+#リザ (v_riz0012)その四・五倍は埋まってるんじゃないかとさえ言われてるわね。あなたなら、これをもったいないとでも思うかしら、ベイ
+
+#ヴィルヘルム (v_vir0335)だな。命の無駄遣いはいただけねえよ
+
+ソ連野郎が殺したポーランド人なら、そいつらはハイドリヒ卿の城にもいけない。誰が何処からどう見ても、完全な犬死にだろう。実際もったいねえ話だよ。
+
+#ヴィルヘルム (v_vir0336)でだ、ここにどんな怪異が起こってるんだ？　ベタに幽霊でも出るのかよ
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0013)近いけど、違うわね。もっと単純に生々しいわよ
+
+<layer parent='cutin' id='ss' char-src='riz sinken morugen' time='0.5'>
+<layer parent='cutin' id='01' src='red' mask-src='center1' time='0.8'>
+#リザ (v_riz0014)死体が森の中を歩き回っている
+
+
+#ヴィルヘルム (v_vir0337)へえ……
+
+さらっとバビロンは口にしたが、そのせいで逆に現実感が強調された。頭にストレートなイメージが像を結ぶ。
+
+<imgblk mask='center1' time='0.8'>
+<layer parent='cutin' id='02' opacity='1' time='3'>
+</imgblk>
+謎の虐殺があったカチンの森。その中を夜な夜な蠢く死人どもの群れ。いいねえ、なかなか俺好みだと思ったよ。
+
+#ベアトリス (v_bat0077)副首領閣下が言い出した以上、愚問でしょうが、それは本当なんですか？
+
+#リザ (v_riz0015)少なくとも、犠牲者は出てるわね。だから危ない何かがいるのは間違いない
+
+#クラウディア (v_kru0153)動物の仕業じゃないんでしょうか？　熊とか、狼とか
+
+あるいは死体と見紛うほどの敗残兵か。そういう真っ当な解釈を、バビロンは纏めて言下に否定した。
+
+#リザ (v_riz0016)死に方が普通じゃないのよ。人でも獣でもあんなことは出来ない
+
+#リザ (v_riz0017)みんな干乾びてたわ。まるでミイラみたいにね
+
+#ベアトリス (v_bat0078)ミイラ……？
+
+呟き、俺を見てくるベアトリス。それは当然の反応かもしれないが、微妙に腹が立つ流れだった。
+
+#ヴィルヘルム (v_vir0338)生憎と、俺はこんな所に知り合いなんざ持っちゃいねえよ。だいたい、相手が魔術師なら珍しくもないことだろうが
+
+<imgblk mask='center1' time='1'>
+<layer parent='cutin' id='03' opacity='1'>
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen'>
+</imgblk>
+#リザ (v_riz0018)そうね。<rb "かれら">魔術師</rb>は何かを成すとき、石油や電気とは違う種類のエネルギーを求める。もっと古い自然科学的な概念の、一言でいえば生命力
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0019)水や大地や火や風や、そういうものに宿る<rb "マナ">魔力</rb>だったかしら？　星の血液みたいなものね
+
+#リザ (v_riz0020)だから生物の血や魂を利用するのも珍しくない
+
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen' time='0.5'>
+#リザ (v_riz0021)もっとも、人に限っては使い勝手が良くないとされているみたいだけど
+
+#ヴィルヘルム (v_vir0339)正確には、使いたくても使えねえ――だろ？
+
+専門的な話になるんであまり詳しくは言えねえが、人間から魔術用の燃料を搾り出すのは賢明じゃないらしい。
+
+ショボいからって意味じゃなく、制御が困難でリスクがでかいせいだと聞いている。
+
+何て言うかな、人間ってのは俗で業が深いんだとよ。目先の欲で自然をぶち壊すような存在だから、上手く利用すれば地水火風のあれこれなんぞは目じゃねえ高品質の燃料なんだが、それは自殺行為になるとかなんとか。
+
+事実今でも、環境の汚染だ破壊だ言われてるだろ？　自然を凌駕する人間の真価ってやつを引きずり出すには、それを具現化させないといけない。つまり、自ら破滅へ向かう力の行使だ。
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0022)自分の魂を使えば当たり前に衰弱死の危険が高いし、かといって<rb "ひと">他人</rb>の魂だと我のぶつかり合いが起きて正気を保てなくなりかねない
+
+#リザ (v_riz0023)あるいはもっと漠然とした、運命的な意味だとしても……
+
+<layer parent='cutin' id='ss' char-src='riz niko morugen' time='0.5'>
+#リザ (v_riz0024)エゴ、欲望、そういうものが人間の一番強い力だから、そのまま使えば自滅しちゃうっていう理屈ね。そこについての議論はともかく、魔術の教義じゃそうなっている
+
+#リザ (v_riz0025)なので人間の生命力を使うときは、謙虚にいかないといけないらしいわ。偉大な自然に比べれば、私なんか取るに足らない存在ですと、芯から思い込んで騙すみたいな
+
+#リザ (v_riz0026)自分にしろ、他人にしろ、要は希釈ね。原液のままじゃ危なすぎだし、薄めたら持ち味を削いでしまうから弱すぎる
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0027)結果、どっちにしろ使えない。人間を魔術の燃料にするのは賢くないってことになる
+
+<layer parent='cutin' id='ss' char-src='riz sumasi morugen' time='0.5'>
+#リザ (v_riz0028)普通はね
+
+
+
+
+
+
+
+
+
+
+
+
+見れば、ベアトリスがあからさまに嫌そうな顔をしていた。それは自分が普通じゃないと言われたようなものだからだろう。
+
+なぜなら、俺たちこそ人魂を燃料にしている存在だからだ。そしてもちろん、黒円卓に謙虚な奴など一人もいねえ。
+
+どいつもエゴの塊で、欲望の塊だ。そこはベアトリスも例外じゃあるまい。
+
+よってバビロンの言に倣うなら、俺たちは自滅に突き進んでいる狂信者の群れということになる。
+
+極めて愚かで凶悪な、人間という怪物そのもの。真祖の身としちゃ反論したい点もあるが、大方外れちゃいないと言えるだろう。
+
+#ベアトリス (v_bat0079)カチンの魔術師は、そういう普通じゃない手合いだと？
+
+#リザ (v_riz0029)何にしろ、外法使いなのは確実でしょうね。もしかしたら副首領閣下殿に匹敵するのかもしれない……て言うのは、さすがにちょっと大袈裟かしら？
+
+#ベアトリス (v_bat0080)あんなのが何人もいるなんて、私は考えたくありませんが……
+
+#ベアトリス (v_bat0081)言われてみれば、ハイドリヒ卿も仰っていましたね。前座の締め括りとしては申し分ない
+
+#ベアトリス (v_bat0082)かなり珍しいですよ。あの人がそういうことを言うなんて
+
+#ベアトリス (v_bat0083)だから、甘くないのは確かなんでしょう
+
+自滅を恐れない狂人が、自滅した後も呪いをばら撒き続けている。分析すればそういう答えに辿り着き、だいぶイカレた野郎なのは間違いない話だった。
+
+<layer parent='cutin' id='ss' char-src='riz metoji morugen' time='0.5'>
+#リザ (v_riz0030)まあ私たちが自滅するかどうかはともかく、なんだか意味深な構図になってるわね。未来との邂逅、みたいな
+
+#リザ (v_riz0031)これから先、やっていくためにも、ここで見るべきものはあるでしょう
+
+<se src='06'>
+<imgblk mask='giza2' time='0.7'>
+<charclear>
+<layerclear parent='cutin' id=''>
+@cg black;
+</imgblk>
+言って、バビロンは踵を返した。いよいよ怪異と直面するため、俺たちも後に続く。
+
+そのとき。
+
+
+@hidemessage;
+<soundstop time='2'>
+<imgblk mask='giza2' time='1'>
+<layer parent='cutin' id='01' src='bg07a' center='600 320' position='900 300' scale='2.8' opacity='0' rotate='-15'>
+<layer parent='cutin' id='02' char-src='cla tere def' center='1175 1450' position='450 400' scale='1' opacity='0' rotate='-15'>
+</imgblk>
+<layer parent='cutin' id='01' position='900 600' time='4' accel='-1'>
+<layer parent='cutin' id='02' position='450 700' time='4' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='02' opacity='1' time='1'>
+<wait time='4'>
+#クラウディア (v_kru0154)あのー、ちょっといいですか？
+
+#リザ (v_riz0032)ん、なあに？
+
+空気をわざとぶっ壊しに掛かってるとしか思えねえ、間延び気味の声に俺らは振り向く。
+
+そこには、妙にもじもじした様子のクラウディアがいて……
+
+<layer parent='cutin' id='02' char-src='cla kusyou def' time='1'>
+#クラウディア (v_kru0155)私、おトイレ行きたいんですけど
+
+@hidemessage;
+@sound105;
+<imgblk mask='giza1' time='0.7'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 10 -250'>
+@bg bg07a;
+<char src='riz odoroki morugen' position='-440 1880 250'>
+<char src='bea odoroki segen' position='150 1860 250'>
+<char src='cla kusyou def' position='550 1860 240'>
+</imgblk>
+#ヴィルヘルム …………
+
+
+絶句だぜ。さすがの俺も、素で言葉を失ったわ。
+
+<char src='riz kusyou'>
+#リザ (v_riz0033)ぷっ、く――あはははっ
+
+<char src='riz niko'>
+#リザ (v_riz0034)参ったな。これはなんとも、頼もしい……重大任務よ、お願いしていいかしらベアトリス
+
+<char src='bea niko'>
+#ベアトリス (v_bat0084)はいはい、了解いたしました。ほらクラウディア、あっちでお花を摘みましょうね
+
+<char src='cla awate'>
+#クラウディア (v_kru0156)す、すみません。緊張すると、こう、生理的にですね
+
+<se src='1040'>
+@hshake 15 0.2;
+#ヴィルヘルム (v_vir0340)いいからとっとと行けやコラァ！
+
+@hidemessage;
+<se src='04'>;;//ＳＥ：駆け去る足音
+<charclear src='cla' position='600' time='0.3' accel='1'>
+<charclear src='bea' position='200' time='0.3' accel='1'>
+<wait time='0.4'>
+<sestop time='1'>
+<imgblk mask='giza2' time='1'>
+<layercamera position='-250 -100 -150'>
+<char src='riz niko morugen' position='-270 1970 50'>
+@bg bg07a_b;
+</imgblk>
+ようやく搾り出せた怒声を制するように、バビロンが俺の肩へ手を置き言った。
+
+<char src='riz nikkori'>
+#リザ (v_riz0035)ところでベイ、私の中であなたへの好感度がだいぶ上がり始めてるわ。どうしましょう
+
+#ヴィルヘルム (v_vir0341)知るかンなもん！
+
+@hidemessage;
+<layercamera position='-250 -150 -150' time='0.4' accel='1'>
+<wait time='0.3'>
+<imgblk mask='mask3' time='0.3'>
+<charclear>
+<layercamera position='0 50 -300'>
+@cg black;
+</imgblk>
+<layercamera position='0 0 -300' time='0.3' accel='1'>
+@cg yozora mask3 0.4;
+<wait time='2'>
+@fo;
+@def;
+<sestop>
+<soundstop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+j:
+<sound src='21'>
+<se src='02' loop='true'>;;
+<layer parent='cutin' id='01' src='bg15a' center='400 225' position='20 450' scale='2.5' opacity='0'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='0.01'>
+<layer parent='cutin' id='01' position='990 570' time='100'>
+<layer parent='cutin' id='01' opacity='1' time='1.5'>
+<layer parent='cutin' id='kiri' opacity='1' time='1.5'>
+<wait time='1.5'>
+
+#クラウディア (v_kru0157)そうなんですか。じゃあリザさんは、これが三度目の怪異になるんですね
+
+#リザ (v_riz0036)ええ。他はだいたい一人に一つずつだったから、経験豊富なほうになるわね。自慢できることじゃないんだけど
+
+#クラウディア (v_kru0158)それはどうしてですか？　要は歴戦ということなんでしょう？
+
+#リザ (v_riz0037)何度も経験すべきじゃないことっていうのもあるからね
+
+@hidemessage;
+<sestop time='1.5'>
+<imgblk mask='giza2' time='1'>
+<layerclear parent='cutin' id='01'>
+<layercamera position='340 0 -100'>
+@bg bg15a;;※背景・森①
+<char src='cla kyoton def' position='140 1900 310'>
+<char src='riz niko morugen' position='600 1910 300'>
+<char src='bea none segen' position='450 1870 550'>
+</imgblk>
+
+クラウディアの問いをやんわりとはぐらかしながら、バビロンは曖昧な笑みを浮かべていた。
+
+すでに俺たちは、森の外縁部に入っている。よって動く死体とやらにいつ遭遇するか分からなかったし、無駄話をしている場合じゃないのもあるだろうが、本音は違うと分かっていた。
+
+きっと喋りたくないんだろう。これまでどういう怪異と向き合ったのか、そこについては言いたくないんだと考える。
+
+事実ここまで、俺とベアトリスもさんざっぱら質問されたが答えてねえんだからよ。
+
+#ヴィルヘルム (v_vir0342)やめとけクラウディア。俺らで懲りたろ、訊いても無駄だ
+
+#ヴィルヘルム (v_vir0343)<rb "そいつ">バビロン</rb>は業が深ぇ女だからな。三度も経験するってのはそういうことだよ
+
+端的に纏めちまうと、メルクリウスに駆逐しろと言われた怪異は俺らにとって皮肉めいたものばかりだった。
+
+このカチンにしてもそうだが、要するにおまえはこういう馬鹿野郎ですと指摘されるようなノリなんだよ。だからそんなもん、誰だって嬉々と話したくはねえだろう。
+
+#ヴィルヘルム (v_vir0344)ま、<rb "ここ">カチン</rb>でのことを踏まえつつ、好きに想像してりゃいい。分かったな？
+
+<char src='cla akire'>
+#クラウディア (v_kru0159)むぅ、なんだか釈然としませんが、了解しました
+
+<char src='cla niko'>
+#クラウディア (v_kru0160)あなたが珍しく他者への気遣いを示しているんですから、それを尊重することにします
+
+そんなんじゃねえよと思ったが、いちいち言い返すのも面倒くせえ。俺は鷹揚に手を振りつつ受け流した。
+
+<char src='riz metoji'>
+#リザ (v_riz0038)ごめんなさいねクラウディア。あなたもここに立ち合っている以上、知りたいことは多いでしょうに
+
+<char src='riz sumasi'>
+#リザ (v_riz0039)けど、改めて意外と言うか、なんだか積極的なのね
+
+#リザ (v_riz0040)今もそうだし、ベイに怖じないところもそう。もっと言えば、看護団の出だというのも凄いわね。度胸があると表現するのは簡単だけど、怖くないの？
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0161)いやあ怖いですよ？　でも私は結構鈍いですから
+
+#ヴィルヘルム (v_vir0345)半分だもんな
+
+<char src='cla niko'>
+#クラウディア (v_kru0162)はい、そういうことで――
+
+#ベアトリス (v_bat0085)違います
+
+<se src='06'>
+<char src='cla kyoton def' position='0 1900 310'>
+<char src='riz odoroki morugen' position='700 1910 300'>
+<char src='bea sinken segen' position='420 1870 550'>
+<wait time='0.6'>
+と、先頭に立っていたベアトリスが振り返ってぴしゃりと言った。
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0086)戦争を始めとする危機的状況において、ただ恐れ慄くだけが人間じゃありません。大半は、怖がると同時に楽しみます
+
+#ベアトリス (v_bat0087)だから修羅場を恐れて嫌うだけの人間は、純粋にそれを楽しめる者と同じくらい稀有なんだと知ってください
+
+<char src='bea jito'>
+#ベアトリス (v_bat0088)ええ、本当に、滅多と見られるものじゃないんですから。そんなわけで、あなたはすごく普通ですよクラウディア
+
+<char src='bea ikari'>
+#ベアトリス (v_bat0089)肝試しは楽しいですもんねっ
+
+<char src='cla odoroki'>
+<char src='riz metoji'>
+#クラウディア (v_kru0163)ああ、はあ……
+
+一気に捲くし立てられ、クラウディアはぽかんとしていた。こいつの考えにベアトリスが異を唱えるのはもはや定番になっていたが、段々余裕がなくなってきたなと突っ込み入れてやりたくなったよ。
+
+しかし、まあいいさ。このときの主張は俺も同感だったからな。
+
+死ぬかもしれない状況ってのは興奮するし、楽しいんだ。祭りは危険なほど盛り上がる。
+
+この感覚を全否定する奴こそ嘘臭いだろ。マジもんの変態じゃねえかと俺は思うぜ。
+
+<char src='riz sumasi'>
+#リザ (v_riz0041)なるほど、兵士として含蓄のある意見をありがとう。確かにそうかもしれないわね
+
+#リザ (v_riz0042)それで、何か異常の兆候は見つかったかしら？
+
+<char src='bea akire'>
+#ベアトリス (v_bat0090)いえ、その、特には……
+
+この中で一番機動力があるから列の先頭を任されていたベアトリスだったが、問いにバツ悪げな顔で首を振る。
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0091)何もおかしなところは見当たらないし、感じませんね。こう言っては何ですが、すごく普通の森ですよ
+
+<char src='bea utumuki'>
+#ベアトリス (v_bat0092)まあしかし、毎夜のように何千もの死体が動き回っているなんてことだったら、とっくにこの一帯は戦争より大事になっていたでしょうけど
+
+#ヴィルヘルム (v_vir0346)要は周期があるんだろう。違うかバビロン
+
+<char src='cla sinken'>
+#クラウディア (v_kru0164)怪異が起きやすい日とそうじゃない日があるってことですか？
+
+<char src='riz metoji'>
+#リザ (v_riz0043)そうね
+
+頷き、バビロンは視線と指を空に向けた。
+
+<imgblk mask='mask3' time='0.8'>
+<charclear>
+<layer parent='cutin' id='kiri' opacity='0.01'>
+<layercamera position='0 0 -300'>
+@cg moon;;
+</imgblk>
+
+#リザ (v_riz0044)私が調べた限りにおいては、おそらくあれ
+
+#リザ (v_riz0045)どうも、月齢と関係があるみたいよ
+
+そこには、煌々と夜を照らす満月が存在していた。言うまでもなく、それは神秘の象徴的な天体だ。
+
+#リザ (v_riz0046)傾向として、月が満ちるにつれ目撃情報が増えている。その点今夜はこれだから、確率的にはかなり高くなるはずなんだけど
+
+#ヴィルヘルム (v_vir0347)出ねえじゃねえか
+
+#リザ (v_riz0047)条件がもう一つあるからね。そっちについてはまだ成立していないから、しばらくの間待ってみましょう
+
+#ヴィルヘルム (v_vir0348)なんだそりゃ、煮え切らねえなあ。知ってることがあるならさっさと言えよ
+
+@hidemessage;
+<imgblk mask='wo' time='1'>
+<layercamera position='120 0 -150'>
+<layer parent='cutin' id='kiri' opacity='1'>
+@bg bg15a;;
+<char src='bea sumasi segen' position='-260 1900 280'>
+<char src='cla sumasi def' position='150 1900 300'>
+<char src='riz sumasi morugen' position='550 1900 280'>
+</imgblk>
+
+しかしバビロンは、意味深に含み笑うだけで何も言わない。悪い癖だぜ。
+
+こいつだけじゃなく、他にもマレウスやクリストフ、そして何よりメルクリウスがそうなんだが、インテリな連中は話をもったいぶるところがある。
+
+思慮深く、知識を重んじているからそれを出し惜しむと言うか、効果的に開陳するタイミングを拘ると言うか、とにかく面倒くせえ連中だ。
+
+自分がやられたら文句言いやがるくせによ。自己中だとは思わねえのかね。
+
+<char src='bea jito'>
+#ベアトリス (v_bat0093)ベイ、何を考えているのかはだいたい分かるし、同感ですが、あなたが言うことじゃありませんよ
+
+#ヴィルヘルム (v_vir0349)だから口には出してねえだろ
+
+<char src='bea niko'>
+#ベアトリス (v_bat0094)顔に書いてるんですよ。ねえクラウディア
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0165)はい。それはもうありありと
+
+#ヴィルヘルム (v_vir0350)ち、うるせえなあ。どいつもこいつも
+
+<char src='riz metoji'>
+#リザ (v_riz0048)とにかく、今はただ待つこと。気長にいきましょう
+
+<char src='riz sumasi'>
+#リザ (v_riz0049)単に月齢だけの問題なら待てばいい話だけど、もう一つの条件は運も相応に絡んでくる
+
+#リザ (v_riz0050)だから下手に教えて癇癪起こされても困るし
+
+<char src='riz metoji'>
+#リザ (v_riz0051)一応、今夜のうちに可能性があるとだけ言っておくから、あまりカリカリしないように
+
+<char src='riz niko'>
+#リザ (v_riz0052)分かった？
+
+言われ、渋々俺は頷いた。餓鬼を窘めるような言い方に腹は立ったが、こういう女にキレ返すのは難しい。この場の上官でもあることだしな。
+
+<char src='bea sumasi'>
+#ベアトリス (v_bat0095)じゃあ、しばらく待機ということでいいですか？　それとも進むだけは進みますか？
+
+<char src='riz sumasi'>
+#リザ (v_riz0053)そこは進んでおきましょう。いざ事が起こったとき、森の深部にいたほうが色々と手っ取り早い
+
+<char src='riz niko'>
+#リザ (v_riz0054)なのでもう少し歩くけど、大丈夫かしらクラウディア？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0166)平気です。皆さんの邪魔にならないよう気をつけますから、どうぞ出来るだけ普段どおりに
+
+<char src='riz nikkori'>
+#リザ (v_riz0055)まあ、いよいよきつくなったらベイにおぶってもらいなさい
+
+#ヴィルヘルム (v_vir0351)なんで俺が。やんねえよ
+
+<char src='riz odoroki'>
+#リザ (v_riz0056)冷たいわね。そこはあなたの責任でしょうに
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0096)そのときは私がやります。こいつの背中に女子を預けるなんて、危なすぎる話でしょう
+
+#ヴィルヘルム (v_vir0352)は、ごもっともだが大きなお世話だ
+
+クラウディアをおぶった状態じゃ形成は出来ないし、薔薇の夜は論外だ。効果範囲にいる奴は敵も味方も関係なくなる。
+
+バビロンやベアトリスを慮る気持ちはまったくねえが、そこにクラウディアを巻き込むのは本意じゃなかった。それこそ、ものの数秒で吸い殺しかねない。
+
+このときは、まだそうするべきじゃないと思っていた。
+
+<imgblk mask='giza2' time='0.7'>
+<layercamera position='-150 0 -50'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0353)とはいえ、ここでこいつが化けりゃあ別だがな
+
+<char src='bea jito'>
+#ベアトリス (v_bat0097)ちょっと、いま何か言いましたか？
+
+#ヴィルヘルム (v_vir0354)なんでもねえよ。おら、てめえはさっさと先陣切れ
+
+&soundstop fo;
+<se src='02' loop='true'>
+@hidemessage;
+<imgblk time='0.8'>
+<layercamera position='0 0 -300'>
+<charclear>
+</imgblk>
+
+そういうわけで、俺たち四人は森の奥へと進んで行った。すると段々霧も濃くなり、空気に死臭が混じりだす。
+
+途中、派手に地面を掘り返した跡を見るのも一度や二度じゃなくなってきた。すでに回収されて空だったが、そこには大量の死体が埋まっていたんだろう。
+
+皆の顔が強張っていく。ここはやはり死者の森で、俺たちの足元には未だ発見されない屍が無数にあるんだ。その現実を悟るには充分すぎる環境で、肝試しにしても洒落じゃすまねえ雰囲気が徐々に演出され始める。
+
+粘るような悲憤。無念の慟哭。それが一帯に満ちているのを俺は感じた。
+
+
+@hidemessage;
+<sestop time='1'>
+<sound src='08'>
+<layer parent='cutin' id='kiri' opacity='0.01' time='0.5'>
+@bg black;
+<wait time='1'>
+<sestop>
+<imgblk mask='giza2' time='1'>
+<layercamera position='0 0 -300'>
+<layer parent='cutin' id='kiri' opacity='1'>
+@bg bg06a;;※背景・森②
+<char src='riz none morugen' position='190 2000 -80'>
+<char src='bea none segen' position='-140 1880 200'>
+<char src='cla none def' position='-540 1870 210'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0355)ここだろ
+
+<char src='riz sinken' position='180 2000 -80'>
+#リザ (v_riz0057)ええ、間違いないわね
+
+
+不自然に開けたカチンの深部。とある丘の手前で俺たちは立ち止まった。
+
+肝心の動く死体こそまだ出てこないが、この場所こそ虐殺の現場だったと確信できる。
+
+#ヴィルヘルム (v_vir0356)ぷんぷん匂うぜ。なるほど、こりゃあ万じゃきかねえ。随分派手にやりやがったみたいだな
+
+<char src='riz metoji'>
+#リザ (v_riz0058)と言うより、まるで流れ作業ね。ここまできたら、屠殺に近いわ
+
+#ヴィルヘルム (v_vir0357)なるほど、確かに違いねえ
+
+人の魂を糧にする俺たちだからこその感覚で、この地に起こった出来事を大体だが読み解ける。異常に淀んだ死の空気がそれを教えてくれるんだ。
+
+几帳面に、律儀なほど整然と、隊列組んで端から順に殺して埋める。死体の上に重ねて、重ねて、まるで人間のドミノ倒しだ。
+
+虐殺と言うより屠殺であり、意味的にはもはや投棄。
+
+捕虜どもを国元まで届けてやるのが面倒だから、もうこのへんで捨てちまおう。そんな意図すら感じるし、実際そう外れちゃいないだろう。
+
+まったく呆れる話だぜ。資源は有効に使えっていうんだ。
+
+#ヴィルヘルム (v_vir0358)ま、そういう意味じゃあ<rb "うちら">ドイツ</rb>の収容所も大概だがな。熱がねえ殺しなんざつまんねえよ
+
+<char src='riz sumasi'>
+#リザ (v_riz0059)逆に言うと、人間らしい感情を絡めたままここまで殺すことは出来ないのかもね
+
+#リザ (v_riz0060)仕事だから。命令だから。その一言で麻痺する人種は大勢見てきた。彼らは普段、優秀と言われ、人格者とさえされる者が多いのよ
+
+#ヴィルヘルム (v_vir0359)おまえやザミエルみたいにか？　他人事みたいに言うんじゃねえよ。てめえらだって血塗れだろうが
+
+#ヴィルヘルム (v_vir0360)俺は自分のために、自分が殺したいから殺す。言い訳はしねえし逃げもしねえ。それこそ、ハイドリヒ卿がやってるように――
+
+<se src='06'>
+<char src='bea ikari segen' position='-150 1880 200'>
+#ベアトリス (v_bat0098)二人とも、いい加減にしてください。クラウディアの前ですよ
+
+耐えかねるというように、そこでベアトリスが割って入った。
+
+@hidemessage;
+<layercamera position='-150 0 -200' time='0.7'>
+<wait time='0.7'>
+<charclear src='riz'>
+<char src='bea sinken'>
+#ベアトリス (v_bat0099)殺人の意味や定義についてそれぞれ見解はあるでしょうし、私も自分がやってきたことを誤魔化すつもりはありませんが、せめて民間人の前じゃ格好くらいつけましょう
+
+
+<char src='riz none morugen' position='260 1900 200'>
+#ベアトリス (v_bat0100)それが欺瞞でも、偽善的でも、軍人ならばそうするべきです
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0101)なぜなら我々は、国と民を守るためにいるんですから
+
+#ヴィルヘルム (v_vir0361)守る、ねえ
+
+そこからして俺とこいつはまったく相容れないんだが、もはや水と油すぎるんで言い返すのも馬鹿らしい。
+
+#ヴィルヘルム (v_vir0362)まあなんでもいいが、それよりおまえは気付いてるか？
+
+<char src='bea akire'>
+#ベアトリス (v_bat0102)何をです？
+
+訝しげに目を細めるベアトリスに、俺は軽く辺りを見回してから言った。
+
+#ヴィルヘルム (v_vir0363)時期にばらつきがある。血の匂いが一定じゃねえ
+
+<char src='bea utumuki'>
+#ベアトリス (v_bat0103)……、それは
+
+言われ、ようやく気付いたらしい。そのへんは得意分野の違いなんでこいつがショボいというわけじゃないんだが、それでも俺に遅れを取るのは屈辱だったようだ。
+
+<char src='cla kyoton def' position='-530 1870 210'>
+#クラウディア (v_kru0167)え、あの、つまりどういうことですか？
+
+#ヴィルヘルム (v_vir0364)別に。これといってたいしたことでもねえよ。ただ、ここで死んだのは、可哀想なポーランド野郎だけじゃねえみたいだぜ
+
+#ヴィルヘルム (v_vir0365)カチンの虐殺は四・五年近く前のことだし、実際それくらい古い血臭が大半だ。けど、他に新しいのもあるんだよ
+
+<char src='cla utumuki'>
+#クラウディア (v_kru0168)それは、つまり怪異の犠牲者ということですか？　確か最初に、リザさんもそんなようなことを言っていた気が……
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0104)にしても、少し数が多すぎます。こんな不吉で、気味が悪い森の中心部に、わざわざ周辺の住民が大挙してやって来るわけがない
+
+#ベアトリス (v_bat0105)ベイほど正確には量れませんが、たぶん百は超えてますよ
+
+<char src='cla sinken'>
+#クラウディア (v_kru0169)百って……
+
+#ヴィルヘルム (v_vir0366)しかもこりゃあ、<rb "カタギ">素人</rb>じゃねえな。戦闘の跡がある
+
+#ヴィルヘルム (v_vir0367)となりゃあ一個中隊……いや、新しい中でも微妙にずれがあるから三個か四個の小隊か？　馬鹿が、戦力の逐次投入をしやがったな
+
+#ヴィルヘルム (v_vir0368)最初に偵察隊を送り込んだが全滅して、次にそこそこの規模を送り込んだがまた全滅。それでいよいよマジになったが、これまた全滅。そんなとこだろ、アホ丸出しだぜ
+
+鼻で笑って、俺は傍らのバビロンに目を向けた。
+
+#ヴィルヘルム (v_vir0369)よぉ、こりゃどういうこった？　俺らの他にも、組織だってカチンに来てる連中がいんのかよ？
+
+<char src='riz sinken' position='250 1900 200'>
+#リザ (v_riz0061)そうね。クラウディアの手前、黙っておいたほうがいいと思ったから言わなかったんだけど
+
+それにこいつは、一つ溜息を吐いてから答えた。
+
+#リザ (v_riz0062)東方正教会と、それから<rb "ヴァチカン">教皇庁</rb>。そこの部隊が、何度か投入されたみたいよ
+
+<char src='cla odoroki'>
+#クラウディア (v_kru0170)え、教会って……なんですかそれは？
+
+と、そっち側の人間であるクラウディアが驚くのも間抜けな話だが、実際無理もないことだろう。
+
+一般の、しかもこいつみたいなおめでたい信徒に、組織というものは裏の顔を見せない。
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0106)クラウディア、あなたも看護団の一員として軍事に関わっていたでしょう。これはそこから、もう少し延長した話なんですよ
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0107)どんな組織でも、維持していくには綺麗事だけじゃすまされない面があります。だから力が必要になるのは分かりますね？
+
+#リザ (v_riz0063)政治力、経済力、そして武力
+
+<char src='cla sinken'>
+#クラウディア (v_kru0171)武力……
+
+#リザ (v_riz0064)ええ、権力とはそういうものね。まして教会は、ある意味で世界最強の組織でしょう。信徒の数、歴史の深さ、共に並じゃないからね。当然闇も深くなる
+
+#ヴィルヘルム (v_vir0370)つまり簡単に言うとだな。てめえが愛する神の家は、教義に都合の悪い連中をぶちのめす殺し屋どもを飼ってるってことなんだよ。何もおかしな話じゃねえだろう
+
+#ヴィルヘルム (v_vir0371)俺はよく知らねえが、これまで十字軍だ異端審問だと、さんざっぱら殺ってきたらしいじゃねえか。それは今でも続いてんのさ
+
+#ヴィルヘルム (v_vir0372)そもそも、おまえ自身も言ってただろうが。神とはそういうものだってよ
+
+#ベアトリス (v_bat0108)ベイ、だからあなたは……
+
+<char src='riz metoji'>
+#リザ (v_riz0065)まあ、驚いたでしょうけどそういうことよ。カチンの怪異は死者の蘇りと言うには歪だけど、それでもキリストの特権を侵しているから第一級の異端よね。教会としては、抹殺せずにいられない
+
+<char src='riz sumasi'>
+#リザ (v_riz0066)そのわりには、ベイも言うとおり甘い見積もりだったみたいだけど。そこらへんはやっぱり時代なのかしらね
+
+<char src='riz sinken'>
+#リザ (v_riz0067)副首領閣下殿が言ったように、最後で最強の神秘は私たち……なのかどうかは、ともかくとして
+
+何にせよ、どうでもいいことだ。教会の連中がこの件に絡んでいるからといって、俺たちの障害には成り得ない。事実、それは奴らの全滅という形で証明されている。
+
+しょせんここでは過ぎた話。世間知らずなクラウディアに、一つ真実を教えてやったというだけのこと。
+
+<char src='bea utumuki'>
+#ベアトリス (v_bat0109)あの、やっぱり傷つきましたか？　だったらごめんなさい。別に私は、あなたや信徒の方々を蔑みたいわけじゃなく……
+
+<char src='cla metoji'>
+#クラウディア (v_kru0172)いえ、気になさらないでください。確かにびっくりしましたけど、皆さんの仰るとおりだと思いますし
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0173)教会の実態がどうであろうと、それで祈りが曇るわけではないと私は……
+
+<soundstop time='2'>
+
+言いかけて、不意にクラウディアは言葉を切ると、空を見上げた。
+
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+<layercamera position='0 0 -300'>
+<charclear>
+<layerclear parent='cutin' id='kiri'>
+@cg kumorisora;;
+</imgblk>
+
+#ヴィルヘルム (v_vir0373)なんだ、どうしたよ？
+
+#クラウディア (v_kru0174)いえ、ただ雨が
+
+#ベアトリス (v_bat0110)あ、本当だ。降ってきましたね
+
+<layer parent='cutin' id='mv' src='mv_06' center='800 450' position='512 300' scale='0.7' opacity='0.01'>
+<layer parent='cutin' id='mv' opacity='1' time='2'>
+
+見ればいつの間にか分厚い雲に月も覆われ、ぽつぽつと降り始めている。そしてそれは、いくらもしないうちに土砂降りの豪雨へ変わった。
+
+
+
+@hidemessage;
+<layer id='env01' env-src='01'>;;;//ＥＮＶ・雨の音
+<imgblk mask='mask3' time='0.7'>
+@bg bg06a;
+<layercamera position='-150 0 -200'>
+<char src='cla odoroki def' position='-530 1870 210'>
+<char src='bea odoroki segen' position='100 1880 200'>
+<layer parent='cutin' id='mv' src='mv_07' center='400 225' position='512 350' scale='1.48' opacity='1'>
+<layer parent='cutin' id='02' src='008_bg' center='762.5 270' position='-400 -500' scale='1.5' opacity='0'>
+<layer parent='cutin' id='01' src='008_e' center='762.5 270' position='-400 -200' scale='2' opacity='0'>
+</imgblk>
+#クラウディア (v_kru0175)わ、わわ、ちょっと、これは大変です
+
+<char src='bea utumuki segen'>
+#ベアトリス (v_bat0111)……参りましたね。私たちはいいとしても、こんな所で降られたらクラウディアが風邪を引く
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0112)ベイ、彼女を何処か、雨宿りの出来るところに
+
+#ヴィルヘルム (v_vir0374)くそ、鬱陶しいなあ。いきなりバシャバシャ降りやがって
+
+<se src='1158c'>;;//ＳＥ・雷の音
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.3'>
+
+<char src='cla awate'>
+#クラウディア (v_kru0176)きゃあっ
+
+愚痴に重なるような稲光。轟く雷鳴にクラウディアがすくみ上がる。
+
+だが、そんな状況を無視したまま。
+
+@hidemessage;
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='02' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' position='-400 300' time='1'>
+<layer parent='cutin' id='02' position='-400 0' time='1'>
+<wait time='1.2'>
+<layer parent='cutin' id='03' src='mv_06' center='800 450' position='512 300' scale='0.7' opacity='0.01'>
+#リザ (v_riz0068)来るわね
+
+底が抜けたような空を見上げて、バビロンはぽつりとそんなこと呟いていた。
+
+そして一転、語気を荒げて俺たちに告げる。
+
+@sound11;
+
+#リザ (v_riz0069)二人とも、即時臨戦態勢を取りなさい。これが第二の条件よ
+
+#ベアトリス (v_bat0113)は、それは……
+
+#ヴィルヘルム (v_vir0375)つまり、雨が？
+
+
+<layer parent='cutin' id='03' opacity='1' time='0.5'>
+#リザ (v_riz0070)ええ――地中の“何か”に、雨を通じて死者の無念が届くんでしょう。怪異が起きるのは満月期
+
+#リザ (v_riz0071)そして、こんな雨の夜。出てくるわよ！
+
+
+そのとき、下から突き上げるように地面が跳ねたのを俺は感じた。そして同時に、傍の大木へ稲妻が落ちる。
+
+<se src='1158c'>;;//ＳＥ・雷の音
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.3'>
+<wait time='0.2'>
+<se src='1006'>
+<se src='2150'>
+<se src='2178b'>
+<imgblk mask='giza1' time='0.3'>
+<charclear>
+<layerclear parent='cutin' id=''>
+@bg black;
+</imgblk>
+
+#ベアトリス (v_bat0114)なッ、クラウディア！
+
+ばりばりと落雷に引き裂かれ、根こそぎ倒れる大木に引かれる形で緩くなった地盤も崩れた。土砂の波にクラウディアが声もなく呑み込まれていく。
+
+@hidemessage;
+<se src='104'>
+<se src='111'>
+<layer parent='cutin' id='ff' src='008_d' center='400 225' position='00 00' scale='2.6' opacity='0'>
+<layer parent='cutin' id='ff' opacity='1' position='400 0' time='0.3'><layer parent='cutin' id='10' src='mv_bara' center='512 288' position='512 300' opacity='0.01'>
+<wait time='0.8'>
+#ヴィルヘルム (v_vir0376)……馬鹿が
+
+<layer parent='cutin' id='ff' position='100 300' time='50'>
+トロくせえ女だと腹の中で罵ったが、追う気もなければ助ける気も起きない。都合上、そうするべきだと分かっちゃいたが、そんな気分にゃなれねえんだよ。
+
+なぜって？　前にも言ったよな。融合型は思考が乱雑になるんだよ。
+
+術を喚起し、戦意を纏い、己の渇望を自覚すればするほどに。
+
+<layer parent='cutin' id='10' opacity='1' time='0.8'>
+#ヘルガ (v_hrg0012)ヴィル、ヴィル、わたしの愛しいヴィルヘルム……
+
+俺の中に流れる<rb "キッス・インザ・ダーク">闇の賜物</rb>――薔薇の魔性がすべてを吸い殺せと言っているんだ。
+
+#ヘルガ (v_hrg0013)あなたをアイしてるのよオォ――わたし以外の女はいらないでしょうォォ！
+
+<layerclear parent='cutin' id='01' time='0.5'>
+<wait time='0.5'>
+
+#ヴィルヘルム (v_vir0377)ほざけや淫売、てめえもしょせん俺の餌だ
+
+あのとき同様、ズタズタになるまで抱いてやるからありったけの血を寄越せ。ここに形を成し、具現しろ。
+
+<se src='2020c'>
+<wait time='0.3'>
+#ヴィルヘルム (v_vir0378)<rb"形成">"Yetzirah"</rb>――
+
+@hidemessage;
+<sestop>
+<layer parent='cutin' id='mv' src='mv_09' center='400 225' position='512 300' scale='1.29'>;;//形成ムービー
+<wait time='5'>;;//(現状仮）ムービーの長さ分だけ必要
+<layer parent='cutin' id='01' src='008_d' center='400 225' position='1020 200' scale='2.6' opacity='0'>
+<layer parent='cutin' id='01' position='150 500' time='40' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='1'>
+<layerclear parent='cutin' id='ff'>
+<layerclear parent='cutin' id='10'>
+<layercamera position='0 0 -300' rotate='0'>
+@cg 008_d ol 0;
+<layerclear parent='cutin' id='mv'>
+
+#ヘルガ (v_hrg0014)うふふ、ひひひひ……きゃはハハハハハハハハハハハ―――！
+
+狂った女の金切り声にも似た音を立て、俺の牙たる血の茨が現れた。さながら発芽するかのように、全身から無数の杭が生えてくる。
+
+これが俺だ。黒円卓の第四位、ヴィルヘルム・エーレンブルグ＝カズィクル・ベイ。ヴラド・ツェペシュの血と融合した、地上唯一の吸血鬼。
+
+そして当然、ここでこの状態に入ったのは伊達や酔狂なんかじゃねえ。そうするに足る現実が目の前にあるからで、すなわちカチンの怪異が発生している。
+
+@hidemessage;
+<se src='2061' loop='true'>
+<se src='2152b'>
+<se src='2179a'>
+<se src='2083c'>
+<imgblk mask='center1' time='0.5'>
+<layer parent='cutin' id='mv' src='mv_08' center='400 225' position='250 150' scale='0.65'>;;//ミイラの手、出現ムービー
+</imgblk>
+<wait time='5'>;;//(現状仮）ムービーの長さ分だけ必要
+<layerclear parent='cutin' id='01'>
+@bg black ol 0;
+
+豪雨に泥濘化した足場が波打ち、こちらも発芽を思わせる光景が具現していた。ちょいと想像すりゃ分かるだろうが、地面から生えてくる手っていうのは花に似ている。
+
+それが一面、見渡す限りの大地を埋め尽くし群生していた。グロテスクで悪趣味だが、咲き乱れると表現して構わねえ状況だろう。
+
+加えてもちろん、この花はこれだけじゃ終わらねえ。
+
+@hidemessage;
+<imgblk mask='giza1' time='0.3'>
+<layerclear parent='cutin' id=''>
+<layercamera position='1650 850 -1000'>
+@bg 007_bg;
+</imgblk>
+<se src='2124a'>
+<se src='2147a'>
+<se src='2152b'>;;//ＳＥ・行軍の音
+<se src='2179a'>;;//ＳＥ・蠢く音
+<se src='2083c'>;;//ＳＥ・這いずる音
+<layer parent='cutin' id='01' src='007_c' center='1303 965' position='754 400' scale='0.5' opacity='0'>
+<layer parent='cutin' id='02' src='007_f' center='1303 965' position='454 400 2' scale='0.4' opacity='0'>
+<layer parent='cutin' id='03' src='007_g' center='1303 965' position='895 700 1' scale='1' opacity='0'>
+<layer parent='cutin' id='01' position='754 400' scale='0.55' opacity='1' time='0.6'>
+<layer parent='cutin' id='02' position='454 400 1' scale='0.43' opacity='1' time='0.6'>
+<layer parent='cutin' id='03' position='895 720 1' scale='1.05' opacity='1' time='0.6'>
+<wait time='0.6'>
+<layerclear parent='cutin' id='mv'>
+
+腕が、肩が、そして頭が、胴体が――ぼこぼこと沸き立つように次から次へと現れやがる。半ば白骨化し、全身の穴という穴から泥と蟲を滴らせながら立ち上がっていく屍たち。
+
+@hidemessage;
+<sestop time='0.5'>
+<se src='1193'>
+<se src='1065'>
+<imgblk mask='giza1' time='0.3'>
+<layerclear parent='cutin' id=''>
+<layercamera position='-500 00 00' rotate='0'>
+@cg 008_d;
+</imgblk>
+<layercamera position='300 -200 00' rotate='0' time='0.5'>
+<wait time='0.6'>
+#ヴィルヘルム (v_vir0379)不細工どもが
+
+べたべたの定番すぎて、もはや哀れみすら覚えたぜ。同じ死者の軍勢でも、ハイドリヒ卿の帝国とはあらゆる意味で比較にならねえ。
+
+これが俺らの未来だとでも言いたいなら、侮辱するにも程がある。
+
+@hidemessage;
+<se src='2067c'>
+<layer parent='cutin' id='01' src='008_d' center='400 225' position='-200 600' scale='4' opacity='0'>
+<layer parent='cutin' id='01' position='-200 680' time='1' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<wait time='0.5'>
+<layer parent='cutin' id='bg' src='007_bg' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='02' src='007_g' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='03' src='007_f' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='04' src='007_e' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='05' src='007_d' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='06' src='007_c' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+<layer parent='cutin' id='07' src='007_b' center='1303 965' position='512 350' scale='0.5' opacity='0'>
+
+#ヴィルヘルム (v_vir0380)てめえら、ヴァルハラに行けると思うな
+
+ここで残らず、屑のように粉砕してやる。永遠に何処へも辿り着けない間抜けとして、枯れ落ち死骸を晒すがいい。
+
+@hidemessage;
+<sestop>
+<se src='1003'>
+<se src='2004'>
+<layer parent='cutin' id='bg' src='007_bg_b' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='02' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='03' src='007_f_b' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='04' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='05' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='06' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<layer parent='cutin' id='07' position='512 850' scale='1.4' time='0.3' opacity='1'>
+<wait time='0.3'>
+<layerclear parent='cutin' id='01'>
+
+#ヴィルヘルム (v_vir0381)ぶち壊してやるよォ！
+
+@hidemessage;
+<se src='1014b'>
+<se src='2005'>
+<se src='1014'>
+<layer parent='cutin' id='08' src='13_c' center='400 225' position='512 300' scale='1.3' opacity='0'>
+<layer parent='cutin' id='08' src='13_c' center='400 225' position='-50 0' scale='2.8' opacity='1' time='0.2'>
+<wait time='0.3'>
+<layerclear parent='cutin' id='08' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='09' src='impact3_t' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<se src='1005c'>
+<se src='2009c'>
+<layer parent='cutin' id='09' scale='2' opacity='1' time='0.3'>
+<layer parent='cutin' id='06' position='512 800' scale='1.3' time='0.3' opacity='0'>
+<layer parent='cutin' id='03' src='007_f'time='0.3'>
+<layer parent='cutin' id='bg' src='007_bg' time='0.3'>
+<wait time='0.2'>
+<layer parent='cutin' id='09' opacity='0' time='1'>
+
+咆哮と同時に、俺は泥水を蹴り上げ怪異の中へと踊り込んだ。一番手前にいた死者の頭を、拳の一発で粉々にする。
+
+<se src='2152b'>;;//ＳＥ・行軍の音
+<se src='2179a'>;;//ＳＥ・蠢く音
+<se src='2083c'>;;//ＳＥ・這いずる音
+<layer parent='cutin' id='gg' src='007_a' center='600 320' position='650 600' scale='2' opacity='0'>
+<layer parent='cutin' id='gg' position='1150 600' time='40'>
+<layer parent='cutin' id='gg' opacity='1' time='1'>
+
+
+そこには何の手応えもねえ。スカスカの枯れ木を砕いたようなもんだった。事実、こいつらの中に奪うべきものは何もねえと瞬時のうちに悟ったよ。
+
+吸い取りたい魂はなく、血の一滴も存在しねえ。それが俺には許せなかった。
+
+たかが死体に生ある何かを期待するほうが馬鹿なんだが、そういう理屈を許容できる精神状態じゃなかったんでな。衝きあがる暴力への衝動が、ただ物足りねえと叫ぶんだよ。
+
+だからこのとき、事態を正確に見ていたのは無論のこと俺じゃなかった。
+
+@hidemessage;
+<sestop>
+<se src='2079a'>;;//ＳＥ・雷撃
+<se src='2079b'>;;//ＳＥ・雷撃
+<se src='2007'>;;//ＳＥ・轟音
+<se src='2079c'>;;//ＳＥ・雷撃
+<layer parent='cutin' id='01' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='01' src='tuki2_b' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.25'>
+<layerclear parent='cutin' id='gg'>
+<layerclear parent='cutin' id='bg'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='04'>
+<layerclear parent='cutin' id='05'>
+<layerclear parent='cutin' id='06'>
+<layerclear parent='cutin' id='07'>
+<layerclear parent='cutin' id='08'>
+<se src='1005c'>
+<se src='1006'>
+<se src='1004a'>
+<imgblk mask='mask2' time='0.15'>
+<layerclear parent='cutin' id=''>
+@cg baku2;
+</imgblk>
+@effect2;
+
+すぐ傍らを擦過して、真横に走る蒼い稲妻。自然のものじゃ有り得ねえ雷神の鉄槌が、纏めて数十の死者をボロ屑に変える。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='008_bg' center='1541 940' position='512 300' scale='1' opacity='0'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='2000 865' scale='1.3' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='0.4'>
+<se src='1020'>;;//ＳＥ・剣構え
+<se src='103'>;;//ＳＥ・一歩分の足音
+<layer parent='cutin' id='02' position='1934 865' opacity='1' time='0.6' accel='-1'>
+<wait time='0.6'>
+@camera;
+#ベアトリス (v_bat0115)なるほど、単体の脅威度はさほどのものじゃありませんね。動きは遅く、思考もしない
+
+#ベアトリス (v_bat0116)力は強いのかもしれませんが、この程度なら……
+
+@hidemessage;
+<se src='2001'>
+<se src='2005a'>
+<layer parent='cutin' id='02' position='3034 865' rotate='-10' time='0.2' accel='-1'>
+<wait time='0.1'>
+<layer parent='cutin' id='zz' src='zan1_h_t' center='600 320' position='652 400' scale='1' opacity='0'>
+<layer parent='cutin' id='zz' scale='5' position='1752 300' time='0.2' opacity='1' accel='-1'>
+<wait time='0.15'>
+<layer parent='cutin' id='03' src='impact2' center='400 225' position='400 250' scale='1.6' opacity='0' rotate='0'>
+<se src='1011b'>;;//ＳＥ・攻撃
+<se src='1010a'>;;//ＳＥ・攻撃
+<layer parent='cutin' id='03' src='impact2' center='400 225' position='90 450' scale='2.6' opacity='1' rotate='-30' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='02' position='1950 930' scale='1.5' time='0'>
+<se src='1001b'>;;//ＳＥ・ズガーン
+<se src='2011c'>;;//ＳＥ・衝撃
+<se src='1004'>
+@effect2;
+
+言いつつ、身を捻って繰り出す後ろ回し蹴りの一閃。華奢な見た目を完全に裏切る轟風が巻き起こり、背後から掴み掛かろうとしていた死者をやはり纏めて吹き飛ばした。
+
+@hidemessage;
+<se src='1024'>
+<imgblk mask='mask2' time='0.3'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='zz'>
+<layer parent='cutin' id='02' position='1884 865' opacity='0' rotate='0'>
+</imgblk>
+<layer parent='cutin' id='02' position='1934 865' opacity='1' time='0.4'>
+<wait time='0.5'>
+#ベアトリス (v_bat0117)まず我々が遅れを取ることなど有り得ない。不満ですか、ベイ？
+
+#ヴィルヘルム (v_vir0382)ああ、こんなカスども、どれだけ潰そうが単なる魂の無駄遣いだ
+
+#ベアトリス (v_bat0118)そうですね。でも、素の格闘でどうにかできるほど甘いわけじゃないですよ。最低でも形成はしないといけない
+
+#ベアトリス (v_bat0119)あなた流に言えば、吸うほどの何かを持っている相手じゃないのは確かですが、それでもまったくの空かと言うと、そうでもない
+
+#ベアトリス (v_bat0120)死者を操る神秘の力が働いているのは確かです。だからこちらも同種の理をもって砕かねば、彼らは八つ裂きにしても止まらないでしょう
+
+つまり、要はそういうことだ。こちらの燃料に変換できるほどの濃さじゃないが、動く死体という怪異である以上、当たり前に裏の技が使われている。
+
+目には目を。歯には歯を。そして神秘には神秘を――常識だ。
+
+@hidemessage;
+<se src='2152b'>;;//ＳＥ・行軍の音
+<se src='2179a'>;;//ＳＥ・蠢く音
+<se src='2083c'>;;//ＳＥ・這いずる音
+<layer parent='cutin' id='04' src='007_a' center='400 225' position='950 550' scale='2.4' opacity='0'>
+<layer parent='cutin' id='04' position='150 550' time='45'>
+<layer parent='cutin' id='04' opacity='1' time='0.5'>
+<wait time='0.5'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+
+真っ当な攻撃をいくらぶつけたところで、この死体どもは死んじゃくれない。たとえ爪や歯の一欠片になったところで、蟲のように這いずりながら迫るだろうし、復活する。
+
+爆弾でも叩き落して灰にしちまえば別だろうが、生憎そんなもんは用意してねえ。だから必然、こっちは何の足しにもならない消耗戦をする羽目になる。
+
+土砂降りの森。視界を埋め尽くす屍の群れ。見る限り無尽蔵にすら感じるそれは、情報から推察する限り二万近くいるだろう。補給不可能な状態で、ぶっ放しながら突き進むのは危険と感じる。
+
+この場を上手く切り抜けるなら、求められるのは省エネだが……
+
+<layer parent='cutin' id='01' src='008_d' center='400 225' position='-200 600' scale='4' opacity='0'>
+<layer parent='cutin' id='01' position='-200 680' time='0.7' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<wait time='0.5'>
+<layerclear parent='cutin' id='04'>
+#ヴィルヘルム (v_vir0383)うぜえ、なんだこの面倒くせえ状況は。手加減なんざ出来る性分じゃねえんだよ！
+
+@hidemessage;
+<sestop>
+<se src='2001c'>;;//ＳＥ・パンチ
+<se src='2001a'>;;//ＳＥ・パンチ
+<se src='1012a'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='02' src='13_c' center='400 225' position='470 280' scale='1.4' opacity='0'>
+<layer parent='cutin' id='02' position='612 420' scale='2.2' time='0.2' accel='-1'>
+<layer parent='cutin' id='02' opacity='1' time='0.1'>
+<wait time='0.3'>
+<layercamera position='0 0 -300' time='0'>
+<se src='6004'>;;//ＳＥ・杭攻撃
+<se src='1065a'>;;//ＳＥ・杭攻撃
+<layer parent='cutin' id='kui' src='mv_23' center='400 225' position='512 300' scale='1.4' opacity='0.01' rotate='0'>
+<layer parent='cutin' id='kui' opacity='1' time='0.2'>
+<layer parent='cutin' id='kui' scale='2' time='0.2'>
+<layer parent='cutin' id='kui' rotate='360' time='0.3'>
+<wait time='1.3'>
+<se src='2008c'>
+<se src='2126c'>
+<se src='2126a'>
+<layer parent='cutin' id='03' src='baku3' center='562.5 270' position='512 300' scale='1.07' rotate='0' opacity='0'>
+<layer parent='cutin' id='03' position='912 200' scale='3' opacity='1' time='0.3' rotate='1080' accel='-1'>
+<wait time='0.3'>
+@effect2;
+
+怒号して、俺は群がる死体を片っ端から砕いていく。木偶同然のポンコツどもだが、相応規模の魔術行使で潰さねえと意味がない。
+
+そして、その相応に留めるってやつが俺には無理な相談だった。気性的にも特性的にも、火を入れたら爆発するのがヴィルヘルム・エーレンブルグの道だろう。
+
+
+@hidemessage;
+<imgblk mask='giza2' time='0.2'>
+<layerclear parent='cutin' id=''>
+<layercamera position='-750 -400 150'>
+@cg 007_a;
+</imgblk>
+<se src='6005'>
+<se src='3002'>
+<layer parent='cutin' id='01' src='com_zan01' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='02' src='com_zan05' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='03' src='com_zan07' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='dd' src='com_zan02' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='ss' src='com_zan03' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='rr' src='com_zan06' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='ff' src='com_zan08' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='ee' src='com_zan04' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<layer parent='cutin' id='aa' src='com_zan09' center='512 284' position='512 300' scale='1.5'>
+<wait time='0.1'>
+<se src='1028'>
+<se src='2079a'>;;//ＳＥ・雷撃
+<se src='2079b'>;;//ＳＥ・雷撃
+<se src='2079c'>;;//ＳＥ・雷撃
+<layer parent='cutin' id='04' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='04' src='tuki2_a' mask-src='mask1' scale='3' time='0.2'>
+<wait time='0.25'>
+<se src='1006'>
+<se src='1004a'>
+<layer parent='cutin' id='05' src='' center='400 225' position='512 300 -1' scale='1.28' opacity='1'>
+<layer parent='cutin' id='05' src='baku1' mask-src='mask1' scale='2' time='0.15'>
+<wait time='0.2'>
+<layerclear parent='cutin' id='04'>
+@effect2;
+<wait time='0.3'>
+<se src='1024'>
+<layer parent='cutin' id='06' src='008_bg' center='1541 940' position='450 0' scale='1' opacity='1'>
+<layer parent='cutin' id='07' src='008_g' center='1541 940' position='1200 320' scale='0.95' opacity='1'>
+<layer parent='cutin' id='08' src='008_h' center='1541 940' position='400 350' scale='0.8' opacity='1'>
+<layer parent='cutin' id='06' position='450 250' time='4' accel='-1'>
+<layer parent='cutin' id='07' position='1200 600' time='4' accel='-1'>
+<layer parent='cutin' id='08' position='400 630' time='4' accel='-1'>
+<layerclear parent='cutin' id='05' time='1'>
+<wait time='1'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='dd'>
+<layerclear parent='cutin' id='ss'>
+<layerclear parent='cutin' id='aa'>
+<layerclear parent='cutin' id='rr'>
+<layerclear parent='cutin' id='ff'>
+<layerclear parent='cutin' id='ee'>
+@camera;
+#ベアトリス (v_bat0121)ええ、だからあなたはそれでいいですよ。もともと出来るとも思えませんし、ここでは派手にやるのが正解です
+
+#ヴィルヘルム (v_vir0384)あァ？　なんだそりゃ、どういうこった！
+
+並び立ち、こちらも劣らず大火力の稲妻を放ちながら言うベアトリス。普段の馬鹿女っぷりが嘘のような冷めた目で、淡々と説明する。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='210_a' center='400 225' position='1300 200' scale='3.4' opacity='0'>
+<layer parent='cutin' id='01' position='0 300' time='100' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<wait time='1'>
+<layerclear parent='cutin' id='06'>
+<layerclear parent='cutin' id='07'>
+<layerclear parent='cutin' id='08'>
+
+#ベアトリス (v_bat0122)彼らが生ある者を襲うのは、それを奪いたいからです
+
+#ベアトリス (v_bat0123)血を、命を、魂を、持っていないから取り込みたい。動機は少々違っても、要はあなたの同類ですよ
+
+#ベアトリス (v_bat0124)だから群がってくるんです。あなたも私も、今は一人の人間が持ち得ない量の命を持っている
+
+#ベアトリス (v_bat0125)彼らからすれば、とても魅力的なかがり火のように見えるでしょう
+
+<se src='1020c'>;;//ＳＥ・剣構え
+<layer parent='cutin' id='02' src='210_a' center='400 225' position='512 300' scale='1.4' opacity='0' rotate='0'>
+<layer parent='cutin' id='02' position='512 320' opacity='1' time='0.4'>
+<wait time='0.4'>
+<layerclear parent='cutin' id='01'>
+
+#ベアトリス (v_bat0126)ゆえに――
+
+@hidemessage;
+<layer parent='cutin' id='ss' src='047_bg' center='1303 965' position='1540 3340' scale='4' opacity='0'>
+<layer parent='cutin' id='dd' src='018_c' center='1303 965' position='750 300' scale='0.2' opacity='0'>
+<se src='2051c'>
+<se src='1003c'>
+<layer parent='cutin' id='ss' position='1040 940' scale='1' time='0.2' opacity='1' accel='1'>
+<layer parent='cutin' id='dd' position='600 1500' scale='2' opacity='1' rotate='-30' time='0.25' accel='1'>
+<wait time='0.2'>
+<se src='2004a'>
+<layer parent='cutin' id='zz' src='zan1_h_t' center='600 320' position='652 400' scale='1' opacity='0'>
+<layer parent='cutin' id='zz' scale='5' position='1752 300' time='0.2' opacity='1' accel='-1'>
+<wait time='0.15'>
+<se src='2004b'>
+<layer parent='cutin' id='aa' src='zan1_g_t' center='600 320' position='652 400' scale='1' opacity='0'>
+<layer parent='cutin' id='aa' scale='5' position='752 300' time='0.2' opacity='1' rotate='20' accel='-1'>
+<wait time='0.2'>
+<se src='1006'>;;//ＳＥ・雷撃
+<se src='1006c'>;;//ＳＥ・雷撃
+<layer parent='cutin' id='01' src='raigeki1_a' center='400 225' position='512 300' scale='4.5' opacity='0'>
+<layer parent='cutin' id='01' position='512 300' scale='1.28' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='1006b'>
+<se src='1006a'>
+<layer parent='cutin' id='03' src='raigeki1_b' center='400 225' position='512 300' scale='4.5' opacity='0'>
+<layer parent='cutin' id='03' position='512 300' scale='1.28' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='6001'>
+<layer parent='cutin' id='04' src='rakurai' center='400 225' position='512 1020' scale='4.5' opacity='0'>
+<layer parent='cutin' id='04' position='512 300' scale='1.28' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='2008c'>
+<se src='2126c'>
+<se src='2126a'>
+<layer parent='cutin' id='05' src='impact3' center='562.5 270' position='512 300' scale='1.07' rotate='0' opacity='0'>
+<layer parent='cutin' id='05' position='912 200' scale='3' opacity='1' time='0.3' rotate='1080' accel='-1'>
+&waitms 300;
+@effect2;
+<imgblk mask='test04' time='0.5'>
+@cg black;
+<layerclear parent='cutin' id=''>
+<layer parent='cutin' id='01' src='008_bg' center='1541 940' position='450 250' scale='1' opacity='1'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='1300 610' scale='0.95' opacity='0'>
+<layer parent='cutin' id='03' src='008_h' center='1541 940' position='250 630' scale='0.8' opacity='0'>
+<layer parent='cutin' id='rr' src='mv_mist1' center='512 288' position='512 300' scale='1.08' opacity='1'>
+</imgblk>
+雷電を纏った剣が閃く。内部の魔術残滓ごと、死者を炭化させる斬撃が縦横に軌跡を描いた。
+
+@hidemessage;
+<se src='104'>
+<se src='1193'>
+<se src='1172'>
+<layerclear parent='cutin' id='rr' time='0.3'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='1200 610' scale='0.95' opacity='1' time='0.3'>
+<layer parent='cutin' id='03' src='008_h' center='1541 940' position='350 630' scale='0.8' opacity='1' time='0.3'>
+<wait time='0.5'>
+#ベアトリス (v_bat0127)ここで我々が引き付ければ、それだけクラウディアの安全度はあがります
+
+#ヴィルヘルム (v_vir0385)……はぁん？
+
+何を言っているのか咄嗟に理解できなかったし、そもそも言われるまで忘れていた。つまりこの馬鹿、クラウディアが襲われないよう、囮役をやろうというのか。
+
+察するまで、たぶん五・六秒は掛かったぜ。
+
+#ベアトリス (v_bat0128)なんですか、文句でも？
+
+そりゃあるに決まってるだろ。ベアトリスの言うことは、何ら局面の打開に繋がらない。
+
+<se src='2152b'>;;//ＳＥ・行軍の音
+<se src='2179a'>;;//ＳＥ・蠢く音
+<se src='2083c'>;;//ＳＥ・這いずる音
+<layer parent='cutin' id='04' src='007_a' center='400 225' position='950 550' scale='2.4' opacity='0'>
+<layer parent='cutin' id='04' position='150 550' time='90'>
+<layer parent='cutin' id='04' opacity='1' time='0.5'>
+<wait time='0.5'>
+
+この死人どもは虚ろであり、ゆえに大量の魂を持つ俺たちを狙っている。
+
+派手に燃料を消費して、命の炎ってやつを爆発させれば、きっとクラウディアなど目に入らなくなるだろうからそうするべきだと言っているんだ。
+
+それで？　そうなった後、いったいどうする？　魂の凄まじい無駄消費という、こっちの状況は何一つとして変わらない。
+
+むしろ、悪化の一途というやつだろう。
+
+@hidemessage;
+<imgblk mask='giza2' time='0.7'>
+<layerclear parent='cutin' id='04'>
+</imgblk>
+#ヴィルヘルム (v_vir0386)馬鹿かてめえは。話にならねえ
+
+そもそも当の本人が、黒円卓で一番魂を蓄えていない身のくせに。
+
+#ヴィルヘルム (v_vir0387)そんな真似すりゃ、おまえは早晩ガス欠だろうが。自殺志願者かよ、この間抜けが
+
+#ベアトリス (v_bat0129)ですか。しかし、ならばなんです？　私は生き方を変えられないし、変える気もない
+
+#ベアトリス (v_bat0130)それはあなたも同様に――
+
+@hidemessage;
+<se src='1016c'>;;
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='495 590 0' scale='0.95' opacity='0' time='0.1' accel='1'>
+<wait time='0.1'>
+<layer parent='cutin' id='05' src='007_a' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='05' position='512 350' scale='2' opacity='1'time='0.1'>
+<wait time='0.1'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='03'>
+<layer parent='cutin' id='06' src='zan1_l_t' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<se src='1015a'>
+<se src='1015c'>
+<layer parent='cutin' id='06' scale='1.8' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='2079a'>;;//ＳＥ・雷撃
+<se src='2079b'>;;//ＳＥ・雷撃
+<se src='2007'>;;//ＳＥ・轟音
+<se src='2079c'>;;//ＳＥ・雷撃
+<layer parent='cutin' id='07' src='' center='400 225' position='512 300' scale='3' opacity='1'>
+<layer parent='cutin' id='07' src='raigeki1_a' mask-src='mask1' scale='1.28' time='0.2'>
+<wait time='0.25'>
+<se src='1006'>
+<se src='1004a'>
+<layer parent='cutin' id='tt' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='tt' src='baku2' mask-src='mask1' scale='2' time='0.15'>
+<wait time='0.2'>
+@effect2;
+<layerclear parent='cutin' id='05'>
+<layerclear parent='cutin' id='06'>
+<layerclear parent='cutin' id='07'>
+
+
+言って、惜しむことなく再び稲妻を走らせた。死者と共に砕け散る雨粒が蒸気と化し、静電気を撒き散らしながら拡散していく。
+
+@hidemessage;
+<sestop time='1'>
+<layer parent='cutin' id='01' src='008_bg_b' center='1541 940' position='512 300' scale='1' opacity='0'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='2300 1100' scale='1.7' opacity='0'>
+<layer parent='cutin' id='01' opacity='1' time='0.4'>
+<se src='1020'>;;//ＳＥ・剣構え
+<se src='111'>;;//ＳＥ・一歩分の足音
+<layer parent='cutin' id='02' position='2200 1100' opacity='1' time='0.6' accel='-1'>
+<wait time='0.6'>
+@bg black ol 0;
+<layerclear parent='cutin' id='tt'>
+#ベアトリス (v_bat0131)よってどのみち、こうするしかないでしょう。あなたは加減が出来ないし、私はする気がない
+
+#ベアトリス (v_bat0132)なのに文句を言うとは、怖いんですか？　こんな程度の危機を前に、死神がちらついてしまうとでも？
+
+#ベアトリス (v_bat0133)それがあなたの器ですか、ヴィルヘルム・エーレンブルグ中尉殿
+
+#ヴィルヘルム (v_vir0388)―――――
+
+別に挑発したわけじゃねえんだろう。ぶち殺したくなるくらい生真面目なアホだからこそ、ベアトリス・キルヒアイゼン中尉殿は<rb "ヴァルキュリア">戦乙女</rb>と呼ばれたんだ。
+
+<layer parent='cutin' id='01' scale='1.4' time='4' accel='-1'>
+<layer parent='cutin' id='02' scale='2.2' position='2725 1350' time='4' accel='-1'>
+#ベアトリス (v_bat0134)私の器はこんな所で終わらない。そう信じている
+
+#ベアトリス (v_bat0135)たとえ自ら水銀に染まっても、人であることを忘れないと誓っているから
+
+そういうところは気に入ってたぜ。掛け値なしに、吸い殺したいと思った女の一人だ。
+
+結局、叶わねえことだったがよ。まあ、そこはいい。
+
+<se src='1105'>;//ＳＥ・締め上げ
+<layer parent='cutin' id='03' src='008_d' center='400 225' position='-200 600' scale='4' opacity='0'>
+<layer parent='cutin' id='03' position='-200 680' time='0.7' accel='-1'>
+<layer parent='cutin' id='03' opacity='1' time='0.5'>
+<wait time='0.5'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+
+#ヴィルヘルム (v_vir0389)面白ぇ……抜かすじゃねえかよ、クソチビが
+
+#ヴィルヘルム (v_vir0390)俺の器だァ？　舐めんじゃねえよ、てめえごときは格が違う
+
+#ベアトリス (v_bat0136)ならば、それを見せてください
+
+<sestop>
+<se src='103'>;;//ＳＥ・一瞬の布ずれ
+<se src='1065'>;;//ＳＥ・一瞬の布ずれ
+<layer parent='cutin' id='03' position='512 300' scale='1.28' time='0.2' accel='-1'>
+<wait time='0.2'>
+
+#ヴィルヘルム (v_vir0391)おおよ、目ン玉かっぽじって見さらせやァッ！
+
+<se src='2002a'>
+<se src='2004a'>
+<layer parent='cutin' id='02' src='13_c' center='762.5 270' position='850 350' scale='1' opacity='0'>
+<layer parent='cutin' id='02' position='1712 600' scale='2.5' opacity='1' time='0.2'>
+<wait time='0.2'>
+<layerclear parent='cutin' id='03'>
+そこから先は共に全力全開だ。あくまで形成のままだったが、その範囲ではまったく加減なんかしちゃいねえ。
+
+俺は出来る性分じゃねえし、ベアトリスにはする気がねえ。だからどのみちこうするしかないと、確かにその通りなんだろう。
+
+@hidemessage;
+<se src='6004'>;;//ＳＥ・杭攻撃
+<se src='3001'>
+<layer parent='cutin' id='mv' src='mv_12' center='400 225' position='512 300' scale='1.29' opacity='1'>
+<wait time='1.3'>
+<se src='2002'>
+<se src='2004'>
+<layer parent='cutin' id='ff' src='210_a' center='762.5 270' position='850 350' scale='1' opacity='0'>
+<layer parent='cutin' id='ff' src='210_b' position='1212 600' scale='2.5' opacity='1' time='0.2'>
+<wait time='0.2'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='mv'>
+<se src='3002'>
+<layer parent='cutin' id='zz' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='zz' src='tuki2_b' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='xx' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='xx' src='tuki2_a' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='bb' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='bb' src='tuki2_d' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='nn' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='nn' src='tuki2_c' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.2'>
+<se src='2079a'>;;//ＳＥ・雷撃
+<se src='2079b'>;;//ＳＥ・雷撃
+<se src='2079c'>;;//ＳＥ・雷撃
+<se src='2007a'>
+<layer parent='cutin' id='01' src='rakurai' center='400 225' position='512 1020' scale='4.5' opacity='0'>
+<layer parent='cutin' id='01' position='512 300' scale='1.28' opacity='1' time='0.2'>
+<wait time='0.2'>
+<layerclear parent='cutin' id='cutin'>
+<se src='1004c'>
+<layer parent='cutin' id='baku3' src='baku3' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='baku3' scale='1.8' opacity='1' time='0.15'>
+<wait time='0.2'>
+<se src='1005a'>
+<layer parent='cutin' id='baku1' src='baku1' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='baku1' scale='1.8' opacity='1' time='0.15'>
+<wait time='0.2'>
+<se src='6001'>
+<layer parent='cutin' id='baku2' src='baku2' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='baku2' scale='1.8' opacity='1' time='0.15'>
+<wait time='0.2'>
+@effect2;
+
+
+紫電が、杭が、カチンの森を切り裂き走る。蛆のごとく湧いてくる屍どもを、俺らは競うように駆逐していく。
+
+もちろん、数なんかは数えちゃいねえ。もはやそういう次元じゃねえんだよ。個人で万を相手にする戦なんぞに、経過を気にする感性が入り込む余地はないんだ。
+
+@hidemessage;
+<imgblk mask='test04' time='0.8'>
+<layercamera position='0 0 -300' rotate='0'>
+<layerclear parent='cutin' id=''>
+<layer parent='cutin' id='01' src='008_bg' center='1541 940' position='450 0' scale='1' opacity='1'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='1200 320' scale='0.95' opacity='1'>
+<layer parent='cutin' id='03' src='008_h' center='1541 940' position='400 350' scale='0.8' opacity='1'>
+<layer parent='cutin' id='rr' src='mv_mist2' center='512 288' position='512 300' scale='1.08' opacity='1'>
+</imgblk>
+<layer parent='cutin' id='01' position='450 250' time='14' accel='-1'>
+<layer parent='cutin' id='02' position='1200 600' time='14' accel='-1'>
+<layer parent='cutin' id='03' position='400 630' time='14' accel='-1'>
+<wait time='1'>
+このとき俺の頭にあったことを強いて言うなら、マキナのことを思い出してた。あいつもあのときこんな風に、個人で万の敵へと身を投じていたからな。
+
+しかも、相手はこんな木偶じゃねえ。いわゆるエインフェリアというやつで、残らず戦場の英雄だ。
+
+それと戦い、最後の一人にまで残ったマキナ。あいつの武勇に俺は敬意を表するし、だからこそ負けたくねえとも考える。
+
+<imgblk mask='center2' time='0.5'>
+<layerclear parent='cutin' id=''>
+@cg black;
+</imgblk>
+
+だったら、なあ、ここで無様を晒すなんて、許されるわけがねえだろう。
+
+
+@hidemessage;
+&soundstop fo;
+<se src='104'>
+<se src='1193'>
+<layer parent='cutin' id='01' src='008_a' center='400 225' position='612 500' scale='3' opacity='0'>
+<layer parent='cutin' id='01' position='612 650' time='1' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.6' accel='-1'>
+<wait time='1'>
+<layercamera position='0 0 -300'>
+#リザ (v_riz0072)よく頑張ったわ、二人とも。お陰でこっちの準備は完了した
+
+ということで、気合い入れてた身としちゃあ、少し腰砕けな落ちだったがよ。
+@hidemessage;
+<se src='2020'>;;//ＳＥ・ドクン
+<layer parent='cutin' id='01' position='650 850' scale='4' time='0.5'>
+<wait time='0.5'>
+#リザ (v_riz0073)――<rb"形成">"Yetzirah"</rb>――
+
+#リザ (v_riz0074)<rb "青褪めた死面">"Pallida mors"</rb>
+
+@hidemessage;
+<sestop>
+@sound13;
+<layer parent='cutin' id='mv' src='mv_20' center='800 452' position='512 300' scale='0.645' opacity='1'>;;//リザ形成ムービー（ファイル名不明）
+<wait time='11.11'>;;//ムービー時間分ウェイト
+<layerclear parent='cutin' id='01'>
+<layercamera position='250 200 150'>
+@cg 008_b ol 0;
+<layercamera position='100 -410 150' time='20' accel='-1'>
+<layerclear parent='cutin' id='mv' time='0.5'>
+<wait time='0.5'>
+
+美味しいところは、指揮官様が全部持ってっちまったのさ。
+
+#ベアトリス (v_bat0137)なッ――
+
+#ヴィルヘルム (v_vir0392)こりゃあ……
+
+俺もベアトリスも、目の前に集中しすぎて失念していた。カチンの怪異を制すにあたり、もっとも適しているのは誰で、そいつの技がどんなもんかということを。
+
+何せハイドリヒ卿から直々のご使命だ。改めて振り返るまでもなく、当然の結果というやつだろう。
+
+#リザ (v_riz0075)さあ、これで楽になったでしょう。あとは残敵を掃討しなさい
+
+
+未だ視界を埋め尽くしている死者の群れ。その半分近くが、同時に動きを止めていたんだ。
+
+まるで、奇怪な樹木のように。見ようによっちゃあ、こっちのほうが不気味と言える光景だったぜ。
+
+@hidemessage;
+<imgblk mask='mask1' time='0.5'>
+<layercamera position='-650 -200 200'>
+@cg 008_c;
+</imgblk>
+
+#ベアトリス (v_bat0138)凄い……指揮権を奪ったんですか？
+
+@hidemessage;
+<imgblk mask='mask1' time='0.5'>
+<layercamera position='-150 -450 200'>
+</imgblk>
+#リザ (v_riz0076)まあ、そういうことね。少し時間は掛かったけれど
+
+#リザ (v_riz0077)これでもう、多勢に無勢というわけじゃない
+
+黒円卓の十一位、リザ・ブレンナーは死体を抱きしめ、そして操る。魔術的にはネクロマンシーというやつで、カチンの怪異とまったく同じ系統だ。
+
+ゆえに、死体は道具であり武器である。だったら後は、単純な影響力。誰が主人かを叩き込む豪腕の勝負だろう。
+
+#リザ (v_riz0078)一度に動かせる数では負けるけど、支配の強さはこちらのほうが上みたいね。だから彼らはもう、私のもの
+
+#リザ (v_riz0079)早々に終わらせて、それを供養ということにしましょうか
+
+@hidemessage;
+<layer parent='cutin' id='01' src='068_bg' center='652 483' position='512 300' scale='1' opacity='0'>
+<layer parent='cutin' id='02' src='007_f' center='1303 965' position='330 740' scale='0.95' opacity='0' rotate='-18'>
+<layer parent='cutin' id='03' src='007_c' center='1303 965' position='312 350' scale='0.35' opacity='0' rotate='-10'>
+<layer parent='cutin' id='04' src='007_f' center='1303 965' position='650 520' scale='0.65' opacity='0' rotate='0'>
+<layer parent='cutin' id='05' src='007_c' center='1303 965' position='712 450' scale='0.7' opacity='0' rotate='20'>
+<layer parent='cutin' id='06' src='007_c' center='1303 965' position='512 650' scale='0.95' opacity='0'>
+<se src='1003b'>;;//ＳＥ・ゴウッ
+<se src='1003a'>;;//ＳＥ・ゴウッ
+<layer parent='cutin' id='01' opacity='1' time='0.3'>
+<layer parent='cutin' id='02' position='330 740' scale='1' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='03' position='312 350' scale='0.4' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='04' position='650 520' scale='0.7' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='05' position='712 450' scale='0.75' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='06' position='512 650' scale='1' opacity='1' time='0.3' accel='-1'>
+<wait time='0.4'>
+<layer parent='cutin' id='07' src='007_a' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='07' position='560 400' scale='2.5' opacity='1' time='0.2'>
+<wait time='0.3'>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='03'>
+<layerclear parent='cutin' id='04'>
+<layerclear parent='cutin' id='05'>
+<layerclear parent='cutin' id='06'>
+<se src='1010c'>;;//ＳＥ・パンチ
+<se src='1010a'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='08' src='tume1_a' center='400 225' position='550 270' scale='1.3' opacity='0'>
+<layer parent='cutin' id='08' position='650 250' scale='1.7' opacity='1' time='0.15'>
+<wait time='0.15'>
+<se src='1010b'>;;//ＳＥ・パンチ
+<se src='1010a'>;;//ＳＥ・パンチ
+<layer parent='cutin' id='09' src='tume1_b' center='400 225' position='550 270' scale='1.3' opacity='0'>
+<layer parent='cutin' id='09' position='650 250' scale='1.7' opacity='1' time='0.15'>
+<wait time='0.15'>
+<se src='1012c'>;;//ＳＥ・パンチ
+<se src='1012a'>;;//ＳＥ・パンチ
+<se src='3001'>
+<layer parent='cutin' id='rendan' src='mv_rendan' center='480 270' position='512 300 -1' scale='1.07' opacity='1'>
+<layer parent='cutin' id='10' src='tume2_a' center='400 225' position='550 270' scale='1.3' opacity='0'>
+<layer parent='cutin' id='11' src='tume2_b' center='400 225' position='550 270' scale='1.3' opacity='0'>
+<layer parent='cutin' id='10' position='650 250' scale='1.7' opacity='1' time='0.15'>
+<wait time='0.15'>
+<layer parent='cutin' id='11' position='650 250' scale='1.7' opacity='1' time='0.15'>
+<wait time='0.15'>
+&waitms 1000;
+<se src='2008c'>
+<se src='2126c'>
+<se src='2126a'>
+<layerclear parent='cutin' id='rendan' time='0.3'>
+<layer parent='cutin' id='zz' src='impact3' center='562.5 270' position='512 300' scale='1.07' rotate='0' opacity='0'>
+<layer parent='cutin' id='zz' position='912 200' scale='3' opacity='1' time='0.3' rotate='1080' accel='-1'>
+&waitms 300;
+@effect2;
+<layerclear parent='cutin' id='07'>
+<layerclear parent='cutin' id='10'>
+<layerclear parent='cutin' id='11'>
+同時にバビロンの兵と化した屍どもが一斉に向きを変えた。俺たちの友軍として、他の死者へと襲い掛かる。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='068_bg' center='652 483' position='512 300' scale='1' opacity='0'>
+<layer parent='cutin' id='02' src='007_f' center='1303 965' position='330 740' scale='0.95' opacity='0' rotate='-18'>
+<layer parent='cutin' id='03' src='007_c' center='1303 965' position='312 350' scale='0.35' opacity='0' rotate='-10'>
+<layer parent='cutin' id='04' src='007_f' center='1303 965' position='650 520' scale='0.65' opacity='0' rotate='0'>
+<layer parent='cutin' id='05' src='007_c' center='1303 965' position='712 450' scale='0.7' opacity='0' rotate='20'>
+<layer parent='cutin' id='06' src='007_c' center='1303 965' position='512 650' scale='0.95' opacity='0'>
+<se src='1181'>;;//ＳＥ・整列する音
+<layer parent='cutin' id='01' opacity='1' time='0.3'>
+<layer parent='cutin' id='02' position='330 740' scale='1' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='03' position='312 350' scale='0.4' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='04' position='650 520' scale='0.7' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='05' position='712 450' scale='0.75' opacity='1' time='0.3' accel='-1'>
+<layer parent='cutin' id='06' position='512 650' scale='1' opacity='1' time='0.3' accel='-1'>
+<wait time='0.4'>
+<layerclear parent='cutin' id='zz'>
+これで数の不利は緩和され、乱戦状況も正された。なぜならバビロンが支配した連中は、ランダムで選ばれたわけじゃない。
+
+当たり前に距離の近さを優先して、ゆえに戦線の整頓が成されている。つまり自陣と敵陣が綺麗に分かれたということだ。
+
+
+@hidemessage;
+<se src='6004'>;;//ＳＥ・杭攻撃
+<se src='3001'>
+<layer parent='cutin' id='mv' src='mv_12' center='400 225' position='512 300' scale='1.29' opacity='1'>
+<wait time='1.3'>
+<se src='2079a'>;;//ＳＥ・雷撃
+<se src='2079b'>;;//ＳＥ・雷撃
+<se src='2007'>;;//ＳＥ・轟音
+<se src='2079c'>;;//ＳＥ・雷撃
+<layer parent='cutin' id='zz' src='' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='zz' src='tuki2_a' mask-src='mask2' scale='3' time='0.2'>
+<wait time='0.25'>
+<se src='1005c'>
+<se src='1006'>
+<se src='1004a'>
+<imgblk mask='mask2' time='0.15'>
+<layerclear parent='cutin' id=''>
+@camera;
+@cg baku1;
+</imgblk>
+@effect2;
+<se src='1093'>
+<layer parent='cutin' id='07' src='c_bt001' center='400 225' position='512 -300' scale='1.28' opacity='1'>
+<layer parent='cutin' id='08' src='c_vi012' center='400 225' position='512 900' scale='1.28' opacity='1'>
+<layer parent='cutin' id='07' position='512 300' time='0.2' accel='-1'>
+<layer parent='cutin' id='08' position='512 300' time='0.2' accel='-1'>
+<wait time='0.2'>
+
+よって、俺とベアトリスが敵味方を間違える可能性は甚だ低い。陣形ってのは命令の伝達速度をあげることが目的だが、こんな風に同士討ちを避けるという理由も当然ある。
+
+加えてしっかり相手を観察すれば、動力となってる神秘の種類から区別するのは容易だった。結果、手加減なしに暴れながらも無駄な消費を抑えることが可能となる。
+
+@hidemessage;
+<imgblk mask='mask3' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='-50 100 -300' rotate='0'>
+<layer parent='back' id='01' src='008_bg_b' center='1541 940' position='0 0 500' scale='2.3'>
+<layer parent='chara' id='02' src='008_f' center='1541 940' position='0 0 0' scale='1'>
+</imgblk>
+<layercamera position='-250 -430 -300' time='60' accel='-1'>
+
+#リザ (v_riz0080)<rb "愛しい人よ 私はあなたに口づけをしました">"Ah! Ich habe deinen Mund geküsst, Jochanaan."</rb>$e　<rb "そう 口づけをしたのです">"Ah! Ich habe ihn geküsst, deinen Mund,"</rb>$e　<rb "とても苦い味がするものなのね">"es war ein bitterer Geschmack auf deinen Lippen."</rb>
+;//表示おかしくなっていたので、ルビ分割＋改行しました
+
+#リザ (v_riz0081)<rb "これは血の味">"Hat es nach Blut geschmeckt?"</rb>$e　<rb "いいえ もしかしたら恋の味ではないかしら">"Nein? Doch es schmeckte vielleicht nach Liebe."</rb>
+;//表示おかしくなっていたので、ルビ分割＋改行しました
+
+<rb "パッリダ・モルス">青褪めた死面</rb>――バビロンの聖遺物は来歴が相当にえげつねえ。いわゆる<rb "シュラウド">屍衣</rb>で、<rb "デスマスク">死面</rb>。聖骸布なんて皮肉効かした呼び名もあったが、実体は餓鬼の人皮で仕上げた工芸品だ。
+
+そして何より特筆すべきは、バビロン自身がそれを作ったということだ。俺やベアトリスはもちろん、ハイドリヒ卿にしたところで、聖遺物は遺産管理局を通じて既存の物を入手している。
+
+しかし黒円卓にはこいつのように、自ら武装を作り上げた奴も存在するんだ。いいや、ここでは育てたと言うべきか。
+
+大戦の中、殺して殺して殺しまくり、その業と呪いをもって愛用の品を超常の域に押し上げた奴ら。
+
+マキナ然り、ザミエル然り、シュライバー然り。そしてバビロン、こいつもそうだ。
+
+歴史の浅さは否めねえが、だから弱いという理屈はない。言ったと思うが、魔術の世界でも最新式は当たり前に強いんだよ。
+
+短期間で生まれたということは、それだけ高密度であることを意味している。餓鬼を殺す女は昔から掃いて捨てるほど存在するが、リザ・ブレンナーほど殺った女は稀だろう。しかも愛し、慈しんだ結果というから間違いなくイカレてるわな。
+
+しょせん俺にとっちゃあ他人事だから、そこにまつわる諸々についてはよく知らねえし興味もねえが――
+
+
+@hidemessage;
+<imgblk mask='mask4' time='0.5'>
+<layerclear parent='back' id='01'>
+<layerclear parent='chara' id='02'>
+<layercamera position='0 0 -300'>
+<layer parent='cutin' id='01' src='008_bg' center='1541 940' position='600 350' scale='0.4' opacity='1'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='800 420' scale='0.48' opacity='0'>
+<layer parent='cutin' id='zz' src='008_f' center='1541 940' position='630 430' scale='0.48' opacity='1'>
+<layer parent='cutin' id='03' src='008_h' center='1541 940' position='432 410' scale='0.48' opacity='0'>
+</imgblk>
+<se src='1024'>
+<se src='104'>
+<layerclear parent='cutin' id='rr' time='0.3'>
+<layer parent='cutin' id='02' src='008_g' center='1541 940' position='650 420' scale='0.48' opacity='1' time='0.3'>
+<layer parent='cutin' id='03' src='008_h' center='1541 940' position='582 410' scale='0.48' opacity='1' time='0.3'>
+<wait time='0.5'>
+#リザ (v_riz0082)<rb "ああ ヨカナーン ヨカナーン あなたばかりが美しい">"Ah! Jochanaan, Jochanaan, du warst schön."</rb>
+
+確かなことはただ一つ。女の愛ってやつはタチの悪い呪縛になること。俺もそこは身に染みてるし、否定できる奴はいねえだろうさ。
+
+死せる愛児の<rb "ドレス">皮</rb>を纏い、死体を操るその姿はさながら黒い聖女だった。
+
+@hidemessage;
+<layer parent='cutin' id='04' src='008_c' center='400 225' position='512 500' scale='2.8' opacity='0'>
+<layer parent='cutin' id='04' position='512 630' time='1' accel='-1'>
+<layer parent='cutin' id='04' opacity='1' time='0.5'>
+<wait time='0.5'>
+
+背徳の<rb "バビロン">毒婦</rb>。罪深き<rb "マリア">聖母</rb>。第三帝国の狂気を象徴する女の姿がそこにある。
+
+より強く<rb "むくろぐ">骸操</rb>りを行うなら、聖遺物を仮面化させて直に被せる方法を採るようだが、ここでは数を優先していた。ゆえに<rb "がいそう">骸装</rb>は舞台役者のごとくリザ・ブレンナーを飾り立てる。
+
+それはまるで死のオペラ。地脈を通じて走る魔力が、蜘蛛の巣のごとくカチンの怪異を絡め取る。
+
+頭を撫でて、抱きしめて――いい子ね坊や、私に従いなさいと命じている。
+
+@hidemessage;
+<imgblk mask='giza1' time='0.5'>
+<layerclear parent='cutin' id=''>
+<layercamera position='750 -50 200'>
+@cg 008_c;
+</imgblk>
+
+#ヴィルヘルム (v_vir0393)おっかねえなあ、男殺しが
+
+今、バビロンが喚起しているのは母の記憶、揺り篭の安らぎ。男にとっては致命的な毒であり、いくら虚ろな死体といえども拭い去れるものじゃない。
+
+と言うより、虚ろだからこそ逆らえねえのか。
+
+@hidemessage;
+<imgblk mask='giza2' time='0.5'>
+<layercamera position='-800 -250 250'>
+</imgblk>
+
+#ベアトリス (v_bat0139)―――、……！
+
+潔癖症なベアトリスは複雑な顔をしていたが、文字通り万軍の援護を得たことは確かな事実だ。それを否定するほど馬鹿じゃねえ。
+
+こいつの上官であるザミエルはバビロンと犬猿だが、ここでその代理喧嘩をやらかしてもしょうがねえ話だろう。
+
+@hidemessage;
+<imgblk mask='mask3' time='0.5'>
+<layercamera position='0 0 -250'>
+</imgblk>
+
+ならばやれることは単純明快。
+
+<se src='2014'>;;//ＳＥ・剣構え
+#ベアトリス (v_bat0140)ベイ、さっさと終わらせますよ
+
+#ヴィルヘルム (v_vir0394)あァ、偉そうに言うんじゃねえよ。てめえこそ息があがってんじゃねえのかあ？
+
+#ベアトリス (v_bat0141)誰が――有り得ませんね、見てなさい！
+
+@hidemessage;
+<se src='1028c'>
+<se src='1003c'>
+<imgblk mask='giza1' time='0.3'>
+<layer parent='cutin' id='mv' src='mv_06' center='800 450' position='512 300' scale='0.68' opacity='1'>
+</imgblk>
+
+早々にこの状況を終わらせるため、獅子奮迅するだけだった。
+
+@hidemessage;
+<soundstop time='2'>
+<sestop time='2'>
+<layerclear id='env01' time='1'>;;ＥＮＶ停止
+<imgblk time='0.5'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300' rotate='0'>
+@bg black;
+</imgblk>
+@fo;
+@def;
+<wait time='1'>
+
+そして……
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+k:
+@hidemessage;
+@def;
+@bg moon 1.2;;;
+<wait time='1'>
+<sound src='9' volume='1' loop='true'>
+#リザ (v_riz0083)どうやら、一応の片はついたようね
+
+ようやく動くものがいなくなった森を見回し、やれやれと呟くバビロン。形成を解き、操っていた死体どもをただの骸に返してから時計を取り出す。
+
+@hidemessage;
+<imgblk mask='mask6' time='1'>
+<layercamera position='400 -150 50'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+@bg bg15a;
+<char src='bea sumasi segen' position='580 1810 300'>
+<char src='riz sumasi morugen' position='220 1820 300'>
+</imgblk>
+#リザ (v_riz0084)だいたい三時間と少しか……まあ、中々の手際だったと言うべきでしょうね。大丈夫？
+
+<char src='bea niko'>
+#ベアトリス (v_bat0142)……ええ、お陰で助かりました。感謝します
+
+<char src='riz metoji'>
+#リザ (v_riz0085)それはこちらの台詞でしょう。もともとこの件は、私がやるべきことだったんだし
+
+<char src='riz niko'>
+#リザ (v_riz0086)だから二人とも、ありがとう。助かったわ
+
+すでに雨は上がり、森は静寂に包まれていた。そこら中に死体が散らばっている点を除けば、真っ当な状態に戻ったと言える。
+
+#ヴィルヘルム (v_vir0395)それじゃあ、後はクラウディアだな。あの馬鹿は俺が捜しておくからよ。おまえらはもう、帰っていいぜ
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0143)いえ、ここまできたら最後まで付き合います。私としても、彼女のことが気になっていますし
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0144)すでに何回も言いましたが、あなたにクラウディアを任せるのは反対ですから
+
+#ヴィルヘルム (v_vir0396)またそれかよ。おまえはほんとしつけえなあ。そんなんじゃあ男どもに嫌われるぜ
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0145)結構です。間違ったことを言っているつもりはありませんし、それに文句をつけるような男性ならこちらからお断りですよ
+
+<char src='bea akire'>
+#ベアトリス (v_bat0146)だいたいあなたは、クラウディアがはぐれたときに何の気遣いも示さなかった身で、今さら何を言ってるんですか。まったく説得力がありませんよ
+
+とまあ、鬱陶しいが正論ではある。俺はクラウディアをある意味大事にしてるつもりだったが、目先のことに熱中するとすぐに忘れちまうのも事実だった。
+
+それは性分で、どうにも出来ねえ。長期的な目線でものを見るのが苦手なんだよ。いずれ食うと決めた相手を時が来るまで守るというのは必然だが、根が刹那的なんでボロも出やすい。
+
+<char src='riz metoji'>
+#リザ (v_riz0087)そうね。女の目線から言わせてもらうと、ベイに足りないのは危機感かな
+
+<char src='riz niko'>
+#リザ (v_riz0088)クラウディアはいい子だし、あなたに恩義を感じているから逃げもしない。その事実に胡坐をかいているんでしょう
+
+#リザ (v_riz0089)要するに、自分がフラれるわけないと思ってる
+
+<char src='bea jito'>
+#ベアトリス (v_bat0147)あぁ～、そうですね。その通りです。たまにいますよね、こういう男。いったいどこからその自信が湧いてくるのか、甚だ理解に苦しみます
+
+<char src='bea akire'>
+#ベアトリス (v_bat0148)どんなにぞんざいな扱いをしても、あいつはずっと俺のことを好きに違いないとか思ってるんでしょ。頭パーですかあなたは
+
+#ヴィルヘルム (v_vir0397)…………
+
+そういう次元の話をしてるんじゃねえんだが、危機感云々についてはそうかもしれないと思ったぜ。
+
+あいつは俺のものであるということ。それは決定事項で、揺るぎない現実と思っているから頭に失敗が過ぎらない。
+
+ヘルガを殺したときの達成感。あれから始まったヴィルヘルム・エーレンブルグの人生は、思うがままに進んできたから挫折の経験なんかなかったしよ。
+
+ハイドリヒ卿にはやられたが、あれは祝福だったと思っている。だから本当の屈辱を知らねえし、メルクリウスの言うことなんぞは戯言で……
+
+俺は負けないし、泥など舐めない。漠然と、そう信じていたんだよ。
+
+<char src='riz metoji'>
+<char src='bea metoji'>
+#リザ (v_riz0090)あまり余裕に構えていると、ある日ぽんと捨てられちゃうわよ。もしくは、別の誰かに取られたりとか
+
+<char src='riz niko'>
+#リザ (v_riz0091)そこらへん、少し考えたほうがいいかもね
+
+#ヴィルヘルム (v_vir0398)……うるせえなあ。で、結局おまえらもついてくんのか？
+
+<char src='riz sinken'>
+#リザ (v_riz0092)ええ。クラウディアのこともそうだけど、まだやるべきことはあるからね
+
+#ヴィルヘルム (v_vir0399)あん、なんだそりゃ？
+
+問うと、バビロンは呆れたように、決まってるでしょうと肩をすくめた。
+
+<char src='riz sumasi'>
+#リザ (v_riz0093)まだ怪異の元を絶っていない。それをどうにかしない限り、何度でも同じことは起きるわよ
+
+#リザ (v_riz0094)いっそのこと、ここで全部火葬でも出来れば別だけどね
+
+そうして、周りを見てみろと俺たちに促してくる。確かにそれは、言われてみればその通りだった。
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0149)ああ、なるほど。しょせん<rb "これ">死体</rb>は、触媒にすぎないということですか
+
+#ベアトリス (v_bat0150)カチンに屍の山がある以上、切りがないわけですね
+
+@hidemessage;
+<imgblk mask='test04' time='1'>
+<charclear>
+<layer parent='cutin' id='kiri' opacity='0.01'>
+@cg 007_a;
+<layercamera position='-150 -275 150'>
+&cgfilter col dimgray 100;
+</imgblk>
+
+死体に宿り、動かしている魔術を俺たちはぶち壊して無力化した。しかし新たな動力の供給が成されれば、これはまた復活する。
+
+問題の源は、あくまでも魔術師だ。その骸なり根城なり、とにかく異常を垂れ流している元を叩かなければ意味がない。
+
+怪異を駆逐しろと言われた以上、その真に迫らないまま帰るなんて有り得ない話だった。
+
+@hidemessage;
+<imgblk mask='test04' time='1'>
+&cgfilter;
+<layercamera position='400 -150 50'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+@bg bg15a;
+<char src='bea hukigen segen' position='580 1810 300'>
+<char src='riz sumasi morugen' position='220 1820 300'>
+</imgblk>
+
+<char src='riz metoji'>
+#リザ (v_riz0095)そういうこと。だから任務はまだ途中
+
+<char src='riz sumasi'>
+#リザ (v_riz0096)クラウディアのことは心配だけど、優先するならこちらでしょう。あの子を連れたまま、虎穴に入るわけにもいかないからね
+
+と言うバビロンに、俺は深く息を吐きつつ頷いた。
+
+#ヴィルヘルム (v_vir0400)分かったよ。それで、おまえに当てはあるのか？
+
+<char src='riz metoji'>
+#リザ (v_riz0097)一応ね。カチンの怪異は雨と満月の日に起きると言ったでしょう
+
+#リザ (v_riz0098)ここで見るべきは、前者
+
+つまり雨。そこから察せとバビロンは言う。俺が首を捻っていると、ベアトリスが得心したように頷いた。
+
+#ベアトリス (v_bat0151)分かりました。下ですね？
+
+<char src='riz sinken'>
+#リザ (v_riz0099)ええ。これも言ったと思うけど、きっと原因は地中にある
+
+#リザ (v_riz0100)もとからあった危ないものの上に死体を埋めてしまったから、雨によって<rb "みち">径</rb>が出来てしまうのよ。簡単な理屈ね
+
+水は高きから低きへ流れる。それは血もまた、同様に。
+
+カチンの虐殺は、地の底で枯れていた古い神秘に潤いを与えてしまったというわけだ。
+
+#ヴィルヘルム (v_vir0401)そうかい、おおまか理解した。しかし、だったらどうすんだ。今から穴でも掘るのかよ？
+
+#リザ (v_riz0101)最悪、それも考えてるけど、まずは周辺を見て回りましょう。ちょうどここは丘の上だし、下りれば何かあるかもしれない
+
+#ベアトリス (v_bat0152)たとえば、洞窟とか？
+
+<char src='riz sumasi'>
+#リザ (v_riz0102)そんなものね。じゃあ方針も決まったところで、行きましょうか
+
+@hidemessage;
+<imgblk mask='giza1' time='0.8'>
+<charclear>
+@cg black;
+<layer parent='cutin' id='kiri' opacity='0.01'>
+<layercamera position='0 0 -300'>
+</imgblk>
+
+促すバビロンに続く形で、俺たちは死体だらけの丘を下りると周辺の探索に移った。
+
+そして、それはごく簡単に見つかったんだ。
+
+@hidemessage;
+<se src='06'>
+<imgblk mask='giza1' time='0.8'>
+@bg bg16a;
+<layer parent='cutin' id='kiri' opacity='1'>
+<char src='riz sumasi morugen' position='300 1900 100'>
+<char src='bea hukigen segen' position='-300 1900 100'>
+</imgblk>
+#リザ (v_riz0103)ここ……みたいね
+
+ベアトリスが予想した通り、斜面に口を開けている洞窟がそこにあった。
+
+変哲もねえと言えばそれまでだが、他に目ぼしいものはない。まずはここから調べてみるのが筋だったし、他にも理由は存在した。
+
+<char src='bea odoroki segen'>
+#ベアトリス (v_bat0153)これ、クラウディアのですよね
+
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+<layer parent='cutin' id='kiri' opacity='0.01'>
+<charclear>
+@cg zukin;;//イメージ・クラウディアのフード
+</imgblk>
+
+洞窟の入り口付近に、あいつの頭巾が落ちていたんだ。そこから推察する限り、極めて単純な答えが見えてくる。
+
+#ヴィルヘルム (v_vir0402)俺らが死体と遊んでる間、ここに避難してたわけか。ま、あいつにしちゃあ上出来だな
+
+#ベアトリス (v_bat0154)またあなたは、そんな適当に……さっきリザさんも言ったでしょう。虎穴かもしれないんですよ
+
+#リザ (v_riz0104)どうかしらね……
+
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+<layer parent='cutin' id='kiri' opacity='1'>
+@bg bg16a;;
+<char src='bea hukigen segen'>
+<char src='riz sinken morugen'>
+</imgblk>
+
+顎に手をやり、穴の奥を見つめるバビロン。そのまま慎重深く感想を漏らす。
+
+#リザ (v_riz0105)特に嫌な気配は感じないし、本当にただの洞窟なのかもしれない。だったらあの子は無事でしょうけど
+
+#リザ (v_riz0106)ただの人間には反応しないだけってこともある。いずにせよ、入ってみないと分からないわね
+
+#ヴィルヘルム (v_vir0403)つまり、こうか？　俺らみたいなもんが入った瞬間、中の状況が一気に変わる可能性もある
+
+<char src='bea sinken'>
+#ベアトリス (v_bat0155)だからここで、あまりクラウディアに意識を割くなと？
+
+<char src='riz sumasi'>
+#リザ (v_riz0107)そうね。気になるでしょうけど、呼びかけたりはしないように
+
+#リザ (v_riz0108)念を入れて悪いこともないでしょう。“中のもの”がクラウディアに気付いてないなら、あえて気付かせる必要もないということ
+
+警戒しすぎとも思ったが、理屈の筋は通っている。何にでも言えることだが、センサーってのは脅威を察知するためのものだ。
+
+ならば仮にも魔術師の城が、ただの女子供を脅威と認識するはずもない。よってクラウディアは網に掛かっていないとすれば、そのままにしたほうがいいだろう。
+
+本音を言やあ、あいつは多少なりとも怖がらせたほうが、俺にとって都合も良くなるんだがな。
+
+#ヴィルヘルム (v_vir0404)分かった。それじゃあさっさと入ろうぜ
+
+#ヴィルヘルム (v_vir0405)俺らにゃ牙を剥いてくるかもしれねえが、別にびびってなんかいねえだろう
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0156)当たり前です
+
+<char src='riz sinken'>
+#リザ (v_riz0109)了解。だけど油断はしないようにね
+
+<se src='02'>
+@hidemessage;
+<imgblk mask='center1' time='1'>
+<layerclear parent='cutin' id=''>
+<charclear>
+@cg black;
+</imgblk>
+そうして、俺たち三人は洞窟の中へと入っていた。入り口こそ狭かったが、すぐに横も縦も幅が広がる。
+
+緩い勾配で下へ下へと……二分も進んだ頃にゃあ、十人は並んで歩けるような空間になっていた。
+
+<sestop>
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+@bg bg17a;;※背景・洞窟
+<char src='bea odoroki segen'>
+<char src='riz sinken morugen'>
+</imgblk>
+
+#ベアトリス (v_bat0157)驚きですね……これは想像以上に、広くて深い
+
+<char src='bea hukigen'>
+#ベアトリス (v_bat0158)ここまで一本道だから迷うことはありませんが、それでも尋常じゃない感じですよ
+
+<char src='riz sinken'>
+#リザ (v_riz0110)同感ね。それに気付いてる？　たぶんこの洞窟、螺旋状になってるわよ
+
+道が常にカーブしているのは俺もまた感じていた。加えて下り坂でもあるんだから、構造は螺旋ということになる。
+
+#ヴィルヘルム (v_vir0406)だったらいったい何なんだよ？
+
+<char src='bea jito'>
+#ベアトリス (v_bat0159)あのですね、分からないんですか？　つまりこの洞窟は、立体的な意味を持つということですよ
+
+#ベアトリス (v_bat0160)これで特定の区画ごとに仕掛けが施されていたら、一種の陣を描くのかもしれません
+
+#リザ (v_riz0111)たとえば、俯瞰で見ると<rb "ペンタグラム">五芒星</rb>や<rb "ヘキサグラム">六芒星</rb>に……まあ、有り得ることよね
+
+#ヴィルヘルム (v_vir0407)つっても、別に何もねえじゃねえか
+
+軽く辺りを見回して、俺は呟く。ここまでまったく異常なしだ。
+
+誰も明かりになるものは持っちゃいないが、それでも洞窟内の状況は鮮明に見ることが出来た。俺たちの視力は並の暗闇など問題にしない。
+
+そう、並の闇ならだったんだが……
+
+#リザ (v_riz0112)早計よ、ベイ。もう少しで最初の円を一回りする
+
+#リザ (v_riz0113)何かあるとすれば、そろそろだと思うから
+
+気をつけろと言われた、まさにその瞬間だった。
+
+@hidemessage;
+<soundstop time='0.3'>
+<sestop time='0.3'>
+<imgblk mask='center3' time='0.3'>
+<charclear>
+@cg black;
+</imgblk>
+<wait time='1'>
+<sestop>
+<soundstop>
+
+#ヴィルヘルム (v_vir0408)―――――
+
+
+@seloop 1197;
+@seloop 1196;
+@hidemessage;
+<imgblk mask='center1' time='0.8'>
+<layer parent='cutin' id='ff' src='mv_kaisou' center='480 282' position='480 290' scale='1.02' opacity='1'>
+</imgblk>
+踏み出した足が空を切る。驚愕はしたものの、落下の感覚がないことから落とし穴じゃないと瞬時に悟った。
+
+しかし足の裏に大地の感触はまるでなく、さらに言うなら<dot " 、">何も見えない</dot>。
+
+繰り返すが、俺の視力は普通じゃねえんだ。そこらの暗視スコープなんぞ問題にもならない域で闇を見通せる自負がある。
+
+にも関わらず、まさしく一寸先はなんとやらだ。先の一歩を踏んだ瞬間、宇宙にでも放り出されたのかと真剣に思ったぜ。
+
+#ヴィルヘルム (v_vir0409)へぇ……こりゃまた、やるじゃねえか
+
+だからこそ、俺はこの状況を嬉しく思った。先手を取られたのは癪だったが、歯応えのある相手なのは間違いない。
+
+バビロンやベアトリスともばらけちまったのを理解する。姿が見えないのはもちろんだが、連中の気配をこれっぽちも感じ取れねえ。
+
+本当はすぐ近くにいたのかもしれないが、この闇はそれほど深い。視力だけじゃなく、他の感覚も遮断する密度と質量を持っていた。
+
+#ヴィルヘルム (v_vir0410)で、いったいどうしてくれるんだ？
+
+一種の罠が発動した以上、続く剣呑な諸々もあるだろう。それを期待してしばらく待ったが、そこには闇と静寂があるばかり……
+
+#ヴィルヘルム (v_vir0411)不精な野郎め、来いってか
+
+言ったように足裏の感触はないから歩くと表現するのもおかしいが、とにかく進むことにした。
+
+他の奴ならいざ知らず、俺は闇に怯える感性など持っちゃいない。だから躊躇などするはずもなく、ひたすら状況を動かすことのみ考えていた。
+
+早く気の利いた出し物を見せてくれ。退屈させるな。期待している。
+
+思うことはただそれだけ。飢えにも似た心を抱いて俺は進み……
+
+やってきたのは、少々予想外と言えるものだった。
+
+@hidemessage;
+@seloopstop 1197;
+@seloopstop 1196;
+@hidemessage;
+<wait time='1'>
+<sound src='52' volume='1' fade-time='2' loop='true'>
+<wait time='0.5'>
+
+#リザ (v_riz0114)……また、失敗した
+
+暗闇の中、響いてきたのはそんな声。慙愧に沈み、悲憤に塗れた女の嘆きが俺の鼓膜を震わせた。
+
+#リザ (v_riz0115)どうして、なんで上手くいかない。これだけのことをしてきて、今さら駄目だったじゃすまされないのに……
+
+#リザ (v_riz0116)結果を出さなければ、すべてが無駄になってしまうだけじゃないの！
+
+それが誰の声かは分かっていた。見知った奴のものだったし、ついさっきまで会話していた相手でもある。
+
+だがしかし、当人が喋っているんじゃないと感じた。何せ脈絡がなさ過ぎるし、場の状況にもそぐわねえ。
+
+#ヴィルヘルム (v_vir0412)……つっても、ただのマヤカシってわけじゃねえな
+
+これはこれで、一種本物。
+
+リザ・ブレンナーという女の真実であると俺は察して、同時に――
+
+#リザ (v_riz0117)だから、立ち止まるわけにいかない
+
+瞬間、視界は一気に開けた。
+
+@hidemessage;
+<imgblk mask='center1' time='1'>
+<layer parent='cutin' id='ff' opacity='0.01'>
+<layercamera position='0 50 0' rotate='15'>
+@bg bg19a_b;;※背景・研究室
+<char src='riz sinken morugen' position='0 1900 130'>
+</imgblk>
+<layercamera position='0 -50 0' time='40' accel='-1'>
+#リザ (v_riz0118)もう一度、最初から考えてみよう
+
+#リザ (v_riz0119)間違ったのは何処か。どの段階で私は要らぬ手を加えたのか……
+
+#リザ (v_riz0120)いいえ違う。<dot " 、">私は何をやらなかったのか</dot>
+
+無菌室を思わせる殺風景な部屋の中、神経質に頬を痙攣させながら女は呻くように呟いていた。難関を前に追い詰められている者特有の、焦りと苛立ちが浮き出た恐怖の相は、お世辞にも褒められたもんじゃねえ。
+
+風呂も食事も、睡眠さえもきっとろくに取ってない。髪は油染み、服はよれよれで、頬はげっそりとこけている。それでいながら、クマに覆われた両目だけは熾火のように燃えていた。
+
+最悪の戦場で、発狂寸前に陥っている兵士たちにも通じる雰囲気。事実そこは、戦場に匹敵する死と不条理が溢れていた。
+
+#ヴィルヘルム (v_vir0413)ほぉ……こりゃまた、やるもんだ
+
+#ヴィルヘルム (v_vir0414)話には聞いてたが、なるほど……こいつは確かに<rb "バビロン">退廃の国</rb>か
+
+@hidemessage;
+<layer parent='cutin' id='01' src='sitai' center='400 225' position='150 150' scale='2.2' opacity='0'>
+<layer parent='cutin' id='01' position='750 150' time='70'>
+<layer parent='cutin' id='01' opacity='1' time='1.2'>
+<wait time='1.2'>
+
+女を中心にして、餓鬼の死体が部屋中に転がっている。一目で分かる外傷を負った者は皆無だったが、それが逆に不気味さを際立たせていた。
+
+全員、男とも女とも見分けがつかない。それは十にも満たない幼児だからという点もあったが、真っ当な育てられ方をしていなかったというのがきっと一番の理由だろう。
+
+環境が歪なら、成長も歪になるのは当然のことだ。狼に育てられた餓鬼が自分は狼だと信じるように、この死体どもは一般に言う人間らしい生活をしていなかったのだろうと推察できる。
+
+俺が言うのも何だがな。一種神聖なグロテスクさを感じたよ。性別を超越した雰囲気を纏いつつ死んでいる餓鬼どもは、喩えて言うなら天使だった。
+
+人間が使わない<rb "チャンネル">識域</rb>をこじ開けられて、人間には感知できない音や色を見聞きし、歌う。そんな存在になるべく育てられた連中は、てめえの力に耐えられず壊れちまったということだ。
+
+進化、優生学、第三帝国の次世代を担う太陽の子供たち。超人の創造。
+
+リザ・ブレンナーという女が目指していたのはそういうもので、しかし結果はこの通り。
+
+天使は祝福のラッパを吹き鳴らさない。生命の泉と名付けられた女の城は、正反対に餓鬼の屍を積み上げていくだけとなった。
+
+#ヴィルヘルム (v_vir0415)つうことだろうが……
+
+さて、だからどうした？　この場で、こんなものが俺の前に広がっている意味と理屈はどこにある？
+
+知ってる奴の性交現場を目撃したような可笑しさとアホらしさを覚えはしたが、出し物の趣旨が掴めねえ。
+
+だが訝る俺を無視するように、目の前の芝居は続いていく。
+
+@hidemessage;
+<imgblk mask='mask2' time='1'>
+<layerclear parent='cutin' id='01'>
+<layercamera position='-50 -50 0' rotate='0'>
+@bg bg19a_b;
+<char src='riz sinken morugen'>
+</imgblk>
+#リザ (v_riz0121)<rb "サイキック">超能力者</rb>を生むという方針そのものは間違ってない。危うい思想ではあるけれど、今さら綺麗事が罷り通る世界じゃないのよ
+
+#リザ (v_riz0122)博愛と平等を謳ったところで戦争は終わらないから。終わらせるには圧倒的な力。それを生み出す戦意の鼓舞
+
+#リザ (v_riz0123)何処もかしこも、自分たちが世界一優秀な民族だと言っている。そう、言っているだけだから戦況は混沌とするのよ。自負は形にしないと意味がない
+
+#リザ (v_riz0124)我々の子供たちこそ、新たな世界を担う進化した人類の魁だと……内外に見せ付けるには、少しくらい頭や見た目がいいというだけじゃ足りない
+
+#リザ (v_riz0125)既存人類には出来ないことが出来る。その枠を超えた存在だと認めさせる。そのためには<rb "サイキック">超能力者</rb>……問答無用で一目瞭然
+
+人間は奇跡にひれ伏し、畏怖して敬う。空を飛べる奴が国単位でいれば、誰もそんな連中には逆らわねえだろう。
+
+俺らにとってのハイドリヒ卿がそうであるように。宗教だって似たようなもんだ。死んでも生き返ったり、未来を預言したりする奴がいたから、みんなそいつに従ったんだよ。
+
+ゆえにバビロンの理屈もまあ分かる。男は戦場で血を流し、女は子を産み育てるべきという奴の信念に照らすなら、女の究極的仕事は進化した“次”の創造。
+
+超能力者の量産が可能になれば、なるほど第三帝国は神に選ばれた栄光の大地ということになるだろう。
+
+短絡的と人は言うかもしれねえが、事が大きく複雑になればなるほど、そういうシンプルな一撃が力を持つ。世界大戦なんて弩級の修羅場を制すなら、ある種馬鹿馬鹿しいほどの明快さが要ると俺は思うぜ。
+
+実際、核爆弾なんていうもんが生まれちまったくらいだしよ。当時の感覚で言えば、荒唐無稽さじゃあ超能力者と大差ないぜ。
+
+#リザ (v_riz0126)だから、ここまで私は間違っていない。<rb "サイキック">超能力者</rb>を生む方法も、九割がた確立している
+
+#リザ (v_riz0127)ただ、問題は……
+
+言って、バビロンは周囲を見回す。そこらに転がる夥しい<rb "ガキ">天使</rb>どもの屍。
+
+#リザ (v_riz0128)それに耐えられる子がいないということ。汎用性がまったくない
+
+#リザ (v_riz0129)じゃあ、もっと基準を下げるべき？　ううん、それは本末転倒というものでしょう。むしろ今は、とことんまで性能を突き詰めた原種を生むことに注力したほうがいい
+
+#リザ (v_riz0130)ここで妥協をしないことが、続くすべての底上げに繋がるはずだし……最初の成功がなければ次もないから
+
+#リザ (v_riz0131)この子たちの犠牲を無駄にはしない。してはいけない。そのためには、やはり……
+
+指を噛み、膝を震わせ、蒼白になりながら女が考えていることは何なのか。俺は直感で理解した。
+
+知識として知ってることもあったからな。至極当たり前の論法だよ。
+
+#リザ (v_riz0132)優生学……天才の子は天才で、超人の子は超人
+
+軍のエリートやら良家の子女やら、そういう連中を掛け合わせて生まれた餓鬼どもじゃあ、超人の器としてまだ弱い。
+
+ならば、答えは一つだろう。
+
+#リザ (v_riz0133)私が産むしか……ないわけね
+
+黄金の爪牙。黒円卓の騎士。その座にいるリザ・ブレンナーこそ、超人の母に相応しい。
+
+言った通り当たり前で、筋から言えば真っ先にそれをやるべきだと普通は思うはずだろう。
+
+そして実際、こいつは何度もそれを試したと聞いている。
+
+#リザ (v_riz0134)だけど、どうしたら私に子供が……
+
+#リザ (v_riz0135)誰と、どんなに、どれほどしても、お腹に命が宿らない。最大の欠陥は、つまるところ私の資質？
+
+#リザ (v_riz0136)これほどたくさんの子供を殺し、愛もなく男性と繋がってきた私じゃあ、母になる資格はないというの？
+
+#リザ (v_riz0137)でも、だったら、本当にどうしようも……
+
+それは種さえバラ撒けば、理論上百人だって同時に餓鬼を作れる男には分からない焦りであり、恐怖なんだろう。
+
+痩せた畑に実はならねえ。種が腐ってる場合もあるだろうが、問題としちゃあやはり女のほうが切実だろうぜ。この状況に限って言えば、母体がおかしいから孕めねえとしか思えないんだからな。
+
+不妊症。目的のために、まず至高の原種を産もうと目論むバビロンは、そこで完全に躓いていた。自身も言っていたように、始まりの成功がなければ続きが起きるはずもない。
+
+#リザ (v_riz0138)どうすれば、どうしたら……
+
+#リザ (v_riz0139)子供が欲しい。この手に抱きたい。ああどうか私に、母となれる資格を
+
+#リザ (v_riz0140)それさえ叶えば、なんだって……
+
+目指す理想がなんであれ、他人の餓鬼を殺しまくった奴が言う台詞じゃねえわな。しかしそんな皮肉はともかくとして、女が狂気に落ちる典型例ではあったんだろう。
+
+だからこそ、とでも言うべきか。
+
+#リザ (v_riz0141)悪魔に魂を売っても構わない
+
+<sestop>
+<soundstop>
+<se src='1137'>;;//ＳＥ・ノイズ音
+<layer parent='cutin' id='noise' src='noise' center='400 290' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='noise'opacity='1' time='0.3'>
+<wait time='0.3'>
+
+#メルクリウス (v_mrk0026)よかろう。ならば御身の真実を教える
+
+半ば予想していた声が聞こえた瞬間、視界がノイズの嵐に潰された。
+
+<sound src='19' volume='1' loop='true'>
+<charclear time='0'>
+<layercamera position='100 30 250' rotate='0'>
+@cg 216_a ol 0;
+<layer parent='cutin' id='noise'opacity='0.6' time='2'>
+<wait time='1'>
+
+#リザ (v_riz0142)あなたは、いつから……
+
+その中で、だが伝わってくるのは驚愕した女の気配。そして、水銀のように重く流動し、とぐろを巻いていく魔術師の<rb "ノロイ">祝福</rb>。
+
+#メルクリウス (v_mrk0027)御身は誕生を夢見ながら死を抱いている。死体を抱くことでしか愛を感じることが出来ぬ女だ。サロメのように
+
+#メルクリウス (v_mrk0028)接吻は断頭に。化粧は骸に。飾り立てるならば<rb "シュラウド">屍衣</rb>に……愛し合うなら墓所を<rb "しとね">褥</rb>にするが相応。生きた男をどれだけ抱いても、御身の<rb "はら">子宮</rb>は受け入れぬ
+
+#メルクリウス (v_mrk0029)超人を望むなら、常人の営みなど捨てるが道理だ。それでこそ、<rb "ゾーネンキント">太陽の御子</rb>は生まれ出でる
+
+#リザ (v_riz0143)つまり……
+
+こいつが、やれと言っていることは……
+
+#メルクリウス (v_mrk0030)そう、近々、極上の死体が生まれる予定だ。機は逃されるなよ、大淫婦殿。何度も試せることではない
+
+#メルクリウス (v_mrk0031)ああ、ヨカナーン。ヨカナーン。死したおまえこそが美しいと、謳いながら交わればよい
+
+<se src='1138'>
+<layer parent='cutin' id='noise' opacity='1' time='1'>
+<wait time='0.5'>
+
+#メルクリウス (v_mrk0032)ふふふ、ははははは、はははははははははははは――――
+
+<soundstop>
+<sestop>
+<layerclear parent='cutin' id=''>
+@bg black ol 0;
+<layer parent='cutin' id='ff' src='mv_kaisou' center='480 282' position='480 290' scale='1.02' opacity='0.01'>
+#ヴィルヘルム (v_vir0416)―――――
+
+@seloop 1197;
+@seloop 1196;
+@hidemessage;
+<layer parent='cutin' id='ff' opacity='1' time='0.5'>
+そうして、再び闇が落ちた。鉈で叩き切ったような静寂の中、俺は低く溜息を吐く。
+
+#ヴィルヘルム (v_vir0417)それで？　結局なんなんだよ
+
+趣旨は相変わらず掴めねえ。今のがバビロンの記憶であり、あいつが俺の知ってるあいつになった原因だろうというのは分かったが、それが現状の何に繋がる？
+
+くだらねえとまでは言わないが、特に面白くもない見世物だ。こっちは痛くも痒くもねえ。
+
+そしてそれは、当のバビロンにしても同感だろう。今のを奴も見せられたとして、古傷をほじり返されたような不快さは覚えたかもしれないが、そんなことで潰されるほど柔な女じゃねえんだよ。
+
+悪魔に魂を売ると言った奴が、てめえの暗部を叩きつけられたからといって気後れするはずもない。
+
+そう思い、そして俺は……
+
+#ヴィルヘルム (v_vir0418)ああ、待てよ
+
+#ヴィルヘルム (v_vir0419)暗部、暗部か……なるほどつまり
+
+これが何を意味しているのか察すと同時に、次の“闇”が幕を開けた。
+
+@hidemessage;
+@seloopstop 1197;
+@seloopstop 1196;
+<layer parent='cutin' id='ff' opacity='0.01' time='0.5'>
+<wait time='1'>
+<sound src='57' volume='1' fade-time='2' loop='true'>
+<layercamera position='0 0 -300'>
+<layer parent='cutin' id='01' src='031_c' center='1375 1325' position='512 400' scale='0.75' opacity='0'>
+<layer parent='cutin' id='01' position='512 80' time='30'>
+<layer parent='cutin' id='01' opacity='1' time='1.5'>
+<wait time='1.5'>
+
+#ベアトリス (v_bat0161)<rb "私が犯した罪は">"War es so schmählich,"</rb>――
+
+#ベアトリス (v_bat0162)<rb "心からの信頼において あなたの命に反したこと">"ihm innig vertraut-trotzt'ich deinem Gebot."</rb>
+
+剣を拝むように掲げ持ち、懺悔の祈りを捧げる女の姿が視界に広がる。
+
+先のバビロンに続き、これはベアトリスが持つ魂の闇だった。
+
+#ベアトリス (v_bat0163)<rb "私は愚かで あなたのお役に立てなかった">"Wohl taugte dir nicht die tör'ge Maid,"</rb>
+
+#ベアトリス (v_bat0164)<rb "だからあなたの炎で包んでほしい">"Auf dein Gebot entbrenne ein Feuer;"</rb>
+
+この女が水銀の薫陶を受け、黒円卓の騎士となった瞬間の記憶。そしてそのとき、こいつの胸に渦巻いていた後悔、動機。
+
+すべてが、映像となり俺の前に流れていく。
+
+@hidemessage;
+<layer parent='cutin' id='mv' src='mv_film' center='512 288' position='512 300 3' scale='1' opacity='1'>
+<layer parent='cutin' id='bk' src='black' center='400 225' position='512 880 2' scale='1.28' opacity='0'>
+<layer parent='cutin' id='bk2' src='black' center='400 225' position='512 -280 2' scale='1.28' opacity='0'>
+@bg sora ol 1;
+<layer parent='cutin' id='bk' position='512 835 2' opacity='1' time='1.3' accel='-1'>
+<layer parent='cutin' id='bk2' position='512 -235 2' opacity='1' time='1.3' accel='-1'>
+<wait time='1'>
+
+#エレオノーレ (v_ero0029)貴様、何を笑っている？
+
+そこは粗末な野戦病院の一角だった。椅子に座ったベアトリスを、全身包帯に覆われた女がベッドに横たわったまま、火のような目で睨んでいる。
+
+ザミエル……間違いない。これはあいつが、例の火傷を負ったときのことなのか。
+
+"1942"年。つまり当時から言えば二年前、ハイドリヒ卿が暗殺されたという報が流れた日の出来事。
+
+もちろんそんなものは誤報であり、俺は信じちゃいなかったが、まったく動揺しなかったと言えば嘘になる。
+
+こいつらも、そこは同じだったようで……
+
+#ベアトリス (v_bat0165)あのとき私は、本当に笑みを浮かべていたのだろうか。今でもそれは分からない
+
+#ベアトリス (v_bat0166)ハイドリヒ卿の死という報を受けた少佐は、戦場で彼女らしからぬ失態を演じた果てに再起不能の身となった。命だけは取りとめたが、軍人としての未来を完全に絶たれたのだ。いいや、それだけではない
+
+#ベアトリス (v_bat0167)半身を覆う重度の火傷は、エレオノーレ・フォン・ヴィッテンブルグという人物を女性としても殺している。見た目の痛ましさはもちろんのこと、上官が失ったものを思えば笑っていられるはずがない
+
+#ベアトリス (v_bat0168)だけど、なぜか……ああ、だからこそ
+
+#エレオノーレ (v_ero0030)嬉しいか、キルヒアイゼン
+
+#ベアトリス (v_bat0169)嬉しい。そうだ、私はこのときほっとしたのだ
+
+#ベアトリス (v_bat0170)これで自分たちは救われると。あるべき日常に帰れると
+
+#ベアトリス (v_bat0171)戦況は最悪で、祖国は滅びるかもしれなくて、家族も友人も我々自身も、死ぬか不具者になるしかないだろうと思いながらも、助かったと安堵したのだ
+
+#ベアトリス (v_bat0172)なぜならそれは、人としての結末だから。どれだけ不幸なものであろうと、私が理解できる世界の形を外れてないから
+
+黄金の死という報を前にして、絶望するザミエルとは真逆の思いに囚われたこと。
+
+その事実に対する後悔が、以降のこいつを形作ったのだと理解する。
+
+#ベアトリス (v_bat0173)ハイドリヒ卿は、死んだのですね
+
+引きつった声で、泣いているのか笑っているのか分からないまま呟かれた声。
+そして次の瞬間に、ザミエルは傍の花瓶をベアトリスの頭に叩き付けた。
+
+#エレオノーレ (v_ero0031)出て行け……貴様の顔など見たくない
+
+#ベアトリス (v_bat0174)少佐……
+
+#エレオノーレ (v_ero0032)出て行け――今すぐ！　殺すぞ、二度とその面を私に見せるなッ！
+
+怒号して、しかしそのまま崩れ落ちて、獣のように息を荒げながらザミエルは呻いている。
+
+溶けかけた爪が剥げるほどにシーツを掻き毟っている上官の姿を見つめ、ベアトリスは立ち上がった。
+
+#ベアトリス (v_bat0175)新しい花瓶を持ってきます
+
+何度殴られようが花を飾るし傍にいると。それがこの場で自分に出来るすべてであり、やらねばならないことなのだと。
+
+こいつの胸にある思いはそんなもので、もはや吹っ切れていたのだろう。
+
+あくまでも、こいつが信じたがってる世界観においてはだが。
+
+@hidemessage;
+@cg black ol 1;
+<wait time='1'>
+<sestop>
+
+#ベアトリス (v_bat0176)戦争はまだ終わらない。人死にも止まらない。おそらく祖国が敗北するまで、いいやきっとその後も、悲劇は連鎖し続けるだろう
+
+#ベアトリス (v_bat0177)だけど私と少佐に限っては、もう戦いを終えたのだ
+
+#ベアトリス (v_bat0178)黄金の光に呑まれ、人でないものへと変わる恐怖……もっとも危惧していた未来を避けることが出来たのだから、後はただ軍人として当たり前に進めばいい。その運命を受け入れればいい
+
+#ベアトリス (v_bat0179)何も難しくない。簡単なこと
+
+#ベアトリス (v_bat0180)そう思って、愚かにも信じ込んでしまったこと
+
+#ベアトリス (v_bat0181)それが私にとって――最大の後悔
+
+@hidemessage;
+<layerclear parent='cutin' id='' time='1'>
+<wait time='1'>
+
+懺悔は確かにその通り。そこがこいつの、どうしようもない浅はかさだった。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='031_b' center='1375 1325' position='420 800' scale='1.2' opacity='0'>
+<layer parent='cutin' id='mv' src='mv_film' center='512 288' position='512 300' scale='1' opacity='0.6'>
+<layer parent='cutin' id='bk' src='black' center='400 225' position='512 880' scale='1.28' opacity='1'>
+<layer parent='cutin' id='bk2' src='black' center='400 225' position='512 -280' scale='1.28' opacity='1'>
+@bg white ol 1;
+<layer parent='cutin' id='01' position='450 1030' time='10' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1'>
+<layer parent='cutin' id='bk' position='512 835' time='1.5' accel='-1'>
+<layer parent='cutin' id='bk2' position='512 -235' time='1.5' accel='-1'>
+<wait time='1.5'>
+
+ベアトリスが上官のもとを離れた一瞬の間に、入れ替わりで現れたのは死んだはずの黄金だったという事実。
+
+驚愕し、次いで歓喜に涙するザミエルを、ハイドリヒ卿は抱き上げ、告げた。
+
+#ラインハルト (v_rin0020)隠すな。恥じる必要など何もない。今の卿こそが美しい
+
+#ラインハルト (v_rin0021)私と共に来い、少佐。一度死んだ身なのはお互いだろう
+
+#エレオノーレ (v_ero0033)はい、はい……何処までも！
+
+<layer parent='cutin' id='bk' position='512 588' time='4' accel='-1'>
+<layer parent='cutin' id='bk2' position='512 12' time='4' accel='-1'>
+<wait time='0.5'>
+
+よって結局のところ、間抜けはベアトリスだったということだ。こいつは現実に耐えられず、てめえにとって都合のいい幻想を信じ込むことでそこに逃げた。
+
+ハイドリヒ卿が死ぬなんて、あるはずもねえっていうのに。
+
+チンケな自分の世界を守るため、現実から目を背けたのは軍人として失格だろう。そこは痛感しているらしい。
+
+仮にベアトリスが、このときずっとザミエルの傍にいたとしても、それで何が変わっていたとも思えねえが。
+
+@hidemessage;
+<imgblk mask='ol' time='1.2'>
+<layerclear parent='cutin' id=''>
+<layercamera position='3000 4900 -1000'>
+@cg 031_c;;
+</imgblk>
+
+#ベアトリス (v_bat0182)失敗を犯したのは確かだから
+
+#ベアトリス (v_bat0183)私が愚かだったのは事実だから
+
+#ベアトリス (v_bat0184)悔いが、悔いが残るのだ。取り戻したいと切に願う
+
+<se src='1136'>;;//ＳＥ・ノイズ音
+<layer parent='cutin' id='noise' src='noise' center='400 290' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='noise'opacity='1' time='0.3'>
+<wait time='0.3'>
+<layercamera position='-300 30 250' rotate='0' time='0'>
+@cg 216_a ol 0;
+
+#メルクリウス (v_mrk0033)然り、その<rb "おもい">渇望</rb>こそ御身の真実
+
+そして再び、被さってくるノイズの嵐と魔術師の<rb "ノロイ">祝福</rb>。
+
+<layer parent='cutin' id='noise'opacity='0.6' time='2'>
+<wait time='1'>
+
+#メルクリウス (v_mrk0034)御身は輝く魂を追い、死を量産する。英霊をヴァルハラへ招く死神であり、グラズヘイムの尖兵たるに相応しき者
+
+#メルクリウス (v_mrk0035)その業を祝福し、魔名を送ろうヴァルキュリア――戦場を駆ける雷光のごとき戦乙女よ
+
+<se src='1137'>;;//ＳＥ・ノイズ音
+<layer parent='cutin' id='noise' opacity='1' time='1'>
+<wait time='1'>
+<layercamera position='2200 4900 -400' time='0'>
+@cg 031_c ol 0;;
+
+その中で、だが違う違うとベアトリスは歯を食いしばり。
+
+<sestop time='1'>
+<layer parent='cutin' id='noise'opacity='0.4' time='1.5'>
+<wait time='1'>
+<sestop>
+
+#ベアトリス (v_bat0185)私は、道を照らす光になりたい
+
+どれだけ深く水銀の海を潜ろうとも、自分は人であることを見失わないと、剣を抱きながら誓っていた。
+
+<soundstop time='0.5'>
+<imgblk time='0.5'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300'>
+@cg black;
+</imgblk>
+<soundstop>
+<layer parent='cutin' id='ff' src='mv_kaisou' center='480 282' position='480 290' scale='1.02' opacity='0.01'>
+#ヴィルヘルム (v_vir0420)……なるほどな
+
+@seloop 1197;
+@seloop 1196;
+@hidemessage;
+<layer parent='cutin' id='ff' opacity='1' time='0.5'>
+映像は消え去り、目の前には暗黒があるだけだったが、しかし状況は最初から何も変わっていなかったのだと理解する。
+
+ここは終始一貫して闇のままだ。心の、魂の、人間が持つ暗い部分。その概念が具現化されているのだろう。
+
+そう考えれば、なかなかよく出来た防衛の手段と言える。侵入者は、己が持つ心の闇になんらかの決着をつけない限り、おそらくここから出られない。
+
+回りくどくて好みじゃねえが、極めて厄介なのは確かだろう。何せ闇のない奴など存在しねえ。
+
+それに決着をつければいいとは言ったものの、具体的にどうするべきかはまったくの不明だった。仮に自己の暗部を吹き飛ばす術があったとして、それを成した俺は本当に俺なのかという疑問がある。
+
+先のバビロンやベアトリスにしても、あれはあれで奴らの芯に関わる重要なものだ。抜き取ったら背骨を失くしたも同然で、立つことさえ出来ないだろう。
+
+ならば、いったいどうやってこの闇を払えばいいのか。
+
+#ヴィルヘルム (v_vir0421)面倒くせえな。哲学じみてきやがった
+
+魔術師らしいと言えばらしい関門。マレウスでも連れてりゃあ何かの足しになったのかもしれねえが、ここは自力でどうにかしなきゃならんだろう。
+
+そのためには、前提として言うまでもなく。
+
+#ヴィルヘルム (v_vir0422)おら次だ。さっさと来いよ
+
+俺の闇ってやつが何なのか、見せてもらわねえと始まらない話だった。
+
+@seloopstop 1197;
+@seloopstop 1196;
+<layer parent='cutin' id='ff' opacity='1' time='0.5'>
+<layercamera position='220 -30 100' rotate='-20' time='0'>
+<char src='hel niyari blood' position='250 1700 200' filter='col black 50'>
+<wait time='0.3'>
+#ヘルガ (v_hrg0015)あらやだ。そんなの簡単なことよ
+
+@hidemessage;
+<sound src='18' volume='1' fade-time='2' loop='true'>
+<layercamera position='220 -130 100' time='4' accel='-1'>
+<char src='hel niyari blood' filter='none' time='1'>
+<wait time='4'>
+<imgblk mask='center1' time='1'>
+<layer parent='cutin' id='ss' src='mv_42_a' center='480 272' position='300 170' scale='0.7' opacity='1'>
+<charclear>
+</imgblk>
+そうして現れたのは、紅の薔薇園に佇む女。
+
+血の噴水を満身に浴びながら、にこやかにこちらを見つめる壊れた笑みには覚えがある。
+
+赤く瞬く瞳の奥で、絶えず掻き混ぜられている異様な情念に舌打ちした。
+
+#ヴィルヘルム (v_vir0423)チッ……
+
+辟易する。これは無駄に神経を削られる覚悟が要るなと思いつつ、俺はぶっきらぼうに呟いた。
+
+#ヴィルヘルム (v_vir0424)ヘルガかよ
+
+#ヘルガ (v_hrg0016)ええそうよ。こうして面と向かうのは久しぶりね。嬉しいわヴィルへルム
+
+#ヘルガ (v_hrg0017)あのときあなたに愛されて以来、もうどれくらい経ったのかしら。でも昨日のことのように覚えてるわ
+
+#ヘルガ (v_hrg0018)ちゃんと毎日ご飯を食べてる？　風邪なんか引いてない？　私に会えなくて寂しかった？　ねえ、ねえねえ、また昔みたいに抱きしめてよぉ
+
+#ヴィルヘルム (v_vir0425)うるせえ、黙れ
+
+気狂い女の幻影と埒の明かない会話を続ける趣味はねえ。俺は指を立てて短く言った。
+
+#ヴィルヘルム (v_vir0426)決まりは一つだ。質問するから、てめえは馬鹿みたいに答えろ
+
+#ヴィルヘルム (v_vir0427)訊いてもねえことを勝手にペラ回しやがったら……
+
+#ヘルガ (v_hrg0019)殺しちゃうって？　じゃあそうしてもらおうかなあ。だってわたしは――
+
+@hidemessage;
+<se src='2001c'>
+<se src='2010a'>
+<layer parent='cutin' id='ss' position='300 350' scale='2' time='0.2'>
+<wait time='0.4'>
+<se src='1056c'>
+<se src='1069a'>
+<layer parent='cutin' id='02' src='blood6' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='02' scale='1.8' opacity='1' time='0.2'>
+<layer parent='cutin' id='ss' opacity='0' time='0.2'>
+<wait time='0.3'>
+<char src='hel none blood' position='260 1700 200'>
+言下に切って捨てるように、無言でヘルガの顔面をぶん殴った。水風船が破裂したような音を立て、女の輪郭が四散する。
+
+<se src='2179'>
+<char src='hel niko' position='250 1700 200'>
+#ヘルガ (v_hrg0020)うふ、うふふふ……そうよ、それそれ。あなたのそういうところがわたしは大好き
+
+@hidemessage;
+<imgblk mask='mask4' time='0.8'>
+<layerclear parent='cutin' id='02'>
+<layer parent='cutin' id='ss' src='mv_42_a' center='480 272' position='300 170' scale='0.7' opacity='1'>
+<charclear>
+</imgblk>
+<sestop time='1'>
+<wait time='0.5'>
+#ヘルガ (v_hrg0021)ヴィル、ヴィル、わたしの愛しいわたしの息子。めちゃめちゃにして、わたしを愛して
+
+#ヴィルヘルム (v_vir0428)…………
+
+飛び散ったどろどろの血溜りから、ヘルガは再び形を持って立ち上がった。どうやらこいつ、粉々にしても消えないらしい。
+
+
+予想はしてたから驚きこそしなかったが、さすがにうんざりする気持ちはあったぜ。端的に、うざったいことこの上ねえ。
+
+#ヴィルヘルム (v_vir0429)おまえが俺の闇っていうことでいいのか？
+
+#ヘルガ (v_hrg0022)ええ、もちろん。そうよ、そうに決まってるじゃない。他に何があるっていうの
+
+#ヘルガ (v_hrg0023)あなたにとって、一番拭えない記憶はわたしでしょう？
+
+#ヘルガ (v_hrg0024)一番深い、血の絆
+
+アメーバのように蠢動しながら、濁った血塗れの瞳を三日月に歪める。吊りあがった口元からは、赤い牙が覗いていた。
+
+#ヴィルヘルム (v_vir0430)とっくに死んだ奴が抜かしてんじゃねえよ
+
+#ヴィルヘルム (v_vir0431)血の繋がりなら、てめえをぶち殺したときに清算してるわ
+
+#ヘルガ (v_hrg0025)あらそう？　でもそれなら、どうしてわたしはあなたの中にいるのかしら
+
+#ヘルガ (v_hrg0026)愛しいヴィル。吸血鬼になりたいヴィル。わたしから産まれたっていう現実が許せないのね
+
+#ヘルガ (v_hrg0027)だから壊した
+
+#ヘルガ (v_hrg0028)我が始まりよ、灰になれって
+
+ああそうだ。俺は生まれの呪縛を断ち切った。そう確信してるし、自負してる。
+
+不死鳥の親が、泥くせえ鴉なんかでいいわけもねえだろう。その間違いは正さなきゃならなかったし、ぶち壊すことで俺は生まれ変わったはずなんだよ。
+
+#ヘルガ (v_hrg0029)なのに、ふふ、うふふふふ……未だにわたしとあなたは繋がっている
+
+#ヘルガ (v_hrg0030)切れないのよ。家族なんだし、当たり前じゃない。あなたは今でも、わたしを愛した日の記憶を抱いている
+
+#ヘルガ (v_hrg0031)忘れたくないんだよねええ。だからわたしも忘れない。あなたが覚えてるから消えたりしない
+
+#ヘルガ (v_hrg0032)もっと、もっと、激しく、長く、永遠に……わたしを壊して、抱いて、吸い続けたいとあなたが願っている限り
+
+#ヘルガ (v_hrg0033)ずっと一緒よヴィルヘルム。それがわたしとあなたを繋ぐ闇の賜物
+
+#ヴィルヘルム (v_vir0432)うるせえ
+
+#ヘルガ (v_hrg0034)照れないで、素直になってよ。また<rb "ムッター">お母さん</rb>の血が吸いたいんでしょう、甘えん坊さん
+
+#ヴィルヘルム (v_vir0433)黙れと言ったぞ
+
+@hidemessage;
+<se src='2002a'>
+<se src='2004c'>
+<layer parent='cutin' id='ss' position='300 350' scale='2' time='0.2'>
+<wait time='0.4'>
+<se src='1056c'>
+<se src='1069a'>
+<layer parent='cutin' id='02' src='blood2' center='400 225' position='512 300' scale='1.28' opacity='1'>
+<layerclear parent='cutin' id='ss' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='03' src='blood3' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='03' scale='1.5' opacity='1' time='0.2'>
+<wait time='0.2'>
+<layerclear parent='cutin' id='02' time='2'>
+<layerclear parent='cutin' id='03' time='2'>
+<layer parent='cutin' id='10' src='mv_bara' center='512 288' position='512 300' opacity='0.01'>
+再びぶち込んだ拳で弾け、血煙と化しながらもヘルガの声が木霊する。
+
+<char src='hel none blood' position='260 1700 200' filter='col red 50'>
+<layer parent='cutin' id='10' opacity='1' time='0.8'>
+#ヘルガ (v_hrg0035)きゃはは、あはははははは―――愛してるわヴィルヘルム。わたしを求めて、わたしを見てよ。わたしがいればいいじゃない
+
+#ヘルガ (v_hrg0036)だって、どうせあなたは、わたし以外に……
+
+何だと言うのか。嘲りながらも慈しむように、ヘルガは呪いの言葉をねじ込んできた。
+
+<char src='hel niyari blood' position='250 1700 200'>
+#ヘルガ (v_hrg0037)手に入るものなんか、何もないわよ
+
+#ヴィルヘルム (v_vir0434)――消えろォ！
+
+怒号した、その瞬間に。
+
+<sestop time='0.3'>
+<soundstop time='0.3'>
+<imgblk mask='center2' time='0.3'>
+<layerclear parent='cutin' id=''>
+@camera;
+<charclear>
+</imgblk>
+#クラウディア (v_kru0177)ヴィルヘルム……？
+
+#ヘルガ (v_hrg0038)――――――
+
+<se src='2190'>
+<se src='1028a'>
+@bg white center1 0.5;;
+<wait time='0.4'>
+@bg black center1 0.5;;
+<layer parent='cutin' id='ff' src='mv_kaisou' center='480 282' position='480 290' scale='1.02' opacity='0.01'>
+いきなり津波のような音を立て、闇のすべてが弾け飛んだ。
+
+#ヴィルヘルム (v_vir0435)なッ……
+
+<se src='100'>
+<se src='2179c'>
+<se src='2179a'>
+<se src='2152b'>
+<se src='2083a'>
+<layer parent='cutin' id='ff' opacity='1' time='0.5'>
+<sound src='17' volume='1' loop='true'>
+いや、正確には<dot " 、">逃げていく</dot>。
+
+#ヴィルヘルム (v_vir0436)鼠……それに蝙蝠だと？
+
+万じゃきかねえ、夥しい数の小動物。暗がりに生きるそれらが、雪崩をうって退却していく。
+
+つまり、さっきまで闇を形作っていたのはコレだったのか。乱舞する下等生物の群れに生理的嫌悪感を覚えたが、状況的にそんなものは二の次以下だ。
+
+#ヴィルヘルム (v_vir0437)なぜだ……？
+
+いったいどうして、こいつらは逃げていく？　俺は何もしちゃいねえ。
+
+ヘルガとの問答に、闇を払う何かがあったはずもない。消えろとは確かに言ったが、それで消えてくれるなら誰も困りなどしないだろう。
+
+#ヴィルヘルム (v_vir0438)気に入らねえぞ。舐めやがって
+
+分かっているのは、開けつつある状況が自分の力で成されたものじゃないということ。それが俺にとっては屈辱であり、結果よしと思えるような性分じゃなかった。
+
+ゆえに動かず、考える。こんな落ちに助けられずとも、自分は突破できたと確信できるように。
+
+#ヴィルヘルム (v_vir0439)俺がヘルガを忘れてねえだと？
+
+#ヴィルヘルム (v_vir0440)それが未だに縛られてる証だと？
+
+忘れてないのかと言われれば、そりゃあ確かに忘れてねえよ。今でもそうだが、当時はたかだか十五・六年前のこと。そんな都合よく消せるほど便利な記憶力は持っちゃいねえ。
+
+覚えてるから愛してるなんてのは暴論だ。それを言うなら誰だって、昔の女や男のことは記憶しているもんだろう。未練なんぞなくたって、覚えてるもんは覚えてる。
+
+#ヴィルヘルム (v_vir0441)じゃあなんだ？　特別視している面があるとでも？
+
+#ヴィルヘルム (v_vir0442)笑わせんなよ、否定はしねえが種類が違う
+
+俺にとって、ヘルガは初めての女だから印象が強い。そこは確かにその通りだが、単に記念品というだけのものだ。前も言ったが、トロフィーにすぎねえ。
+
+そんな程度の扱いに、愛だ絆だと色めき立つほうがイカレている。脳が哀れな奴の理屈であり、くそ馬鹿馬鹿しい戯言だろう。
+
+よって聞くに値しない。あのまま続いたところで論破は容易かったと結論し、
+
+#ヴィルヘルム (v_vir0443)てめえは俺の唯一無二なんかじゃねえ。思い上がんじゃねえぞ間抜け
+
+#ヴィルヘルム (v_vir0444)今後<rb "そこ">薔薇園</rb>に、いくらでも<rb "くび">勲章</rb>を並べてやろうじゃねえか。見てやがれ
+
+@hidemessage;
+<sestop>
+<se src='100'>
+<imgblk mask='center1' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 0 -300'>
+@bg bg05a;;
+</imgblk>
+<wait time='0.8'>
+宣言するように吼えたと同時、ようやく完全に視界が晴れた。
+
+するとそこには。
+
+
+#クラウディア (v_kru0178)……、っ………、ぅぅ……
+
+クラウディア。
+
+#ヴィルヘルム (v_vir0445)……てめえ、こんなところにいたのかよ
+
+洞窟の、おそらく最奥。玄室めいた部屋の中で、クラウディアが倒れていた。どうやら気絶しているらしく、呑気な馬鹿面を晒している。
+
+俺が面倒なあれこれに対処していた間、こいつは寝てやがったのかと思ったら気が抜けたし、微妙に腹も立ってきた。
+
+<se src='44'>
+
+#ヴィルヘルム (v_vir0446)おい、おいこら。起きろ阿呆
+
+足先で小突きながら促したが、うんうん言うだけでなかなか目を覚ましやがらん。なので、もっと乱暴に蹴り転がしてやろうかと思ったとき。
+
+@hidemessage;
+@cg fuutou mask6 0.5;;
+<se src='34'>;;//ＳＥ・地面に封筒が落ちる音
+<wait time='0.5'>
+<sestop>
+<wait time='0.3'>
+#ヴィルヘルム (v_vir0447)あん、こりゃあ確か……
+
+俺の懐から、一つの封筒が落ちてきた。
+
+それはカチンへ発つ前、ザミエルから受け取ったもの。すっかり存在を忘れていたが、蝙蝠の大群に呑まれたことで服が乱れきっていたらしい。このときになってこぼれ出てきた。
+
+そのまま捨てちまおうかとも考えたが、こうして目にすると今さらながら気になってくる。
+
+#ヴィルヘルム (v_vir0448)……ち、何なんだよ結局
+
+@hidemessage;
+<layer parent='cutin' id='bg' src='bg05a' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='bg' opacity='1' time='0.5'>
+<wait time='0.5'>
+<se src='36'>;;//ＳＥ・書類を見る
+@bg bg05a_b ol 0;;
+<char src='wil sinken ss' position='220 2030 150' time='0'>
+<char src='lud sumasi_b def' position='0 1990 220' time='0'>
+<layercamera position='-100 -20 0'>
+
+だから俺は、ぼやきながらも封筒を拾い上げて口を切った。中の書類を開き、目を通してみれば……
+
+<soundstop time='2'>
+#ヴィルヘルム (v_vir0449)…………
+
+#ヴィルヘルム (v_vir0450)…………
+
+#ヴィルヘルム (v_vir0451)……なんだと？
+
+そこには、目を疑う内容が記されていたんだよ。
+
+そして驚愕は、それだけに留まらない。
+
+@sound107;
+@hidemessage;
+<layerclear parent='cutin' id='bg' mask-src='giza2' time='0.5'>
+<layercamera position='0 -20 0' time='1.5' accel='-1'>
+<wait time='1.5'>
+#ルートヴィヒ (v_rut0001)誰だおまえは
+
+#ヴィルヘルム (v_vir0452)―――――
+
+背後。それこそ息が掛かるほどの近距離から、そいつの声は聞こえてきた。のみならず、鋭利な刃と思しき物を俺の背に突きつけている。
+
+#ヴィルヘルム (v_vir0453)……こりゃあまた、随分なご挨拶だな。人に名前を尋ねるときは、まずてめえから名乗るもんだと知らねえのかよ
+
+<char src='lud metoji_b'>
+#ルートヴィヒ (v_rut0002)だから？　芸のない返答だな。つまらんぞおまえ
+
+#ヴィルヘルム (v_vir0454)ほぉ……言うじゃねえかこの野郎
+
+軽口で返してやったが、心はそこまで穏やかじゃねえ。なぜなら、まったく存在に気付けなかった。
+
+ある種の油断をしていたのは認めてもいい。そこに付け込まれたのも確かだろう。だが、単に隠れていた奴を見落としたのならともかく、敵意を持った相手の接近に反応できなかったのは初めてだ。
+
+加えて、何が一番おかしいかというと……
+
+#ヴィルヘルム (v_vir0455)おら、どうしたよ？　やるならさっさと殺ってみろ
+
+この状況に、俺が馬鹿正直なかたちで付き合ったということ。
+
+背後を取られた？　ああそれで？　刃物を持ってる？　だからどうした？
+
+俺はヴィルヘルム・エーレンブルグ。黄金の爪牙で、黒円卓の騎士だ。ナイフどころか、機関銃をこの距離でぶち込まれたって死にやしねえ。
+
+いいや、引き金すら引かせねえよ。俺がちょいとその気になれば、振り向きもせず後ろの野郎を串刺しに出来る。
+
+にも関わらず、それをしない。いいや、正確には出来なかった。
+
+やればまずいことになると、直感的に俺は悟って……
+
+@hidemessage;
+<se src='1138'>
+<layer parent='cutin' id='noise' src='noise' center='400 290' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='noise'opacity='1' time='0.3'>
+<wait time='1'>
+<sestop>
+<char src='lud sumasi'>
+<char src='wil sinken_b'>
+<layerclear parent='cutin' id='' time='0.5'>
+<wait time='0.5'>
+#ルートヴィヒ (v_rut0003)……そうか、黒円卓。なるほどな
+
+形容できない、妙な違和感を覚えたと同時、謎の男は溜息まじりにそんなことを呟いていた。
+
+<char src='lud sinken'>
+#ルートヴィヒ (v_rut0004)相も変わらず悪趣味な。まったく理解に苦しむよ
+
+#ルートヴィヒ (v_rut0005)おまえ、水銀に言われてここに来たのだな。吸血鬼
+
+#ヴィルヘルム (v_vir0456)……てめえ
+
+なぜ、こいつは俺のことを知っている？　それどころか、メルクリウスの野郎まで。
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0006)悪いが、面倒ごとは御免被る。おまえの骸で、奴にはこちらの意志を察してもらおう
+
+#ルートヴィヒ (v_rut0007)期待は出来んが、他に手も見当たらんことだし……
+
+#ルートヴィヒ (v_rut0008)おまえも、そのほうが幸せだろう
+
+#ヴィルヘルム (v_vir0457)………ッ
+
+背に戦慄が走った、瞬間だった。
+
+#クラウディア (v_kru0179)う、ぅぅ～～～ん
+
+<char src='lud sinken'>
+#ルートヴィヒ (v_rut0009)――――――
+
+<layercamera position='-20 -20 0' time='0.2' accel='1'>
+<charclear src='wil' time='0.2'>
+<se src='104'>;;//ＳＥ・一歩踏み出す
+<wait time='0.1'>
+<se src='1010a'>
+<se src='2004a'>
+<layer parent='cutin' id='01' src='panti1_c' center='480 225' position='812 400' scale='1.28' opacity='0'>
+<layer parent='cutin' id='01' position='700 300' scale='1.5' opacity='1' time='0.2'>
+<wait time='0.2'>
+<charclear>
+男の殺気が僅かに揺らぐ。俺は即座に振り返り、渾身の裏拳を放っていた。
+
+@hidemessage;
+<se src='100'>
+<se src='1028'>
+<layer parent='cutin' id='01' src='mv_snnhakai' center='480 270' position='512 300' scale='1.0685' opacity='0.01'>
+<layer parent='cutin' id='02' src='mv_28_a' center='480 270' position='300 -50' scale='1.0685' opacity='0.01'>
+<layer parent='cutin' id='03' src='mv_28_b' center='480 270' position='0 300' scale='2' opacity='0.01'>
+<layer parent='cutin' id='04' src='mv_28_c' center='480 270' position='500 200' scale='1.0685' opacity='0.01'>
+<layer parent='cutin' id='05' src='mv_28_d' center='480 270' position='-300 300' scale='2' opacity='0.01'>
+<layer parent='cutin' id='01' opacity='1' time='0.1'>
+<wait time='1.5'>
+<se src='1028a'>
+<layer parent='cutin' id='02' position='-600 -250' scale='2' opacity='1' time='0.8'>
+<layer parent='cutin' id='03' position='200 300' scale='3' opacity='1' time='0.8'>
+<layer parent='cutin' id='04' position='900 200' scale='2' opacity='1' time='0.8'>
+<layer parent='cutin' id='05' position='-1200 300' scale='3' opacity='1' time='0.8'>
+#ヴィルヘルム (v_vir0458)―――チィッ
+
+完全に捉えたと思ったが、しかし手応えは霧を殴ったように曖昧だった。目の前には黒い外套が視界を覆いながら舞っている。
+
+なんだこいつは？　いったいどういう了見だ？　ここまで虚仮にされたのは初めてで、しかもその実体が分からねえ。
+
+俺のプライドをぶち壊すに足る展開を前にして、だがここで雪辱の機会は訪れず……
+
+@hidemessage;
+<imgblk mask='giza1' time='0.8'>
+<charclear>
+<layercamera position='0 0 -200' rotate='0'>
+<layerclear parent='cutin' id=''>
+@bg bg05a;
+</imgblk>
+<char src='cla odoroki def4' position='0 1940 70' time='0.6'>
+<wait time='0.6'>
+
+#クラウディア (v_kru0180)あ……ヴィルヘルム。助けに来てくれたんですか？
+
+@hidemessage;
+<char src='bea none segen' position='600 1900 300' time='0'>
+<char src='riz none morugen' position='850 1900 300' time='0'>
+<se src='04'>
+<layercamera position='170 0 -200' time='0.7'>
+<wait time='0.5'>
+<char src='bea ikari segen' position='500 1900 300' time='0.5' accel='-1'>
+<char src='riz sinken morugen' position='750 1900 300' time='0.7' accel='-1'>
+<wait time='0.6'>
+<sestop>
+
+#ベアトリス (v_bat0186)ベイ、それにクラウディア！
+
+@hidemessage;
+<layercamera position='0 0 -200' time='2' accel='-1'>
+<wait time='2'>
+<se src='06'>
+<char src='lud kusyou def' position='-400 1900 250'>
+<wait time='0.5'>
+
+俄かに騒がしくなった小部屋の中、明らかにタイミングを逸してしまった。歯噛みする俺の前で、男は失笑しながら外套を羽織り直す。
+
+<char src='riz odoroki morugen'>
+<char src='bea sinken'>
+#リザ (v_riz0144)あなたは、いったい……？
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0010)ルートヴィヒ
+
+こいつはそう、慇懃無礼に嘯いて。
+
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0011)ルートヴィヒ・ヴァン・ローゼンクランツ。<rb "ヴァチカン">教皇庁</rb>の工作員だよ。つまりおまえたちと同じような立場だな
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0012)話の続きは外へ出てからにさせてもらうぞ。ここは滅入る
+
+<char src='lud sitamuki'>
+#ルートヴィヒ (v_rut0013)そちらのお嬢さんも心配だろう。……ああ、立てるかな
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0181)は、はい。ありがとう、ございます
+
+騎士のように恭しく、膝をついてクラウディアに手を伸ばしていた。
+
+@hidemessage;
+@fo;
+@def;
+<sestop>
+<soundstop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+l:
+<sound src='7' volume='1' loop='true'>
+<imgblk mask='mask5' time='1'>
+@bg bg16a;;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+<layercamera position='200 -20 0'>
+<char src='bea none segen' position='-500 1860 400'>
+<char src='riz sumasi morugen' position='500 1910 400'>
+<char src='lud sumasi def' position='0 1850 500'>
+</imgblk>
+
+#リザ (v_riz0145)なるほど。つまりあなたはあなたで、カチンの怪異を調べにきたと？
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0014)ああ。だが残念ながら、私以外は全滅だ。恥を晒すようでみっともないがね、事実なのだから仕方ない
+
+その後、洞窟を出た俺たちはルートヴィヒと名乗る男を囲んで詰問していた。
+
+いや、それは正確じゃねえか。このとき男に不信感を持っていたのは俺だけで、他の連中はさほどの警戒をしていなかった。
+
+なぜなら教会の連中がカチンに来ていたのは事実であり、男はそこの法衣を纏っている。さらに言えば、当時のドイツと<rb "ヴァチカン">教皇庁</rb>は同盟者という間柄だ。
+
+俺ら自身、もはや所属は国家じゃねえが、少なくとも現状において男はこちらの敵じゃないと、バビロンたちは了解しているようだった。
+
+そんなもん、まったく当てにならねえと俺は思っていたけどよ。そこらへんを突っ込めば、洞窟で野郎に不覚を取ったことまで話さなけりゃあならないから胸糞悪い。
+
+そういうわけで、俺は無言のまま顔をしかめ、成り行きを見守るだけに留めていた。
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0015)疑うのなら教会に身元の照会を要請しても構わない。身分証も渡しておこう
+
+<char src='riz sinken'>
+#リザ (v_riz0146)ええ、受け取っておくしそうさせてもらう。だけどこの場じゃあ、どのみち精査も出来ないことね。だからご足労だけど、私たちについてきてもらうわ
+
+<char src='riz sumasi'>
+#リザ (v_riz0147)こちらも子供の使いじゃないからね。私たちの上にあなたのことを報告する義務があるの
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0016)了解。やむを得んな。この件について、優勢なのはそちらのほうだ。仲間を全滅させた身で大きな態度は取れない
+
+#ルートヴィヒ (v_rut0017)私の上司には、そちらの上から話を通してもらうとしよう
+
+<char src='riz metoji'>
+#リザ (v_riz0148)ありがとう。物分りがよくて助かるわ
+
+などと、とんとん拍子に進んでいく。この野郎を黙って帰すわけにゃいかないってのは同感だが、弛緩したやり取りに思わず舌打ちしちまったぜ。
+
+@hidemessage;
+<layercamera position='0 -20 0' time='1'>
+<wait time='1'>
+<char src='bea sumasi' position='-500 1860 400'>
+#ベアトリス (v_bat0187)まあ、問題ないと分かればすぐに帰れるはずですし、そのように計らいますから心配しないでください
+
+<char src='bea niko'>
+#ベアトリス (v_bat0188)ともあれ、ひとまず落着ということでいいんですかね？
+
+<char src='riz niko'>
+#リザ (v_riz0149)状況を見る限りは、ね
+
+自嘲気味に言いながら、頷くバビロン。
+
+例の洞窟に巣食っていたモノに対し、俺は何もやっていない。そこはこいつらも同じだったようで、だが現状は怪異の霧消を表していた。
+
+<char src='riz metoji'>
+#リザ (v_riz0150)この一帯に、もう何も感じない。神秘の痕跡は、綺麗に無しよ
+
+<char src='riz sumasi'>
+#リザ (v_riz0151)これを喜んでいいのかは分からないけど
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0189)洞窟の闇が晴れた原因は何だったのか。さっぱり不明ですからね
+
+<char src='bea sumasi'>
+#ベアトリス (v_bat0190)あなたは何か心当たりがありますか、ルートヴィヒ？
+
+<char src='lud sitamuki'>
+#ルートヴィヒ (v_rut0018)生憎と、まったくだな。私に言えることは、唐突に視界が開けたら目の前にその男がいたというだけだ
+
+<char src='bea metoji'>
+#ベアトリス (v_bat0191)うーん、なんとも謎が残りますねえ。強引にでも理屈をつけるなら、我々全員を取り込んだことで許容量を超えたとか？
+
+#ベアトリス (v_bat0192)しょせん、言っても古い魔術の残滓ですし、その程度の強度だったということなんでしょうか
+
+例の小部屋には棺があり、その中には風化した、何百年も昔のものとしか思えない骸があった。そしてそれは、外気に触れるや塵になるまで崩れていった。
+
+よって、ベアトリスの仮説がもっとも理に適っているだろうとは俺も思う。
+
+<char src='bea akire'>
+#ベアトリス (v_bat0193)でも、やっぱり締まりませんねえ。こんな報告したら、少佐にどやされそうですよ
+
+#リザ (v_riz0152)そうね。そこは私としても困ったことだわ
+
+<char src='riz metoji'>
+#リザ (v_riz0153)釈然としないものは残るけど、愚痴っていてもしょうがないから今はこれで良しとしましょう
+
+<char src='bea niko'>
+#ベアトリス (v_bat0194)ですね。クラウディアも、大事ないようでよかったですよ
+
+@hidemessage;
+<charclear>
+<layercamera position='0 -30 50' time='1' accel='-1'>
+<wait time='1'>
+<char src='cla kyoton def4' position='0 1820 450'>
+#クラウディア (v_kru0182)あ、はい。ご迷惑をおかけしてすみませんでした
+
+<char src='cla awate'>
+#クラウディア (v_kru0183)それで、その……
+
+@hidemessage;
+<layercamera position='-350 -20 0' time='1'>
+<wait time='1'>
+<char src='lud sumasi def' position='-550 1880 450'>
+
+ここまで大人しくしていたクラウディアが、話を振られたとたんにもじもじやりだす。その視線の先には、陰気な面を晒している野郎がいて……
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0019)なにか？
+
+#クラウディア (v_kru0184)いえ、ただ……あなたに一つ、お願いがありまして
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0185)ルートヴィヒさん、ルイって呼んでもいいでしょうか？
+
+#ヴィルヘルム (v_vir0459)はぁん？
+
+また唐突に、こいつはワケの分からんことを言いやがる。
+
+そりゃあ確かに、ルートヴィヒならルイズなりルッツなり、親しい間じゃそういう呼び方をするのが一般的だが、今はそんなことを言ってるときじゃねえだろう。
+
+全員から困惑の視線を向けられ、クラウディアはわたわたと手を振りながら弁解するように話し始めた。
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0186)つ、つまりですね。あなたは私と同じ所属なわけですし、他人行儀なのもどうかなと思う次第で、これからご一緒するならなおさらに、緊張した間柄なのも皆さん疲れてしまうというか
+
+<char src='cla odoroki'>
+#クラウディア (v_kru0187)もっとこう、気楽にですね。ベアトリスさんも仰いましたが、心配は要らないと思いますので、安心していただくためにも、まずはその……
+
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0020)私はそれほど陰鬱そうに見えたかな？
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0188)は、はい、失礼ながら。いえもちろん、察して余りあるお立場だとは思いますけど
+
+仲間を残らずぶち殺されたという奴に対し、それは無神経扱いされても仕方ない言い分だろう。そんなことを説いて聞かせるガラじゃねえし、こいつも分かっているんだろうが、しかし言葉を引っ込める気はないらしい。
+
+<char src='cla metoji'>
+#クラウディア (v_kru0189)亡くなった方々の代わりにはなれませんが、我々の出会いを前向きに捉えてほしいとも思うので
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0190)私をあなたの新たな友人にしていただけたらと……あの、すみません。やっぱりこれは、図々しい願いでしょうか？
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0021)……いや
+
+短い間に奇妙なほどの何かを含ませ、男は首を横に振った。
+
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0022)お気遣い、感謝する。君は清く、優しい人だなクラウディア
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0023)確かに同志を失ったのは痛恨だが、それもお導きだったのだろう。是非、彼らに祈ってほしい
+
+<char src='lud sitamuki'>
+#ルートヴィヒ (v_rut0024)聖女に慰撫されたのなら、よもや二度と迷うようなこともあるまい
+
+<char src='cla awate'>
+#クラウディア (v_kru0191)せ、聖女って！　そんな大袈裟、畏れ多いです
+
+まったくだ。こいつはいいとこ、ただの馬鹿ってやつだろう。俺は呆れ返ってものも言えん。
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0025)何にせよだ。祈ってはくれるのだろう？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0192)は、はい。そこはもちろん、言われるまでもなく
+
+<char src='cla tere'>
+#クラウディア (v_kru0193)それで、あの……
+
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0026)ああ、好きに呼んでくれたまえ。ここで君と出会えた幸運を胸に刻み、私も祈ろう
+
+<char src='cla niko'>
+#クラウディア (v_kru0194)では私も、あなたと出会えた幸運に感謝を、ルイ
+
+<char src='cla metoji'>
+#クラウディア (v_kru0195)そして、このカチンに眠る数多の魂が、善き処へ行けるように
+
+<char src='lud metoji'>
+
+そして二人は手を合わせると、厳かに呟いた。
+
+;#ルートヴィヒ (v_rut0027)――エイメン
+;#クラウディア (v_kru0196)――エイメン
+(v_mix0003)「――エイメン」
+;※同時ボイス
+
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+<layercamera position='0 0 -300'>
+<char src='cla metoji' position='250 1900 380'>
+<char src='lud metoji' position='-200 1900 400'>
+</imgblk>
+
+#ヴィルヘルム (v_vir0460)……………
+
+<char src='bea odoroki segen' position='260 1930 -70'>
+#ベアトリス (v_bat0195)……………
+
+#ヴィルヘルム (v_vir0461)……………
+
+#ヴィルヘルム (v_vir0462)……なんだよ？
+
+<char src='bea niko'>
+#ベアトリス (v_bat0196)いえ、誰かさんの屑っぷりが浮き彫りになるなあと、しみじみ
+
+<char src='bea niyari'>
+#ベアトリス (v_bat0197)だから言ったじゃないですか。余裕こいてるとこういうことになるんですよ。もともとあなた、これっぽっちも魅力なんかないんですし
+
+<char src='bea nikkori'>
+#ベアトリス (v_bat0198)ま、お陰で私は少し安心しましたけどね。いやー、よかったよかった
+
+#ヴィルヘルム (v_vir0463)けッ、ほざいてろボケ。ワケ分かねえ
+
+@hidemessage;
+<se src='06'>
+<imgblk mask='mask4' time='0.8'>
+<layerclear parent='cutin' id='kiri'>
+<charclear>
+<layercamera position='0 0 -300' rotate='0'>
+@cg moon;;
+</imgblk>
+
+意味不明な煽りにイラついて、俺はさっさと踵を返した。とにかく片がついた以上、こんなしみったれた場所に留まってる必要はない。
+
+#ベアトリス (v_bat0199)ふ、負け犬が惨めに去っていきますよ。ざまあ見ろってなもんです
+
+#リザ (v_riz0154)まあまあ、それくらいにしておきなさい。気持ちは少し、分かるけどね
+
+#リザ (v_riz0155)ベイも、気がすんだら最初の場所に戻ってくるのよ。迷子になんかならないようにね
+
+#ヴィルヘルム (v_vir0464)うるせえな、餓鬼か俺は！
+
+吼えて、俺は思い切り石ころを蹴り上げたもんだったよ。
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+l2:
+
+<soundstop>
+<sestop>
+@bg black ol 0;;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='0.01'>
+瞬間。
+
+<se src='1030c'>;;//ＳＥ・銃声（単発）
+<layercamera position='0 0 200'>
+@cg white ol 0;
+@cg black;
+<wait time='0.2'>
+;<se src='2012'>;;//ＳＥ・剣戟
+<layercamera position='0 0 -300' accel='-1' time='0.3'>
+@bg bg06a center1 0.3;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1' time='0.3'>
+<wait time='0.3'>
+<se src='103'>
+<sound src='10' volume='1' loop='true'>
+闇に独特の破裂音が轟いて、同時に俺の頭が後方へ弾かれた。衝撃で二・三歩後退したものの、だからどうだってわけじゃねえ。
+
+多少驚いたし痛かった。そんな程度のものであり、事の真相も理解している。
+
+@hidemessage;
+;<se src='104'>;;//ＳＥ・拳を固める
+;<se src='1213'>
+<layer parent='cutin' id='01' src='22_a' center='762.5 270' position='1420 250' scale='2' opacity='0'>
+<layerclear parent='cutin' id='kiri' time='0.5'>
+<layer parent='cutin' id='01' opacity='1' time='0.5'>
+<layer parent='cutin' id='01' position='1420 450' time='1'>
+<wait time='1'>
+<sestop>
+#ヴィルヘルム (v_vir0681)面白ぇ……
+
+つまり銃撃。咄嗟に歯で噛み止めた弾丸を吐き捨てつつ、至極当たり前の展開だと思ったぜ。
+
+ここは敵地で、一筋縄じゃいかない事情も絡んでる注目の場所だ。いくら深い森の中でも、あれだけ騒げばそりゃ普通にこうなるだろう。
+
+ゾンビが怖いから関知しないなんて戯言を軍の上が許すはずもなく、上がやれと言えば火の中にも飛び込むのが兵隊だ。
+
+ゆえにここでもう一戦。今度は生身の人間相手に始める必要が発生した。憂さ晴らしにはちょうどよく、昂ぶる戦意を俺は解き放とうとしたんだが……
+
+<imgblk mask='giza2' time='0.8'>
+<layerclear parent='cutin' id=''>
+<layercamera position='150 360 100'>
+@cg 22_a;
+</imgblk>
+
+#ヴィルヘルム (v_vir0195)…………
+
+どうしてか、このときになって余計なことを思い出した。つまるところ、それはベアトリスの戯言に他ならない。
+
+危機感が足りないだの、ぞんざいに扱いすぎだのいう諸々で、せっかく火が点きかけた心に水が差される。
+
+結果、ほんの数瞬だが初動が遅れた。どっちつかずの半端な状況を生んでしまい、その停滞は無様な隙以外の何物でもなく――
+
+@hidemessage;
+;<se src='2176'>;;//ＳＥ・銃声
+<se src='1100b'>;;//ＳＥ・銃声
+<se src='1100c'>;;//ＳＥ・銃声
+<imgblk mask='mask1' time='0.2'>
+<layercamera position='0 0 -300' rotate='0'>
+@cg bryskawica;;
+</imgblk>
+<se src='2175'>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+<wait time='0.2'>
+<se src='2175b'>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+<wait time='0.2'>
+<se src='2175a'>
+<layer parent='cutin' id='flash' src='white2'>
+<layerclear parent='cutin' id='flash' time='0.2'>
+
+続く銃撃の嵐に俺は何の行動も起こせなかった。もちろん、だからといってこの身がどうなるもんでもない。たとえ蜂の巣にされようが傷一つ負うはずもなく、ゆえに問題はそこじゃねえんだ。
+
+@hidemessage;
+<se src='2065'>;;//ＳＥ・振り返る
+<imgblk mask='mask1' time='0.2'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+<layercamera position='0 0 -300' rotate='0'>
+@bg bg16a
+<char src='cla odoroki def4' position='0 1750 300'>
+</imgblk>
+<layercamera position='0 0 0' rotate='10' time='0.5'>
+<wait time='0.5'>
+#ヴィルヘルム (v_vir0746)――クラウディア！
+
+あいつへの流れ弾を防げない。固まった状態で弾幕を浴びれば誰に被害が及ぶかは言うまでもなく、その未来は俺にとって断固避けねばならないものだったのに失敗した。
+
+そう、失敗したんだよ。
+
+@hidemessage;
+<layer parent='cutin' id='01' src='017_c' center='400 225' position='600 180' scale='2' opacity='0'>
+<layerclear parent='cutin' id='kiri' time='0.5'>
+<se src='1193'>;;//ＳＥ・マントの音
+<layer parent='cutin' id='01' position='650 150' time='0.9' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.8' accel='-1'>
+<wait time='1'>
+<charclear>
+<layercamera position='0 0 -300' rotate='0'>
+@cg 017_c ol 0;;※イベント絵・逃避行の差分
+
+#ルートヴィヒ (v_rut0406)怪我はないかね、クラウディア
+
+#クラウディア (v_kru0530)あ、はい……お陰さまで……
+
+<se src='1003'>
+<imgblk mask='giza2' time='0.5'>
+<layerclear parent='cutin' id='01' time='0.7'>
+<wait time='0.7'>
+</imgblk>
+その場の誰よりも先んじて、クラウディアを庇ったのはこいつだった。呆けるノロマ女を抱きかかえ、銃撃の射線からルートヴィヒは逃れ出ている。
+
+
+そうしてまたも恭しく、まるで宝玉でも扱うかのように野郎はクラウディアを木陰に降ろした。
+
+@hidemessage;
+<se src='06'>
+<imgblk mask='mask6' time='0.8'>
+<layercamera position='-680 -200 100'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+@bg bg06a;;
+<char src='cla odoroki def4' position='-950 1750 500'>
+<char src='lud sumasi def' position='-400 1760 500'>
+</imgblk>
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0407)君はここに隠れていたまえ。心配は要らない、大丈夫だ
+
+#ルートヴィヒ (v_rut0408)いいね、大人しくしているんだよ。目を閉じていればすぐに終わる
+
+@hidemessage;
+<se src='1018c'>
+<charclear src='lud' time='0.2'>
+<wait time='0.2'>
+<imgblk mask='giza2' time='0.5'>
+<charclear>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='0.01'>
+@cg black ;
+</imgblk>
+呟き、返事も待たずにルートヴィヒは駆け出していた。どうやらあいつ、この場を一人で制圧するつもりらしい。
+
+<se src='1213'>
+#ヴィルヘルム (v_vir1034)野郎……！
+
+何を格好つけてやがる。無性にイラついた俺は唾を吐き、即座に続こうとしたところで肩を背後から掴まれた。
+
+
+<imgblk mask='mask2' time='0.5'>
+<layercamera positioN='0 0 -300'>
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+@bg bg16a;
+</imgblk>
+<char src='riz sinken morugen' position='50 2030 -100'>
+#リザ (v_riz0182)待ちなさい、ベイ。ここは彼にやらせましょう
+
+#ヴィルヘルム (v_vir0226)あァん？
+
+意味が分からず食って掛かる俺だったが、バビロンはまるで動じずただ指に力を込める。
+
+そして窘めるように言ってきた。
+
+<char src='riz sumasi'>
+#リザ (v_riz0183)お手並み拝見よ、分かるでしょう
+
+#リザ (v_riz0184)彼がどこまでやれるのか、それ次第で今後の対応も変わってくる。自分から買って出た以上、まさか私たちの援護を期待してるわけでもないでしょう
+
+<char src='riz metoji'>
+#リザ (v_riz0185)死んだら死んだで、構わない話よ。ハイドリヒ卿のもとに連れて行くほどの男じゃない
+
+#ヴィルヘルム (v_vir0707)……ッ
+
+まったくの理屈であり、返すべき言葉を見つけられない。そもそも、野郎の腕前に興味があるのは俺も同じだ。
+
+感情的には無視して暴れたい気持ちだったが、やはり感情的な問題でそれを通すことも出来なかった。要するに、ええ格好しいの張り合いみたいでみっともないと思ったんだよ。
+
+だから俺は、歯噛みしながらもバビロンに従った。ベアトリスも同様で、不満はあるようだが特に反抗の意を示さない。
+
+<char src='riz sumasi'>
+#リザ (v_riz0186)決まりね。じゃあそういうことで、見せてもらいましょう
+
+#リザ (v_riz0187)ヴァチカンの裏部隊がどれほどのものか
+
+ルートヴィヒ・ヴァン・ローゼンクランツという男の程度を確認する。そう了解して、俺たちは状況を見届けることにした。
+
+眼前では、すでに開かれた戦線が展開を始めている。
+
+@hidemessage;
+<imgblk mask='giza1' time='0.3'>
+<charclear>
+<layerclear parent='cutin' id='kiri'>
+@bg black;
+</imgblk>
+<layer parent='cutin' id='lud' char-src='lud sumasi def' center='1350 1450' position='-370 685' scale='2.7' rotate='-25' opacity='0'>
+<se src='1031c'>;;//ＳＥ・物を投げる
+<layer parent='cutin' id='lud' position='-370 685' scale='3' rotate='-15' opacity='1' time='0.2'>
+<wait time='0.2'>
+<layer parent='cutin' id='01' src='impact2_t' position='0 -200 0' scale='2' opacity='0'>
+<se src='1027a'>;;//ＳＥ・衝撃
+<se src='1027c'>;;//ＳＥ・衝撃
+<layer parent='cutin' id='01' position='-300 -200 0' opacity='1' time='0.1'>
+<wait time='0.2'>
+<se src='111'>;;//ＳＥ・倒れる
+まずは一人、鮮やかと言っていい手並みでルートヴィヒは敵兵を倒していた。拾い上げた小石を投じるという原始的な手段だったが、それだけに簡単な作業ではない。
+
+抜群のコントロールと肩の強さ、そして度胸がなければ不可能だ。苦し紛れの一発が偶然決まったというならまだしも、狙ってやれる奴は滅多にいない芸当だろう。
+
+<se src='1016c'>
+<imgblk mask='giza2' time='0.2'>
+<layerclear parent='cutin' id=''>
+</imgblk>
+@cg yozora mask3 0.3;
+
+その後の立ち回りも流れるようで無駄がない。木を盾にしながらじぐざぐに走って距離を詰め、丸腰のまま敵の集団へ肉薄していく。
+
+どうやら十人そこらの分隊でしかないようで、練度もたいしたことはないようだった。それが証拠に一人、また一人とルートヴィヒに倒されて、傍目にも士気が呆気なく崩壊していく。
+
+ゆえに肩透かし、不甲斐ないとしか言えないレベルの連中だった。それでも常識的に考えれば、武装した十人相手に遅れを取らないルートヴィヒが凄腕ということになるんだろうが、こっちは端的に面白くない。
+
+別に野郎が無様に散るのを期待していたわけじゃないが、どうにも釈然としねえんだよ。
+
+<imgblk mask='mask2' time='0.5'>
+<layercamera position='0 0 -300'>
+@bg bg16a;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+<char src='riz sinken morugen' position='180 2000 -40'>
+<char src='bea hukigen segen' position='-180 1960 -30'>
+</imgblk>
+
+#リザ (v_riz0188)やるわね、彼
+
+#ベアトリス (v_bat0277)ええ、高度に訓練された動きです。経歴の真偽はともかく、この道のエリートなのは間違いないかと
+
+#リザ (v_riz0189)少なくとも、慣れているのは確かなようね
+
+@hidemessage;
+<imgblk mask='giza2' time='0.5'>
+<layerclear parent='cutin' id='kiri'>
+<layer parent='cutin' id='01' src='010_bg' center='1303 965' position='1350 1100' scale='1.2' opacity='1'>
+<layer parent='cutin' id='02' src='020_c' center='1303 965' position='-100 500' scale='1.2' opacity='0' rotate='-30'>
+</imgblk>
+<se src='1003'>
+<layer parent='cutin' id='02' src='020_c' center='1303 965' position='-200 700' scale='1.2' opacity='1' rotate='-30' time='0.2'>
+奴について、俺の不審はそこにあった。ルートヴィヒの立ち回りは綺麗すぎるしマトモすぎる。
+
+<layer parent='cutin' id='02' src='020_c' center='1303 965' position='-500 600' time='25'>
+つまり、よく出来た兵隊という<rb "キャラ">像</rb>をそのままなぞっているような感じなんだよ。ベアトリス曰く高度に訓練された雰囲気で、その枠を少したりとも違えない。
+
+言ってしまえば教科書的で、だからこそ妙に全体が演技臭い。俺にはそう見えていたが、言い掛かりと言われれば反論も難しい。
+
+魔術的な何かを行使するわけでもなく、だからとって凡才でもない。優秀は優秀だが、本当にそれで終わりかよという物足りなさが拭えないんだ。俺の一発を事も無げにいなした奴が、常識枠に収まるような存在なのかと……
+
+思ったんだが、言ったように敵がショボすぎるんでどうにもならない。仮にルートヴィヒが化けの皮を被っていても、剥がせるほどの展開を期待できるものじゃなかった。
+
+
+@hidemessage;
+<soundstop time='2'>
+<sestop time='1'>
+<imgblk mask='mask3' time='0.8'>
+<charclear>
+<layercamera position='0 0 -300' rotate='0'>
+<layerclear parent='cutin' id=''>
+@bg black;
+</imgblk>
+
+結果、何とも煮え切らない俺の気持ちとは裏腹に、状況だけは淡々と進行していき……
+
+@hidemessage;
+<sound src='22' volume='1' fade-time='1' loop='true'>
+<imgblk time='1'>
+@bg bg16a;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+<layercamera position='0 0 -50' rotate='0'>
+<char src='cla niko def4' position='-410 1910 340'>
+<char src='lud sumasi def' position='-100 1900 430'>
+<char src='bea sumasi segen' position='200 1900 320'>
+<char src='riz sumasi morugen' position='380 1950 280'>
+</imgblk>
+
+#クラウディア (v_kru0531)凄いです、ルイ。あっという間に勝っちゃいました
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0409)お褒めに預かり光栄だ。まあ、敵が弱すぎたお陰だがね
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0410)ともあれ、君が無事でよかったよクラウディア
+
+ものの十分としないうちに、こいつはすべての敵を片付けていた。傍らのバビロンとベアトリスも、その手際を賞賛する。
+
+<char src='riz niko morugen'>
+#リザ (v_riz0190)お見事、実に鮮やかだったわね。私たちの出る幕はなかったみたい
+
+<char src='bea odoroki segen'>
+#ベアトリス (v_bat0278)いや、リザさん。ちょっと流石に、それは白々しいですよ
+
+<char src='lud kusyou'>
+#ルートヴィヒ (v_rut0411)分かっているさ。私の手並みを確かめようとしたんだろう？　そちらからすれば当然の選択だ。別に怒るようなことでもない
+
+#ルートヴィヒ (v_rut0412)それで、どうかな。結果は合格ということでいいのだろうか
+
+問いに、バビロンは苦笑しつつ頷いた。
+
+<char src='bea sumasi'>
+<char src='riz metoji'>
+#リザ (v_riz0191)ええ、伊達じゃないのは理解できたわ。頼もしい男性と知り合えて心強いわよルートヴィヒ
+
+<char src='riz sumasi'>
+#リザ (v_riz0192)だからお礼とお詫びは後々するとして、今は早急に移動しましょう。ここにいつまでも留まるわけにはいかない
+
+#ベアトリス (v_bat0279)ああ、そうですね。愚図愚図してたら次の敵がやって来るかもしれません。さっさと離れたほうがいいですよ
+
+<char src='lud sitamuki'>
+#ルートヴィヒ (v_rut0413)了解した。では行こう。君も大丈夫だね、クラウディア
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0532)はい。改めて、さっきはありがとうございました
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0533)ルイは紳士なんですね。私、ちょっと感動しちゃったと言いますか――
+
+&soundstop;
+@hidemessage;
+<imgblk mask='center3' time='0.6'>
+<layercamera position='0 0 -50'>
+<charclear src='bea'>
+<charclear src='cla'>
+<layercamera position='-100 -210 180'>
+@bg bg16a_b;
+</imgblk>
+#ヴィルヘルム (v_vir1035)待てよ
+
+<sound src='8' volume='1' loop='true'>
+茶番じみた場の空気にいい加減耐えられず、そこで俺は割って入った。
+
+紳士だの何だのとクラウディアが言ってる理由は簡単で、俺から見ればアホ丸出しとしか思えない状況があったんだよ。
+
+それが何なのかは、至極簡単。
+
+#ヴィルヘルム (v_vir1036)てめえ、なんでこの雑魚どもを殺さねえ
+
+ルートヴィヒは、先の敵兵を一人たりとも殺めていない。俺たちの足元には、ふん縛られて呻いている連中が転がってたんだ。
+
+そんなの、有り得ないことだろう。敵地で交戦した敵を生かしておく理由なんか何処にある。
+
+#ヴィルヘルム (v_vir1037)愚図愚図してたら第二波が来る。ああ確かにそうだよな。だったら尚のこと、こいつらは始末しとかなきゃいけねえだろう
+
+#ヴィルヘルム (v_vir1038)顔を見られたし会話も聞かれた。そんな連中を放置してたら、追っ手が増えるだけだろうが
+
+@hidemessage;
+<imgblk mask='mask1' time='0.7'>
+<layercamera position='320 -50 80'>
+<charclear src='lud'>
+@bg bg16a;
+<char src='riz sinken'>
+</imgblk>
+#リザ (v_riz0193)ベイ……
+
+
+@hidemessage;
+<se src='2065'>
+<se src='1193'>
+<imgblk mask='giza1' time='0.6'>
+<layer parent='cutin' id='kiri' opacity='0'>
+@bg black;
+<charclear>
+<layercamera position='0 0 -50' rotate='0'>
+<layer parent='cutin' id='ff' src='blood10' center='762.5 270' position='850 500' scale='1' opacity='0'>
+</imgblk>
+
+何か言いたげにバビロンが袖を引いてくるが振り払う。俺は一つも間違ったことを言っちゃいねえ。
+
+こんな雑魚が千人掛かってこようが屁でもないが、クラウディアは別だろう。このカチンでさんざっぱら聞かされた女どもの小言に倣うなら、採るべき道は始末の一択しかないはずだ。
+
+
+@hidemessage;
+<se src='1047'>
+<se src='2058'>
+<se src='1047a'>
+<layer parent='cutin' id='ff' position='1212 500' scale='2' opacity='1' time='0.2'>
+<wait time='0.5'>
+<layer parent='cutin' id='02' src='red' scale='2' opacity='0'>
+<layer parent='cutin' id='02' opacity='1' time='1'>
+<wait time='0.8'>
+ゆえに俺は転がってる雑魚を見下ろし、一人の頭を無造作に踏み潰した。
+
+熟れた果物が潰れたような音を立て、血と脳漿が辺りに飛び散る。実に小気味良い感触で、心からせいせいしたよ。
+
+
+@hidemessage;
+<imgblk mask='giza2' time='0.8'>
+<layerclear parent='cutin' id='02'>
+<layerclear parent='cutin' id='ff'>
+<layer parent='cutin' id='kiri' opacity='1'>
+@bg bg16a;
+<char src='cla utumuki def4' position='-410 1910 340'>
+<char src='lud sinken def' position='-100 1900 430'>
+<char src='bea sinken segen' position='200 1900 320'>
+<char src='riz sinken morugen' position='380 1950 280'>
+</imgblk>
+#クラウディア (v_kru0534)――――――
+
+<char src='lud sinken'>
+#ルートヴィヒ (v_rut0414)……貴様
+
+#ヴィルヘルム (v_vir1039)なんだ、文句あんのか馬鹿野郎
+
+<se src='1054a'>
+<se src='1047a'>;;//ＳＥ・血が飛び散る
+<se src='1047c'>;;//ＳＥ・血が飛び散る
+<layer parent='cutin' id='01' src='blood6' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='01' position='512 250' scale='1.5' opacity='1' time='0.3'>
+<wait time='0.4'>
+てめえもヴァチカンの殺し屋なら、妙な格好をつけるんじゃねえ。俺はルートヴィヒを睨みつつ、もう一人の頭を容赦なく踏み潰す。
+
+<layerclear parent='cutin' id='01' position='512 300' time='1'>
+<char src='bea ikari'>
+#ベアトリス (v_bat0280)ベイ、ちょっといい加減にしなさい！
+
+#ヴィルヘルム (v_vir1040)うるせえ、黙ってろボンクラ
+
+なんで文句を言われなきゃならねえんだ。どいつも理解に苦しむぜ。
+
+<se src='1047c'>;;//ＳＥ・血が飛び散る
+<se src='2058'>;;//ＳＥ・血が飛び散る
+<layer parent='cutin' id='02' src='blood8' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='02' position='560 280' scale='1.4' opacity='1' time='0.3'>
+<wait time='0.4'>
+<layerclear parent='cutin' id='02' position='600 320' scale='1.6' time='1'>
+<layer parent='cutin' id='gg' src='007_bg' center='600 320' position='-900 -1020' scale='1.5' opacity='0'>
+<layer parent='cutin' id='rr' src='mv_suimen3' center='480 272' position='480 180' scale='1.02' opacity='0.01'>
+<layer parent='cutin' id='ee' src='mv_kouka01' center='480 272' position='480 180' scale='2' opacity='0.01'>
+<layer parent='cutin' id='gg' position='00 -1020' time='90'>
+<layer parent='cutin' id='kiri' opacity='0' time='0.5'>
+<layer parent='cutin' id='gg' opacity='1' time='1'>
+<layer parent='cutin' id='rr' opacity='0.8' time='0.8'>
+<layer parent='cutin' id='ee' opacity='0.5' time='0.8'>
+<wait time='0.5'>
+またもう一人の頭を潰しつつ、俺はむしろ足元の雑魚連中にこそ親近感を覚えていたよ。
+
+なぜならこいつらは恐慌し、涙を流しながら必死にもがいているからだ。死にたくないと慟哭し、その気持ちを全身で表現しているからだ。
+
+それは素直で、真っ当で、理に適ってる人間らしい行動だろう。生と死に対する極めて普通の反応で、理解できるからこそ一片の疑念もなく安心できる。
+
+少なくとも、目の前に立っている誰よりも可愛らしい連中だよ。ああ、本当にそう思うぜ。
+
+<imgblk mask='mask4' time='0.5'>
+<charclear>
+<layerclear parent='cutin' id=''>
+@cg 22_a;
+</imgblk>
+
+#ヴィルヘルム (v_vir1041)だから死ね
+
+<layer parent='cutin' id='01' src='blood6' center='400 225' position='512 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='02' src='blood10' center='400 225' position='412 300' scale='1.28' opacity='0'>
+<layer parent='cutin' id='03' src='blood1' center='400 225' position='412 300' scale='1.28' opacity='0'>
+<se src='1054c'>
+<se src='1055b'>
+<layer parent='cutin' id='01' position='712 200' scale='1.8' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='1056c'>
+<se src='1054b'>
+<layer parent='cutin' id='02' position='460 280' scale='1.6' opacity='1' time='0.2'>
+<wait time='0.2'>
+<se src='1047'>
+<se src='2058'>
+<se src='1047a'>
+<layer parent='cutin' id='03' position='512 300' scale='1.5' opacity='1' time='0.2'>
+<wait time='0.3'>
+
+一人、そしてさらに一人、次々に止めを刺していく中で、笑いが込み上げてきたから爆笑した。周りでごちゃごちゃ言ってる奴もいたみたいが、まったく耳に入らねえ。
+
+ついに最後の一人となって、失禁しながら喚いている雑魚の顔がどんな女よりも魅力的だ。ぐちゃぐちゃに潰してやったらもっと魅力的に違いない。
+
+だからそうしてやるべく、俺は足を持ち上げて――
+
+&soundstop;
+<imgblk time='0.2'>
+<layerclear parent='cutin' id=''>
+<layercamera position='0 -200 -50'>
+@bg bg16a;
+<layer parent='cutin' id='kiri' src='mv_05' center='400 225' position='512 300 -10' scale='1.3' opacity='1'>
+<char src='bea ikari segen' position='0 1800 120'>
+</imgblk>
+#ベアトリス (v_bat0281)いい加減にしなさいと、言ってるでしょうッ！
+
+@hidemessage;
+<se src='1026c'>;;//ＳＥ・殴る音
+<se src='1026a'>;;//ＳＥ・殴る音
+<wait time='0.3'>
+@hshake 15 0.2;
+<se src='111'>
+<layercamera position='0 0 -300' time='0.3'>
+<wait time='0.3'>
+踏み潰そうとしたときに、横合いから頬を殴り飛ばされていた。
+
+#ヴィルヘルム (v_vir1042)てめえ、いきなり何しやがるッ
+
+倒れこそしなかったものの、バランスの悪いところを打たれたので大きく俺はよろめいた。結果として、当然だが狙いは外したし殺せていない。最後の雑魚は泡を噴いて気絶していた。
+
+<sound src='15' volume='1' loop='true'>
+<char src='bea sinken'>
+#ベアトリス (v_bat0282)私、言いましたよね。たとえ偽善でも、民間人の前じゃあ格好くらいつけろって
+
+<char src='bea ikari'>
+#ベアトリス (v_bat0283)あなたは、クラウディアの前で何をやってるんですか"!?"
+
+#ヴィルヘルム (v_vir1043)……はぁん？
+
+@hidemessage;
+<imgblk mask='giza2' time='0.7'>
+;<layercamera position='0 0 -50'>
+<charclear>
+<layercamera position='-200 -10 0'>
+<char src='lud sinken'>
+<char src='cla utumuki'>
+<char src='riz none' position='200 2000 180'>
+</imgblk>
+
+見れば、その<rb "クラウディア">民間人</rb>は絶句したまま固まっている。間近で起こった出来事を前に、声もなくしているという風情だった。
+
+<char src='lud sitamuki'>
+#ルートヴィヒ (v_rut0415)見下げ果てた奴だな。道理も何もあったものではない
+
+<char src='lud sumasi'>
+#ルートヴィヒ (v_rut0416)狂犬め、頭が悪いのも大概にしておけよ
+
+@hidemessage;
+<layercamera position='0 -10 0' time='0.7'>
+<wait time='0.7'>
+<char src='riz sinken' position='180 2000 180'>
+#リザ (v_riz0194)ベイ、時と場合を考えなさい。それくらいの気遣いは示してやってもよかったんじゃないの？
+
+吠え掛かろうとした俺を制すように、小声でバビロンが耳打ちしてきた。つまりこれはそういうことかよ。
+
+こいつらにしたところで、雑魚どもを生かして返すつもりはなかった。しかしクラウディアの前では目の毒だからと、軍事的な偽善ってやつを通すつもりだったらしい。
+
+だがそれを理解しない俺のせいで台無しになった。要約すればそんな状況。
+
+馬鹿馬鹿しい。茶番を潰そうとして、さらなる茶番を起こしてしまったというわけだ。
+
+@hidemessage;
+<se src='06'>
+<imgblk mask='giza2' time='0.8'>
+<layercamera position='10 20 -100' rotate='0'>
+<char src='cla sinken def4' position='-410 1910 340'>
+<char src='lud sumasi def' position='-100 1900 430'>
+<char src='riz sumasi morugen' position='180 1970 320'>
+<char src='bea sinken segen' position='350 1920 200'>
+</imgblk>
+
+#リザ (v_riz0195)平気、て訊くのもおかしいけど、大丈夫かしらクラウディア？
+
+<char src='cla sinken'>
+#クラウディア (v_kru0535)あ、はい……その、確かにびっくりはしましたけど
+
+<char src='cla utumuki'>
+#クラウディア (v_kru0536)ヴィルヘルムの言ってることも間違いではないのでしょうし、結局のところ、私が足手まといだからいけないわけで……
+
+<char src='lud metoji'>
+#ルートヴィヒ (v_rut0417)君が気に病む必要は何もない。私の考えが甘かっただけだ
+
+<char src='lud sinken'>
+#ルートヴィヒ (v_rut0418)まさかこれほどの無分別がいるとは思わなかったのでな
+
+その取り澄ました顔を今すぐぶん殴ってやりたかったが、キレ気味のベアトリスが腕を掴んでいるからそれも出来ない。無理矢理振り解いて暴れることも不可能じゃなかったが、そこまでするほどの事情もなかった。
+
+この場では、きっと何をやっても裏目に出る。諸々外してしまったのが事実である以上、通すべき我は存在しない。
+
+#ヴィルヘルム (v_vir1044)クソが……
+
+@hidemessage;
+<se src='104'>;;//ＳＥ・一歩踏み出す
+<imgblk mask='mask7' time='0.7'>
+<charclear>
+<layerclear parent='cutin' id='kiri'>
+<layercamera position='0 0 -300' rotate='0'>
+@cg yozora;
+</imgblk>
+
+だから俺はそう呻いて、離せとベアトリスに短く言う。自由を取り戻してから全員を見回すと、再び舌打ちして踵を返した。
+
+#ベアトリス (v_bat0284)馬鹿……今度はさすがに笑えませんよ
+
+#リザ (v_riz0196)ベイ、さっきも言ったけど、最初の場所に戻ってくるのよ
+
+#ヴィルヘルム (v_vir1045)ああ、分かってる
+
+@hidemessage;
+<se src='01'>;;//ＳＥ・足音
+@bg black ol 1;
+<wait time='1'>
+
+クラウディアの前で殺しを見せたことは別に後悔しちゃいねえし、間違いだったとも思っちゃいねえ。
+
+だが、無意味だったとは思っていたぜ。
+
+なぜなら俺の目的を果たすため、あいつを怖がらせるというのはきっと不毛だ。何の効果も得られないだろうと考えるようになったんだよ。
+
+そこらへんの理由についてはすぐ分かるさ。話してやる。
+
+あいつは俺にとって、理解できない気持ち悪い存在なんだということをな。
+
+@fo;
+@def;
+<sestop>
+<soundstop>
+<wait time='1'>
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+m:
+@def;
+
+そうして――
+
+@hidemessage;
+@bg yozora ol 1;;
+<wait time='1'>
+
+#ヴィルヘルム (v_vir0465)くそが、誰もいねえじゃねえか
+
+しばらく森中を歩き回り、最初の場所である池のほとりに戻ってきたらこれだった。先の流れを考えれば置いていかれたわけじゃないだろうが、バビロンはともかくベアトリスならやりかねん。
+
+それならそれで勝手にしやがれという話だが、何にしろ腹の立つ状況ではある。せっかく抑えたムカつきが、再び起きてきやがった。
+
+@hidemessage;
+<layer parent='cutin' id='mv' src='mv_suimen2' center='480 284' position='512 300' scale='1.08' opacity='0.01'>
+<layer parent='cutin' id='mv' opacity='1' time='0.7'>
+<wait time='0.7'>
+<layer parent='back' id='bg2' src='009_bg' center='1303 965' position='0 0 500' scale='1.8' opacity='1' rotate='45'>
+
+#ヴィルヘルム (v_vir0466)どいつもこいつも……
+
+まったくもって馬鹿馬鹿しい。自分の癇症は理解しているつもりだったが、このときは少しばかりそれを持て余し気味だった。
+
+なぜかって？　さあなぜだろうな。ただ嫉妬だの、屈辱だの、そういう類じゃなかったぜ。
+
+なぜならその手のやつは瞬間的に火がつく反面、長続きしないもんだ。要は舐められたことに対する憤りで、自尊心を満足させらなかったというだけのこと。
+
+
+自分が描いている自分より、軽い扱いをされたから気に食わない。だったら思い知らせてやればいい話で、そこを考えればむしろ楽しくなってくるのが俺なんだよ。
+
+だから、このときの怒りはそうじゃなかった。時間を置けば快感に変化するようなものじゃなく、逆にどこまでも深く蝕むような――
+
+@hidemessage;
+<layercamera position='-100 -150 50'>
+<layercamera position='0 -150 50' time='1' accel='-1'>
+<se src='06'>
+<char src='cla nikori2 def4' position='0 1750 350'>
+<layerclear parent='cutin' id='' time='0.5' mask-src='giza1'>
+<wait time='1'>
+<sound src='65' volume='1' loop='true'>
+#クラウディア (v_kru0197)じゃん、お待たせしました。クラウディアちゃんですよ
+
+理解できないものに対する、恐怖にも似た苛立ち。
+
+それは俺にとって、もっとも厄介な感情だった。
+
+<char src='cla odoroki'>
+#クラウディア (v_kru0198)あ、あれ？　なんでしょうかその反応。もしかして私、滑っちゃいました？
+
+<char src='cla tere'>
+#クラウディア (v_kru0199)これでも一応、恥ずかしいのを我慢しつつ頑張ってみたつもりなんですよ
+
+木の陰から現れて、そんなことを言い出すこいつに俺は深々と溜息を吐いた。
+さっきのことを鑑みれば、普通の神経してる奴は俺の傍に近づかない。にも関わらずこの野郎、何を考えてるのか知らねえがよ。
+
+#ヴィルヘルム (v_vir0467)おまえが滑ってんのはいつものことだろうが
+
+#ヴィルヘルム (v_vir0468)くだらねえことに頭を回してる暇があったら……
+
+<char src='cla kyoton'>
+#クラウディア (v_kru0200)なんでしょう？
+
+きょとんとするクラウディアに、俺の溜息はなお深くなる。もっとも、今度のは諦めに近かったが。
+
+#ヴィルヘルム (v_vir0469)なんでもねえよ。他の奴らはどうした？
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0201)ああ、それはですね。リザさんが帰りの足を調達しに行きまして、皆さん今はそちらのほうに
+
+#ヴィルヘルム (v_vir0470)で、おまえだけが残ったってか。よくベアトリスが認めたもんだな
+
+<char src='cla niko'>
+#クラウディア (v_kru0202)まあ、確かに色々言われましたが、あなたと二人になりたかったので
+
+なぜだ？と目で問う俺に、クラウディアは微笑みつつ柔かな声で言った。
+
+<char src='cla metoji2'>
+#クラウディア (v_kru0203)あなたが寂しそうだったから
+
+<char src='cla sumasi'>
+#クラウディア (v_kru0204)怒っていましたよね。そしてそれは、もしかすると私のせいじゃないのかと
+
+#ヴィルヘルム (v_vir0471)は、なんでまたそう思う？
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0205)うーん、それは実際、心当たりがありすぎるところなので難しいんですが
+
+言いつつ、指折り数えながらクラウディアは心当たりとやらを挙げていく。
+
+<char src='cla akire'>
+#クラウディア (v_kru0206)毎度役に立たない奴だと思っているとか？
+
+#ヴィルヘルム (v_vir0472)んなこた承知だ
+
+<char src='cla jito'>
+#クラウディア (v_kru0207)むしろ面倒ごとばかり増やしやがるとか？
+
+#ヴィルヘルム (v_vir0473)今さらだな
+
+#クラウディア (v_kru0208)そもそも聖職者が気に入らないとか？
+
+そこはその通りなので言うこともなく。
+
+<char src='cla sinken'>
+#クラウディア (v_kru0209)だからルイのことも気に入らない？
+
+ぴくりと、自分の眉が動いてしまったのを自覚した。それを見咎め、クラウディアは一転妙な顔になる。
+
+<char src='cla awate'>
+軽く焦っているというか、困ってるような、びびってるような。
+
+にも拘らず、どこか弾んでいるような。
+
+<char src='cla tere'>
+#クラウディア (v_kru0210)ほ、ほっほぉ～う。なるほど、なるほどそうなのですか
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0211)ベアトリスさんに言われたときはそんな馬鹿なと思いましたが、これはなんとも、参りましたね
+
+#ヴィルヘルム (v_vir0474)何がだよ
+
+<char src='cla tere'>
+#クラウディア (v_kru0212)ですから、私と彼が仲良くしてるとごにょごにょ、みたいな
+
+<char src='cla kusyou'>
+#クラウディア (v_kru0213)つ、つまりですね。あなたはその、私をそういう目で見ていると？　まさか、いやいやそんな、有り得ないでしょう。何を言ってるんですか駄目ったら駄目です！
+
+<char src='cla jito'>
+#クラウディア (v_kru0214)ああ、なんて罪深い人なんですかあなたはっ
+
+#ヴィルヘルム (v_vir0475)はあ……
+
+罪と呼ばれるものなら一通りやってきた身ではある。よって俺が罪深いのは確かだろうし、そこについて説教されるのも有りとしよう。
+
+が、こいつが思ってるようなことでは断じてないと……さっきも言ったように思うんだが、いや、実のところどうなんだろうな。
+
+ただこのときは、馬鹿がふざけんなと言ってやったよ。
+
+#ヴィルヘルム (v_vir0476)のぼせあがんじゃねえぞ、阿呆。確かにてめえと野郎にゃムカついてるが、そんなしょうもない理由なわけあるか
+
+<char src='cla sune'>
+#クラウディア (v_kru0215)しょうもないって、それはちょっと……さすがに酷い言い草じゃないでしょうか
+
+#ヴィルヘルム (v_vir0477)俺にはその手の心がねえんだ
+
+一刀両断するように、俺はそう言い切っていた。
+
+#ヴィルヘルム (v_vir0478)おまえに言わせりゃ、俺だって半分だからな。持っちゃいねえのさ。愛だの、恋だの、そういうもんは
+
+<char src='cla sinken'>
+#クラウディア (v_kru0216)ヴィルヘルム……
+
+#ヴィルヘルム (v_vir0479)とにかく、つまんねえ勘繰りをしてんじゃねえよ
+
+<soundstop time='2'>
+吐き捨て、なぜだか目を逸らし、忌々しい気持ちが膨れあがってくるのを押し殺す。
+
+そんなこちらの様子を眺め、クラウディアはどういう解釈をしたのか知らねえが、また予想外なことを言い出した。
+
+
+@hidemessage;
+<layer parent='cutin' id='01' src='009_c' center='400 225' position='400 100' scale='2.5' opacity='0'>
+<layer parent='cutin' id='01' position='1000 500' time='2' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='1.2'>
+<wait time='2.1'>
+@sound104;
+<imgblk mask='mask2' time='1.2'>
+<charclear>
+<layerclear parent='cutin' id='01'>
+<layerclear parent='back' id='bg2'>
+<layercamera position='0 0 -300'>
+@cg 009_c;;※イベント絵
+</imgblk>
+
+#クラウディア (v_kru0217)それなら、私があなたにその心を贈りましょう
+
+#ヴィルヘルム (v_vir0480)はァん？
+
+咄嗟に意味が理解できず、思わず顔をあげた俺の前で馬鹿は淡く笑っていた。
+
+まるで、ずっと探していた答えを見つけたように。
+
+月光に銀の髪を透かしながら、冴える白い肌は微かだが上気して見える。
+
+薔薇のようだと、このとき俺はそう思った。
+
+@cg 009_a;
+
+#クラウディア (v_kru0218)私たちは共にノアの子。半分しかない者同士……ならば互いに、与え合うことで昇華できるはずでしょう
+
+#クラウディア (v_kru0219)あなたは私に光を教え、私はあなたに恋を教える。その尊さ、素晴らしさを十全に
+
+@cg 009_b;
+#クラウディア (v_kru0220)ね、これで釣り合いが取れると思いません？
+
+#ヴィルヘルム (v_vir0481)……つまり、そりゃあなんだ
+
+こいつが俺を？　惚れさせる？　鼻で笑っちまう話だったし、実際その通りにしてやったよ。
+
+@cg 009_a;
+
+#クラウディア (v_kru0221)おかしいですか？　私では不足だと？
+
+#ヴィルヘルム (v_vir0482)つうか……おまえさっきは罪深いだの言ってただろうが
+
+@cg 009_c;
+
+#クラウディア (v_kru0222)ええ、ですが想われるぶんには有りかなとも考えました。結局のところ、私が応えなければいいだけなので
+
+#ヴィルヘルム (v_vir0483)この野郎……
+
+微かに弄うような口振りで、また随分と調子に乗ったことを言うから逆に毒気を抜かれちまったよ。
+
+#クラウディア (v_kru0223)だから、あなたの初恋になるというのも素敵だなと思いましたよ。そういう恩の返し方も、あっていいんじゃないでしょうか
+
+#クラウディア (v_kru0224)実際、あなたはまだなのでしょう？
+
+#ヴィルヘルム (v_vir0484)…………
+
+@cg 009_a;
+<layer parent='cutin' id='zz' src='009_bg' center='762.5 270' position='100 00' scale='0.7' opacity='0'>
+<layer parent='cutin' id='01' src='009_d' center='762.5 270' position='0 -100' scale='1' opacity='0'>
+;<layer parent='cutin' id='10' src='mv_bara' center='512 288' position='512 300' opacity='0.01'>
+#クラウディア (v_kru0225)ヴィルヘルム？
+
+ああ、ちくしょう。俺は頭をがしがしやりながら言い捨てるしか出来なかった。
+
+#ヴィルヘルム (v_vir0485)うるせえな。確かにそこは否定しねえよ
+
+@hidemessage;
+<layer parent='cutin' id='zz' opacity='1' time='0.8'>
+<layer parent='cutin' id='01' opacity='1' time='0.8'>
+;<layer parent='cutin' id='10' opacity='1' time='0.8'>
+<layer parent='cutin' id='01' position='435 -100' time='40'>
+<wait time='1'>
+そして同時に、自己の欠陥も自覚していた。クラウディアの言うことが、そこにぴたりと嵌るように感じている。
+
+何百と奪ってきた。何千と殺してきた。しかしだからといって、俺はそれらをモノにしてきたと言えるのだろうか。
+
+たとえばここで、クラウディアを犯すことは簡単だ。あらゆる面で造作もなく行える。
+
+しかし、そこに愛はない。ハイドリヒ卿が有するような、破壊にかける美学がない。
+
+俺はあの人の爪牙を名乗りながら、ただ目に付くものを壊してきただけ。邪魔なものを砕いてきただけ。
+
+それは不細工な、情とも呼べない、単なる畜生の食事であり排泄だった。
+
+ならば俺は、俺なりの愛とやらを理解しない限り、本質的には何も手に入れられないんじゃないのかと。
+
+思い、どこかでヘルガが笑っているような気がしたよ。確かにこれまで、俺が断固殺すと誓って実行したのはあいつだけ。
+
+<dot " 、">そうしなければならない</dot>と思ったのはヘルガだけ。
+
+だったら俺は、あいつのことを愛していたのか？　その答えを知るためにも、俺はクラウディアを殺さねばならない。
+
+母親の血で我が身を新生させたあの夜以降、魂と断末魔に価値を見出した初めての相手がこいつだから。
+
+俺を生まれ変わらせたのがヘルガなら、吸血鬼として<rb "キバ">愛</rb>にかける最初の一人がクラウディアだ。
+
+ゆえにこの女を咲き誇らせ、枯れ落として奪い去る。改めて、その意味と必要性を確信したよ。
+
+そう。したからこそ……
+
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+<layerclear parent='cutin' id=''>
+</imgblk>
+#ヴィルヘルム (v_vir0486)おまえの初恋はねえのかよ？
+
+俺は気持ち悪く、腹が立って堪らなかったんだ。メルクリウスと同様に、こいつは理解を絶したところがあったから。
+
+ザミエルから受け取ったあの書類が、それを明らかにしていたから。
+
+#クラウディア (v_kru0226)残念ながら、ありませんね。だってそれは罪深いこと
+
+#ヴィルヘルム (v_vir0487)死ぬからか？
+
+@hidemessage;
+<layer parent='cutin' id='01' src='009_a' center='400 225' position='400 100' scale='2.5' opacity='0'>
+<layer parent='cutin' id='01' position='800 150' time='1.5' accel='-1'>
+<layer parent='cutin' id='01' opacity='1' time='0.8'>
+<wait time='1.5'>
+#クラウディア (v_kru0227)………、
+
+詰まる喉。震える肩。それは一瞬だけ発露した驚きと焦りの相。
+
+だが結局、こいつの瞳に恐怖だけは一貫して宿らなかった。
+
+@hidemessage;
+<layer parent='cutin' id='01' position='1000 500' time='1.3'>
+<wait time='1.5'>
+#クラウディア (v_kru0228)人はいつか死ぬものですよ
+
+笑顔。涙の一滴すら流さねえ。
+
+#ヴィルヘルム (v_vir0488)だがおまえは、他の奴よりだいぶ早ぇはずだろう
+
+目を見て、俺はそう告げる。
+
+クラウディア・イェルザレムは、放っておいても一月もたない。
+
+あの書類はこいつのカルテで、そう診断されていたんだよ。
+
+#クラウディア (v_kru0229)……困った。これはどうしましょう。人が悪いですね、気付いてたんですか
+
+だというのにクラウディアは、悪戯を見咎められた程度の反応しか示さない。
+
+余命が僅かであることを肯定しつつ、負の一切を感じさせない透明感を保っていた。
+
+#クラウディア (v_kru0230)ご指摘の通り、私は長くありません。だけど、ねえヴィルヘルム
+
+#クラウディア (v_kru0231)あなたが集めているという魂は、本当に消費されるだけなんでしょうか
+
+#クラウディア (v_kru0232)使えば消えて、無くなるだけ。そんなことはないはずだと、私は思っているんですよ
+
+#ヴィルヘルム (v_vir0489)何が言いたい？
+
+#クラウディア (v_kru0233)つまり
+
+@hidemessage;
+<imgblk mask='mask4' time='1'>
+<layerclear parent='cutin' id='01'>
+@cg moon mask3;
+</imgblk>
+間を置いてから月を見上げるクラウディア。尊いものを仰ぐようなその仕草は、まるでそこにこいつの求めている地平を見出してるかのようだった。
+
+<layer parent='cutin' id='cla' char-src='cla metoji def4' center='1350 1450' position='190 1045' scale='1.7' opacity='0'>
+<layer parent='cutin' id='cla' position='190 1150' time='20' accel='-1'>
+<layer parent='cutin' id='cla' opacity='0.5' time='1.5'>
+<wait time='1'>
+
+#クラウディア (v_kru0234)誰かに愛された魂は、その幸福を<rb "しるべ">道標</rb>にして、彼らが思う善き処へ導かれるはずだろうと
+
+たとえ魔術の燃料として使われようとも、愛を得た魂は消えたりしないとクラウディアは信じている。
+
+#クラウディア (v_kru0235)でもあなたに恋をしてしまったら、私は旅立てなくなってしまうのかもしれません
+
+#クラウディア (v_kru0236)未練が残り、欲が残る。そして<rb "ヒト">私</rb>じゃない何かに変わってしまいそうな気がして……
+
+@hidemessage;
+<imgblk mask='test04' time='1'>
+<layerclear parent='cutin' id='cla'>
+&cgfilter col dimgray 100;
+@cg 235_a;
+</imgblk>
+
+ヘルガのように。
+
+こいつがそれを知る由もなかったが、俺の中で血塗れになりながら愛して愛してとのた打ち回る存在にはなりたくないと言っていた。
+
+@hidemessage;
+<imgblk mask='test04' time='1'>
+&cgfilter;
+@cg 009_a;
+</imgblk>
+
+#クラウディア (v_kru0237)それはとても罪深いこと
+
+#クラウディア (v_kru0238)あなたを苦しめる呪いになること
+
+@cg 009_b;
+
+#クラウディア (v_kru0239)だから嫌です
+
+恋をするのはあなたのほうで、私はその喜びのみを抱けばいいとクラウディアはおどけてみせた。
+
+俺を救ったという事実で自分も救われると。
+
+@cg 009_a;
+
+#クラウディア (v_kru0240)そういうわけで、変な対抗心は燃やさないでくださいね。私は、あなたに欠けたものを与えることが出来れば、それでいいんです
+
+#クラウディア (v_kru0241)どのみち長くないこの命……使い切るまでに、どうか人並の価値があったのだと教えてください
+
+そう結びをつけるクラウディアに、迷いは見えない。
+
+しかし俺は、あくまで死ぬこと前提にものを言うこいつのことが分からなかったし、許せなかった。
+
+どうして死を克服したいと願わねえのか。そのために足掻かねえのか。
+
+俺はそうしてるし、<dot " 、">そういうもの</dot>になるんだよ。
+
+ハイドリヒ卿のヴァルハラで、不死不滅の<rb "バラ">真祖</rb>になるんだ。
+
+@cg 009_c;
+
+#クラウディア (v_kru0242)しかしまあ、なんというか、少し色気のない会話でしたね。私もそうですが、減点ですよヴィルヘルム
+
+#クラウディア (v_kru0243)ここはたとえば、女性の些細な変化に気付いてみたり
+
+#ヴィルヘルム (v_vir0490)うるせえよ
+
+@hidemessage;
+<imgblk mask='giza2' time='1'>
+<layercamera position='-600 -250 100' rotate='0'>
+@cg 009_c;
+</imgblk>
+
+だから俺は、このとき強く、切実に思ったよ。
+
+こいつに言わせるべき台詞は死にたくないというただ一択で、そのための方法も一つしかない。
+
+俺の目的を果たすためには、それを実践するしかないと。
+
+<soundstop time='2'>
+<sestop time='2'>
+@fo;
+@def;
+<soundstop>
+<sestop>
+@camera;
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+;━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<layer parent='cutin' id='dummy' src='005_b' opacity='0' delayload='true'>
+<layer parent='cutin' id='dummy' src='031_a' opacity='0' delayload='true'>
+<layerclear parent='cutin' id='dummy'>
+&gototext r_2;

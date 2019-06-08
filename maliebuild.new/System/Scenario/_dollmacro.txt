@@ -1,0 +1,293 @@
+/* dollmacro.txt */
+/* カスタムＳＥＸＤＯＬＬ */
+/* マクロ定義 */
+
+#ifndef _DOLLMACRO_TXT_
+#define _DOLLMACRO_TXT_
+
+#define RELEASE
+
+#define DAM_LoadImage   701
+#define DAM_LoadChara1  702
+#define DAM_LoadChara2  703
+#define DAM_LoadBG      704
+#define DAM_ClearChara  710
+
+#define DAM_EndSpecial   823
+
+#include "_macro.txt"
+
+/* ------------------------------------------------------------------------ */
+/* フォルダ定義 */
+#define _image_folder ".\\image\\"
+
+/* 背景フォルダ */
+#define _bg_folder    _image_folder "_bg\\"
+/* マスクフォルダ */
+#define _mask_folder _image_folder "_mask\\"
+
+/* 音声再生 */
+#ifdef RELEASE
+#define _aya_voice_folder ".\\plugin\\v_ay.sdp|"
+#else
+#define _aya_voice_folder ".\\sound\\ay\\"
+#endif
+#define _svoice(n) &sound(2, _aya_voice_folder n ".mp3"); &play(2)
+
+/* ------------------------------------------------------------------------ */
+/*  */
+#define _bgm_fo &timer_clear; Sound_FadeOut(0, 500); &timer_wait(500)
+
+#define _fselect &fselect
+#define _gcall(l) &gcall(l)
+#define _wait(n) _showcursor(FALSE); &timer_clear; System_TimerWait((n)*100); _showcursor(TRUE)
+#define _end  return 0
+#define _ol   &ol
+
+/*  */
+//int Sound_Sync();
+#define _ssync(n) Sound_Sync(n)
+
+/*  */
+#define DollGame_SendMessage(id, param) /*layer = System_GetScreen(IDS_Adv);*/ FrameLayer_SendMessage(adv, id, 0, param)
+
+#define _showcursor(b) DollGame_SendMessage(DGSM_ShowCursor, b)
+#define _rotor_on      DollGame_SendMessage(DGSM_RotorOn   , 0)
+#define _vibrator_on   DollGame_SendMessage(DGSM_VibratorOn, 0)
+#define _analvib_on    DollGame_SendMessage(DGSM_AnalVibOn , 0)
+#define _off           DollGame_SendMessage(DGSM_Off       , 0)
+
+/* BGM */
+#define _bgm01 _bgm("01")
+#define _bgm02 _bgm("02")
+#define _bgm03 _bgm("03")
+#define _bgm04 _bgm("04")
+#define _bgm05 _bgm("05")
+#define _bgm06 _bgm("06")
+#define _bgm07 _bgm("07")
+#define _bgm08 _bgm("08")
+#define _bgm09 _bgm("09")
+#define _bgm10 _bgm("10")
+#define _bgm11 _bgm("11")
+#define _bgm12 _bgm("12")
+#define _bgm13 _bgm("13")
+#define _bgm14 _bgm("14")
+#define _bgm15 _bgm("15")
+
+/* 効果音 */
+#define _se01 _se("se01"); _flash(COLOR_RED, 500); _shake(8, 100); _shake(4, 100); _shake(2, 100)
+#define _se02 _se("se02"); _flash(COLOR_RED, 200); _shake(4, 100)
+#define _se03 _se("se03"); _vibrator_on
+#define _se04 _se("se04"); _analvib_on
+#define _se05 _se("se05"); _rotor_on
+#define _se06 _se("se06")
+#define _se07 _se("se07")
+#define _se08 _se("se08"); _showcursor(FALSE); _ssync(1); _showcursor(TRUE)
+
+/* ----------------------------------------------------------------------- */
+/* コスチューム管理 */
+#define MAX_PATH 128
+//char doll_cos[MAX_PATH];
+//char aya_cos[MAX_PATH];
+
+//char asagao_cos[MAX_PATH];
+//char yuki_cos[MAX_PATH];
+//char haru_cos[MAX_PATH];
+//char yurika_cos[MAX_PATH];
+//char sakurako_cos[MAX_PATH];
+
+/* ------------------------------------------------------------------------ */
+/* ＤＯＬＬ */
+
+#ifdef _BODY_S_
+#define szDollShitagi "s_shitagi"
+#define szDollSeifuku "s_seifuku"
+#define szDollDress   "s_dress"
+#endif /* _BODY_S_ */
+
+#ifdef _BODY_N_
+#define szDollShitagi "n_shitagi"
+#define szDollSeifuku "n_seifuku"
+#define szDollDress   "n_dress"
+#endif /* _BODY_N_ */
+
+#ifdef _BODY_G_
+#define szDollShitagi "g_shitagi"
+#define szDollSeifuku "g_seifuku"
+#define szDollDress   "g_dress"
+#endif /* _BODY_G_ */
+
+#define exp_ol(cos, exp) System_TakeScreen(0); _loadchara(cos, exp); System_TakeScreen(1); Mask_Enable(FALSE); &ol; System_TakeScreen(2); Mask_Enable(FALSE)
+
+#define malie_chara_folder "..\\Bluelight Magic\\Data\\Picture\\Chara\\"
+//#define malie_char(name, ) 
+
+//DollApp_SendMessage(msg, param1, param2)
+
+#define _doll_cos_shitagi strcpy(doll_cos, szDollShitagi)
+#define _doll_cos_seifuku strcpy(doll_cos, szDollSeifuku)
+#define _doll_cos_dress   strcpy(doll_cos, szDollDress  )
+#define _doll_yasashii    exp_ol(doll_cos, "yasashii")
+#define _doll_utumuki     exp_ol(doll_cos, "utumuki")
+#define _doll_innrann     exp_ol(doll_cos, "innrann")
+#define _doll_jyuuzoku    exp_ol(doll_cos, "jyuuzoku")
+#define _doll_naki        exp_ol(doll_cos, "naki")
+#define _doll_niko        exp_ol(doll_cos, "niko")
+#define _doll_makka       exp_ol(doll_cos, "makka")
+#define _doll_nikkori     exp_ol(doll_cos, "nikkori")
+#define _doll_sumashi     exp_ol(doll_cos, "sumashi")
+
+/* ------------------------------------------------------------------------ */
+/* 書記 */
+#define szAyaShitagi "aya_shitagi"
+#define szAyaSeifuku "aya_seifuku"
+
+#define _aya_cos_shitagi strcpy(aya_cos, szAyaShitagi)
+#define _aya_cos_seifuku strcpy(aya_cos, szAyaSeifuku)
+#define _aya_niko        exp_ol(aya_cos, "niko")
+#define _aya_sumashi     exp_ol(aya_cos, "sumashi")
+#define _aya_ayashii     exp_ol(aya_cos, "ayashii")
+
+#define DAM_MalieGetChara  /* name */
+#define DAM_MalieShowChara /*  */
+#define DAM_MalieHideChara /*  */
+
+/* ------------------------------------------------------------------------ */
+/* 背景 */
+
+//#define _bg_load(n) &image(_bg_folder n ".png"); &ol
+#define _bg_load(n) System_TakeScreen(0); _loadbg(n); System_TakeScreen(1); _ol; System_TakeScreen(2)
+#define _cg_load(n) System_TakeScreen(0); _loadcg(n); System_TakeScreen(1); _ol; System_TakeScreen(2)
+
+#define _bg_seitokai _bg_load("seitokai")
+#define _bg_hikae    _bg_load("hikae")
+#define _bg_chika    _bg_load("chika")
+#define _bg_kouenn   _bg_load("kouenn")
+#define _fo          _bg_load("black")
+#define _wfo         _bg_load("white")
+
+/* ------------------------------------------------------------------------ */
+/* 一枚絵 */
+#define _cg_kizetu       _bg_load("black")
+#define _cg_title        _bg_load("title")
+#define _cg_c_ed1        _bg_load("a_ed1")
+#define _cg_c_ed2        _custom_cg2("_ED2"); _ol
+#define _cg_c_ed3        _custom_cg2("_ED3"); _ol
+#define _cg_c_ed4_a      _bg_load("a_ed4_a")
+#define _cg_c_ed4_b      _bg_load("a_ed4_b")
+#define _cg_c_ed5        _bg_load("a_ed5")
+#define _cg_end          _bg_load("end")
+#define _cg_issyuukanngo _bg_load("issyuukanngo")
+
+/* ----------------------------------------------------------------------- */
+/* 画面識別子 */
+#define IDS_DollApp         440 /* アプリケーション */
+#define IDS_DollDatabase    450 /* Database         */
+#define IDS_DollEdit        452 /* Edit Mode        */
+#define IDS_DollEdit2       457 /* Edit Mode 2      */
+#define IDS_DollSelMode     454 /* Select Mode      */
+
+/*  */
+#define SN_Back         650
+#define SN_Next         651
+#define SM_Wait         652
+#define SN_DatabaseMode 653
+#define SN_EditMode     654
+
+/* ----------------------------------------------------------------------- */
+/* イメージ管理 */
+#define IDL_DollImage 1000 /* イメージ管理   */
+
+/* メッセージ */
+#define DILM_Load       5000 /* イメージロード       */
+#define DILM_LoadExp    5001 /* 表情の読み込み       */
+#define DILM_LoadChara  5002 /* 立ちキャラの読み込み */
+#define DILM_LoadBG     5003 /* 背景の読み込み       */
+#define DILM_ClearChara 5004 /* 立ちキャラのクリア   */
+
+/* ゲーム画面 */
+#define DGSM_RotorOn    6501 /* ローターＯＮ       */
+#define DGSM_VibratorOn 6502 /* バイブレーターＯＮ */
+#define DGSM_AnalVibOn  6503 /* アナルバイブＯＮ   */
+#define DGSM_Off        6510 /* ＯＦＦ             */
+
+#define DGSM_ShowCursor 6520 /* カーソルの表示 */
+
+/* ----------------------------------------------------------------------- */
+/* ベースの読み込み */
+
+/* DollApp にメッセージ送信 */
+#define DollApp_SendMessage(msg, param1, param2) layer = System_GetScreen(IDS_DollApp); FrameLayer_SendMessage(layer, msg, param1, param2)
+
+/* DollImage にメッセージ送信 */
+//#define DollImage_SendMessage(msg, param) layer = System_GetScreen(IDS_Adv); layer = FrameLayer_GetItem(layer, IDL_DollImage); FrameLayer_SendMessage(layer, msg, 0, param)
+
+#define DollImage_SendMessage(msg, param) 
+
+/* イメージ読み込み */
+#define _loadbody(n) DollImage_SendMessage(DILM_Load, n)
+
+/* 表情の読み込み */
+//#define _loadexp(n)  DollImage_SendMessage(DILM_LoadExp, n)
+/* 背景の読み込み */
+#define _loadbg(n)   DollApp_SendMessage(DAM_LoadBG, _bg_folder n ".png", 0);
+#define _loadcg(n)   DollApp_SendMessage(DAM_LoadBG, _bg_folder n ".png", 0);
+// DollImage_SendMessage(DILM_LoadBG, _bg_folder n ".png")
+/* 立ちキャラの読み込み */
+//#define _loadchara(n) DollImage_SendMessage(DILM_LoadChara, n)
+#define _loadchara(n, x) DollApp_SendMessage(DAM_LoadChara1, n, x)
+/* 立ちキャラのクリア */
+//#define _characlear _loadchara(0, 0); System_TakeScreen(3);  Mask_Enable(FALSE); &ol; Mask_Enable(FALSE)
+#define _characlear System_TakeScreen(0); DollApp_SendMessage(DAM_ClearChara, 0, 0); System_TakeScreen(1); Mask_Enable(FALSE); &ol; Mask_Enable(FALSE); System_TakeScreen(2)
+
+//#define _custom_cg(b, x) System_TakeScreen(0); _loadbody(_BODY_ b x); _loadexp("exp"); System_TakeScreen(3)
+#define _custom_cg(b, x) System_TakeScreen(0); DollApp_SendMessage(DAM_LoadImage, _BODY_ b x, "exp"); System_TakeScreen(3)
+
+#define _custom_cg2(b) System_TakeScreen(0); DollApp_SendMessage(DAM_LoadImage, _BODY_ b, "exp"); System_TakeScreen(3)
+//#define _cg(b, x) _loadbody(b); _loadexp(x); System_TakeScreen(3)
+
+int bInfo;
+int bMsg;
+
+/*  */
+#define infolayer_show(b) System_TakeScreen(0); bInfo = b; AdvLayer_Show(IDL_DollParam, b); AdvLayer_Show(IDL_DollDate, b); System_TakeScreen(1); _ol; System_TakeScreen(2)
+#define msglayer_show(b) System_TakeScreen(0); bMsg = b; AdvLayer_Show(IDL_DollMessage, b); System_TakeScreen(1); _ol; System_TakeScreen(2)
+#define msglayer_showf(b) AdvLayer_Show(IDL_DollMessage, b)
+#define AdvLayer_Show(id, b) _id = id; _ret = b; _gcall(ADVLAYER_Visible)
+
+/* ----------------------------------------------------------------------- */
+/* レイヤー制御 */
+
+//static int app; /* アプリケーション   */
+static int adv; /* アドベンチャー     */
+int screen; /* スクリーン         */
+int layer;  /* レイヤー           */
+
+/* ----------------------------------------------------------------------- */
+/* レイヤー識別子 */
+#define IDS_Adv       300 /* アドベンチャー */
+#define IDL_DollParam   1 /* パラメータ     */
+#define IDL_DollDate    2 /* 日付           */
+#define IDL_DollMessage 3 /* メッセージ */
+
+/* ----------------------------------------------------------------------- */
+/* 対戦画面のクリア */
+CLEAR_BATTLE:
+	
+#define IDL_DollBattleVS    458 /* Battle Mode VS   */
+#define IDL_DollFight       463 /* 対戦             */
+#define IDL_DollBattleEnd   465 /* 対戦終了         */
+
+//	screen = System_GetScreen(IDS_Adv);
+	layer  = FrameLayer_GetItem(adv, IDL_DollFight);
+	FrameLayer_SetVisible(layer, FALSE);
+	layer  = FrameLayer_GetItem(adv, IDL_DollBattleVS);
+	FrameLayer_SetVisible(layer, FALSE);
+	layer  = FrameLayer_GetItem(adv, IDL_DollBattleEnd);
+	FrameLayer_SetVisible(layer, FALSE);
+	
+	_end;
+
+#endif /* _DOLLMACRO_TXT_ */
+
+/* eof */

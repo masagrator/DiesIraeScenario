@@ -1,0 +1,10 @@
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_1.txt(5202): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_1.txt(5205): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_1.txt(7795): セリフ終端が '、' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(440): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(457): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(643): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(676): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(1387): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(5972): セリフ終端が '　' です。
+C:\sdcard\malie\jp.gr.light.ikb\maliebuild\アナザーストーリー\r_3.txt(5974): セリフ終端が '　' です。

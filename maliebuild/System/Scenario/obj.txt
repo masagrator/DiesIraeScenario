@@ -1,0 +1,161 @@
+/* obj.txt */
+
+#ifndef _OBJ_TXT_
+#define _OBJ_TXT_
+
+int obj;
+RECT rect;
+POINT pt;
+
+/* ------------------------------------------------------------------------- */
+/* メッセージ */
+#define IOLM_Message        100
+#define IOLM_LoadImage      (IOLM_Message+ 1) /* イメージのロード     */
+#define IOLM_PlayFade       (IOLM_Message+ 2) /* フェード再生         */
+#define IOLM_InitMotion     (IOLM_Message+ 3) /* 移動初期化           */
+#define IOLM_PlayMotion     (IOLM_Message+ 4) /* 移動再生             */
+#define IOLM_InitAnime      (IOLM_Message+ 5) /* アニメーション初期化 */
+#define IOLM_PlayAnime      (IOLM_Message+ 6) /* アニメーション再生   */
+#define IOLM_SetBlend       (IOLM_Message+ 7) /* ブレンドの設定       */
+#define IOLM_SetImageRect   (IOLM_Message+ 8) /* イメージ矩形の設定   */
+#define IOLM_Clear          (IOLM_Message+ 9) /* クリア               */
+#define IOLM_LoadMask       (IOLM_Message+10) /* マスクのロード       */
+#define IOLM_SetRect        (IOLM_Message+11) /* 矩形の設定           */
+#define IOLM_InitMotionRect (IOLM_Message+12) /* 矩形移動初期化       */
+#define IOLM_SetFadeRange   (IOLM_Message+13) /* フェード幅設定       */
+#define IOLM_SetPos         (IOLM_Message+14) /* 位置設定             */
+#define IOLM_SetVisible     (IOLM_Message+15) /* 表示設定             */
+#define IOLM_SetText        (IOLM_Message+16) /* テキスト設定         */
+
+/* FADE_ */
+#define FADE_FI      0 /* フェードイン         */
+#define FADE_FO      1 /* フェードアウト       */
+#define FADE_FIFO    2 /* フェードイン／アウト */
+
+/* ------------------------------------------------------------------------- */
+/* 移動フラグ */
+#define MOTION_F_RECT 0x2000
+#define MOTION_F_SRC  0x1000
+#define MOTION_T_MASK 0x00FF
+#define MOTION_T_LINE 0x0001
+#define MOTION_T_SIN  0x0002
+#define MOTION_T_COS  0x0003
+
+/* 先 */
+/* 位置指定 */
+#define MOTION_LINE         MOTION_T_LINE /* 線形処理 */
+#define MOTION_SIN          MOTION_T_SIN  /* SIN      */
+#define MOTION_COS          MOTION_T_COS
+/* 矩形指定 */
+#define MOTION_RECT_LINE    MOTION_T_LINE|MOTION_F_RECT /* 線形処理 */
+#define MOTION_RECT_SIN     MOTION_T_SIN |MOTION_F_RECT /* SIN      */
+#define MOTION_RECT_COS     MOTION_T_COS |MOTION_F_RECT
+
+/* 元 */
+/* 位置指定 */
+#define MOTION_SRC_LINE     MOTION_T_LINE|MOTION_F_SRC /* 線形処理 */
+#define MOTION_SRC_SIN      MOTION_T_SIN |MOTION_F_SRC /* SIN      */
+#define MOTION_SRC_COS      MOTION_T_COS |MOTION_F_SRC
+/* 矩形指定 */
+#define MOTION_SRCRECT_LINE MOTION_T_LINE|MOTION_F_SRC|MOTION_F_RECT /* 線形処理 */
+#define MOTION_SRCRECT_SIN  MOTION_T_SIN |MOTION_F_SRC|MOTION_F_RECT /* SIN      */
+#define MOTION_SRCRECT_COS  MOTION_T_COS |MOTION_F_SRC|MOTION_F_RECT
+
+/* BLEND_ */
+#define BLEND_NORMAL 1 /* 通常 */
+#define BLEND_ADD    2 /* 加算 */
+#define BLEND_SUB    3 /* 減算 */
+#define BLEND_MUL    4 /* 乗算 */
+#define BLEND_MASK   0x10 /* マスク */
+
+/* ------------------------------------------------------------------------- */
+/* マクロ */
+
+#define FPS_CTRL(fps) \
+	FrameLayer_SendMessage(malie, MSM_SetFrameRate, fps, 0)
+
+/* 取得 */
+#define _obj(i) \
+	obj = FrameLayer_SendMessage(malie, MSM_GetObject, i, 0);
+
+/* イメージ読み込み */
+#define _obj_IMAGE(image, mask) \
+	FrameLayer_SendMessage(obj, IOLM_LoadImage, image, mask)
+
+/* イメージ矩形の設定 */
+#define _obj_IMAGE_RECT(_l, _t, _r, _b) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_SetImageRect, 0, &rect)
+
+/* マスク読み込み   */
+#define _obj_MASK(color, mask) \
+	FrameLayer_SendMessage(obj, IOLM_LoadMask , color, mask)
+
+/* 初期化 */
+#define _obj_CLEAR() \
+	FrameLayer_SendMessage(obj, IOLM_Clear, 0, 0)
+
+/* 矩形設定 */
+#define _obj_RECT(_l, _t, _r, _b) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_SetRect, 0, &rect)
+
+/* フェード幅設定 */
+#define _obj_FADE_RANGE(min, max) \
+	FrameLayer_SendMessage(obj, IOLM_SetFadeRange, min, max)
+
+/* FadeIn */
+#define _obj_FI(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FI, time)
+
+/* FadeOut */
+#define _obj_FO(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FO, time)
+
+/* FadeIn */
+#define _obj_FIFO(time) \
+	FrameLayer_SendMessage(obj, IOLM_PlayFade, FADE_FIFO, time)
+
+/* 位置設定 */
+#define _obj_POS(x, y) \
+	FrameLayer_SendMessage(obj, IOLM_SetPos, x, y)
+
+/* 表示設定 */
+#define _obj_SHOW(show) \
+	FrameLayer_SendMessage(obj, IOLM_SetVisible, 0, show)
+
+/* ブレンド */
+#define _obj_BLEND(blend) \
+	FrameLayer_SendMessage(obj, IOLM_SetBlend, blend, 0)
+
+/*  */
+#define _obj_MOTION(_x, _y, type, time) \
+	pt.x = _x; pt.y = _y; \
+	FrameLayer_SendMessage(obj, IOLM_InitMotion, type, &pt); \
+	FrameLayer_SendMessage(obj, IOLM_PlayMotion, type, time)
+
+#define _obj_MOTION_RECT(_l, _t, _r, _b, type, time) \
+	RECT_Set(r, _l, _t, _r, _b); \
+	FrameLayer_SendMessage(obj, IOLM_InitMotion, type, &rect); \
+	FrameLayer_SendMessage(obj, IOLM_PlayMotion, type, time)
+
+#define _obj_TEXT(color, text) \
+	FrameLayer_SendMessage(obj, IOLM_SetText, color, text)
+
+#define texteffect(text) \
+	_obj(0) \
+	{ \
+		_obj_RECT(0, 400, 640, 440); \
+		_obj_TEXT(0, text); \
+		_obj_SHOW(TRUE); \
+		_obj_FI(500); \
+		WAIT(500); \
+		WAIT(2500); \
+		_obj_FO(500); \
+		WAIT(500); \
+		_obj_SHOW(FALSE); \
+	}
+
+#endif /* _OBJ_TXT_ */
+
+/* eof */

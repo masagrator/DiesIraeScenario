@@ -1,0 +1,438 @@
+/* sultan.txt */
+/* Sultan -スルタン- */
+
+//void __stdcall export_test();
+
+#define BGM_TITLE 3
+
+//#define _timeclear() FrameLayer_SendMessage(app, SAM_Time_Show, "", FALSE)
+
+#define USE_MALIESCENARIO
+
+/* シナリオ変数 */
+#ifdef USE_MALIESCENARIO
+
+#include "_malievalue.txt"
+
+#endif /* USE_MALIESCENARIO */
+
+#include "main_h.txt"
+
+void PASCAL maliescenario();
+
+//#include "sultan_dm.txt"
+
+static int g_first; /* 初回起動判定 */
+//int s_trial; /* システム:体験版 */
+int s_ec[4];
+
+// あるすまぐな！アイキャッチ
+#define _eyecatch(type, voice) \
+	tag("<cg src='black' time='1s'>"); \
+	tag("<se src='999'>"); \
+	tag("<cg src='%s' time='1s'>", type); \
+	tag("<wait time='1'>"); \
+	tag("<voice src='%s'>", voice); \
+	tag("<wait time='3s'>"); \
+	tag("<cg src='black' time='1s'>")
+
+/* ----------------------------------------------------------------------- */
+/* フォルダ定義 */
+
+#define SULTAN_FOLDER  ".\\"
+
+/* Normal Folder Set */
+//#define	_LIB_USED_
+#ifndef _LIB_USED_
+
+#define DATA_FOLDER    SULTAN_FOLDER "data\\"
+#define PICTURE_FOLDER DATA_FOLDER "picture\\"
+#define BG_FOLDER      PICTURE_FOLDER "bg\\"
+#define EVENT_FOLDER   PICTURE_FOLDER "event\\"
+#define CHARA_FOLDER   PICTURE_FOLDER "chara\\"
+
+#define BGM_FOLDER     DATA_FOLDER "bgm\\"
+//#define BGM_FOLDER     DATA_FOLDER "bgm.lib|"
+
+#define SE_FOLDER      DATA_FOLDER "se\\"
+//#define SE_FOLDER      DATA_FOLDER "se.lib|"
+
+#define VOICE_FOLDER   DATA_FOLDER "voice\\"
+//#define VOICE_FOLDER   DATA_FOLDER "voice.lib|"
+
+#define MASK_FOLDER    SULTAN_FOLDER "data\\picture\\mask"
+
+#define TABLE_FOLDER ".\\sultan\\data\\table\\"
+
+/* Lib Address Set */
+#else /* _LIB_USED_ */
+
+#define DATA_FOLDER    SULTAN_FOLDER "data.lib|"
+#define PICTURE_FOLDER DATA_FOLDER "picture|"
+#define BG_FOLDER      PICTURE_FOLDER "bg|"
+#define EVENT_FOLDER   PICTURE_FOLDER "event|"
+#define CHARA_FOLDER   PICTURE_FOLDER "chara|"
+#define BGM_FOLDER     DATA_FOLDER "bgm|"
+#define SE_FOLDER      DATA_FOLDER "se|"
+#define VOICE_FOLDER   DATA_FOLDER "voice|"
+#define MASK_FOLDER    DATA_FOLDER "picture|mask|"
+
+#endif /* _LIB_USED_ */
+
+/* ----------------------------------------------------------------------- */
+/*  */
+void PASCAL _obj_ALL_CLEAR()
+{
+	int i;
+
+	for (i=0; i<10; i++)
+	{
+		_obj(i); _obj_SHOW(FALSE); _obj_CLEAR();
+	}
+	_obj(10); _obj_SHOW(FALSE);
+}
+
+int _i;
+int _max;
+int _save_chara;
+
+/* ----------------------------------------------------------------------- */
+/*  */
+void PASCAL run()
+{
+	out_debug("シナリオ処理が開始しました。\n");
+	
+	/* レイヤー初期化 */
+//	app   = System_GetScreen(IDS_Sultan);
+	adv   = System_GetScreen(IDS_Adv   );
+	malie = System_GetScreen(IDS_Malie );
+}
+
+int PASCAL system_onLoad()
+{
+	run();
+
+	return 123;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* システム */
+system:
+{
+@load: /* ロード時 */
+	
+	run();
+	
+	_end;
+
+@save: /* セーブ時 */
+	out_debug("セーブ処理\n");
+	_end;
+
+@run: /* 実行時 */
+	
+	run();
+	
+	_end;
+	
+@stop:
+	out_debug("シナリオ処理が停止しました。\n");
+	_end;
+
+@create: /* 生成時 */
+	out_debug("生成処理\n");
+	_end;
+
+@destroy: /* 開放時 */
+	out_debug("開放処理\n");
+	_end;
+}
+
+/* ----------------------------------------------------------------------- */
+/*  */
+void PASCAL _change_screen(int id, int time)
+{
+	System_TakeScreen(0);
+	_changescreen(id);
+	System_TakeScreen(1);
+	_wipe_set(OL, time);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+/* ----------------------------------------------------------------------- */
+/* ＣＧモード */
+void PASCAL cg_mode()
+{
+@begin:
+	_title_goto("@begin");
+	s_scene = 0;
+	MalieSystem_OpenDialog(IDS_Sultan_CGSelect);
+	System_Await();
+
+	if (s_scene == 1)
+	{
+		goto @begin;
+	}
+}
+
+/* ----------------------------------------------------------------------- */
+/* 音楽鑑賞モード */
+void PASCAL music_mode()
+{
+	MALIE_SOUNDSTOP(500);
+	/* 音楽選択 */
+	layer = System_GetScreen( IDS_Sultan_MusicSelect );
+	FrameLayer_SendMessage( layer, 0x8000, 0, 0 ); /* 表示前 */
+	_changescreen(IDS_Sultan_MusicSelect);
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 ); /* 表示後 */
+	System_Await();
+}
+
+/* ----------------------------------------------------------------------- */
+/* シーン観賞 */
+void PASCAL scene_mode()
+{
+@begin:
+	s_scene = 0;
+	_title_goto("@begin");
+//	MALIE_SOUND(23, 0);
+	layer = System_GetScreen(IDS_Sultan_SceneSelect);
+	FrameLayer_SendMessage( layer, 0x8000, 0, 0 );
+	System_TakeScreen(0);
+	_changescreen(IDS_Sultan_SceneSelect);
+	System_TakeScreen(1);
+	_wipe_set(OL, 500);
+	&ol;
+	System_TakeScreen(2);
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 );
+	
+	_clear;
+	out_debug("シーン待機\n");
+	System_Await();
+
+	if (s_scene == 1)
+	{
+		goto @begin;
+	}
+}
+
+/* ----------------------------------------------------------------------- */
+/* アナザーストーリーモード */
+void PASCAL another_mode()
+{
+@begin:
+	MalieSystem_OpenDialog(IDS_Sultan_AnotherSelect);
+	System_Await();
+
+	result = System_GetResult();
+	if (result == 0)
+	{
+		goto @exit;
+	}
+
+	goto @begin;
+	
+@exit:
+}
+
+/* ----------------------------------------------------------------------- */
+/* アワードモード */
+void PASCAL award_mode()
+{
+	MalieSystem_OpenDialog(IDS_MalieSystem_Award);
+	System_Await();
+}
+
+int iScenarioType;
+
+/* ----------------------------------------------------------------------- */
+/* 音楽鑑賞モード */
+void PASCAL special_mode()
+{
+	int sp_result;
+	
+@begin:
+	_title_goto("@begin");
+	MALIE_SOUND(11, 0);
+	/* スペシャル */
+	layer = System_GetScreen( 0x1002 );
+	FrameLayer_SendMessage( layer, 0x8000, 0, 0 ); /* 表示前 */
+	_change_screen( 0x1002 , 1000);
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 ); /* 表示後 */
+	System_Await();
+
+	sp_result = System_GetResult();
+	if( sp_result == 10 )
+	{
+		layer = System_GetScreen( 0x1003 );
+		FrameLayer_SendMessage( layer, 0x8000, 0, 0 ); /* 表示前 */
+		_change_screen( 0x1003 , 1000);
+		FrameLayer_SendMessage( layer, 0x8001, 0, 0 ); /* 表示後 */
+		System_Await();
+		goto @begin;
+	}
+
+	if (sp_result == 0)
+	{
+		return;
+	}
+
+	MALIE_SOUNDSTOP(4000);
+	
+	/* アドベンチャー画面へ */
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+//	_loadcg("black");
+	System_TakeScreen(1);
+	_wipe_set(SHADE, 2000);
+	_ms_overlap();
+	System_TakeScreen(2);
+	
+	MALIE_WAIT(1000);
+	
+	/* シナリオパート */
+	&clear;
+//	MALIE_FONTCOLOR(0xFFFFFF);
+	MALIE_FONTSIZE(20);
+	MALIE_FONTPOSITION(MALIE_LEFT_TOP);
+	MALIE_TEXTMODE(TM_NORMAL);
+	
+out_debug("スペシャルシナリオ選択:%d\n", sp_result);
+	
+}
+
+/* ----------------------------------------------------------------------- */
+/* ルナそらマップ処理 */
+void PASCAL LUN_MAP()
+{
+	int screen;
+
+	System_TakeScreen(0);
+	_changescreen(IDS_Sultan_MapSelect);
+Malie_SendMessage(MSM_Screen, 0, ".\\data\\screen\\map\\map.svg");
+	System_TakeScreen(1);
+	MALIE_SOUNDSTOP(1000);
+	_wipe_set(SHADE, 1000);
+	_ms_overlap();
+	System_TakeScreen(2);
+
+	screen = System_GetScreen(IDS_Sultan_MapSelect);
+	FrameLayer_SendMessage(screen, 0, 0, 0);
+
+	System_Await();
+	MALIE_WAIT(500);
+
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+	System_TakeScreen(1);
+	MALIE_SOUNDSTOP(1000);
+	_wipe_set(SHADE, 1000);
+	_ms_overlap();
+	System_TakeScreen(2);
+}
+
+/* ----------------------------------------------------------------------- */
+/* メイン処理 */
+main:
+{
+//	g_pro = 1;
+	s_trial = 0;
+
+	run();
+	_obj_ALL_CLEAR();
+	
+//	tag("<layer parent='back' id='bg' src='light_rogo' mask='mask2' time='1s'>");
+//	tag("<layerwait parent='back'>");
+
+//	MalieSystem_PlaySystemSE("LOGO");
+//	tag("<wait time='2s'>");
+
+//	tag("<layer parent='back' id='bg' src='black' mask='mask1' time='1s'>");
+//	tag("<layerwait parent='back'>");
+	
+//	tag("<wait time='1s'>");
+	
+	/*  */
+@logo:
+	
+//	MALIE_SOUNDSTOP(0);
+
+@begin:
+//	_cancel_goto(NULL);
+
+//	_obj_ALL_CLEAR();
+	
+	
+@title:
+//	_clear;
+//goto @adv;
+//	MALIE_LABLE("");
+//	_obj_ALL_CLEAR();
+	
+	_title_goto("");
+	result = System_GetResult();
+	if (result) goto @title;
+	MalieSystem_OpenDialog(IDS_Sultan_Title);
+
+//MALIE_SOUND(BGM_TITLE, 0);
+	
+@adv:
+//	MALIE_SOUNDSTOP(4000);
+	
+	/* アドベンチャー画面へ */
+	_changescreen(IDS_Adv);
+	
+	tag("<wait time='1s'>");
+	
+	/* シナリオパート */
+	_ms_clear();
+//	MALIE_FONTCOLOR(0xFFFFFF);
+	MALIE_FONTPOSITION(MALIE_LEFT_TOP);
+	MALIE_TEXTMODE(TM_NORMAL);
+	
+	/* ここを書き換えます。 */
+	
+	maliescenario();
+//	_call(a_01a);
+	
+	MALIE_SOUNDSTOP(2000);
+	MALIE_CG("black", OL, 1000);
+	
+	MALIE_SOUND_CTRL(TRUE);
+	
+	goto @title;
+}
+
+#ifdef USE_MALIESCENARIO
+
+/* ----------------------------------------------------------------------- */
+/* */
+void PASCAL maliescenario()
+{
+	out_debug("■シナリオ開始\n");
+	_ms_clear();
+#include "_maliescenario.txt"
+	out_debug("■シナリオ終了\n");
+}
+
+#endif /* USE_MALIESCENARIO */
+
+int PASCAL system_onInit()
+{
+// ■あるすまぐな
+//	s_ec[0] = 0x6a753654;
+//	s_ec[1] = 0x67397166;
+//	s_ec[2] = 0x51785256;
+//	s_ec[3] = 0x4a585763;
+// ■タペストリー
+//s_ec[0] = 0x35364d51;
+//s_ec[1] = 0x75476e76;
+//s_ec[2] = 0x636f4b42;
+//s_ec[3] = 0x484c5546;
+
+	s_trial = 0;
+}
+
+/* eof */

@@ -1,0 +1,304 @@
+/* Effect Command Header Text */
+#ifndef	_EFFECTCOMMAND_TEXT_DEF_
+#define	_EFFECTCOMMAND_TEXT_DEF_
+
+#define IDS_ParticleManager 0x0801
+
+#define MASKFLASH  0x1000
+#define XSHAKE     0x1001
+#define IMAGEFLASH 0x1002
+#define OLT_MagistelOrignal1	0x1003
+#define OLT_MagistelOrignal2	0x1004
+
+/* Dear : カレンダー用メッセージ */
+#define		DER_SetDay				0x10
+#define		DER_SetPlate			0x11
+#define		DER_SetTimeChar			0x12
+#define		DER_Start				0x20
+#define		DER_End					0x21
+#define		DER_Init				0x22
+
+/* 雪、桜　パーティクル */
+#define DER_ParticleCreate			0x10
+#define DER_ParticleDelete			0x11
+#define DER_ParticleSetOffset			0x12
+
+/* パーティクルの種類 */
+#define DER_ParticleType_SNOW1		0x01
+#define DER_ParticleType_SNOW2		0x02
+#define DER_ParticleType_SNOW3		0x03
+#define DER_ParticleType_Cherry		0x04
+
+/* マギステル：追加:生野 */
+#define _shake2() \
+	_showcursor(FALSE); \
+	System_TakeScreen(0); \
+	_wipe_set(XSHAKE, 250); \
+	System_TakeScreen(1); \
+	_ms_overlap(); \
+	System_TakeScreen(2)
+	
+#define _maskflash() \
+	_showcursor(FALSE); \
+	System_TakeScreen(0); \
+	_wipe_set(MASKFLASH, 2000); \
+	_ms_overlap(); \
+	System_TakeScreen(2)
+	
+#define shake2 _shake2()
+
+//まだ作ってないマギテン
+#define		EMM_CreateEffect		0
+#define		EMM_SetEffectColor		0x20
+#define		EMM_SetTime				0x40
+
+/* Effect Manager TextEffectEX Only */
+#define		EMM_SetText				10
+#define		EMM_SetFontSize			11
+#define		EMM_SetFontColor		12
+#define		EMM_SetMotionType		13
+#define		EMM_SetVoiceFile		14
+#define		EMM_Start				15
+
+/* Effect Type */
+#define		Eff_Sword				0
+#define		Eff_Flash				1
+#define		Eff_CFlash				2
+#define		Eff_TextEffectEX			3
+#define		Eff_Recollect				4
+
+/* パズル関連 */
+#define		DER_Pazzle_CreateStage	0x01
+#define		DER_Pazzle_StartStage	0x02
+#define		DER_Pazzle_DeleteStage	0x03
+
+#define ENDING_MOVIE \
+	_cg( "black", NONE ); \
+	layer = System_GetScreen(IDS_Movie); \
+	FrameLayer_SendMessage(layer, MLM_Open , 0, ".\\data\\screen\\ending\\ED.mpg" ); \
+	_changescreen(IDS_Movie); \
+	FrameLayer_SendMessage(layer, MLM_Play , 0, FALSE); \
+	FrameLayer_SendMessage(layer, MLM_Close, 0, 0); \
+	_changescreen( IDS_Adv );
+
+#define	STAFFROLL \
+	MALIE_SOUND( 18, 0 ); \
+	System_TakeScreen( 0 ); \
+	layer = System_GetScreen( 0x8100 ); \
+	FrameLayer_SendMessage( layer, 0x8000, 0, 0 ); \
+	_changescreen( 0x8100 ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OL, 6000 ); \
+	_ms_overlap(); \
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 ); \
+	System_Await(); \
+	System_TakeScreen( 0 ); \
+	FrameLayer_SendMessage( layer, 0x8002, 0, 0 ); \
+	_loadcg("black"); \
+	_changescreen( IDS_Adv ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OL, 6000 ); \
+	_ms_overlap(); \
+	System_TakeScreen( 2 );
+
+#define 	_blood() \
+	_showcursor(FALSE); \
+	System_TakeScreen(0); \
+	_loadcg("black"); \
+	System_TakeScreen(1); \
+	_wipe_set(16, 2000); \
+	_ms_overlap(); \
+	System_TakeScreen(2)
+
+#define		texteffectex(text, fontsize, color_value, motion_value, voice_number ) \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_TextEffectEX, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetText, text, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetFontSize, fontsize, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetFontColor, color_value, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetMotionType, motion_value, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetVoiceFile, voice_number, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_Start, 0, 0 ); \
+	System_Await();
+
+#define		flash2( color_text ) \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_SetEffectColor, color_text, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Flash, 0 );
+	
+#define		cflash( color_text, motion_value ) \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_SetEffectColor, color_text, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_CFlash, motion_value );
+	
+#define		attack( type, color_text, speed_value ) \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_SetEffectColor, color_text, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_SetTime, speed_value, 0 ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Sword, type );
+	
+#define			Recollect( file_name ) \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Recollect, file_name );
+
+#define			hanten \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Recollect, "turnover" );
+	_ms_clear();
+
+#define			kaisou \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Recollect, "harfblk" ); \
+	_ms_clear();
+
+#define			hanten_end \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Recollect, "" ); \
+	_ms_clear();
+
+#define			kai_end \
+	layer = System_GetScreen( IDS_Magistr_EffManager ); \
+	FrameLayer_SendMessage( layer, EMM_CreateEffect, Eff_Recollect, "" ); \
+	_ms_clear();
+
+#define			Chapter_In( a ) \
+	layer = System_GetScreen( 0x0810 ); \
+	FrameLayer_SendMessage( layer, 0x8000, a, 0 ); \
+	layer = System_GetScreen( IDS_Adv ); \
+	FrameLayer_SendMessage( layer, 1007, 0, 0 ); \
+	System_TakeScreen( 0 ); \
+	_changescreen( 0x0810 ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OL, 1000 ); \
+	_ms_overlap(); \
+	System_TakeScreen( 2 ); \
+	layer = System_GetScreen( 0x0810 ); \
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 ); \
+	System_Await(); \
+	System_TakeScreen( 0 ); \
+	_changescreen( IDS_Adv ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OL, 1000 ); \
+	_ms_overlap(); \
+	layer = System_GetScreen( 0x0810 ); \
+	FrameLayer_SendMessage( layer, 0x8002, 0, 0 ); \
+	System_TakeScreen( 2 )
+
+/* ウェイトレスマップ画面 */
+Waitress_Map:
+{
+	int	return_value;
+
+	layer = System_GetScreen( 445 );
+	FrameLayer_SendMessage( layer, 0x8001, 0, 0 );
+	System_Await();
+	FrameLayer_SendMessage( layer, 0x8002, 0, 0 );
+	System_Await();
+
+	MALIE_SOUNDSTOP( 2000 );
+
+	System_TakeScreen(0);
+	_changescreen(IDS_Adv);
+	_loadcg("white");
+	System_TakeScreen(1);
+	_wipe_set( OLT_MagistelOrignal2, 2000 );
+	_ms_overlap();
+	System_TakeScreen(2);
+
+	layer = System_GetScreen( 445 );
+	FrameLayer_SendMessage( layer, 0x8004, 0, 0 );
+}
+
+#define map( a ) \
+	MALIE_CG("white", OL, 2000); \
+	layer = System_GetScreen( 445 ); \
+	FrameLayer_SendMessage( layer, 0x8003, a, 0 ); \
+	FrameLayer_SendMessage( layer, 0x8000, 0, 0 ); \
+	System_TakeScreen( 0 ); \
+	_changescreen( 445 ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OLT_MagistelOrignal1, 2000 ); \
+	MALIE_SOUND(5, 0); \
+	_ms_overlap(); \
+	System_TakeScreen( 2 ); \
+	goto Waitress_Map;
+
+#define calender( timechar, day ) \
+	FrameLayer_SendMessage( adv, DER_SetTimeChar, timechar, 0 ); \
+	FrameLayer_SendMessage( adv, DER_SetDay, day, 0 ); \
+	FrameLayer_SendMessage( adv, DER_Start, 0, 0 );
+
+#define calender_end FrameLayer_SendMessage( adv, DER_End, 0, 0 )
+
+#define BG_day( day ) \
+	layer = System_GetScreen( 0x1000 ); \
+	FrameLayer_SendMessage( layer, DER_SetDay, day, 0 ); \
+	FrameLayer_SendMessage( layer, DER_Init, 0, 0 ); \
+	System_TakeScreen( 0 ); \
+	_changescreen( 0x1000 ); \
+	System_TakeScreen( 1 ); \
+	_wipe_set( OLT_MagistelOrignal1, 2000 ); \
+	_ms_overlap(); \
+	System_TakeScreen( 2 ); \
+	FrameLayer_SendMessage( layer, DER_Start, 0, 0 ); \
+	System_Await(); \
+ \
+	MALIE_CG("white", OL, 2000); \
+	System_TakeScreen(0); \
+	_changescreen(IDS_Adv); \
+	System_TakeScreen(1); \
+	_wipe_set( OLT_MagistelOrignal2, 2000 ); \
+	_ms_overlap(); \
+	System_TakeScreen(2);
+
+#define snow1 \
+	layer = System_GetScreen( IDS_ParticleManager ); \
+	FrameLayer_SendMessage( layer, DER_ParticleCreate, DER_ParticleType_SNOW1, 0 )
+
+#define snow2 \
+	layer = System_GetScreen( IDS_ParticleManager ); \
+	FrameLayer_SendMessage( layer, DER_ParticleCreate, DER_ParticleType_SNOW2, 0 )
+
+#define snow3 \
+	layer = System_GetScreen( IDS_ParticleManager ); \
+	FrameLayer_SendMessage( layer, DER_ParticleCreate, DER_ParticleType_SNOW3, 0 )
+
+#define cherry \
+	layer = System_GetScreen( IDS_ParticleManager ); \
+	FrameLayer_SendMessage( layer, DER_ParticleCreate, DER_ParticleType_Cherry, 0 )
+
+#define particle_stop \
+	layer = System_GetScreen( IDS_ParticleManager ); \
+	FrameLayer_SendMessage( layer, DER_ParticleDelete, 0, 0 ); \
+	System_Await()
+
+#define snow_stop particle_stop
+#define cherry_stop particle_stop
+
+#define tokusyu( valiant, value ) \
+	valiant_work = valiant + (value); \
+	if( valiant_work >= 0 && valiant_work <= 100 ){valiant = valiant + (value);} \
+	else if(valiant_work < 0){valiant = 0;} \
+	else{valiant = 100;}
+
+#define KANNZENN \
+	layer = System_GetScreen( IDS_Sultan_CGSelect ); \
+	FrameLayer_SendMessage( layer, 0x9100, 0, 0 ); \
+	gameallcheck1 = System_GetResult(); \
+	layer = System_GetScreen( IDS_Sultan_SceneSelect ); \
+	FrameLayer_SendMessage( layer, 0x9100, 0, 0 ); \
+	gameallcheck2 = System_GetResult(); \
+	if( gameallcheck1 && gameallcheck2 ) \
+	{ \
+		kannzennsinario = 1; \
+	} \
+	else \
+	{ \
+		kannzennsinario = 0; \
+	}
+
+int	valiant_work;
+int	gameallcheck1, gameallcheck2;
+
+#endif /* _EFFECTCOMMAND_TEXT_DEF_ */
+/* eof */

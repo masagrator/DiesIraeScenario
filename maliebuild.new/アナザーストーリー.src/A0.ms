@@ -1,0 +1,59 @@
+;『Dies irae CS』
+;ver. 2012/2/21
+
+;-------------------------------------------------
+;パラメーター初期化
+;-------------------------------------------------
+
+&parameter l_ka = 0 ;
+&parameter l_re = 0 ;
+&parameter l_ke = 0 ;
+&parameter l_ma = 0 ;
+&parameter l_ru = 0 ;
+&parameter f_ke = 0 ;
+&parameter sentakusi1 = 0 ;
+&parameter sentakusi2 = 0 ;
+&parameter sentakusi3 = 0 ;
+&parameter sentakusi4 = 0 ;
+&parameter sentakusi5 = 0 ;
+&parameter happy = 0 ;
+&parameter kasumi = 0 ;
+&parameter kei = 0 ;
+;&parameter flug01 = 0 ;
+&parameter rusaruka = 0 ;
+&parameter re_birth = 0 ;
+&parameter ru_flug = 0 ;
+&parameter ka_hflug = 0 ;
+&parameter re_save = 0 ;
+&parameter makina = 0 ;
+
+
+
+;-------------------------------------------------
+;シナリオスタート
+;-------------------------------------------------
+
+honpen:
+;&gototext r_0;
+
+;-------------------------------------------------
+;シナリオ読み込み用
+;-------------------------------------------------
+
+
+&gototext sd;
+;&gototext r_we;
+;&gototext r_mor;
+;&gototext r_ver;
+;&gototext ma_ed;
+;&gototext re_ed;
+
+&cg light_rogo;
+&sound 61;
+&sound 62;
+&sound 1;
+&sound 51;
+&sound 67;
+
+
+&parameter g_hint = 1;

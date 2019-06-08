@@ -1,0 +1,440 @@
+;macro.txt
+
+;---------------------------------------
+;初期設定
+;---------------------------------------
+; 初期設定
+macro def = \
+<msgframe type='normal' dir='horizontal' FONTSIZE='20'> \
+<layercamera type='perspective' fieldofview='90' position='0 0 -300' rotate='0'> \
+<layer parent='back' id='bg' center='400 225' position='0 0 500' scale='3.42' rotate='0' opacity='1'> \
+<char src='wil none def' position='0 1900 300' time='0' opacity='1' filter='none'> \
+<char src='cla none def' position='0 1870 300' time='0' opacity='1' filter='none'> \
+<char src='hel none boro' position='0 1880 300' time='0' opacity='1' filter='none'> \
+<char src='lud none def' position='0 1900 300' time='0' opacity='1' filter='none'> \
+<char src='din none def' position='0 1890 300' time='0' opacity='1' filter='none'> \
+<char src='rei none ss' position='0 1890 300' time='0' opacity='1' filter='none'> \
+<char src='tri none morugen' position='0 1910 300' time='0' opacity='1' filter='none'> \
+<char src='mac none ss' position='0 1900 300' time='0' opacity='1' filter='none'> \
+<char src='mer none morugen' position='0 1890 300' time='0' opacity='1' filter='none'> \
+<char src='ele none ss' position='0 1910 300' time='0' opacity='1' filter='none'> \
+<char src='rus none ss' position='0 1880 300' time='0' opacity='1' filter='none'> \
+<char src='shu none ss' position='0 1910 300' time='0' opacity='1' filter='none'> \
+<char src='sch none ss' position='0 1910 300' time='0' opacity='1' filter='none'> \
+<char src='riz none ss' position='0 1910 300' time='0' opacity='1' filter='none'> \
+<char src='bea none segen' position='0 1850 300' time='0' opacity='1' filter='none'> \
+<charclear time='0'> ;
+
+; 背景基本設定
+macro bg $s:black $m:'OL' $t:'0.8' = \
+  <layer parent='back' id='bg' src='$s' mask-src='$m' time='$t' center='400 225' scale='3.42'>;
+
+; イベント基本設定
+macro cg $s $m:'ol' $t:'0.5' = \
+  <layer parent='back' id='bg' src='$s' mask-src='$m' time='$t' center='400 225' scale='3.42'>;
+
+macro cutin $s $m:'ol' $t:'0.5' = \
+<layer parent='cutin' id='cutin' src='' center='400 225' position='512 300' scale='1.28' opacity='1'> \
+<layer parent='cutin' id='cutin' src='$s' mask-src='$m' time='$t'>;
+
+macro cutclear $t:'0.5' = \
+<layerclear parent='cutin' id='' time='$t'>;
+
+
+
+;---------------------------------------
+;■ノベルモード
+;---------------------------------------
+; ノベルモード;
+macro novel = \
+<msgframe visibility='hidden'> \
+<msgframe src='novel' opacity='user' FONTSIZE='20' type='novel' dir='horizontal'> \
+<novel> \
+&fontposition left_top;;
+
+; ノベルモード終了
+macro novelend = \
+</novel> \
+<msgframe visibility='hidden'> \
+<message color='user'> \
+<msgframe src='normal' type='auto' fontsize='20' dir='horizontal' OPACITY='USER'> \
+&fontposition left_top;;
+
+;---------------------------------------
+; メッセージ消去
+;---------------------------------------
+macro hidemessage = <msgframe visibility='false'>;
+macro nomsg = <msgframe visibility='false'>;
+
+;---------------------------------------
+; キャラ初期設定
+;---------------------------------------
+macro chardefault = \
+<char src='vi none sifuku' position='0 2000 300' TIME='0' OPACITY='1'> \
+<charclear TIME='0'> ;
+
+;---------------------------------------
+;//■フェードアウト・暗転など
+;---------------------------------------
+
+MACRO FO $m:'OL' $t:'1s' = \
+	<msgframe visibility='hidden'> \
+	<SOUNDSTOP TIME='2.8s'> \
+	<SESTOP TIME='2.8s'> \
+	<layer parent='cutin' id='fo' opacity='0'> \
+	<layer parent='cutin' id='fo' src='black2' mask-src='$m' opacity='1' time='$t'> \
+	<layerwait parent='cutin' id='fo'> \
+	<LAYERCAMERA POSITION='0 0 -300' rotate='0' TIME='0'> \
+	<charclear time='0'> \
+	<layer parent='back' id='bg' src='black' position='0 0 500'> \
+	<layerclear parent='cutin' id='fo'> \
+	<WAIT 8> \
+	&CHARFILTER;
+
+MACRO FOW $m:'OL' $t:'1s' = \
+	<msgframe visibility='hidden'> \
+	<SOUNDSTOP TIME='2.8s'> \
+	<SESTOP TIME='2.8s'> \
+	<layer parent='cutin' id='fo' opacity='0'> \
+	<layer parent='cutin' id='fo' src='white2' mask-src='$m' opacity='1' time='$t'> \
+	<layerwait parent='cutin' id='fo'> \
+	<LAYERCAMERA POSITION='0 0 -300' rotate='0' TIME='0'> \
+	<charclear time='0'> \
+	<layer parent='back' id='bg' src='white' position='0 0 500'> \
+	<layerclear parent='cutin' id='fo'> \
+	<WAIT 8> \
+	&CHARFILTER;
+
+; フェード（シェード）
+macro fo_shade $s:black $t:'1s' = \
+    <msgframe visibility='hidden'> \
+    <imgblk wipe='shade' time='$t'> \
+    <charclear> \
+    <layerclear parent='back' id='obj'> \
+    <layerclear parent='back' id='obj1'> \
+    <layerclear parent='back' id='obj2'> \
+    <layerclear parent='chara' id='book'> \
+        <layer parent='back' id='bg' src='$s'> \
+    </imgblk>;
+
+; うなずき
+macro unazuki $n = \
+ <char src='$n' shake-src='bound?amp=-15&time=0.5'> \
+ <layerwait parent='chara' id='$n'> ;
+
+; ジャンプ
+macro jump $n = \
+ <CHAR SRC='$n' shake-src='bound?amp=50&time=0.2'> \
+ <layerwait parent='chara' id='$n'> ;
+
+; キャラウェイト
+macro charwait $n = <layerwait parent='chara' id='$n'>;
+
+; キャラ消去
+macro cc $n $d = <charclear src='$n' dir='$d'>;
+
+; カメラ初期化
+macro camera = <layercamera type='perspective' fieldofview='90' position='0 0 -300' rotate='0'> ;
+
+
+;---------------------------------------------------------------------
+;//■シーン切り換え
+;---------------------------------------------------------------------
+
+macro mv01 = \
+<layer parent='cutin' id='mv01' src='mv_01' center='512 288' position='512 300 -100' scale='1.01' opacity='1'> \
+<layerclear parent='cutin' id='mv01' delay='5s45ms'>;
+
+macro mv02 = \
+<layer parent='cutin' id='mv02' src='mv_02' center='512 288' position='512 300 -100' scale='1.01' opacity='1'> \
+;<layerclear parent='cutin' id='mv02' delay='5s45ms'>;
+
+
+
+
+;---------------------------------------------------------------------
+;//■画像関連
+;---------------------------------------------------------------------
+macro lcc $m:'ol' $t:'0' = <msgframe visibility='false'><layerclear parent='cutin' mask-src='$m' time='$t'> ;
+
+macro LC $m:'ol' $t:'0' = <LAYERCLEAR mask-src='$m' time='$t'> ;
+
+macro LCH $m:'ol' $t:'0'  = <LAYERCLEAR PARENT='CHARA' mask-src='$m' time='$t'> ;
+
+macro color $c $o:'1' $t:'1s' = \
+	<layer id='COLOR' src='color?name=$c' parent='CUTIN' OPACITY='$o' TIME='$t'> ;
+
+; ムービー再生
+macro movie $s $t:'0.5' = \
+ <msgframe visibility='hidden'> \
+ <layer id='movie' parent='cutin' src='$s' center='400 225' position='512 300' scale='1.295' OPACITY='0.01'> \
+ <layer id='movie' parent='cutin' opacity='1' time='$t'>;
+
+; ムービー消す
+macro movieclear $t:'0.5'= \
+  <layer parent='cutin' id='movie' opacity='0.01' time='$t'> \
+  <layerwait parent='cutin' id='movie'> \
+  <layerclear parent='cutin' id='movie'> ;
+
+
+;■シェイク
+;---------------------------------------
+;$a amp:揺らし幅
+;$t time:揺らし周期（時間）
+
+; 縦揺れ
+macro shake $a:1 $t:1 = \
+  <shake src='stop'> \
+  <shake src='shake?amp=$a&time=$t'> ;
+
+macro shaketate $a:1 $t:1 = \
+  <shake src='stop'> \
+  <shake src='shake?amp=$a&time=$t'> ;
+
+; 横揺れ
+macro hshake $a:1 $t:1 = \
+  <shake src='stop'> \
+  <shake src='hshake?amp=$a&time=$t'> ;
+
+macro shakeyoko $a:1 $t:1 = \
+  <shake src='stop'> \
+  <shake src='hshake?amp=$a&time=$t'> ;
+
+; 縦揺れ（ループ）
+macro shake_l $a:1 $t:1 = <shake src='shakeloop?amp=$a&time=$t'> ;
+macro shaketate_l $a:1 $t:1 = <shake src='shakeloop?amp=$a&time=$t'> ;
+
+; 横揺れ（ループ）
+macro hshake_l $a:1 $t:1 = <shake src='hshakeloop?amp=$a&time=$t'> ;
+macro shakeyoko_l $a:1 $t:1 = <shake src='hshakeloop?amp=$a&time=$t'> ;
+
+; ループ停止
+macro shakestop = <shake src='stop' ACCEL='-1'> ;
+
+;●ランダム揺れ（ループ）
+macro rshaker_l $a:'30' $t:'0.1' = <shake src='randomloop?amp=$a&time=$t' parent='cutin'> ;
+
+macro shakerand_l $a:'30' $t:'0.1' = <shake src='randomloop?amp=$a&time=$t' parent='cutin'> ;
+
+;●ランダム揺れ（出だし停止処理含む）
+macro rshake $a:'20' $t:'0.1' = \
+  <shake src='stop'> \
+  <shake src='random?amp=$a&time=$t' parent='cutin'>;
+
+macro shakerand $a:'20' $t:'0.1' = \
+  <shake src='stop'> \
+  <shake src='random?amp=$a&time=$t' parent='cutin'>;
+
+;---------------------------------------
+;■キャラシェイク
+;---------------------------------------
+;$n name:キャラ拡張子
+;$a amp:揺らし幅
+;$t time:揺らし周期（時間）
+
+; 縦揺れ
+;//macro charshake $n $a:1 $t:1 = \
+macro charshake $n $a:16 $t:'0.5' = <char src='$n' shake-src='shake?amp=$a&time=$t'> ;
+
+; 横揺れ
+macro charhshake $n $a:15 $t:'0.5' = <char src='$n' shake-src='hshake?amp=$a&time=$t'> ;
+
+; ランダム揺れ
+macro charrshake $n $a:15 $t:'0.5' = <char src='$n' shake-src='random?amp=$a&time=$t'> ;
+
+; 縦揺れ（ループ）
+macro charshake_l $n $a:10 $t:'0.5' = <char src='$n' shake-src='shakeloop?amp=$a&time=$t'> ;
+
+; 横揺れ（ループ）
+macro charhshake_l $n $a:10 $t:'0.5' = <char src='$n' shake-src='hshakeloop?amp=$a&time=$t'> ;
+
+; ランダム揺れ（ループ）
+macro charrshake_l $n $a:10 $t:'0.5' = <char src='$n' shake-src='randomloop?amp=$a&time=$t'> ;
+
+; ループ停止命令
+macro cshakestop $n $t:'0.5' = <char src='$n' shake-src='stop' TIME='$t'> ;
+
+;―――――――――――――――――――――――――――――――――――――――
+;■音
+;―――――――――――――――――――――――――――――――――――――――
+; 環境音再生
+macro env $i = \
+<layer id='env$i' env-src='$i'>;
+
+; 環境音停止
+macro env_stop $i $t:'1s' = \
+<layerclear id='env$i' time='$t'>;
+
+; 効果音再生
+macro se $s $v:'1'= \
+<se src='$s' volume='$v'>;
+
+; 停止
+macro sestop $t:'0' = \
+<sestop time='$t'>;
+
+; 効果音ループ再生
+macro seloop $s $v:'1' $t:'0' = \
+<layer id='sel$s' se-src='$s' volume='$v' time='$t'>;
+
+; 効果音ループ再生
+macro seloopstop $s $t:'1s' = \
+<layerclear id='sel$s' time='$t'>;
+
+; ＢＧＭ再生
+macro sound $s $v:'1' $t:'0'= \
+<sound src='$s' volume='$v' fade-time='$t' loop='true'> ;
+
+; 停止
+macro soundstop $t:'1' = \
+<soundstop time='$t'> ;
+
+
+;---------------------------------------
+;//■汎用アクションエフェクト
+;---------------------------------------
+; @effect1	＝ブワーンと膨脹っぽい
+macro effect1 = <ef src='effect1'>;
+
+; @effect2	＝ドカーンと爆発風
+macro effect2 = <ef src='effect2'>;
+
+; @effect3	＝グワワ～ンとちょっと揺れ
+macro effect3 = <ef src='effect3'>;
+
+; @effect4	＝上から下方向にグワ～ンと重圧のような効果
+macro effect4 = <ef src='effect4'>;
+
+; 煙
+macro smoke $c:'white' $t:'1s' = \
+	<layer id='smoke' script-src='smoke?color=$c' time='$t'>;
+
+; 煙停止
+macro smokestop $t:'1s' = <layerclear id='smoke' time='$t'>;
+
+;■土煙エフェクト
+macro kemuri_r = <layer parent='cutin' id='smoke' script-src='smoke3?dir=r'>;
+macro kemuri_l = <layer parent='cutin' id='smoke' script-src='smoke3?dir=l'>;
+macro kemuristop $t:'0.3' = <layerclear parent='cutin' id='smoke' time='$t'>;
+
+
+;---------------------------------------
+;//■疾走・集中線エフェクト
+;---------------------------------------
+; 疾走・正面
+macro run $t:'0.5s' = \
+    <layer id='run' script-src='run?type=c' opacity='0'> \
+    <layer id='run' opacity='1' time='$t'>;
+
+;//疾走・正面＋カットイン属性
+macro runC $t:'0.5s' = \
+    <layer id='run' PARENT='CUTIN' script-src='run?type=c' opacity='0'> \
+    <layer id='run' PARENT='CUTIN' opacity='1' time='$t'>;
+
+; 疾走・左から右にスクロール
+macro run_l $t:'0.5s' = \
+    <layer id='run' script-src='run?type=l' opacity='0'> \
+    <layer id='run' opacity='1' time='$t'>;
+
+; 疾走・左から右にスクロール・カットイン属性
+macro runc_l $t:'0.5s' = \
+    <layer id='run' PARENT='CUTIN' script-src='run?type=l' opacity='0'> \
+    <layer id='run' PARENT='CUTIN' opacity='1' time='$t'>;
+
+; 疾走・右から左にスクロール
+macro run_r $t:'0.5s' = \
+    <layer id='run' script-src='run?type=r' opacity='0'> \
+    <layer id='run' opacity='1' time='$t'>;
+
+; 疾走・右から左にスクロール・カットイン属性
+macro runc_r $t:'0.5s' = \
+    <layer id='run' PARENT='CUTIN' script-src='run?type=r' opacity='0'> \
+    <layer id='run' PARENT='CUTIN' opacity='1' time='$t'>;
+
+; 疾走・下から上にスクロール
+macro run_d $t:'0.5s' = \
+    <layer id='run' script-src='run?type=d' opacity='0'> \
+    <layer id='run' opacity='1' time='$t'>;
+
+; 疾走・上から下にスクロール
+macro run_u $t:'0.5s' = \
+    <layer id='run' script-src='run?type=u' opacity='0'> \
+    <layer id='run' opacity='1' time='$t'>;
+
+; 疾走・上から下にスクロール・カットイン属性
+macro runc_u $t:'0.5s' = \
+    <layer id='run' PARENT='CUTIN' script-src='run?type=u' opacity='0'> \
+    <layer id='run' PARENT='CUTIN' opacity='1' time='$t'>;
+
+; 疾走ストップ	@RUN_STOP;
+macro run_stop $t:'0.5s' = \
+    <layer id='run' opacity='0' time='$t'> \
+    <layerwait> \
+    <layerclear id='run'>;
+
+; 疾走ストップ・カットイン属性
+macro runc_stop $t:'0.5s' = \
+    <layer id='run' PARENT='CUTIN' opacity='0' time='$t'> \
+    <layerwait PARENT='CUTIN'> \
+    <layerclear id='run' PARENT='CUTIN'>;
+
+;●超音波のせ
+macro onpa1 $s:'1' =    <layer parent='cutin' id='ef' script-src='onpa?src=effect1&speed=$s'>;
+macro onpa2 $s:'1' =    <layer parent='cutin' id='ef' script-src='onpa?src=effect2&speed=$s'>;
+macro onpa3 $s:'1' =    <layer parent='cutin' id='ef' script-src='onpa?src=effect3&speed=$s'>;
+macro onpa4 $s:'1' =    <layer parent='cutin' id='ef' script-src='onpa?src=effect4&speed=$s'>;
+macro onpastop $t:'0' = <layer parent='cutin' id='ef' script-src='stop' time='$t'> \
+                        <layerwait parent='cutin' id='ef'><layerclear parent='cutin' id='ef'>;
+
+;---------------------------------------
+;■ＢＧＭループマクロ
+;---------------------------------------
+
+macro sound11 = <sound src='11' volume='1' loop-begin='121262.962' loop-end='30194523.984' loop='true'>;
+
+macro sound12 = <sound src='12' volume='1' loop-begin='124540.992' loop-end='29235890.016' loop='true'>;
+
+macro sound13 = <sound src='13' volume='1' loop-begin='86400' loop-end='27734402.016' loop='true'>;
+
+macro sound14 = <sound src='14' volume='1' loop-begin='245106' loop-end='34069786.992' loop='true'>;
+
+macro sound29 = <sound src='29' volume='1' loop-begin='72000' loop-end='33876000' loop='true'>;
+
+macro sound53 = <sound src='53' volume='1' loop-begin='177230.976' loop-end='33408000' loop='true'>;
+
+macro sound54 = <sound src='54' volume='1' loop-begin='94040.976' loop-end='31879836' loop='true'>;
+
+macro sound56 = <sound src='56' volume='1' loop-begin='172800' loop-end='31276801.008' loop='true'>;
+
+macro sound58 = <sound src='58' volume='1' loop-begin='36000' loop-end='35460000' loop='true'>;
+
+macro sound59 = <sound src='59' volume='1' loop-begin='181894.992' loop-end='32437890' loop='true'>;
+
+macro sound102 = <sound src='102' volume='1' loop-begin='1160160' loop-end='23944160.976' loop='true'>;
+
+macro sound103 = <sound src='103' volume='1' loop-begin='768000' loop-end='23808001.008' loop='true'>;
+
+macro sound104 = <sound src='104' volume='1' loop-begin='1838298' loop-end='27084254.016' loop='true'>;
+
+macro sound105 = <sound src='105' volume='1' loop-begin='307200' loop-end='8601603.024' loop='true'>;
+
+macro sound106 = <sound src='106' volume='1' loop-begin='128000.016' loop-end='27008001.024' loop='true'>;
+
+macro sound107 = <sound src='107' volume='1' loop-begin='1728000' loop-end='26304001.008' loop='true'>;
+
+macro sound108 = <sound src='108' volume='1' loop-begin='158896.992' loop-end='24787862.976' loop='true'>;
+
+macro sound109 = <sound src='109' volume='1' loop-begin='1920000' loop-end='29184001.008' loop='true'>;
+
+macro sound110 = <sound src='110' volume='1' loop-begin='130231.008' loop-end='35677659.984' loop='true'>;
+
+
+;---------------------------------------
+;■背景ＡＬＩＡＳ
+;---------------------------------------
+alias bar_yoru = bg01a ;;
+alias minka_hiru = bg02a ;;
+alias mati_hiru = bg03a ;;
+alias kyoukai_hiru = bg04a ;;
+alias reibyou = bg05a ;;
+
